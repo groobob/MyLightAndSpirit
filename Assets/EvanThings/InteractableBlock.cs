@@ -8,23 +8,40 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using static UnityEngine.EventSystems.EventTrigger;
 using static UnityEngine.GraphicsBuffer;
+using TMPro;
 
 
 public abstract class InteractableBlock : MonoBehaviour
 {
     private Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
-    private bool isLightForm;
     GameObject lightBlock;
 
     private bool visibleBlock = true; // whether the block is currently visible in the gameWorld
     private bool movableBlock = false; // whether the block can be moved by the player
+    private bool isLightForm;
+    private Vector3 targetPosition;
+
+    private static float interpolationValue = 0.1f;
 
     protected void init()
     {
         snapToCellPosition();
         createLightForm();
+        targetPosition = transform.position;
     }
+    protected virtual void Update()
+    {
+        transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        if (isLightForm)
+        {
+            if (transform.parent != null)
+                transform.position = transform.parent.position;
+            else
+                Debug.LogWarning("Light form block has no parent to follow.");
+        }
+    }
+
     /**
     * Called on a light block to make it know it's a light block, Basically only used by this script
     */
@@ -70,9 +87,39 @@ public abstract class InteractableBlock : MonoBehaviour
         movableBlock = false;
     }
 
-    public Vector2 moveBlock()
+    /**
+     * Moves the block in the given direction if it is movable
+     * @param direction The direction to move the block (Vector3.up, Vector3.down, Vector3.left, Vector3.right)
+     * @return the new position of the block after moving, or the current position if not movable
+     */
+    public Vector3 moveBlock(Vector3 direction)
     {
-        return transform.position;
+        if (isLightForm) return transform.position; // light forms match the position of the parent block
+        Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
+        if (!movableBlock) return transform.position;
+        
+        Vector3Int cellPosition = _grid.WorldToCell(transform.position);
+
+        switch (direction)
+        {
+            case Vector3 dir when dir == Vector3.up:
+                cellPosition += new Vector3Int(0, 1, 0);
+                break;
+            case Vector3 dir when dir == Vector3.down:
+                cellPosition += new Vector3Int(0, -1, 0);
+                break;
+            case Vector3 dir when dir == Vector3.left:
+                cellPosition += new Vector3Int(-1, 0, 0);
+                break;
+            case Vector3 dir when dir == Vector3.right:
+                cellPosition += new Vector3Int(1, 0, 0);
+                break;
+            default:
+                Debug.LogWarning("Invalid direction for moving block.");
+                return transform.position;
+        }
+        targetPosition = _grid.GetCellCenterWorld(cellPosition);
+        return cellPosition;
     }
 
     /**
