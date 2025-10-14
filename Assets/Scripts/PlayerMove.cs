@@ -3,8 +3,7 @@ using UnityEngine.Tilemaps;
 
 public class PlayerMove : MonoBehaviour
 {
-    [Header("References")]
-    [SerializeField] Tilemap tilemap;
+    Tilemap tilemap;
 
     [Header("Values")]
     [SerializeField] float interpolationValue = 0.35f;
@@ -12,6 +11,8 @@ public class PlayerMove : MonoBehaviour
     Vector3 targetPosition;
     private void Start()
     {
+        tilemap = GetComponentInParent<Tilemap>();
+
         Vector3Int cellPosition = tilemap.WorldToCell(transform.position);
         transform.position = tilemap.GetCellCenterWorld(cellPosition);
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
@@ -57,6 +58,7 @@ public class PlayerMove : MonoBehaviour
      */
     void Move(Vector2Int direction)
     {
+        transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction); 
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
     }
