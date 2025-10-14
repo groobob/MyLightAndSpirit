@@ -35,7 +35,7 @@ public static class BlockEnumGenerator
             writer.WriteLine("public enum BlockType");
             writer.WriteLine("{");
             writer.WriteLine("    emptySpace,");
-            writer.WriteLine("    same,");
+            writer.WriteLine("    repeat,");
             foreach (var type in allBlocks)
                 writer.WriteLine($"    {type.Name},");
             writer.WriteLine("}");

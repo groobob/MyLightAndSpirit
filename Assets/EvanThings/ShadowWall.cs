@@ -5,8 +5,6 @@ public class ShadowWall : InteractableBlock
     void Start()
     {
         base.init();
-        base.Update();
-        makeMovable();
     }
     protected override void Update()
     {

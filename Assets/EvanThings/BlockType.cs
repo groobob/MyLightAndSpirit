@@ -3,5 +3,6 @@ public enum BlockType
 {
     emptySpace,
     repeat,
+    Switch,
     ShadowWall,
 }

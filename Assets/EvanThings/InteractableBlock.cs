@@ -17,22 +17,25 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] private BlockType lightFormBlock;
     GameObject lightBlock;
 
-    private bool visibleBlock = true; // whether the block is currently visible in the gameWorld
-    private bool movableBlock = false; // whether the block can be moved by the player
-    private bool isLightForm;
-    private Vector3 targetPosition;
+    protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
+    [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
+    protected bool isLightForm = false;
+    protected Vector3 targetPosition;
 
     private static float interpolationValue = 0.1f;
 
     protected void init()
     {
+        if (isLightForm) return; // light forms don't need to init
+        Debug.Log("Initializing block: " + gameObject.name);
         snapToCellPosition();
         createLightForm();
         targetPosition = transform.position;
     }
     protected virtual void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        if (transform.position != targetPosition)
+            transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
         if (isLightForm)
         {
             if (transform.parent != null)
@@ -84,7 +87,16 @@ public abstract class InteractableBlock : MonoBehaviour
      */
     public void makeImmovable()
     {
+        //Debug.Log("Making block immovable: " + gameObject.name);
         movableBlock = false;
+    }
+    /**
+     * Checks if the block is visible in the game world
+     * @return true if the block is visible, false otherwise
+     */
+    public bool isVisibleBlock()
+    {
+        return visibleBlock;
     }
 
     /**
@@ -95,7 +107,7 @@ public abstract class InteractableBlock : MonoBehaviour
     public Vector3 moveBlock(Vector3 direction)
     {
         if (isLightForm) return transform.position; // light forms match the position of the parent block
-        Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
+        //Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
         if (!movableBlock) return transform.position;
         
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
@@ -143,6 +155,16 @@ public abstract class InteractableBlock : MonoBehaviour
             disableBlock(lightBlock);
     }
 
+    public void changeVisibilityTag(bool isVisible)
+    {
+        visibleBlock = isVisible;
+    }
+
+    public bool isMovable()
+    {
+        return movableBlock;
+    }
+
     // private methods
 
     /**
@@ -159,7 +181,9 @@ public abstract class InteractableBlock : MonoBehaviour
             case BlockType.ShadowWall:
                 // Create light form for Shadowwall with script inside of it
                 lightBlock = Instantiate(BlockManager.instance.getShadowWallPrefab(), transform.position, Quaternion.identity, transform.parent);
-                lightBlock.GetComponent<ShadowWall>().makeLightBlock();
+                break;
+            case BlockType.Switch:
+                lightBlock = Instantiate(BlockManager.instance.getSwitchPrefab(), transform.position, Quaternion.identity, transform.parent);
                 break;
             default:
                 Debug.LogWarning("Light form not defined for this block type.");
@@ -168,7 +192,21 @@ public abstract class InteractableBlock : MonoBehaviour
         lightBlock.transform.SetParent(transform);
         
         lightBlock.name = gameObject.name + "_LightForm";
-        disableBlock(lightBlock);
+        InteractableBlock blockScript = lightBlock.GetComponent<InteractableBlock>();
+        if (blockScript == null)
+        {
+            Debug.LogError("Light form prefab does not have an InteractableBlock script attached.");
+            return;
+        }
+        else
+        {
+            blockScript.makeLightBlock();
+            if (movableBlock)
+                blockScript.makeMovable();
+            else
+                blockScript.makeImmovable();
+            disableBlock(lightBlock);
+        }
     }
     /**
      * On start, snaps the object to the nearest cell position in the grid. Basically, if you aren't too precise on ur placement, it will fix it for you.
@@ -193,7 +231,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         block.GetComponent<SpriteRenderer>().enabled = false;
         block.GetComponent<BoxCollider2D>().enabled = false;
-        visibleBlock = false;
+        block.GetComponent<InteractableBlock>().changeVisibilityTag(false);
     }
     /**
     * Adds the collider and sprite render. Visible and Solid
@@ -202,7 +240,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         block.GetComponent<SpriteRenderer>().enabled = true;
         block.GetComponent<BoxCollider2D>().enabled = true;
-        visibleBlock = true;
+        block.GetComponent<InteractableBlock>().changeVisibilityTag(true);
     }
     /**
      * Returns whether the block is currently visible in the game world
@@ -212,3 +250,35 @@ public abstract class InteractableBlock : MonoBehaviour
         return visibleBlock;
     }
 }
+
+
+/*
+ * Updated 10/14/2025 5:30 AM
+ * 
+ * Hi this is a user tutorial lmao!!!
+ * 
+ * So this is the base class for all interactable blocks in the game. 
+ * 
+ * Pretty much you can just drag around the prefabs to build the levels but here is stuff you might want to know:
+ * 
+ *  - the "light form block" serialized field is the type of block this block turns into when it shines. 
+ *  - if you want a block to not have a light form, set it to emptySpace   
+ *  - if you want a block to be a repeat block (The same blocktype in both dark and light worlds), set it to repeat
+ *  - Feel free to change "moveAble" blocks in the inspector to make them movable or not (Note that some methods might override this)
+ *  - Switches should always be set to "repeat" because they need to be interactable in both worlds.
+ *  - both "light and shadow" forms of a block will have the same movable state.
+ *  
+ *  - shine() and deshine() are the methods to call to change the block's form, they turn invisible + colliders turned off, but their scripts are still active <-- (must account for this).
+ * 
+ * 
+ * Method Stuff:
+ * - visibleBlock: whether the block is currently visible in the game world
+ * - movableBlock: whether the block can be moved by the player
+ * - isLightForm: whether the block is a light form (follows parent position, no collider)
+ * - lightFormBlock: the type of block this block turns into when it shines (set to emptySpace for no light form)
+ * - makeLightBlock(): called on a light block to make it know it's a light block, Basically only used by this script
+ * 
+ * 
+ * 
+ * 
+ */
