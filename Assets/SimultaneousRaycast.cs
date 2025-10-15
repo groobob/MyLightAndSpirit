@@ -1,91 +1,78 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class SimultaneousRaycast : MonoBehaviour
-{
-    public float maxDistance = 100;        
-    public LayerMask reflectionLayers;
-    private int reflectionLimit = 10;      
+public class SimultaneousRaycast : MonoBehaviour{
+
+    public float maxDistance = 100;
+    public LayerMask reflectionLayers; // layers that can reflect rays
+    public Vector2 initialRayDirection = new Vector2(1, 0); // initial direction of flashlight's ray
+
+    // TODO: what value to make this?
+    private int reflectionLimit = 100; // number of times to check if ray is reflected 
     
-    public Vector2 initialDirection = new Vector2(1, 0);
-    
-    private Dictionary<SpriteRenderer, Color> originalColors = new Dictionary<SpriteRenderer, Color>();
-    private HashSet<SpriteRenderer> currentlyHitObjects = new HashSet<SpriteRenderer>(); 
-    
-    
-    void Update()
-    {
-        HashSet<SpriteRenderer> objectsToReset = new HashSet<SpriteRenderer>(originalColors.Keys);
-        objectsToReset.ExceptWith(currentlyHitObjects);
-        foreach (var renderer in objectsToReset)
-        {
-            if (renderer != null)
-            {
-                renderer.color = originalColors[renderer];
-            }
-        }
-        
-        currentlyHitObjects.Clear();
-        
-        Vector2 currentOrigin = transform.position;
-        Vector2 currentDirection = initialDirection;
-        int bounceCount = 0;
-        
-        for (int i = 0; i < reflectionLimit; i++)
-        {
-            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
-            
-            Color rayColor = Random.ColorHSV();
-            
-            DrawRaySegment(currentOrigin, hit, currentDirection, maxDistance, rayColor);
-            
-            bool didHit = checkHit(hit, bounceCount);
-            
-            if(didHit)
-            {
-                currentOrigin = hit.point + hit.normal * 0.01f;
-                currentDirection = Vector2.Reflect(currentDirection, hit.normal);
-                bounceCount++;
-            }
-        }
-    }
+    private float totalDegree = 40; // degree of flashlight's cone
+    private float intervalDegree = 2.86f; // degree between each ray in the cone
 
     
-    void DrawRaySegment(Vector2 origin, RaycastHit2D hit, Vector2 direction, float maxDist, Color color)
-    {
-        if (hit.collider != null)
-        {
-            Debug.DrawRay(origin, direction * hit.distance, color);
-        }
-        else
-        {
-            Debug.DrawRay(origin, direction * maxDist, color);
-        }
+    void Update(){
+        CastRaysInCone(initialRayDirection);
     }
 
-    bool checkHit(RaycastHit2D hit, int bounceCount)
-    {
-        if (hit.collider != null)
-        {
-            Debug.Log($"Bounce #{bounceCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
-            
-            SpriteRenderer rend = hit.collider.GetComponent<SpriteRenderer>();
-            if (rend)
-            {
-                if (!originalColors.ContainsKey(rend))
-                {
-                    originalColors[rend] = rend.color;
-                }
-                
-                currentlyHitObjects.Add(rend);
-                rend.color = Color.green;
-            }
+    bool CheckHit(RaycastHit2D hit, int reflectionCount){
+        if(hit.collider != null){ // if ray hits an object
+            Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
             return true;
-        }
-        else
-        {
-            Debug.Log($"Ray didn't hit anything after {bounceCount} bounces");
+        } 
+        else{ // if ray didn't hit anything
+            Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
             return false;
         }
     }
+
+    void DrawRay(Vector2 origin, Vector2 direction, RaycastHit2D hit, float maxDistance){
+        if(hit.collider != null){ // if ray hits an object, draw ray from origin to hit point
+            Debug.DrawRay(origin, direction * hit.distance, Color.green);
+        }
+        else{ // if ray didn't hit anything, draw ray to max distance
+            Debug.DrawRay(origin, direction * maxDistance, Color.red);
+        }
+    }
+
+    void ReflectRay(Vector2 initialRayDirection, int rayIndex){
+        Vector2 currentOrigin = transform.position;
+        Vector2 currentDirection = initialRayDirection;
+        int reflectionCount = 0;
+
+        for(int i = 0; i < reflectionLimit; i++){
+            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
+            DrawRay(currentOrigin, currentDirection, hit, maxDistance);
+            bool didHit = CheckHit(hit, reflectionCount);
+
+            if(didHit){ // if ray hits a mirror, reflect ray
+                currentOrigin = hit.point + hit.normal * 0.01f;
+                currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                reflectionCount++;
+            }
+            else{ // no hit, stop reflecting this ray
+                break; 
+            }
+        }
+    }
+
+    void CastRaysInCone(Vector2 initialRayDirection){
+        int numberOfRays = Mathf.FloorToInt(totalDegree / intervalDegree) + 1; // number of rays in the cone
+        float startAngle = -totalDegree / 2f; // starting angle of the first ray
+        float baseAngle = Mathf.Atan2(initialRayDirection.y, initialRayDirection.x) * Mathf.Rad2Deg; // base angle of the initial ray
+
+        for(int rayIndex = 0; rayIndex < numberOfRays; rayIndex++){
+            float currentAngle = baseAngle + startAngle + (rayIndex * intervalDegree);
+            float angleInRadians = currentAngle * Mathf.Deg2Rad;
+
+            // direction vector for this ray
+            Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
+        
+            ReflectRay(rayDirection, rayIndex);
+        }
+    }
 }
+
