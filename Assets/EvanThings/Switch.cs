@@ -9,7 +9,8 @@ public class Switch : InteractableBlock
     private enum SwitchMode
     {
         toggleShine,
-        toggleMovement
+        toggleMovement,
+        toggleDisappear
     }
 
     public override void Interact()
@@ -21,6 +22,10 @@ public class Switch : InteractableBlock
         else if (switchMode == SwitchMode.toggleMovement)
         {
             toggleLinkedBlockMovement();
+        }
+        else if (switchMode == SwitchMode.toggleDisappear)
+        {
+            toggleExistance(); // Note: This mode is not fully implemented yet
         }
     }
     
@@ -34,6 +39,24 @@ public class Switch : InteractableBlock
         else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isVisible())
         {
             linkedBlock.GetComponent<InteractableBlock>().deshineBlock();
+        }
+        else
+        {
+            Debug.LogWarning("Linked block does not have an InteractableBlock component.");
+        }
+    }
+
+    private void toggleExistance()
+    {
+        if (!visibleBlock) return; // Do nothing if the switch is invisible
+        if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        {
+            InteractableBlock.disableBlock(linkedBlock);
+        }
+        else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        {
+            InteractableBlock.enableBlock(linkedBlock);
+            //linkedBlock.GetComponentInChildren<InteractableBlock>().shineBlock(); // Also shine for its light form if it has one
         }
         else
         {

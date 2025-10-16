@@ -164,8 +164,32 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         return movableBlock;
     }
+    /**
+    * Removes the collider and sprite render, Invisible and No Collision, but script is still active 
+    */
+    public static void disableBlock(GameObject block)
+    {
+        block.GetComponent<SpriteRenderer>().enabled = false;
+        block.GetComponent<BoxCollider2D>().enabled = false;
+        block.GetComponent<InteractableBlock>().changeVisibilityTag(false);
+    }
+    /**
+    * Adds the collider and sprite render. Visible and Solid
+    */
+    public static void enableBlock(GameObject block)
+    {
+        block.GetComponent<SpriteRenderer>().enabled = true;
+        block.GetComponent<BoxCollider2D>().enabled = true;
+        block.GetComponent<InteractableBlock>().changeVisibilityTag(true);
+    }
+    /**
+     * Returns whether the block is currently visible in the game world
+     */
+    public bool isVisible()
+    {
+        return visibleBlock;
+    }
 
-    // private methods
 
     /**
      * changes the current block to its light form
@@ -223,31 +247,6 @@ public abstract class InteractableBlock : MonoBehaviour
 
         //Debug.Log($"Cell Position: {cellPosition}");
         transform.position = _grid.GetCellCenterWorld(cellPosition);
-    }
-    /**
-    * Removes the collider and sprite render, Invisible and No Collision, but script is still active 
-    */
-    private void disableBlock(GameObject block)
-    {
-        block.GetComponent<SpriteRenderer>().enabled = false;
-        block.GetComponent<BoxCollider2D>().enabled = false;
-        block.GetComponent<InteractableBlock>().changeVisibilityTag(false);
-    }
-    /**
-    * Adds the collider and sprite render. Visible and Solid
-    */
-    private void enableBlock(GameObject block)
-    {
-        block.GetComponent<SpriteRenderer>().enabled = true;
-        block.GetComponent<BoxCollider2D>().enabled = true;
-        block.GetComponent<InteractableBlock>().changeVisibilityTag(true);
-    }
-    /**
-     * Returns whether the block is currently visible in the game world
-     */
-    public bool isVisible()
-    {
-        return visibleBlock;
     }
 }
 
