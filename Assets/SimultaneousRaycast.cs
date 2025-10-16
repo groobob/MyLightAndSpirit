@@ -10,8 +10,8 @@ public class SimultaneousRaycast : MonoBehaviour{
     // TODO: what value to make this?
     private int reflectionLimit = 100; // number of times to check if ray is reflected 
     
-    private float totalDegree = 40; // degree of flashlight's cone
-    private float intervalDegree = 2.86f; // degree between each ray in the cone
+    private float totalDegree = 15; // degree of flashlight's cone
+    private float intervalDegree = 2f; // degree between each ray in the cone
 
     
     void Update(){
