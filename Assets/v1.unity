@@ -468,7 +468,7 @@ MonoBehaviour:
   reflectionLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  initialDirection: {x: 1, y: 0}
+  initialRayDirection: {x: 1, y: 0}
 --- !u!114 &1105422225
 MonoBehaviour:
   m_ObjectHideFlags: 0

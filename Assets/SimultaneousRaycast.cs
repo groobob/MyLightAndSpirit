@@ -5,20 +5,20 @@ public class SimultaneousRaycast : MonoBehaviour{
 
     public float maxDistance = 100;
     public LayerMask reflectionLayers; // layers that can reflect rays
-    public Vector2 initialRayDirection = new Vector2(1, 0); // initial direction of flashlight's ray
 
     // TODO: what value to make this?
-    private int reflectionLimit = 100; // number of times to check if ray is reflected 
+    protected int reflectionLimit = 100; // number of times to check if ray is reflected 
     
-    private float totalDegree = 15; // degree of flashlight's cone
-    private float intervalDegree = 2f; // degree between each ray in the cone
+    protected float totalDegree = 15; // degree of flashlight's cone
+    protected float intervalDegree = 2f; // degree between each ray in the cone
 
     
     void Update(){
-        CastRaysInCone(initialRayDirection);
+        Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        CastRaysInCone(direction);
     }
 
-    bool CheckHit(RaycastHit2D hit, int reflectionCount){
+    protected bool CheckHit(RaycastHit2D hit, int reflectionCount){
         if(hit.collider != null){ // if ray hits an object
             Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
             return true;
@@ -29,7 +29,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void DrawRay(Vector2 origin, Vector2 direction, RaycastHit2D hit, float maxDistance){
+    protected void DrawRay(Vector2 origin, Vector2 direction, RaycastHit2D hit, float maxDistance){
         if(hit.collider != null){ // if ray hits an object, draw ray from origin to hit point
             Debug.DrawRay(origin, direction * hit.distance, Color.green);
         }
@@ -38,7 +38,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void ReflectRay(Vector2 initialRayDirection, int rayIndex){
+    protected void ReflectRay(Vector2 initialRayDirection, int rayIndex){
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
         int reflectionCount = 0;
@@ -59,7 +59,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void CastRaysInCone(Vector2 initialRayDirection){
+    protected void CastRaysInCone(Vector2 initialRayDirection){
         int numberOfRays = Mathf.FloorToInt(totalDegree / intervalDegree) + 1; // number of rays in the cone
         float startAngle = -totalDegree / 2f; // starting angle of the first ray
         float baseAngle = Mathf.Atan2(initialRayDirection.y, initialRayDirection.x) * Mathf.Rad2Deg; // base angle of the initial ray
