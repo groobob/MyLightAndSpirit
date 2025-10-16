@@ -192,8 +192,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
         if (isLightForm || !movableBlock) return cellPosition; // light forms match the position of the parent block
-        //Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
-        Debug.Log(direction);
+        //Debug.Log(direction);
         if (direction != Vector3Int.up && direction != Vector3Int.down && direction != Vector3Int.left && direction != Vector3Int.right)
         {
             Debug.LogWarning("Invalid direction for moving block.");
@@ -221,7 +220,6 @@ public abstract class InteractableBlock : MonoBehaviour
             return;
         }
         if (isLightForm || lightFormBlock == BlockType.repeat) return;
-        Debug.Log("a");
         disableBlock(gameObject);
         if (lightBlock != null) // if not EmptySpace
             enableBlock(lightBlock);
@@ -366,7 +364,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         if (Mathf.Abs(shineFrames - currentShineFrames) == 0 && isShining)
         {
-            Debug.Log("b");
+            //Debug.Log("b");
             shineFrames = 0;
             currentShineFrames = 0;
             // Debug.Log("Shine frames reset for block: " + gameObject.name);
