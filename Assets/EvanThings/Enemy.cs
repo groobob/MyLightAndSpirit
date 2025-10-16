@@ -6,6 +6,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Vector3Int direction = Vector3Int.right;
     private Grid _grid;
     [SerializeField] float interpolationValue = 0.1f;
+    
+
+    private string environmentLayer = "Default";
 
     private Vector3 targetPosition;
     void Start()
@@ -31,11 +34,11 @@ public class Enemy : MonoBehaviour
         Vector3Int gridPosition = _grid.WorldToCell(transform.position);
         gridPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(gridPosition);
-        Debug.Log($"Moving to {gridPosition} at world position {targetPosition}");
+        //Debug.Log($"Moving to {gridPosition} at world position {targetPosition}");
     }
     /*
      * Checks if the enemy hits a wall or player in front of it. If it hits a wall, it reverses direction. If it hits a player, it logs a message (to be replaced with player damage).
-     * @return true if a wall or player is hit, false otherwise.
+     * @return true if a player is hit OR if the enemy is cornered, false otherwise. If true is returned, movement is stopped.
      */
     private bool hitCheck()
     {
@@ -44,21 +47,28 @@ public class Enemy : MonoBehaviour
         // Implement Player Checking Here
 
         bool playerFound = false;
+        bool enemyCornered = false;
 
         foreach (RaycastHit2D hit in hits)
         {
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
-                Debug.Log("Enemy hit the player!"); //Implement player damage here
+                //Debug.Log("Enemy hit the player!"); //Implement player damage here
                 playerFound = true;
             }
-            else if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Default"))
+            else if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
             {
+                //Debug.Log("Enemy hit a wall! Reversing direction.");
                 direction = -direction; // Reverse direction on wall hit
+                RaycastHit2D hit2D = Physics2D.Raycast(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
+                if (hit2D.collider != null && hit2D.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
+                {
+                    enemyCornered = true; // Enemy is cornered, cannot move
+                }
             }
         }
 
-        return playerFound;
+        return playerFound || enemyCornered;
     }
 
     /**
