@@ -1,12 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
     public float maxDistance = 100;
     public LayerMask reflectionLayers; // layers that can reflect rays
-    public Vector2 initialRayDirection = new Vector2(1, 0); // initial direction of flashlight's ray
-
+    
     // TODO: what value to make this?
     private int reflectionLimit = 100; // number of times to check if ray is reflected 
     
@@ -15,7 +15,8 @@ public class SimultaneousRaycast : MonoBehaviour{
 
     
     void Update(){
-        CastRaysInCone(initialRayDirection);
+        Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        CastRaysInCone(direction);
     }
 
     bool CheckHit(RaycastHit2D hit, int reflectionCount){

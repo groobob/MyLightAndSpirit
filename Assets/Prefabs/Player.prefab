@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5432234125874054752}
   - component: {fileID: 7691125794922346285}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7433440905421798176}
   - component: {fileID: 7555588305976787076}
-  m_Layer: 0
+  - component: {fileID: 4850007622283838319}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,5 +136,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40961808393f6243ad09e10dd44eefb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  tilemap: {fileID: 0}
   interpolationValue: 0.35
+--- !u!114 &4850007622283838319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6945492498107709790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34c99c9f17ee4c11a4a74b746cfd7d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimultaneousRaycast
+  maxDistance: 100
+  reflectionLayers:
+    serializedVersion: 2
+    m_Bits: 0
