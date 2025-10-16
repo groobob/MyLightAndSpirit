@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class Reflect : SimultaneousRaycast
-{
+public class ShineLight : SimultaneousRaycast{
     [Header("Visual Light Reflection")] // default values
     public float beamWidth = 0.2f; 
     public Color startColor = Color.white; 
@@ -73,10 +72,8 @@ public class Reflect : SimultaneousRaycast
         beamMaterial.renderQueue = 3000;
     }
 
-    
-    void Update()
-    {
-        // Update beam colors to reflect current slider values
+    void Update(){
+        // colour each beam
         Color beamColor = startColor;
         beamColor.a = lightAlpha;
         foreach (LineRenderer beam in lightBeams){
@@ -84,102 +81,87 @@ public class Reflect : SimultaneousRaycast
                 beam.startColor = beamColor;
                 beam.endColor = beamColor;
         }
-        
+
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPos.z = 0f;
+        mouseWorldPos.z = 0f; // why not use vector2?
         
         Vector3 direction = (mouseWorldPos - transform.position).normalized;
         
-        if (direction != Vector3.zero)
-        {
+        // prevent issues if the mouse is exactly at object's position
+        if(direction != Vector3.zero){ 
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle - 90f, Vector3.forward);
         }
-        
-        CastRaysInCone(direction);
+
+        CastBeams(direction);
     }
-    
-    new void CastRaysInCone(Vector2 initialRayDirection)
-    {
-        foreach (LineRenderer beam in lightBeams)
-        {
-            if (beam != null)
+
+    void CastBeams(Vector2 initialRayDirection){
+        foreach(LineRenderer beam in lightBeams){
+            if(beam != null)
                 beam.enabled = false;
-        }
-        
+            }
+
         int numberOfRays = Mathf.FloorToInt(totalDegree / intervalDegree) + 1;
         float startAngle = -totalDegree / 2f;
         float baseAngle = Mathf.Atan2(initialRayDirection.y, initialRayDirection.x) * Mathf.Rad2Deg;
-        
         int globalBeamIndex = 0;
-        
-        for (int rayIndex = 0; rayIndex < numberOfRays; rayIndex++)
-        {
+
+        // cast the beams in a cone. thx claude for this
+        for(int rayIndex = 0; rayIndex < numberOfRays; rayIndex++){
             float currentAngle = baseAngle + startAngle + (rayIndex * intervalDegree);
             float angleInRadians = currentAngle * Mathf.Deg2Rad;
-            
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
-            
             TraceRayWithReflections(rayDirection, ref globalBeamIndex);
         }
     }
-    
-    void TraceRayWithReflections(Vector2 initialDirection, ref int globalBeamIndex)
-    {
+
+    void TraceRayWithReflections(Vector2 initialDirection, ref int globalBeamIndex){
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialDirection.normalized;
-        
         int reflectionCount = 0;
-        
-        for (int reflection = 0; reflection < reflectionLimit && globalBeamIndex < maxTotalBeams; reflection++)
-        {
+
+        for(int reflection = 0; reflection < reflectionLimit && globalBeamIndex < maxTotalBeams; reflection++){
             RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
-            
-            if (lightBeams[globalBeamIndex] != null)
-            {
+        
+            if(lightBeams[globalBeamIndex] != null){
                 lightBeams[globalBeamIndex].enabled = true;
-                
-                if (globalBeamIndex == 0)
-                {
+                if(globalBeamIndex == 0){
                     lightBeams[globalBeamIndex].startWidth = beamWidth * 0.1f;
                     lightBeams[globalBeamIndex].endWidth = beamWidth;
                 }
-                else
-                {
+                else{
                     lightBeams[globalBeamIndex].startWidth = beamWidth;
                     lightBeams[globalBeamIndex].endWidth = beamWidth;
                 }
-                
+
                 Vector3 startPos = new Vector3(currentOrigin.x, currentOrigin.y, 0);
                 Vector3 endPos;
-                
-                if (hit.collider != null)
-                {
+
+                if(hit.collider != null){
                     endPos = new Vector3(hit.point.x, hit.point.y, 0);
                     lightBeams[globalBeamIndex].SetPosition(0, startPos);
                     lightBeams[globalBeamIndex].SetPosition(1, endPos);
-                    
+
                     currentOrigin = hit.point + hit.normal * 0.01f;
                     currentDirection = Vector2.Reflect(currentDirection, hit.normal);
                     reflectionCount++;
                 }
-                else
-                {
+                else{
                     endPos = startPos + new Vector3(currentDirection.x, currentDirection.y, 0) * maxDistance;
                     lightBeams[globalBeamIndex].SetPosition(0, startPos);
                     lightBeams[globalBeamIndex].SetPosition(1, endPos);
-                    
+
                     globalBeamIndex++;
                     break;
                 }
             }
-            
+
             globalBeamIndex++;
             
-            if (hit.collider == null)
+            if(hit.collider == null){
                 break;
+            }
         }
     }
-    
-    
 }
