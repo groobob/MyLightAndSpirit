@@ -10,7 +10,8 @@ public class Switch : InteractableBlock
     {
         toggleShine,
         toggleMovement,
-        toggleDisappear
+        toggleDisappear,
+        toggleAppear
     }
 
     public override void ShineInteract()
@@ -25,7 +26,11 @@ public class Switch : InteractableBlock
         }
         else if (switchMode == SwitchMode.toggleDisappear)
         {
-            toggleExistance(); // Note: This mode is not fully implemented yet
+            toggleDisappear(); // Note: This mode is not fully implemented yet
+        }
+        else if (switchMode == SwitchMode.toggleAppear)
+        {
+            toggleAppear(); // Note: This mode is not fully implemented yet
         }
     }
 
@@ -41,7 +46,11 @@ public class Switch : InteractableBlock
         }
         else if (switchMode == SwitchMode.toggleDisappear)
         {
-            toggleExistanceOff(); // Note: This mode is not fully implemented yet
+            toggleDisappearOff(); // Note: This mode is not fully implemented yet
+        }
+        else if (switchMode == SwitchMode.toggleAppear)
+        {
+            toggleAppearOff(); // Note: This mode is not fully implemented yet
         }
     }
 
@@ -64,7 +73,7 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleExistance()
+    private void toggleDisappear() // THIS IS NOT THE SAME AS APPEAR, THIS CORRESPONDS TO DISSAPPEAR OFF NOT APPEAR. I REPEAT, THIS CORRESPONDS WITH DISAPPEAR OFF
     {
         //Debug.Log("Toggle Existance start called");
         if (!visibleBlock) return; // Do nothing if the switch is invisible
@@ -78,7 +87,7 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleExistanceOff()
+    private void toggleDisappearOff()
     {
         //Debug.Log("Toggle Existance reverse called");
         if (!visibleBlock) return; // Do nothing if the switch is invisible
@@ -92,8 +101,32 @@ public class Switch : InteractableBlock
             Debug.LogWarning("Linked block does not have an InteractableBlock component.");
         }
     }
-    
 
+    private void toggleAppear()
+    {
+        if (!visibleBlock) return; // Do nothing if the switch is invisible
+        if (linkedBlock.GetComponent<SwitchAppearDoor>())
+        {
+            linkedBlock.GetComponent<SwitchAppearDoor>().appear();
+        }
+        else
+        {
+            Debug.LogWarning("Linked block does not have a SwitchAppearDoor component.");
+        }
+    }
+
+    private void toggleAppearOff()
+    {
+        if (!visibleBlock) return; // Do nothing if the switch is invisible
+        if (linkedBlock.GetComponent<SwitchAppearDoor>())
+        {
+            linkedBlock.GetComponent<SwitchAppearDoor>().disappear();
+        }
+        else
+        {
+            Debug.LogWarning("Linked block does not have a SwitchAppearDoor component.");
+        }
+    }
     private void toggleLinkedBlockMovement()
     {
         if (!visibleBlock) return; // Do nothing if the switch is invisible

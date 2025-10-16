@@ -15,8 +15,9 @@ public abstract class InteractableBlock : MonoBehaviour
 {
     private Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
-    private GameObject lightBlock;
+    protected GameObject lightBlock;
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
+    [SerializeField] protected bool onlyInLight = false; // whether the block only appears in the light world
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
 
@@ -27,8 +28,8 @@ public abstract class InteractableBlock : MonoBehaviour
 
     [Header("For Debugging")]
     [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
-    [SerializeField] private bool isShining = false;
-    [SerializeField] private bool fullDisabled = false;
+    [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
+    [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
     protected void init()
     {
@@ -36,6 +37,11 @@ public abstract class InteractableBlock : MonoBehaviour
         snapToCellPosition();
         createLightForm();
         targetPosition = transform.position;
+        if (onlyInLight)
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+            changeVisibility(false);
+        }
     }
     protected virtual void Update()
     {
@@ -49,6 +55,11 @@ public abstract class InteractableBlock : MonoBehaviour
     */
     public static void disableBlock(GameObject block)
     {
+        if (block.GetComponent<InteractableBlock>().isOnlyInLight())
+        {
+            //Debug.Log("Block has no DarkMode cannot disable: " + block.name);
+            return;
+        }
         block.GetComponent<SpriteRenderer>().enabled = false;
         //block.GetComponent<BoxCollider2D>().enabled = false;
         block.GetComponent<InteractableBlock>().changeVisibility(false);
@@ -58,6 +69,11 @@ public abstract class InteractableBlock : MonoBehaviour
     */
     public static void enableBlock(GameObject block)
     {
+        if (block.GetComponent<InteractableBlock>().isOnlyInLight())
+        {
+            //Debug.Log("Block has no DarkMode cannot enable: " + block.name);
+            return;
+        }
         block.GetComponent<SpriteRenderer>().enabled = true;
         //block.GetComponent<BoxCollider2D>().enabled = true;
         block.GetComponent<InteractableBlock>().changeVisibility(true);
@@ -79,6 +95,11 @@ public abstract class InteractableBlock : MonoBehaviour
             }
         }
     }
+
+    public bool isOnlyInLight()
+    {
+        return onlyInLight;
+    }   
 
     /**
     * Called on a light block to make it know it's a light block, Basically only used by this script
@@ -192,7 +213,7 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Turns the block to its light form
      */
-    public void shineBlock()
+    public virtual void shineBlock()
     {
         if (fullDisabled)
         {
@@ -200,7 +221,7 @@ public abstract class InteractableBlock : MonoBehaviour
             return;
         }
         if (isLightForm || lightFormBlock == BlockType.repeat) return;
-        //Debug.Log("Shining block: " + gameObject.name);
+        Debug.Log("a");
         disableBlock(gameObject);
         if (lightBlock != null) // if not EmptySpace
             enableBlock(lightBlock);
@@ -208,7 +229,7 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Turns the block back to its shadow form
      */
-    public void deshineBlock()
+    public virtual void deshineBlock()
     {
         if (fullDisabled)
         {
@@ -313,7 +334,7 @@ public abstract class InteractableBlock : MonoBehaviour
         }
         lightBlock.transform.SetParent(transform);
         
-        lightBlock.name = gameObject.name + "_LightForm";
+        lightBlock.name = lightFormBlock+ "_LightForm";
         InteractableBlock blockScript = lightBlock.GetComponent<InteractableBlock>();
         if (blockScript == null)
         {
@@ -345,7 +366,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         if (Mathf.Abs(shineFrames - currentShineFrames) == 0 && isShining)
         {
-            //Debug.Log("a");
+            Debug.Log("b");
             shineFrames = 0;
             currentShineFrames = 0;
             // Debug.Log("Shine frames reset for block: " + gameObject.name);
