@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class SimultaneousRaycast : MonoBehaviour{
 
     public float maxDistance = 100;
-    public LayerMask reflectionLayers; // layers that can reflect rays
+    public LayerMask hittableLayers; // layers that can reflect rays
     
     // TODO: what value to make this?
     private int reflectionLimit = 100; // number of times to check if ray is reflected 
@@ -21,11 +21,11 @@ public class SimultaneousRaycast : MonoBehaviour{
 
     bool CheckHit(RaycastHit2D hit, int reflectionCount){
         if(hit.collider != null){ // if ray hits an object
-            Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
+            //Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
             return true;
         } 
         else{ // if ray didn't hit anything
-            Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
+            //Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
             return false;
         }
     }
@@ -39,23 +39,44 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void ReflectRay(Vector2 initialRayDirection, int rayIndex){
+    void ReflectRay(Vector2 initialRayDirection, int rayIndex)
+    {
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
         int reflectionCount = 0;
 
-        for(int i = 0; i < reflectionLimit; i++){
-            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
-            DrawRay(currentOrigin, currentDirection, hit, maxDistance);
-            bool didHit = CheckHit(hit, reflectionCount);
+        for (int i = 0; i < reflectionLimit; i++)
+        {
+            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, maxDistance, hittableLayers);
+            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+            foreach (RaycastHit2D hit in hits)
+            {
+                DrawRay(currentOrigin, currentDirection, hit, maxDistance);
+                bool didHit = CheckHit(hit, reflectionCount);
 
-            if(didHit){ // if ray hits a mirror, reflect ray
-                currentOrigin = hit.point + hit.normal * 0.01f;
-                currentDirection = Vector2.Reflect(currentDirection, hit.normal);
-                reflectionCount++;
-            }
-            else{ // no hit, stop reflecting this ray
-                break; 
+                //InteractableBlock.checkRayCollision(hit);
+                if (didHit)
+                { // if ray hits a mirror, reflect 
+                    if (hit.collider.gameObject.CompareTag("Mirror"))
+                    {
+                        currentOrigin = hit.point + hit.normal * 0.01f;
+                        currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                        reflectionCount++;
+                    }
+                    else
+                    {
+                        InteractableBlock.checkRayCollision(hit);
+                    }
+
+                    if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
+                    {
+                        break; // stop reflecting this ray if it hits a visible InteractableBlock
+                    }
+                }
+                else
+                { // no hit, stop reflecting this ray
+                    break;
+                }
             }
         }
     }

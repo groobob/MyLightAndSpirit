@@ -13,7 +13,7 @@ public class Switch : InteractableBlock
         toggleDisappear
     }
 
-    public override void Interact()
+    public override void ShineInteract()
     {
         if (switchMode == SwitchMode.toggleShine)
         {
@@ -28,13 +28,31 @@ public class Switch : InteractableBlock
             toggleExistance(); // Note: This mode is not fully implemented yet
         }
     }
-    
+
+    public override void ShineDeinteract()
+    {
+        if (switchMode == SwitchMode.toggleShine)
+        {
+            toggleLinkedBlockShine();
+        }
+        else if (switchMode == SwitchMode.toggleMovement)
+        {
+            toggleLinkedBlockMovement();
+        }
+        else if (switchMode == SwitchMode.toggleDisappear)
+        {
+            toggleExistanceOff(); // Note: This mode is not fully implemented yet
+        }
+    }
+
+
     private void toggleLinkedBlockShine()
     {
         if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isVisible())
         {
             linkedBlock.GetComponent<InteractableBlock>().shineBlock();
+            
         }
         else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isVisible())
         {
@@ -48,14 +66,25 @@ public class Switch : InteractableBlock
 
     private void toggleExistance()
     {
+        //Debug.Log("Toggle Existance start called");
         if (!visibleBlock) return; // Do nothing if the switch is invisible
-        if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        if (linkedBlock.GetComponent<InteractableBlock>())
         {
-            InteractableBlock.disableBlock(linkedBlock);
+            linkedBlock.GetComponent<InteractableBlock>().fullyDisable();
         }
-        else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        else
         {
-            InteractableBlock.enableBlock(linkedBlock);
+            Debug.LogWarning("Linked block does not have an InteractableBlock component.");
+        }
+    }
+
+    private void toggleExistanceOff()
+    {
+        //Debug.Log("Toggle Existance reverse called");
+        if (!visibleBlock) return; // Do nothing if the switch is invisible
+        if (linkedBlock.GetComponent<InteractableBlock>())
+        {
+            linkedBlock.GetComponent<InteractableBlock>().fullyEnable();
             //linkedBlock.GetComponentInChildren<InteractableBlock>().shineBlock(); // Also shine for its light form if it has one
         }
         else
@@ -63,6 +92,7 @@ public class Switch : InteractableBlock
             Debug.LogWarning("Linked block does not have an InteractableBlock component.");
         }
     }
+    
 
     private void toggleLinkedBlockMovement()
     {
@@ -104,7 +134,7 @@ public class Switch : InteractableBlock
         }
         if (Input.GetKeyDown(interactionKey))
         {
-            Interact();
+            ShineInteract();
         }
     }
     

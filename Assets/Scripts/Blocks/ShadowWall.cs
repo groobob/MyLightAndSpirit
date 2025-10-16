@@ -9,8 +9,27 @@ public class ShadowWall : InteractableBlock
     protected override void Update()
     {
         base.Update();
+        //testingCode()
+    }
+
+    public override void ShineInteract()
+    {
+         //Do nothing, it's a wall
+    }
+
+    /**
+    * Abstract method to define interaction behavior. 
+    */
+    public override void ShineDeinteract()
+    {
+        // Do nothing, it's a wall
+    }
+
+
+    private void testingCode()
+    {
         if (Input.GetKeyDown(KeyCode.L))
-        {   
+        {
             shineBlock();
         }
         if (Input.GetKeyDown(KeyCode.K))
@@ -35,8 +54,4 @@ public class ShadowWall : InteractableBlock
         }
     }
 
-    public override void Interact()
-    {
-         //Do nothing, it's a wall
-    }
 }

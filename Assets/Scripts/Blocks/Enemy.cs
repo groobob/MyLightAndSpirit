@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float interpolationValue = 0.1f;
     
 
-    private string environmentLayer = "Default";
+    private string environmentLayer = "Blocks";
 
     private Vector3 targetPosition;
     void Start()

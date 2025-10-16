@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8960401900380006833}
   - component: {fileID: 225903086389134942}
   - component: {fileID: 6808985155631508193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShadowWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3066038, g: 0.3066038, b: 0.3066038, a: 1}
+  m_Color: {r: 0.42052332, g: 0.5335868, b: 0.8490566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,6 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShadowWall
   lightFormBlock: 0
   movableBlock: 0
+  shineFrames: 0
+  currentShineFrames: 0
 --- !u!61 &6808985155631508193
 BoxCollider2D:
   m_ObjectHideFlags: 0
