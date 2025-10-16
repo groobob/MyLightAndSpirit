@@ -38,19 +38,19 @@ public class ShadowWall : InteractableBlock
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            moveBlock(Vector3.up);
+            moveBlock(Vector3Int.up);
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
-            moveBlock(Vector3.left);
+            moveBlock(Vector3Int.left);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            moveBlock(Vector3.down);
+            moveBlock(Vector3Int.down);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
-            moveBlock(Vector3.right);
+            moveBlock(Vector3Int.right);
         }
     }
 

@@ -107,7 +107,7 @@ public class PlayerMove : MonoBehaviour
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            if (interactable == null) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 Debug.Log("Player Died");
@@ -127,11 +127,11 @@ public class PlayerMove : MonoBehaviour
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            if (interactable == null) { Debug.Log("interactableBlock Not Found"); return; }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
-                Debug.Log($"Player Interacted with {collider.gameObject.name} at {pos}");
-                Vector3 blockMovePos = new Vector3(direction.x, direction.y, 0);
+                //Debug.Log($"Player Interacted with {collider.gameObject.name} at {pos}");
+                Vector3Int blockMovePos = new Vector3Int(direction.x, direction.y, 0);
                 interactable.plrInteractEvent(blockMovePos);
             }
         }

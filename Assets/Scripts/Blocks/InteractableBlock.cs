@@ -16,8 +16,6 @@ public abstract class InteractableBlock : MonoBehaviour
     private Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
     private GameObject lightBlock;
-
-    [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
@@ -26,6 +24,9 @@ public abstract class InteractableBlock : MonoBehaviour
 
     public int shineFrames = 0; // counts how many frames the block has been lit
     public int currentShineFrames = 0; // last known amount of shineframes
+
+    [Header("For Debugging")]
+    [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
     [SerializeField] private bool isShining = false;
     [SerializeField] private bool fullDisabled = false;
 
@@ -38,16 +39,9 @@ public abstract class InteractableBlock : MonoBehaviour
     }
     protected virtual void Update()
     {
+        if (movableBlock) { checkDeath(); } // only destroyable if the block is movable
         checkShineReset();
-        if (transform.position != targetPosition)
-            transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
-        if (isLightForm)
-        {
-            if (transform.parent != null)
-                transform.position = transform.parent.position;
-            else
-                Debug.LogWarning("Light form block has no parent to follow.");
-        }
+        interpolateMovementForBlock();
     }
 
     /**
@@ -106,7 +100,7 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
     * Abstract method to define playerInteraction behavior. 
     */
-    public void plrInteractEvent(Vector3 dir)
+    public void plrInteractEvent(Vector3Int dir)
     {
         if (movableBlock)
         {
@@ -171,34 +165,26 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Moves the block in the given direction if it is movable
      * @param direction The direction to move the block (Vector3.up, Vector3.down, Vector3.left, Vector3.right)
-     * @return the new position of the block after moving, or the current position if not movable
+     * @return the new cell position of the block after moving, or the current position if not movable
      */
-    public Vector3 moveBlock(Vector3 direction)
+    public Vector3Int moveBlock(Vector3Int direction)
     {
-        if (isLightForm) return transform.position; // light forms match the position of the parent block
-        //Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
-        if (!movableBlock) return transform.position;
-        
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
-
-        switch (direction)
+        if (isLightForm || !movableBlock) return cellPosition; // light forms match the position of the parent block
+        //Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
+        Debug.Log(direction);
+        if (direction != Vector3Int.up && direction != Vector3Int.down && direction != Vector3Int.left && direction != Vector3Int.right)
         {
-            case Vector3 dir when dir == Vector3.up:
-                cellPosition += new Vector3Int(0, 1, 0);
-                break;
-            case Vector3 dir when dir == Vector3.down:
-                cellPosition += new Vector3Int(0, -1, 0);
-                break;
-            case Vector3 dir when dir == Vector3.left:
-                cellPosition += new Vector3Int(-1, 0, 0);
-                break;
-            case Vector3 dir when dir == Vector3.right:
-                cellPosition += new Vector3Int(1, 0, 0);
-                break;
-            default:
-                Debug.LogWarning("Invalid direction for moving block.");
-                return transform.position;
+            Debug.LogWarning("Invalid direction for moving block.");
+            return cellPosition;
         }
+        //ADD WALL CHECK
+        if (wallCheck(cellPosition + direction))
+        {
+            return cellPosition;
+        }
+
+        cellPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
         return cellPosition;
     }
@@ -289,6 +275,20 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         shineFrames += 1;
     }
+
+    private void interpolateMovementForBlock()
+    {
+        if (transform.position != targetPosition)
+            transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        if (isLightForm)
+        {
+            if (transform.parent != null)
+                transform.position = transform.parent.position;
+            else
+                Debug.LogWarning("Light form block has no parent to follow.");
+        }
+    }
+
     /**
      * changes the current block to its light form
      * @return GameObject of the light form created
@@ -375,18 +375,18 @@ public abstract class InteractableBlock : MonoBehaviour
     }
 
     /**
-     * Checks if the player is trying to move into a wall
+     * Checks if the block is trying to move into a wall
      * @return true if there is a wall, false otherwise
      */
     private bool wallCheck(Vector3Int cellPos)
     {
-        Collider2D[] colliderList = Physics2D.OverlapBoxAll(tilemap.GetCellCenterWorld(cellPos), new Vector2(0.1f, 0.1f), 0);
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(_grid.GetCellCenterWorld(cellPos), new Vector2(0.1f, 0.1f), 0);
         //GameObject wall = tilemap.GetInstantiatedObject(cellPos);
         foreach (Collider2D collider in colliderList)
         {
             //Debug.Log(collider.gameObject.layer + " | " + LayerMask.LayerToName(collider.gameObject.layer));
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            if (interactable == null) { Debug.Log("interactableBlock Not Found, for block movement"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
 
@@ -397,7 +397,7 @@ public abstract class InteractableBlock : MonoBehaviour
     }
 
     /**
-     * Checks if the player is touching a deadly block
+     * Checks if the block is touching another block
      * If so, restarts the level
      */
     private void checkDeath()
@@ -405,16 +405,14 @@ public abstract class InteractableBlock : MonoBehaviour
         Collider2D[] colliderList = Physics2D.OverlapBoxAll(transform.position, new Vector2(0.1f, 0.1f), 0);
         foreach (Collider2D collider in colliderList)
         {
+            if (collider.gameObject == gameObject) continue; // skip self
+
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
             if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
-                Debug.Log("Player Died");
-                /*
-                transform.position = LevelManager.Instance.GetComponent<LevelManager>().GetPlayerSpawnPosition();
-                targetPosition = transform.position;
-                */
-                LevelManager.Instance.GetComponent<LevelManager>().RestartLevel();
+                Debug.Log("Block Destroyed");
+                Destroy(gameObject);
             }
         }
     }
