@@ -8,20 +8,14 @@ public class LevelManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject[] levelTilemapObjects;
     [SerializeField] private GameObject gridObject;
+    [SerializeField] GameObject currentLevel;
 
-    GameObject currentLevel;
-    int nextLevelIndex = 0;
+    int nextLevelIndex = 1;
 
 
     private void Awake()
     {
         Instance = this;
-    }
-
-    private void Start()
-    {
-        //generate first level
-        GenerateNextLevel();
     }
 
     /**
