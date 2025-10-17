@@ -80,6 +80,8 @@ public class PlayerMove : MonoBehaviour
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
+
+        Enemy.moveAllEnemies(LevelManager.Instance.GetComponent<LevelManager>().getCurrentLevel());
     }
     /**
      * Checks if the player is trying to move into a wall
@@ -112,8 +114,8 @@ public class PlayerMove : MonoBehaviour
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
-            if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
+            if (interactable == null && collider.gameObject.layer != LayerMask.NameToLayer("Enemies")) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
+            if ((collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible()) || (collider.gameObject.layer == LayerMask.NameToLayer("Enemies")))
             {
                 Debug.Log($"Player Died to {collider.gameObject.name}");
                 /*

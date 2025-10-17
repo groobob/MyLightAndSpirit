@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject[] levelTilemapObjects;
     [SerializeField] private GameObject gridObject;
-    [SerializeField] GameObject currentLevel;
+    [SerializeField] private GameObject currentLevel;
 
     private Grid _grid;
 
@@ -20,6 +20,11 @@ public class LevelManager : MonoBehaviour
     {
         Instance = this;
         _grid = gridObject.GetComponent<Grid>();
+    }
+
+    public GameObject getCurrentLevel()
+    {
+        return currentLevel;
     }
 
     /**
