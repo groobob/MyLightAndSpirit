@@ -133,7 +133,7 @@ public class Reflect : SimultaneousRaycast
         
         for (int reflection = 0; reflection < reflectionLimit && globalBeamIndex < maxTotalBeams; reflection++)
         {
-            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
+            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, hittableLayers);
             
             if (lightBeams[globalBeamIndex] != null)
             {

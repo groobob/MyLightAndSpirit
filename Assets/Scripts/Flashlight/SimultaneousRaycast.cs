@@ -47,7 +47,6 @@ public class SimultaneousRaycast : MonoBehaviour{
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
         int reflectionCount = 0;
-
         for (int i = 0; i < reflectionLimit; i++)
         {
             RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
@@ -56,7 +55,6 @@ public class SimultaneousRaycast : MonoBehaviour{
             {
                 DrawRay(currentOrigin, currentDirection, hit, distance);
                 bool didHit = CheckHit(hit, reflectionCount);
-
                 //InteractableBlock.checkRayCollision(hit);
                 if (didHit)
                 { // if ray hits a mirror, reflect 

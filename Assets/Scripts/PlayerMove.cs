@@ -98,7 +98,12 @@ public class PlayerMove : MonoBehaviour
             if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
-                
+                // Check WIN BLOCK
+                if (interactable is NextLevel)
+                {
+                    Debug.Log("Player reached Next Level Block");
+                    LevelManager.Instance.GetComponent<LevelManager>().GenerateNextLevel();
+                }
                 return true;
             }
         }
