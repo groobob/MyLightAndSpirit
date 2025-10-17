@@ -1,10 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
     public float maxDistance = 100;
+    public float spotlightRayDistance = 0.4f;
     public LayerMask hittableLayers; // layers that can reflect rays
     
     // TODO: what value to make this?
@@ -17,6 +19,7 @@ public class SimultaneousRaycast : MonoBehaviour{
     void Update(){
         Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         CastRaysInCone(direction);
+        CircularRayCasts();
     }
 
     bool CheckHit(RaycastHit2D hit, int reflectionCount){
@@ -39,7 +42,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void ReflectRay(Vector2 initialRayDirection, int rayIndex)
+    void ReflectRay(Vector2 initialRayDirection, int rayIndex, float distance)
     {
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
@@ -47,11 +50,11 @@ public class SimultaneousRaycast : MonoBehaviour{
 
         for (int i = 0; i < reflectionLimit; i++)
         {
-            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, maxDistance, hittableLayers);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
             foreach (RaycastHit2D hit in hits)
             {
-                DrawRay(currentOrigin, currentDirection, hit, maxDistance);
+                DrawRay(currentOrigin, currentDirection, hit, distance);
                 bool didHit = CheckHit(hit, reflectionCount);
 
                 //InteractableBlock.checkRayCollision(hit);
@@ -93,7 +96,21 @@ public class SimultaneousRaycast : MonoBehaviour{
             // direction vector for this ray
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
         
-            ReflectRay(rayDirection, rayIndex);
+            ReflectRay(rayDirection, rayIndex, maxDistance);
+        }
+    }
+
+    void CircularRayCasts()
+    {
+        int numberOfRays = 36; // number of rays in the circle
+        float angleIncrement = 360f / numberOfRays; // angle between each ray
+        for (int i = 0; i < numberOfRays; i++)
+        {
+            float currentAngle = i * angleIncrement;
+            float angleInRadians = currentAngle * Mathf.Deg2Rad;
+            // direction vector for this ray
+            Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
+            ReflectRay(rayDirection, i, spotlightRayDistance);
         }
     }
 }

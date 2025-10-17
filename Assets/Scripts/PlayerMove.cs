@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float interpolationValue = 0.35f;
 
     Vector3 targetPosition;
+    private bool onMoveCD = false;
 
     [SerializeField] private Vector2Int direction = Vector2Int.right;
     private void Start()
@@ -71,6 +73,9 @@ public class PlayerMove : MonoBehaviour
      */
     void Move(Vector2Int direction)
     {
+        if (onMoveCD) { return; }
+        onMoveCD = true;
+        Invoke(nameof(ResetMoveCD), 0.1f);
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
@@ -103,14 +108,14 @@ public class PlayerMove : MonoBehaviour
      * If so, restarts the level
      */
     private void checkDeath() {
-        Collider2D[] colliderList = Physics2D.OverlapBoxAll(transform.position, new Vector2(0.1f, 0.1f), 0);
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(targetPosition, new Vector2(0.1f, 0.1f), 0);
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
             if (interactable == null) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
-                Debug.Log("Player Died");
+                Debug.Log($"Player Died to {collider.gameObject.name}");
                 /*
                 transform.position = LevelManager.Instance.GetComponent<LevelManager>().GetPlayerSpawnPosition();
                 targetPosition = transform.position;
@@ -122,7 +127,7 @@ public class PlayerMove : MonoBehaviour
 
     private void blockInteraction()
     {
-        Vector3Int pos = tilemap.WorldToCell(transform.position + (Vector3Int) direction);
+        Vector3Int pos = tilemap.WorldToCell(targetPosition + (Vector3Int) direction);
         Collider2D[] colliderList = Physics2D.OverlapBoxAll(tilemap.GetCellCenterWorld(pos), new Vector2(0.1f, 0.1f), 0);
         foreach (Collider2D collider in colliderList)
         {
@@ -135,5 +140,10 @@ public class PlayerMove : MonoBehaviour
                 interactable.plrInteractEvent(blockMovePos);
             }
         }
+    }
+
+    private void ResetMoveCD()
+    {
+        onMoveCD = false;
     }
 }
