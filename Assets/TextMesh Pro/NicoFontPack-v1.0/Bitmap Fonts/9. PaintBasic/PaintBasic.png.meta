@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: f70a736cec3744ace97105c37ae07b51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4886748694841855388
+    second: PaintBasic_0
+  - first:
+      213: 6688878421792379358
+    second: PaintBasic_1
+  - first:
+      213: -7357373476809724302
+    second: PaintBasic_2
+  - first:
+      213: -108270371803449927
+    second: PaintBasic_3
+  - first:
+      213: -2411508185586576477
+    second: PaintBasic_4
+  - first:
+      213: 5064174119618351396
+    second: PaintBasic_5
+  - first:
+      213: 1163682095508947701
+    second: PaintBasic_6
+  - first:
+      213: 2446922011040685621
+    second: PaintBasic_7
+  - first:
+      213: -3916096267263265078
+    second: PaintBasic_8
+  - first:
+      213: 8552282939700509976
+    second: PaintBasic_9
+  - first:
+      213: 7091018135000115500
+    second: PaintBasic_10
+  - first:
+      213: 7194316984079243065
+    second: PaintBasic_11
+  - first:
+      213: -7352855247829321588
+    second: PaintBasic_12
+  - first:
+      213: 7664819300019673892
+    second: PaintBasic_13
+  - first:
+      213: 3094748533901809683
+    second: PaintBasic_14
+  - first:
+      213: 414651631648257882
+    second: PaintBasic_15
+  - first:
+      213: -6808799284594712023
+    second: PaintBasic_16
+  - first:
+      213: 3702472042732746592
+    second: PaintBasic_17
+  - first:
+      213: -3510167400811022246
+    second: PaintBasic_18
+  - first:
+      213: -381774260409340475
+    second: PaintBasic_19
+  - first:
+      213: 1874951872135172469
+    second: PaintBasic_20
+  - first:
+      213: -3990409719340625486
+    second: PaintBasic_21
+  - first:
+      213: -3408213289199311559
+    second: PaintBasic_22
+  - first:
+      213: 1382588096895450281
+    second: PaintBasic_23
+  - first:
+      213: 598319633067008706
+    second: PaintBasic_24
+  - first:
+      213: 8896573756431360161
+    second: PaintBasic_25
+  - first:
+      213: -8558241412544319405
+    second: PaintBasic_26
+  - first:
+      213: 3831621345985819835
+    second: PaintBasic_27
+  - first:
+      213: -4307786210339088743
+    second: PaintBasic_28
+  - first:
+      213: 7685213882267807710
+    second: PaintBasic_29
+  - first:
+      213: -6190383063213863178
+    second: PaintBasic_30
+  - first:
+      213: -7910912198630167049
+    second: PaintBasic_31
+  - first:
+      213: 5339694579172592996
+    second: PaintBasic_32
+  - first:
+      213: 7770478943948816331
+    second: PaintBasic_33
+  - first:
+      213: 7465573461325467965
+    second: PaintBasic_34
+  - first:
+      213: 2395633447824776652
+    second: PaintBasic_35
+  - first:
+      213: -795996260320882030
+    second: PaintBasic_36
+  - first:
+      213: 3733390542244632292
+    second: PaintBasic_37
+  - first:
+      213: 634265744529285129
+    second: PaintBasic_38
+  - first:
+      213: 6666866225398572864
+    second: PaintBasic_39
+  - first:
+      213: -7875540857128814616
+    second: PaintBasic_40
+  - first:
+      213: -401824444774109197
+    second: PaintBasic_41
+  - first:
+      213: -942639775644866921
+    second: PaintBasic_42
+  - first:
+      213: -1716167521149974933
+    second: PaintBasic_43
+  - first:
+      213: -3666697219177393671
+    second: PaintBasic_44
+  - first:
+      213: 7935361358344683606
+    second: PaintBasic_45
+  - first:
+      213: 6310084081250053634
+    second: PaintBasic_46
+  - first:
+      213: 876116290556439074
+    second: PaintBasic_47
+  - first:
+      213: 1631552179223827592
+    second: PaintBasic_48
+  - first:
+      213: 3954702900388688953
+    second: PaintBasic_49
+  - first:
+      213: 7913617370258041987
+    second: PaintBasic_50
+  - first:
+      213: 4795305406895613729
+    second: PaintBasic_51
+  - first:
+      213: -907994593153569362
+    second: PaintBasic_52
+  - first:
+      213: -8791657307629718257
+    second: PaintBasic_53
+  - first:
+      213: -8199579227476316270
+    second: PaintBasic_54
+  - first:
+      213: -7648061631905193699
+    second: PaintBasic_55
+  - first:
+      213: 2842425166753961842
+    second: PaintBasic_56
+  - first:
+      213: 7426964350108098530
+    second: PaintBasic_57
+  - first:
+      213: 5294743876450282510
+    second: PaintBasic_58
+  - first:
+      213: -6407262336870873647
+    second: PaintBasic_59
+  - first:
+      213: 74818483159688798
+    second: PaintBasic_60
+  - first:
+      213: 3365948311811730983
+    second: PaintBasic_61
+  - first:
+      213: 4002474216795282887
+    second: PaintBasic_62
+  - first:
+      213: 5605145171492886678
+    second: PaintBasic_63
+  - first:
+      213: -346722781579779285
+    second: PaintBasic_64
+  - first:
+      213: -375712000998221171
+    second: PaintBasic_65
+  - first:
+      213: -649280539814162823
+    second: PaintBasic_66
+  - first:
+      213: 314445278635469716
+    second: PaintBasic_67
+  - first:
+      213: -6682141891038032544
+    second: PaintBasic_68
+  - first:
+      213: 264628855622445555
+    second: PaintBasic_69
+  - first:
+      213: -1660344136302726409
+    second: PaintBasic_70
+  - first:
+      213: 7018155309378593317
+    second: PaintBasic_71
+  - first:
+      213: -1756556469160522077
+    second: PaintBasic_72
+  - first:
+      213: 2731463755336607276
+    second: PaintBasic_73
+  - first:
+      213: -8956989791463337352
+    second: PaintBasic_74
+  - first:
+      213: 8258732697441293279
+    second: PaintBasic_75
+  - first:
+      213: 8376819904524196484
+    second: PaintBasic_76
+  - first:
+      213: -7539716741149234826
+    second: PaintBasic_77
+  - first:
+      213: -2675553745154755901
+    second: PaintBasic_78
+  - first:
+      213: -662551442868514679
+    second: PaintBasic_79
+  - first:
+      213: -3693364585537286697
+    second: PaintBasic_80
+  - first:
+      213: 8252322180183355538
+    second: PaintBasic_81
+  - first:
+      213: -3390541710039115988
+    second: PaintBasic_82
+  - first:
+      213: -5521158711311602518
+    second: PaintBasic_83
+  - first:
+      213: 3594702912932329500
+    second: PaintBasic_84
+  - first:
+      213: 7051105625499189107
+    second: PaintBasic_85
+  - first:
+      213: 2147165689809262084
+    second: PaintBasic_86
+  - first:
+      213: -6831557491341601186
+    second: PaintBasic_87
+  - first:
+      213: -4142742991736816956
+    second: PaintBasic_88
+  - first:
+      213: 425370701354317527
+    second: PaintBasic_89
+  - first:
+      213: 1320120168146448214
+    second: PaintBasic_90
+  - first:
+      213: -6860982750098870007
+    second: PaintBasic_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PaintBasic_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d07aefb0831d340800000000000000
+      internalID: 4886748694841855388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 158
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1d5b44c7ba3dc50800000000000000
+      internalID: 6688878421792379358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 158
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e20eacdcb55e990800000000000000
+      internalID: -7357373476809724302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 158
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5b4f4aba85f7ef0800000000000000
+      internalID: -108270371803449927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 158
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a35a29f41a988ed0800000000000000
+      internalID: -2411508185586576477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 158
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4211498d78f874640800000000000000
+      internalID: 5064174119618351396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 158
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f20b4e43ba362010800000000000000
+      internalID: 1163682095508947701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 159
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e1a2dca9635f120800000000000000
+      internalID: 2446922011040685621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 159
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac63a8b713b37a9c0800000000000000
+      internalID: -3916096267263265078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7b7f8500dfa670800000000000000
+      internalID: 8552282939700509976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 139
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29e8888c6b586260800000000000000
+      internalID: 7091018135000115500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 139
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9375a9d0e2957d360800000000000000
+      internalID: 7194316984079243065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 140
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c883444fb1965f990800000000000000
+      internalID: -7352855247829321588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 140
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1b3d1b88ee5a60800000000000000
+      internalID: 7664819300019673892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 140
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318d0681561c2fa20800000000000000
+      internalID: 3094748533901809683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 140
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a573ee9467321c500800000000000000
+      internalID: 414651631648257882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 140
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9226cce00294281a0800000000000000
+      internalID: -6808799284594712023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06776e1d4b2d16330800000000000000
+      internalID: 3702472042732746592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58b08cb851694fc0800000000000000
+      internalID: -3510167400811022246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 122
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cde9e7355aa3baf0800000000000000
+      internalID: -381774260409340475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 122
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57112953bca250a10800000000000000
+      internalID: 1874951872135172469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 122
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b19f6a90873f98c0800000000000000
+      internalID: -3990409719340625486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 122
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935628a221893b0d0800000000000000
+      internalID: -3408213289199311559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 122
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acf2228c80ff2310800000000000000
+      internalID: 1382588096895450281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 122
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2e9174988ad4800800000000000000
+      internalID: 598319633067008706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 122
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0672602baf67b70800000000000000
+      internalID: 8896573756431360161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350324f57c40b3980800000000000000
+      internalID: -8558241412544319405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4f9493057ac2530800000000000000
+      internalID: 3831621345985819835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996996ce34ba734c0800000000000000
+      internalID: -4307786210339088743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_29
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf2973de4d57aa60800000000000000
+      internalID: 7685213882267807710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe0b8de667571aa0800000000000000
+      internalID: -6190383063213863178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_31
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd2857e44bc63290800000000000000
+      internalID: -7910912198630167049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 105
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d49a8cde76a1a40800000000000000
+      internalID: 5339694579172592996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 105
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfb8b40e6946db60800000000000000
+      internalID: 7770478943948816331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 105
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3153ee328b0b9760800000000000000
+      internalID: 7465573461325467965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdd3ad9deffe3120800000000000000
+      internalID: 2395633447824776652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292d80d5e9d04f4f0800000000000000
+      internalID: -795996260320882030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e65b46faeaafc330800000000000000
+      internalID: 3733390542244632292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900eddb855d5dc800800000000000000
+      internalID: 634265744529285129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0476ee96287758c50800000000000000
+      internalID: 6666866225398572864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7f2cc115574b290800000000000000
+      internalID: -7875540857128814616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffab23ebce6c6af0800000000000000
+      internalID: -401824444774109197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796a88d4e121be2f0800000000000000
+      internalID: -942639775644866921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 88
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b660bce6bb2fe28e0800000000000000
+      internalID: -1716167521149974933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1d4006e464d1dc0800000000000000
+      internalID: -3666697219177393671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6500f70bc11102e60800000000000000
+      internalID: 7935361358344683606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ea1c52a0ce19750800000000000000
+      internalID: 6310084081250053634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_47
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aac88df17982c00800000000000000
+      internalID: 876116290556439074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_48
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884962b001074a610800000000000000
+      internalID: 1631552179223827592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934ffd1c55de1e630800000000000000
+      internalID: 3954702900388688953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 71
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c6792f111d2dd60800000000000000
+      internalID: 7913617370258041987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 71
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127e5876cd85c8240800000000000000
+      internalID: 4795305406895613729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 71
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2b117ab72663f0800000000000000
+      internalID: -907994593153569362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 54
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0573c74242cdf580800000000000000
+      internalID: -8791657307629718257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 54
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f2a96c22e353e80800000000000000
+      internalID: -8199579227476316270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_55
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 54
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d112ff98770acd590800000000000000
+      internalID: -7648061631905193699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_56
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 54
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277100d11a2527720800000000000000
+      internalID: 2842425166753961842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_57
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efdea70ab0e11760800000000000000
+      internalID: 7426964350108098530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c6e7cb085ba7940800000000000000
+      internalID: 5294743876450282510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_59
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 54
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5821c0ad4d417a0800000000000000
+      internalID: -6407262336870873647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_60
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 54
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56ed57930fc90100800000000000000
+      internalID: 74818483159688798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_61
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 54
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e2dd1f72046be20800000000000000
+      internalID: 3365948311811730983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_62
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 54
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd1eba1815ab8730800000000000000
+      internalID: 4002474216795282887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_63
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 55
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698545d06d979cd40800000000000000
+      internalID: 5605145171492886678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23e6689771303bf0800000000000000
+      internalID: -346722781579779285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 38
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a56aafce339caf0800000000000000
+      internalID: -375712000998221171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 46
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e8dc00aca4df6f0800000000000000
+      internalID: -649280539814162823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_67
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bad5e90522d5400800000000000000
+      internalID: 314445278635469716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_68
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 40
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dcbe58a534443a0800000000000000
+      internalID: -6682141891038032544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_69
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 40
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a1b8ca862ca300800000000000000
+      internalID: 264628855622445555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_70
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 40
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f5ce0ec545f8e0800000000000000
+      internalID: -1660344136302726409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_71
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5226802f11f756160800000000000000
+      internalID: 7018155309378593317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_72
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aec5cba2357f97e0800000000000000
+      internalID: -1756556469160522077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_73
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2661b540db18e520800000000000000
+      internalID: 2731463755336607276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8721707ad3162b380800000000000000
+      internalID: -8956989791463337352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_75
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd354e5b1a9ec9270800000000000000
+      internalID: 8258732697441293279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_76
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a16942251704470800000000000000
+      internalID: 8376819904524196484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_77
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679ebb0329b8d5790800000000000000
+      internalID: -7539716741149234826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_78
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2b5926b068edad0800000000000000
+      internalID: -2675553745154755901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_79
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 25
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980566a19f42ec6f0800000000000000
+      internalID: -662551442868514679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_80
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddca0d4a788ebcc0800000000000000
+      internalID: -3693364585537286697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_81
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 17
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290f7e9dc43268270800000000000000
+      internalID: 8252322180183355538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_82
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 30
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2719f0574062f0d0800000000000000
+      internalID: -3390541710039115988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_83
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 25
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aace7b78767e063b0800000000000000
+      internalID: -5521158711311602518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_84
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 26
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18b466f043f2e130800000000000000
+      internalID: 3594702912932329500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f33a1453f8ad160800000000000000
+      internalID: 7051105625499189107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_86
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406dcf691d34ccd10800000000000000
+      internalID: 2147165689809262084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56dce128ae6131a0800000000000000
+      internalID: -6831557491341601186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_88
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cab9cdb2350286c0800000000000000
+      internalID: -4142742991736816956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_89
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63510366837e500800000000000000
+      internalID: 425370701354317527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_90
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fa2337c42025210800000000000000
+      internalID: 1320120168146448214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PaintBasic_91
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90136423a84e8c0a0800000000000000
+      internalID: -6860982750098870007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PaintBasic_0: 4886748694841855388
+      PaintBasic_1: 6688878421792379358
+      PaintBasic_10: 7091018135000115500
+      PaintBasic_11: 7194316984079243065
+      PaintBasic_12: -7352855247829321588
+      PaintBasic_13: 7664819300019673892
+      PaintBasic_14: 3094748533901809683
+      PaintBasic_15: 414651631648257882
+      PaintBasic_16: -6808799284594712023
+      PaintBasic_17: 3702472042732746592
+      PaintBasic_18: -3510167400811022246
+      PaintBasic_19: -381774260409340475
+      PaintBasic_2: -7357373476809724302
+      PaintBasic_20: 1874951872135172469
+      PaintBasic_21: -3990409719340625486
+      PaintBasic_22: -3408213289199311559
+      PaintBasic_23: 1382588096895450281
+      PaintBasic_24: 598319633067008706
+      PaintBasic_25: 8896573756431360161
+      PaintBasic_26: -8558241412544319405
+      PaintBasic_27: 3831621345985819835
+      PaintBasic_28: -4307786210339088743
+      PaintBasic_29: 7685213882267807710
+      PaintBasic_3: -108270371803449927
+      PaintBasic_30: -6190383063213863178
+      PaintBasic_31: -7910912198630167049
+      PaintBasic_32: 5339694579172592996
+      PaintBasic_33: 7770478943948816331
+      PaintBasic_34: 7465573461325467965
+      PaintBasic_35: 2395633447824776652
+      PaintBasic_36: -795996260320882030
+      PaintBasic_37: 3733390542244632292
+      PaintBasic_38: 634265744529285129
+      PaintBasic_39: 6666866225398572864
+      PaintBasic_4: -2411508185586576477
+      PaintBasic_40: -7875540857128814616
+      PaintBasic_41: -401824444774109197
+      PaintBasic_42: -942639775644866921
+      PaintBasic_43: -1716167521149974933
+      PaintBasic_44: -3666697219177393671
+      PaintBasic_45: 7935361358344683606
+      PaintBasic_46: 6310084081250053634
+      PaintBasic_47: 876116290556439074
+      PaintBasic_48: 1631552179223827592
+      PaintBasic_49: 3954702900388688953
+      PaintBasic_5: 5064174119618351396
+      PaintBasic_50: 7913617370258041987
+      PaintBasic_51: 4795305406895613729
+      PaintBasic_52: -907994593153569362
+      PaintBasic_53: -8791657307629718257
+      PaintBasic_54: -8199579227476316270
+      PaintBasic_55: -7648061631905193699
+      PaintBasic_56: 2842425166753961842
+      PaintBasic_57: 7426964350108098530
+      PaintBasic_58: 5294743876450282510
+      PaintBasic_59: -6407262336870873647
+      PaintBasic_6: 1163682095508947701
+      PaintBasic_60: 74818483159688798
+      PaintBasic_61: 3365948311811730983
+      PaintBasic_62: 4002474216795282887
+      PaintBasic_63: 5605145171492886678
+      PaintBasic_64: -346722781579779285
+      PaintBasic_65: -375712000998221171
+      PaintBasic_66: -649280539814162823
+      PaintBasic_67: 314445278635469716
+      PaintBasic_68: -6682141891038032544
+      PaintBasic_69: 264628855622445555
+      PaintBasic_7: 2446922011040685621
+      PaintBasic_70: -1660344136302726409
+      PaintBasic_71: 7018155309378593317
+      PaintBasic_72: -1756556469160522077
+      PaintBasic_73: 2731463755336607276
+      PaintBasic_74: -8956989791463337352
+      PaintBasic_75: 8258732697441293279
+      PaintBasic_76: 8376819904524196484
+      PaintBasic_77: -7539716741149234826
+      PaintBasic_78: -2675553745154755901
+      PaintBasic_79: -662551442868514679
+      PaintBasic_8: -3916096267263265078
+      PaintBasic_80: -3693364585537286697
+      PaintBasic_81: 8252322180183355538
+      PaintBasic_82: -3390541710039115988
+      PaintBasic_83: -5521158711311602518
+      PaintBasic_84: 3594702912932329500
+      PaintBasic_85: 7051105625499189107
+      PaintBasic_86: 2147165689809262084
+      PaintBasic_87: -6831557491341601186
+      PaintBasic_88: -4142742991736816956
+      PaintBasic_89: 425370701354317527
+      PaintBasic_9: 8552282939700509976
+      PaintBasic_90: 1320120168146448214
+      PaintBasic_91: -6860982750098870007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

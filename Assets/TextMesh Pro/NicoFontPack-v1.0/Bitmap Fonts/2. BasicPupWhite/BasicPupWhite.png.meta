@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 76b88d5f288f049fc832b4d6c1e5f068
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5549549350079499091
+    second: BasicPupWhite_0
+  - first:
+      213: 2208573867135446710
+    second: BasicPupWhite_1
+  - first:
+      213: -757322227406080623
+    second: BasicPupWhite_2
+  - first:
+      213: -6678376689288084207
+    second: BasicPupWhite_3
+  - first:
+      213: 9079839316870651398
+    second: BasicPupWhite_4
+  - first:
+      213: 2393497839904441659
+    second: BasicPupWhite_5
+  - first:
+      213: -5583850842889015560
+    second: BasicPupWhite_6
+  - first:
+      213: -3301928886439071663
+    second: BasicPupWhite_7
+  - first:
+      213: -6700550777394716607
+    second: BasicPupWhite_8
+  - first:
+      213: 4462453272191364489
+    second: BasicPupWhite_9
+  - first:
+      213: 6765259264830220886
+    second: BasicPupWhite_10
+  - first:
+      213: 3783955910988319306
+    second: BasicPupWhite_11
+  - first:
+      213: -6886235864518541940
+    second: BasicPupWhite_12
+  - first:
+      213: 2045990183634612604
+    second: BasicPupWhite_13
+  - first:
+      213: 8186340799271434385
+    second: BasicPupWhite_14
+  - first:
+      213: 2945208590845878564
+    second: BasicPupWhite_15
+  - first:
+      213: 468905314383337000
+    second: BasicPupWhite_16
+  - first:
+      213: -6441319143452755007
+    second: BasicPupWhite_17
+  - first:
+      213: -6400056419629816309
+    second: BasicPupWhite_18
+  - first:
+      213: -163910551647155754
+    second: BasicPupWhite_19
+  - first:
+      213: -5594545906785964096
+    second: BasicPupWhite_20
+  - first:
+      213: 2751672627177475786
+    second: BasicPupWhite_21
+  - first:
+      213: -7710716733945945259
+    second: BasicPupWhite_22
+  - first:
+      213: -6013276778351226775
+    second: BasicPupWhite_23
+  - first:
+      213: -8981767453964327441
+    second: BasicPupWhite_24
+  - first:
+      213: -7951742041411257792
+    second: BasicPupWhite_25
+  - first:
+      213: -5065786043066283989
+    second: BasicPupWhite_26
+  - first:
+      213: 2953432935767353332
+    second: BasicPupWhite_27
+  - first:
+      213: 3955102253930687648
+    second: BasicPupWhite_28
+  - first:
+      213: 497524001103930772
+    second: BasicPupWhite_29
+  - first:
+      213: 1672479824829181505
+    second: BasicPupWhite_30
+  - first:
+      213: 4234600385281016191
+    second: BasicPupWhite_31
+  - first:
+      213: 8107695416797389965
+    second: BasicPupWhite_32
+  - first:
+      213: -7208685570624264237
+    second: BasicPupWhite_33
+  - first:
+      213: -5234808297464055732
+    second: BasicPupWhite_34
+  - first:
+      213: 6294668279429177495
+    second: BasicPupWhite_35
+  - first:
+      213: 2781309102560333239
+    second: BasicPupWhite_36
+  - first:
+      213: -8946282645272097493
+    second: BasicPupWhite_37
+  - first:
+      213: 6329998014264761988
+    second: BasicPupWhite_38
+  - first:
+      213: 7519198548062151020
+    second: BasicPupWhite_39
+  - first:
+      213: 2994602837285719281
+    second: BasicPupWhite_40
+  - first:
+      213: 2950855733212423152
+    second: BasicPupWhite_41
+  - first:
+      213: 2628663775760275099
+    second: BasicPupWhite_42
+  - first:
+      213: -4472048262515734189
+    second: BasicPupWhite_43
+  - first:
+      213: 7374371107652688944
+    second: BasicPupWhite_44
+  - first:
+      213: -9044462521666147149
+    second: BasicPupWhite_45
+  - first:
+      213: -4582482088634626105
+    second: BasicPupWhite_46
+  - first:
+      213: -870614063715660378
+    second: BasicPupWhite_47
+  - first:
+      213: 2860533603451501196
+    second: BasicPupWhite_48
+  - first:
+      213: 6109880179216172465
+    second: BasicPupWhite_49
+  - first:
+      213: 5906374447214153189
+    second: BasicPupWhite_50
+  - first:
+      213: -8280935520128044494
+    second: BasicPupWhite_51
+  - first:
+      213: -7433855584059087360
+    second: BasicPupWhite_52
+  - first:
+      213: -1055612235137716408
+    second: BasicPupWhite_53
+  - first:
+      213: -2541843235688078221
+    second: BasicPupWhite_54
+  - first:
+      213: 7416005854523462411
+    second: BasicPupWhite_55
+  - first:
+      213: -8668225408370328574
+    second: BasicPupWhite_56
+  - first:
+      213: -9114391078635548856
+    second: BasicPupWhite_57
+  - first:
+      213: 8674433796005207113
+    second: BasicPupWhite_58
+  - first:
+      213: 2112441740130289199
+    second: BasicPupWhite_59
+  - first:
+      213: -8224211944487088174
+    second: BasicPupWhite_60
+  - first:
+      213: 4436053010392989468
+    second: BasicPupWhite_61
+  - first:
+      213: 7254341781028755056
+    second: BasicPupWhite_62
+  - first:
+      213: -1461249771540506977
+    second: BasicPupWhite_63
+  - first:
+      213: -6879426055556770349
+    second: BasicPupWhite_64
+  - first:
+      213: -5642684156700546150
+    second: BasicPupWhite_65
+  - first:
+      213: 3358288647305177117
+    second: BasicPupWhite_66
+  - first:
+      213: -6036639616184611672
+    second: BasicPupWhite_67
+  - first:
+      213: -2241423578460825944
+    second: BasicPupWhite_68
+  - first:
+      213: -4499773047009612577
+    second: BasicPupWhite_69
+  - first:
+      213: -3224373864230776224
+    second: BasicPupWhite_70
+  - first:
+      213: -3218473629610069582
+    second: BasicPupWhite_71
+  - first:
+      213: -8406935534377846928
+    second: BasicPupWhite_72
+  - first:
+      213: 1122596723379666909
+    second: BasicPupWhite_73
+  - first:
+      213: 5698014634211825820
+    second: BasicPupWhite_74
+  - first:
+      213: 2981097652559339992
+    second: BasicPupWhite_75
+  - first:
+      213: -3126846249566616038
+    second: BasicPupWhite_76
+  - first:
+      213: 346611204607922311
+    second: BasicPupWhite_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BasicPupWhite_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4f205d44a0cf2b0800000000000000
+      internalID: -5549549350079499091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bea1da0b3e66ae10800000000000000
+      internalID: 2208573867135446710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195f3f652737d75f0800000000000000
+      internalID: -757322227406080623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 114
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1150cbed8c3a153a0800000000000000
+      internalID: -6678376689288084207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e53bb60c1120e70800000000000000
+      internalID: 9079839316870651398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b354b26aa99673120800000000000000
+      internalID: 2393497839904441659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea5de2e3d2282b0800000000000000
+      internalID: -5583850842889015560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150b2321c213d22d0800000000000000
+      internalID: -3301928886439071663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140abe9a19cd203a0800000000000000
+      internalID: -6700550777394716607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 114
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98deeb3ab91dded30800000000000000
+      internalID: 4462453272191364489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 114
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a20ad157703ed50800000000000000
+      internalID: 6765259264830220886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ac2305adf438430800000000000000
+      internalID: 3783955910988319306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d31df47fc2f60a0800000000000000
+      internalID: -6886235864518541940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c713a7d5b31d46c10800000000000000
+      internalID: 2045990183634612604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1987cd67599bb9170800000000000000
+      internalID: 8186340799271434385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4212cc6eb9b7fd820800000000000000
+      internalID: 2945208590845878564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 87
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8269c1926e2e18600800000000000000
+      internalID: 468905314383337000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 101
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb3399dd56db96a0800000000000000
+      internalID: -6441319143452755007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a185689e6e27a0800000000000000
+      internalID: -6400056419629816309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d90222c83ca9bdf0800000000000000
+      internalID: -163910551647155754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf2862932e2c52b0800000000000000
+      internalID: -5594545906785964096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace4419eca7ef2620800000000000000
+      internalID: 2751672627177475786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553ed7dcbf70ef490800000000000000
+      internalID: -7710716733945945259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960154a31ac8c8ca0800000000000000
+      internalID: -6013276778351226775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5aa4b861a5a5380800000000000000
+      internalID: -8981767453964327441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a74245ebcb5a190800000000000000
+      internalID: -7951742041411257792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2807eafe66b2b9b0800000000000000
+      internalID: -5065786043066283989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f72a5c6b93bcf820800000000000000
+      internalID: 2953432935767353332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aca2ef7b8853e630800000000000000
+      internalID: 3955102253930687648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495e709617f87e600800000000000000
+      internalID: 497524001103930772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e63fc1a87d53710800000000000000
+      internalID: 1672479824829181505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7148625d9254ca30800000000000000
+      internalID: 4234600385281016191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8465417602548070800000000000000
+      internalID: 8107695416797389965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7e471baaa95fb90800000000000000
+      internalID: -7208685570624264237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_34
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c483362b6993a57b0800000000000000
+      internalID: -5234808297464055732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790ab4613772b5750800000000000000
+      internalID: 6294668279429177495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd4bac84e1399620800000000000000
+      internalID: 2781309102560333239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 61
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d8054655b68d380800000000000000
+      internalID: -8946282645272097493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_38
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 61
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48edd2df7aba8d750800000000000000
+      internalID: 6329998014264761988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61a0e4bd3f895860800000000000000
+      internalID: 7519198548062151020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fccac71a67fe8920800000000000000
+      internalID: 2994602837285719281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f32d81b7ab83f820800000000000000
+      internalID: 2950855733212423152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96d02cd6c3ea7420800000000000000
+      internalID: 2628663775760275099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359c8569cc710f1c0800000000000000
+      internalID: -4472048262515734189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_44
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cda898377075660800000000000000
+      internalID: 7374371107652688944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc61c3914d9b7280800000000000000
+      internalID: -9044462521666147149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfc755c1d0c760c0800000000000000
+      internalID: -4582482088634626105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_47
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adc4cb2f15fae3f0800000000000000
+      internalID: -870614063715660378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a7bc51828a2b720800000000000000
+      internalID: 2860533603451501196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b54166c6a7aac450800000000000000
+      internalID: 6109880179216172465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edc4a43448a7f150800000000000000
+      internalID: 5906374447214153189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2327adac405341d80800000000000000
+      internalID: -8280935520128044494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_52
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006aa988bb3a5d890800000000000000
+      internalID: -7433855584059087360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_53
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f6f08d346b951f0800000000000000
+      internalID: -1055612235137716408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374251e5b0f89bcd0800000000000000
+      internalID: -2541843235688078221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0396137802fae660800000000000000
+      internalID: 7416005854523462411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c3215dae644b780800000000000000
+      internalID: -8668225408370328574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 35
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f40f5aa9d238180800000000000000
+      internalID: -9114391078635548856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_58
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 24
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c988e0497c16870800000000000000
+      internalID: 8674433796005207113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 36
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f268c290296e05d10800000000000000
+      internalID: 2112441740130289199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_60
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df825b6fcabddd80800000000000000
+      internalID: -8224211944487088174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_61
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fb641b5b6009d30800000000000000
+      internalID: 4436053010392989468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_62
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0765e792a699ca460800000000000000
+      internalID: 7254341781028755056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f961537231998bbe0800000000000000
+      internalID: -1461249771540506977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5d8f3837e5780a0800000000000000
+      internalID: -6879426055556770349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba32cd7a821b1b0800000000000000
+      internalID: -5642684156700546150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d182ad35bb90b9e20800000000000000
+      internalID: 3358288647305177117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac0448a04c893ca0800000000000000
+      internalID: -6036639616184611672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_68
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a658a6812dd4e0e0800000000000000
+      internalID: -2241423578460825944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_69
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc6d1b21489d81c0800000000000000
+      internalID: -4499773047009612577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_70
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 14
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062987fcd09b043d0800000000000000
+      internalID: -3224373864230776224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_71
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1312c394fa553d0800000000000000
+      internalID: -3218473629610069582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_72
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077bccf5ca0945b80800000000000000
+      internalID: -8406935534377846928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfff0ba5c3449f00800000000000000
+      internalID: 1122596723379666909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c985c25de1a631f40800000000000000
+      internalID: 5698014634211825820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_75
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1ec8d358cfe5920800000000000000
+      internalID: 2981097652559339992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16c15b17e53b94d0800000000000000
+      internalID: -3126846249566616038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupWhite_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 16
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78053dddd096fc400800000000000000
+      internalID: 346611204607922311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BasicPupWhite_0: -5549549350079499091
+      BasicPupWhite_1: 2208573867135446710
+      BasicPupWhite_10: 6765259264830220886
+      BasicPupWhite_11: 3783955910988319306
+      BasicPupWhite_12: -6886235864518541940
+      BasicPupWhite_13: 2045990183634612604
+      BasicPupWhite_14: 8186340799271434385
+      BasicPupWhite_15: 2945208590845878564
+      BasicPupWhite_16: 468905314383337000
+      BasicPupWhite_17: -6441319143452755007
+      BasicPupWhite_18: -6400056419629816309
+      BasicPupWhite_19: -163910551647155754
+      BasicPupWhite_2: -757322227406080623
+      BasicPupWhite_20: -5594545906785964096
+      BasicPupWhite_21: 2751672627177475786
+      BasicPupWhite_22: -7710716733945945259
+      BasicPupWhite_23: -6013276778351226775
+      BasicPupWhite_24: -8981767453964327441
+      BasicPupWhite_25: -7951742041411257792
+      BasicPupWhite_26: -5065786043066283989
+      BasicPupWhite_27: 2953432935767353332
+      BasicPupWhite_28: 3955102253930687648
+      BasicPupWhite_29: 497524001103930772
+      BasicPupWhite_3: -6678376689288084207
+      BasicPupWhite_30: 1672479824829181505
+      BasicPupWhite_31: 4234600385281016191
+      BasicPupWhite_32: 8107695416797389965
+      BasicPupWhite_33: -7208685570624264237
+      BasicPupWhite_34: -5234808297464055732
+      BasicPupWhite_35: 6294668279429177495
+      BasicPupWhite_36: 2781309102560333239
+      BasicPupWhite_37: -8946282645272097493
+      BasicPupWhite_38: 6329998014264761988
+      BasicPupWhite_39: 7519198548062151020
+      BasicPupWhite_4: 9079839316870651398
+      BasicPupWhite_40: 2994602837285719281
+      BasicPupWhite_41: 2950855733212423152
+      BasicPupWhite_42: 2628663775760275099
+      BasicPupWhite_43: -4472048262515734189
+      BasicPupWhite_44: 7374371107652688944
+      BasicPupWhite_45: -9044462521666147149
+      BasicPupWhite_46: -4582482088634626105
+      BasicPupWhite_47: -870614063715660378
+      BasicPupWhite_48: 2860533603451501196
+      BasicPupWhite_49: 6109880179216172465
+      BasicPupWhite_5: 2393497839904441659
+      BasicPupWhite_50: 5906374447214153189
+      BasicPupWhite_51: -8280935520128044494
+      BasicPupWhite_52: -7433855584059087360
+      BasicPupWhite_53: -1055612235137716408
+      BasicPupWhite_54: -2541843235688078221
+      BasicPupWhite_55: 7416005854523462411
+      BasicPupWhite_56: -8668225408370328574
+      BasicPupWhite_57: -9114391078635548856
+      BasicPupWhite_58: 8674433796005207113
+      BasicPupWhite_59: 2112441740130289199
+      BasicPupWhite_6: -5583850842889015560
+      BasicPupWhite_60: -8224211944487088174
+      BasicPupWhite_61: 4436053010392989468
+      BasicPupWhite_62: 7254341781028755056
+      BasicPupWhite_63: -1461249771540506977
+      BasicPupWhite_64: -6879426055556770349
+      BasicPupWhite_65: -5642684156700546150
+      BasicPupWhite_66: 3358288647305177117
+      BasicPupWhite_67: -6036639616184611672
+      BasicPupWhite_68: -2241423578460825944
+      BasicPupWhite_69: -4499773047009612577
+      BasicPupWhite_7: -3301928886439071663
+      BasicPupWhite_70: -3224373864230776224
+      BasicPupWhite_71: -3218473629610069582
+      BasicPupWhite_72: -8406935534377846928
+      BasicPupWhite_73: 1122596723379666909
+      BasicPupWhite_74: 5698014634211825820
+      BasicPupWhite_75: 2981097652559339992
+      BasicPupWhite_76: -3126846249566616038
+      BasicPupWhite_77: 346611204607922311
+      BasicPupWhite_8: -6700550777394716607
+      BasicPupWhite_9: 4462453272191364489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

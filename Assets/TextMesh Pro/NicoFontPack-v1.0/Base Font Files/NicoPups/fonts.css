@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'NicoPups';
+    src: url('NicoPups-Monospaced.eot');
+    src: url('NicoPups-Monospaced.eot?#iefix') format('embedded-opentype'),
+        url('NicoPups-Monospaced.woff2') format('woff2'),
+        url('NicoPups-Monospaced.woff') format('woff'),
+        url('NicoPups-Monospaced.ttf') format('truetype'),
+        url('NicoPups-Monospaced.svg#NicoPups-Monospaced') format('svg');
+    font-weight: regular;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NicoPups';
+    src: url('NicoPups-Regular.eot');
+    src: url('NicoPups-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NicoPups-Regular.woff2') format('woff2'),
+        url('NicoPups-Regular.woff') format('woff'),
+        url('NicoPups-Regular.ttf') format('truetype'),
+        url('NicoPups-Regular.svg#NicoPups-Regular') format('svg');
+    font-weight: regular;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 09f91f68b96d248fc91a6caef25bf8ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3089081671137074105
+    second: CakeIcing_0
+  - first:
+      213: 5599815904292945245
+    second: CakeIcing_1
+  - first:
+      213: -3503509401700991031
+    second: CakeIcing_2
+  - first:
+      213: -4149246997712567729
+    second: CakeIcing_3
+  - first:
+      213: 8765204707087627690
+    second: CakeIcing_4
+  - first:
+      213: -4645721502116819841
+    second: CakeIcing_5
+  - first:
+      213: 6957051154333267199
+    second: CakeIcing_6
+  - first:
+      213: 5026626940485096720
+    second: CakeIcing_7
+  - first:
+      213: 4683439583068682752
+    second: CakeIcing_8
+  - first:
+      213: -3206455534945853422
+    second: CakeIcing_9
+  - first:
+      213: -2285812110162292752
+    second: CakeIcing_10
+  - first:
+      213: 7796073620031367560
+    second: CakeIcing_11
+  - first:
+      213: -6259732873340012643
+    second: CakeIcing_12
+  - first:
+      213: 5534451987529664194
+    second: CakeIcing_13
+  - first:
+      213: -4423921236211595530
+    second: CakeIcing_14
+  - first:
+      213: 5475780329209224913
+    second: CakeIcing_15
+  - first:
+      213: -2714624753692329070
+    second: CakeIcing_16
+  - first:
+      213: 8904433670737230695
+    second: CakeIcing_17
+  - first:
+      213: -1488913069925224680
+    second: CakeIcing_18
+  - first:
+      213: -1530185230289283573
+    second: CakeIcing_19
+  - first:
+      213: -8474987484208572761
+    second: CakeIcing_20
+  - first:
+      213: -2491001254364602818
+    second: CakeIcing_21
+  - first:
+      213: 7567884761556763218
+    second: CakeIcing_22
+  - first:
+      213: 556091276048296583
+    second: CakeIcing_23
+  - first:
+      213: 137356092914208487
+    second: CakeIcing_24
+  - first:
+      213: -7219974828075173150
+    second: CakeIcing_25
+  - first:
+      213: -8649692097804318997
+    second: CakeIcing_26
+  - first:
+      213: -5120417193534193357
+    second: CakeIcing_27
+  - first:
+      213: 9167262040306880021
+    second: CakeIcing_28
+  - first:
+      213: -5487039362991504639
+    second: CakeIcing_29
+  - first:
+      213: 6419081981645316603
+    second: CakeIcing_30
+  - first:
+      213: 2234855068288286987
+    second: CakeIcing_31
+  - first:
+      213: 428780319805927888
+    second: CakeIcing_32
+  - first:
+      213: -6176581312406627724
+    second: CakeIcing_33
+  - first:
+      213: 4949834081344774277
+    second: CakeIcing_34
+  - first:
+      213: -37589003279923254
+    second: CakeIcing_35
+  - first:
+      213: -488492015284538003
+    second: CakeIcing_36
+  - first:
+      213: 5569137154040086274
+    second: CakeIcing_37
+  - first:
+      213: 3578616092565318391
+    second: CakeIcing_38
+  - first:
+      213: 1437560304390086499
+    second: CakeIcing_39
+  - first:
+      213: -7887671728475203634
+    second: CakeIcing_40
+  - first:
+      213: 6620013040254870776
+    second: CakeIcing_41
+  - first:
+      213: 1812743940179753935
+    second: CakeIcing_42
+  - first:
+      213: -3618984992941978663
+    second: CakeIcing_43
+  - first:
+      213: -8978573896770913389
+    second: CakeIcing_44
+  - first:
+      213: -9017934456844415133
+    second: CakeIcing_45
+  - first:
+      213: -2448536342212843879
+    second: CakeIcing_46
+  - first:
+      213: -5128732285065664171
+    second: CakeIcing_47
+  - first:
+      213: -9007314307461830667
+    second: CakeIcing_48
+  - first:
+      213: 1606600899114438809
+    second: CakeIcing_49
+  - first:
+      213: -2476787436399575530
+    second: CakeIcing_50
+  - first:
+      213: 3895633801882192057
+    second: CakeIcing_51
+  - first:
+      213: 2193844800278649754
+    second: CakeIcing_52
+  - first:
+      213: -5799640120367550475
+    second: CakeIcing_53
+  - first:
+      213: -6653421087373857430
+    second: CakeIcing_54
+  - first:
+      213: 8689658977913678283
+    second: CakeIcing_55
+  - first:
+      213: 5256587659543681193
+    second: CakeIcing_56
+  - first:
+      213: -8826412412587404356
+    second: CakeIcing_57
+  - first:
+      213: 400065238401001995
+    second: CakeIcing_58
+  - first:
+      213: 1318071841862146913
+    second: CakeIcing_59
+  - first:
+      213: -7050245497248919494
+    second: CakeIcing_60
+  - first:
+      213: 525679299249362424
+    second: CakeIcing_61
+  - first:
+      213: -8312148297314851285
+    second: CakeIcing_62
+  - first:
+      213: 7392086790759492362
+    second: CakeIcing_63
+  - first:
+      213: -7587271063671126433
+    second: CakeIcing_64
+  - first:
+      213: 8672100156130934165
+    second: CakeIcing_65
+  - first:
+      213: 5900922143498608625
+    second: CakeIcing_66
+  - first:
+      213: -1866796482894275911
+    second: CakeIcing_67
+  - first:
+      213: -905143461244542594
+    second: CakeIcing_68
+  - first:
+      213: 736979619819236324
+    second: CakeIcing_69
+  - first:
+      213: -7418286694530361925
+    second: CakeIcing_70
+  - first:
+      213: -95730453466024574
+    second: CakeIcing_71
+  - first:
+      213: -5932128946166757854
+    second: CakeIcing_72
+  - first:
+      213: 2089709977674693786
+    second: CakeIcing_73
+  - first:
+      213: -6942634295058998953
+    second: CakeIcing_74
+  - first:
+      213: -1302928666390654228
+    second: CakeIcing_75
+  - first:
+      213: -5085498316477711777
+    second: CakeIcing_76
+  - first:
+      213: -2637103488659640182
+    second: CakeIcing_77
+  - first:
+      213: 6189018935591813846
+    second: CakeIcing_78
+  - first:
+      213: 1657578321223717372
+    second: CakeIcing_79
+  - first:
+      213: -3196327942438575785
+    second: CakeIcing_80
+  - first:
+      213: 456223677666425249
+    second: CakeIcing_81
+  - first:
+      213: 7825744046425407313
+    second: CakeIcing_82
+  - first:
+      213: 7768055613803166010
+    second: CakeIcing_83
+  - first:
+      213: 8158855399754965857
+    second: CakeIcing_84
+  - first:
+      213: -2880208834176578840
+    second: CakeIcing_85
+  - first:
+      213: -5083413584494677118
+    second: CakeIcing_86
+  - first:
+      213: 6605037558472801410
+    second: CakeIcing_87
+  - first:
+      213: 2518689918721462548
+    second: CakeIcing_88
+  - first:
+      213: 1830861147554738223
+    second: CakeIcing_89
+  - first:
+      213: 5692984754762853622
+    second: CakeIcing_90
+  - first:
+      213: -6740245124275225582
+    second: CakeIcing_91
+  - first:
+      213: 7470157304802234720
+    second: CakeIcing_92
+  - first:
+      213: -2922280089913512464
+    second: CakeIcing_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CakeIcing_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74464b536906125d0800000000000000
+      internalID: -3089081671137074105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 174
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db6f655ea86bd40800000000000000
+      internalID: 5599815904292945245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 174
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cffe54f2c8016fc0800000000000000
+      internalID: -3503509401700991031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 174
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f428cf7d6d9ea66c0800000000000000
+      internalID: -4149246997712567729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 174
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa53a85bd3344a970800000000000000
+      internalID: 8765204707087627690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 174
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cceec68e4178fb0800000000000000
+      internalID: -4645721502116819841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 174
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff471423a296c8060800000000000000
+      internalID: 6957051154333267199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 174
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d506f19a22c540800000000000000
+      internalID: 5026626940485096720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 175
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00affc3ac7beef040800000000000000
+      internalID: 4683439583068682752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210a773fda16083d0800000000000000
+      internalID: -3206455534945853422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 175
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff8d7e1ff92740e0800000000000000
+      internalID: -2285812110162292752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88963cce6a7313c60800000000000000
+      internalID: 7796073620031367560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 153
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97bbbffd16f029a0800000000000000
+      internalID: -6259732873340012643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 154
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6092782c25ecc40800000000000000
+      internalID: 5534451987529664194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 154
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f60d4913131b92c0800000000000000
+      internalID: -4423921236211595530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 154
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de569e8231edfb40800000000000000
+      internalID: 5475780329209224913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 154
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bbfa15b27b35ad0800000000000000
+      internalID: -2714624753692329070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 154
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bf15eee37e29b70800000000000000
+      internalID: 8904433670737230695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 154
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81faba59371565be0800000000000000
+      internalID: -1488913069925224680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06de0ce3a0b3cae0800000000000000
+      internalID: -1530185230289283573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6ddd719cbc26a80800000000000000
+      internalID: -8474987484208572761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e9b8a9e8f2e6dd0800000000000000
+      internalID: -2491001254364602818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252cea12817860960800000000000000
+      internalID: 7567884761556763218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a6d8bb112a7b700800000000000000
+      internalID: 556091276048296583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee03e583acf7e100800000000000000
+      internalID: 137356092914208487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea315d952f7dcb90800000000000000
+      internalID: -7219974828075173150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6ced57dde16f780800000000000000
+      internalID: -8649692097804318997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331879d01bf90f8b0800000000000000
+      internalID: -5120417193534193357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e0a636148a83f70800000000000000
+      internalID: 9167262040306880021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1034e4c55ce1ad3b0800000000000000
+      internalID: -5487039362991504639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_30
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf164147d09251950800000000000000
+      internalID: 6419081981645316603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010ec508dcc30f10800000000000000
+      internalID: 2234855068288286987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1f5b8dd6553f500800000000000000
+      internalID: 428780319805927888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 115
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47adfa37500684aa0800000000000000
+      internalID: -6176581312406627724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 115
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5806da32fd751b440800000000000000
+      internalID: 4949834081344774277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 115
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac70a0c20057a7ff0800000000000000
+      internalID: -37589003279923254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65b959a9178839f0800000000000000
+      internalID: -488492015284538003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f3dfb2cbc894d40800000000000000
+      internalID: 5569137154040086274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa2ad8306cc9a130800000000000000
+      internalID: 3578616092565318391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f9f56fa7d33f310800000000000000
+      internalID: 1437560304390086499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec718578a5c598290800000000000000
+      internalID: -7887671728475203634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f468d829c20fdb50800000000000000
+      internalID: 6620013040254870776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbf72f5209282910800000000000000
+      internalID: 1812743940179753935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db4938b258c6cdc0800000000000000
+      internalID: -3618984992941978663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bff558c92b56380800000000000000
+      internalID: -8978573896770913389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f880cf36cd9d280800000000000000
+      internalID: -9017934456844415133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e4ce6b2d050ed0800000000000000
+      internalID: -2448536342212843879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5596590f82513d8b0800000000000000
+      internalID: -5128732285065664171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_48
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7a1733c579ff280800000000000000
+      internalID: -9007314307461830667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_49
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9901a8f610bcb4610800000000000000
+      internalID: 1606600899114438809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 77
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61eb04df2fea0add0800000000000000
+      internalID: -2476787436399575530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 77
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b841388d42101630800000000000000
+      internalID: 3895633801882192057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 77
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b52fce83a127e10800000000000000
+      internalID: 2193844800278649754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 77
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff6360d90a838fa0800000000000000
+      internalID: -5799640120367550475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6decf9b5cc4aa3a0800000000000000
+      internalID: -6653421087373857430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 58
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc924d5fcced79870800000000000000
+      internalID: 8689658977913678283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 58
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a89dc130a623f840800000000000000
+      internalID: 5256587659543681193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_57
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 58
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb311a2dca8428580800000000000000
+      internalID: -8826412412587404356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_58
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 58
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aafd5f6315d8500800000000000000
+      internalID: 400065238401001995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 58
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b53a25b5bba4210800000000000000
+      internalID: 1318071841862146913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_60
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 58
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a305e25f21f782e90800000000000000
+      internalID: -7050245497248919494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 58
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5d88999869b4700800000000000000
+      internalID: 525679299249362424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_62
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 58
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262e2ac92155ac80800000000000000
+      internalID: -8312148297314851285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_63
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 58
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ba31075c7f59660800000000000000
+      internalID: 7392086790759492362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 59
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56484baa2994b690800000000000000
+      internalID: -7587271063671126433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3bce252d795870800000000000000
+      internalID: 8672100156130934165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 40
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff9872dc6944e150800000000000000
+      internalID: 5900922143498608625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_67
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba53215d7ec716e0800000000000000
+      internalID: -1866796482894275911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_68
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 42
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7160c151d84073f0800000000000000
+      internalID: -905143461244542594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_69
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 42
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb270e3f074a3a00800000000000000
+      internalID: 736979619819236324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_70
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 42
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5d28a1e83fc0990800000000000000
+      internalID: -7418286694530361925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28578f6e8a5ebaef0800000000000000
+      internalID: -95730453466024574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_72
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2260be93728dcada0800000000000000
+      internalID: -5932128946166757854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_73
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cb3e62724200d10800000000000000
+      internalID: 2089709977674693786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759509d64eec6af90800000000000000
+      internalID: -6942634295058998953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_75
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce29c18f7411bede0800000000000000
+      internalID: -1302928666390654228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5abf7ca93eac69b0800000000000000
+      internalID: -5085498316477711777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_77
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80bf7a5950276bd0800000000000000
+      internalID: -2637103488659640182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_78
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2cd1c5eefc3e550800000000000000
+      internalID: 6189018935591813846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_79
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 25
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19def63b6e00710800000000000000
+      internalID: 1657578321223717372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_80
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7512b45dbac54a3d0800000000000000
+      internalID: -3196327942438575785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_81
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9fd658405d45600800000000000000
+      internalID: 456223677666425249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_82
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 25
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f70566fb0aa9c60800000000000000
+      internalID: 7825744046425407313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_83
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 26
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3977308c6dadcb60800000000000000
+      internalID: 7768055613803166010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1632c2432c31a3170800000000000000
+      internalID: 8158855399754965857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea86f743517708d0800000000000000
+      internalID: -2880208834176578840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283bcc927461479b0800000000000000
+      internalID: -5083413584494677118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_87
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 12
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c72e81aaec9ab50800000000000000
+      internalID: 6605037558472801410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_88
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 12
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41110c0f22f24f220800000000000000
+      internalID: 2518689918721462548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_89
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20701d6386886910800000000000000
+      internalID: 1830861147554738223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_90
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcaa53c87b810f40800000000000000
+      internalID: 5692984754762853622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 14
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c348455c6d572a0800000000000000
+      internalID: -6740245124275225582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_92
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 15
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061d6097d745ba760800000000000000
+      internalID: 7470157304802234720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakeIcing_93
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 15
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd228abdb9f177d0800000000000000
+      internalID: -2922280089913512464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CakeIcing_0: -3089081671137074105
+      CakeIcing_1: 5599815904292945245
+      CakeIcing_10: -2285812110162292752
+      CakeIcing_11: 7796073620031367560
+      CakeIcing_12: -6259732873340012643
+      CakeIcing_13: 5534451987529664194
+      CakeIcing_14: -4423921236211595530
+      CakeIcing_15: 5475780329209224913
+      CakeIcing_16: -2714624753692329070
+      CakeIcing_17: 8904433670737230695
+      CakeIcing_18: -1488913069925224680
+      CakeIcing_19: -1530185230289283573
+      CakeIcing_2: -3503509401700991031
+      CakeIcing_20: -8474987484208572761
+      CakeIcing_21: -2491001254364602818
+      CakeIcing_22: 7567884761556763218
+      CakeIcing_23: 556091276048296583
+      CakeIcing_24: 137356092914208487
+      CakeIcing_25: -7219974828075173150
+      CakeIcing_26: -8649692097804318997
+      CakeIcing_27: -5120417193534193357
+      CakeIcing_28: 9167262040306880021
+      CakeIcing_29: -5487039362991504639
+      CakeIcing_3: -4149246997712567729
+      CakeIcing_30: 6419081981645316603
+      CakeIcing_31: 2234855068288286987
+      CakeIcing_32: 428780319805927888
+      CakeIcing_33: -6176581312406627724
+      CakeIcing_34: 4949834081344774277
+      CakeIcing_35: -37589003279923254
+      CakeIcing_36: -488492015284538003
+      CakeIcing_37: 5569137154040086274
+      CakeIcing_38: 3578616092565318391
+      CakeIcing_39: 1437560304390086499
+      CakeIcing_4: 8765204707087627690
+      CakeIcing_40: -7887671728475203634
+      CakeIcing_41: 6620013040254870776
+      CakeIcing_42: 1812743940179753935
+      CakeIcing_43: -3618984992941978663
+      CakeIcing_44: -8978573896770913389
+      CakeIcing_45: -9017934456844415133
+      CakeIcing_46: -2448536342212843879
+      CakeIcing_47: -5128732285065664171
+      CakeIcing_48: -9007314307461830667
+      CakeIcing_49: 1606600899114438809
+      CakeIcing_5: -4645721502116819841
+      CakeIcing_50: -2476787436399575530
+      CakeIcing_51: 3895633801882192057
+      CakeIcing_52: 2193844800278649754
+      CakeIcing_53: -5799640120367550475
+      CakeIcing_54: -6653421087373857430
+      CakeIcing_55: 8689658977913678283
+      CakeIcing_56: 5256587659543681193
+      CakeIcing_57: -8826412412587404356
+      CakeIcing_58: 400065238401001995
+      CakeIcing_59: 1318071841862146913
+      CakeIcing_6: 6957051154333267199
+      CakeIcing_60: -7050245497248919494
+      CakeIcing_61: 525679299249362424
+      CakeIcing_62: -8312148297314851285
+      CakeIcing_63: 7392086790759492362
+      CakeIcing_64: -7587271063671126433
+      CakeIcing_65: 8672100156130934165
+      CakeIcing_66: 5900922143498608625
+      CakeIcing_67: -1866796482894275911
+      CakeIcing_68: -905143461244542594
+      CakeIcing_69: 736979619819236324
+      CakeIcing_7: 5026626940485096720
+      CakeIcing_70: -7418286694530361925
+      CakeIcing_71: -95730453466024574
+      CakeIcing_72: -5932128946166757854
+      CakeIcing_73: 2089709977674693786
+      CakeIcing_74: -6942634295058998953
+      CakeIcing_75: -1302928666390654228
+      CakeIcing_76: -5085498316477711777
+      CakeIcing_77: -2637103488659640182
+      CakeIcing_78: 6189018935591813846
+      CakeIcing_79: 1657578321223717372
+      CakeIcing_8: 4683439583068682752
+      CakeIcing_80: -3196327942438575785
+      CakeIcing_81: 456223677666425249
+      CakeIcing_82: 7825744046425407313
+      CakeIcing_83: 7768055613803166010
+      CakeIcing_84: 8158855399754965857
+      CakeIcing_85: -2880208834176578840
+      CakeIcing_86: -5083413584494677118
+      CakeIcing_87: 6605037558472801410
+      CakeIcing_88: 2518689918721462548
+      CakeIcing_89: 1830861147554738223
+      CakeIcing_9: -3206455534945853422
+      CakeIcing_90: 5692984754762853622
+      CakeIcing_91: -6740245124275225582
+      CakeIcing_92: 7470157304802234720
+      CakeIcing_93: -2922280089913512464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

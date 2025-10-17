@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: 2cd1ea85b28124e60b141a44346974a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6891476334881835581
+    second: CleanCraters_0
+  - first:
+      213: -3507606562675953062
+    second: CleanCraters_1
+  - first:
+      213: 2206603128977580482
+    second: CleanCraters_2
+  - first:
+      213: 3132464032783355219
+    second: CleanCraters_3
+  - first:
+      213: -1196618563049018391
+    second: CleanCraters_4
+  - first:
+      213: -1623735686643396648
+    second: CleanCraters_5
+  - first:
+      213: 6641493105514527913
+    second: CleanCraters_6
+  - first:
+      213: -9122237569500487428
+    second: CleanCraters_7
+  - first:
+      213: -4271651451484995451
+    second: CleanCraters_8
+  - first:
+      213: -5052468165586754284
+    second: CleanCraters_9
+  - first:
+      213: 6351315398293650610
+    second: CleanCraters_10
+  - first:
+      213: 3253803989949916467
+    second: CleanCraters_11
+  - first:
+      213: -8501196788189164619
+    second: CleanCraters_12
+  - first:
+      213: 2895182287950018475
+    second: CleanCraters_13
+  - first:
+      213: -711463830211047439
+    second: CleanCraters_14
+  - first:
+      213: -2736035598035055207
+    second: CleanCraters_15
+  - first:
+      213: 967845025813314697
+    second: CleanCraters_16
+  - first:
+      213: -4668580565357710990
+    second: CleanCraters_17
+  - first:
+      213: -1523931188959525084
+    second: CleanCraters_18
+  - first:
+      213: 3341065559975542893
+    second: CleanCraters_19
+  - first:
+      213: 7494542579262455287
+    second: CleanCraters_20
+  - first:
+      213: -40461884374600056
+    second: CleanCraters_21
+  - first:
+      213: -1094276072173380479
+    second: CleanCraters_22
+  - first:
+      213: 6401624270305484146
+    second: CleanCraters_23
+  - first:
+      213: 8568132812706152731
+    second: CleanCraters_24
+  - first:
+      213: -7565944719008995076
+    second: CleanCraters_25
+  - first:
+      213: -4718320164466145864
+    second: CleanCraters_26
+  - first:
+      213: 2386758475201965298
+    second: CleanCraters_27
+  - first:
+      213: 1953089276576420413
+    second: CleanCraters_28
+  - first:
+      213: 3539757109587628947
+    second: CleanCraters_29
+  - first:
+      213: 1594916210430088547
+    second: CleanCraters_30
+  - first:
+      213: 8741820085740832200
+    second: CleanCraters_31
+  - first:
+      213: -9079471049417787832
+    second: CleanCraters_32
+  - first:
+      213: -2198316969837709358
+    second: CleanCraters_33
+  - first:
+      213: 1394111535149849889
+    second: CleanCraters_34
+  - first:
+      213: 6690896989802274510
+    second: CleanCraters_35
+  - first:
+      213: 9027960401746994798
+    second: CleanCraters_36
+  - first:
+      213: -1954771673494887143
+    second: CleanCraters_37
+  - first:
+      213: -7728987628213829087
+    second: CleanCraters_38
+  - first:
+      213: -2590452701871503415
+    second: CleanCraters_39
+  - first:
+      213: -6953655389854648813
+    second: CleanCraters_40
+  - first:
+      213: -3110554076034353256
+    second: CleanCraters_41
+  - first:
+      213: 3499456176949019388
+    second: CleanCraters_42
+  - first:
+      213: 1710391614119705063
+    second: CleanCraters_43
+  - first:
+      213: -5519868816612984374
+    second: CleanCraters_44
+  - first:
+      213: -8310941619273592558
+    second: CleanCraters_45
+  - first:
+      213: -2069057673639498100
+    second: CleanCraters_46
+  - first:
+      213: -3143867745917639254
+    second: CleanCraters_47
+  - first:
+      213: 7908255795927971972
+    second: CleanCraters_48
+  - first:
+      213: -8682020827323752849
+    second: CleanCraters_49
+  - first:
+      213: -7636650053092176993
+    second: CleanCraters_50
+  - first:
+      213: -9042564298770254074
+    second: CleanCraters_51
+  - first:
+      213: 539766654765006200
+    second: CleanCraters_52
+  - first:
+      213: -1319717682112299113
+    second: CleanCraters_53
+  - first:
+      213: 5158033353826169113
+    second: CleanCraters_54
+  - first:
+      213: -5153095349890689701
+    second: CleanCraters_55
+  - first:
+      213: 1810551661255086369
+    second: CleanCraters_56
+  - first:
+      213: -5264099139135377818
+    second: CleanCraters_57
+  - first:
+      213: 2123624246529290140
+    second: CleanCraters_58
+  - first:
+      213: 3374295668141727998
+    second: CleanCraters_59
+  - first:
+      213: 8376851902690478127
+    second: CleanCraters_60
+  - first:
+      213: 3863539517066256028
+    second: CleanCraters_61
+  - first:
+      213: 3177991436620213616
+    second: CleanCraters_62
+  - first:
+      213: -891526720181205793
+    second: CleanCraters_63
+  - first:
+      213: -5226028318643799795
+    second: CleanCraters_64
+  - first:
+      213: 5104341887010767565
+    second: CleanCraters_65
+  - first:
+      213: -83289494134851797
+    second: CleanCraters_66
+  - first:
+      213: 8842659468760735305
+    second: CleanCraters_67
+  - first:
+      213: -6884010008503753571
+    second: CleanCraters_68
+  - first:
+      213: -7449292734139774261
+    second: CleanCraters_69
+  - first:
+      213: 5120791640603170985
+    second: CleanCraters_70
+  - first:
+      213: 3858860079987413567
+    second: CleanCraters_71
+  - first:
+      213: -4905060838943967988
+    second: CleanCraters_72
+  - first:
+      213: -6295912187056037683
+    second: CleanCraters_73
+  - first:
+      213: -5670896959433418357
+    second: CleanCraters_74
+  - first:
+      213: 6313026984434210297
+    second: CleanCraters_75
+  - first:
+      213: 4285952464046376956
+    second: CleanCraters_76
+  - first:
+      213: -9031286280399153554
+    second: CleanCraters_77
+  - first:
+      213: -7066130894762611439
+    second: CleanCraters_78
+  - first:
+      213: 6889808728005283343
+    second: CleanCraters_79
+  - first:
+      213: 7864733893655955623
+    second: CleanCraters_80
+  - first:
+      213: 7419093216618069214
+    second: CleanCraters_81
+  - first:
+      213: 7372818459410472793
+    second: CleanCraters_82
+  - first:
+      213: -1500813230723442886
+    second: CleanCraters_83
+  - first:
+      213: -5518767226984002391
+    second: CleanCraters_84
+  - first:
+      213: 2193316460066164949
+    second: CleanCraters_85
+  - first:
+      213: 8222585816065236869
+    second: CleanCraters_86
+  - first:
+      213: 5466268959317171806
+    second: CleanCraters_87
+  - first:
+      213: 830062428635238265
+    second: CleanCraters_88
+  - first:
+      213: 1520882926442910122
+    second: CleanCraters_89
+  - first:
+      213: -7227197876757231858
+    second: CleanCraters_90
+  - first:
+      213: -6057820020831069034
+    second: CleanCraters_91
+  - first:
+      213: -4203475335471362328
+    second: CleanCraters_92
+  - first:
+      213: 6260828215250581751
+    second: CleanCraters_93
+  - first:
+      213: -6957413012025819470
+    second: CleanCraters_94
+  - first:
+      213: 3116191224177835822
+    second: CleanCraters_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CleanCraters_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 186
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c57b5939ce8c50a0800000000000000
+      internalID: -6891476334881835581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 186
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52fed35a6a725fc0800000000000000
+      internalID: -3507606562675953062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 186
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c169fecadd6f9e10800000000000000
+      internalID: 2206603128977580482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 186
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d4db9f07fb87b20800000000000000
+      internalID: 3132464032783355219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 187
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb23d1c1c1c46fe0800000000000000
+      internalID: -1196618563049018391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 187
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfce74fef45779e0800000000000000
+      internalID: -1623735686643396648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 187
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac36649ac25b2c50800000000000000
+      internalID: 6641493105514527913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 188
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf06331234d476180800000000000000
+      internalID: -9122237569500487428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 188
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58084f513ab08b4c0800000000000000
+      internalID: -4271651451484995451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 188
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4156b37f8f602e9b0800000000000000
+      internalID: -5052468165586754284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 188
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcf2cb34b7642850800000000000000
+      internalID: 6351315398293650610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 188
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335a6bd4d75d72d20800000000000000
+      internalID: 3253803989949916467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb0b4aff8ea50a80800000000000000
+      internalID: -8501196788189164619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 166
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7734993f0cd2820800000000000000
+      internalID: 2895182287950018475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 166
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff4bb97a6f5026f0800000000000000
+      internalID: -711463830211047439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 166
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d0c46ae16a70ad0800000000000000
+      internalID: -2736035598035055207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 166
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c3b315ce97e6d00800000000000000
+      internalID: 967845025813314697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 166
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271bf8406bed53fb0800000000000000
+      internalID: -4668580565357710990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 166
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427cde368a8e9dae0800000000000000
+      internalID: -1523931188959525084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 166
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6042a1dc69dd5e20800000000000000
+      internalID: 3341065559975542893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7afe94c6f10860800000000000000
+      internalID: 7494542579262455287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 145
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b8ea6120407ff0800000000000000
+      internalID: -40461884374600056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c55e7c5b950d0f0800000000000000
+      internalID: -1094276072173380479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dd3194b5327d850800000000000000
+      internalID: 6401624270305484146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1108b1b56f18e670800000000000000
+      internalID: 8568132812706152731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8e9393d5d500790800000000000000
+      internalID: -7565944719008995076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5ce642fc8258eb0800000000000000
+      internalID: -4718320164466145864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fce01700387f1120800000000000000
+      internalID: 2386758475201965298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3256f06954ca1b10800000000000000
+      internalID: 1953089276576420413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 125
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3935224365ebf1130800000000000000
+      internalID: 3539757109587628947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 125
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3659239d7d7422610800000000000000
+      internalID: 1594916210430088547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c505f44d0f215970800000000000000
+      internalID: 8741820085740832200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84672078f2d3ff180800000000000000
+      internalID: -9079471049417787832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d73c15fc520e71e0800000000000000
+      internalID: -2198316969837709358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_34
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d91ed0e01e85310800000000000000
+      internalID: 1394111535149849889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_35
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece15e1cc57dadc50800000000000000
+      internalID: 6690896989802274510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e662c683722c94d70800000000000000
+      internalID: 9027960401746994798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915675015814fd4e0800000000000000
+      internalID: -1954771673494887143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1220deab3be1db490800000000000000
+      internalID: -7728987628213829087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_39
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c78f711efcdc0cd0800000000000000
+      internalID: -2590452701871503415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_40
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316bb35d347af7f90800000000000000
+      internalID: -6953655389854648813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897345b5c8715d4d0800000000000000
+      internalID: -3110554076034353256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2c71e1ad0909030800000000000000
+      internalID: 3499456176949019388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 105
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9796a6c188cb710800000000000000
+      internalID: 1710391614119705063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 105
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9f60b8e8c7563b0800000000000000
+      internalID: -5519868816612984374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 105
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211103a61aa99ac80800000000000000
+      internalID: -8310941619273592558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 105
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eebe6120b3943e0800000000000000
+      internalID: -2069057673639498100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 105
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa565c721fcbe54d0800000000000000
+      internalID: -3143867745917639254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488f5352fb4cfbd60800000000000000
+      internalID: 7908255795927971972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e13de8e04438780800000000000000
+      internalID: -8682020827323752849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b0977cc3b250690800000000000000
+      internalID: -7636650053092176993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6077b290eab528280800000000000000
+      internalID: -9042564298770254074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d7ed6a9e2ad7700800000000000000
+      internalID: 539766654765006200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 85
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff4e1a2cb6fade0800000000000000
+      internalID: -1319717682112299113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 85
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911fc62c104059740800000000000000
+      internalID: 5158033353826169113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 85
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b555c00e4178c78b0800000000000000
+      internalID: -5153095349890689701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1215a98a42f502910800000000000000
+      internalID: 1810551661255086369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 85
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e656d29b922f6b0800000000000000
+      internalID: -5264099139135377818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 85
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fe8c23001a87d10800000000000000
+      internalID: 2123624246529290140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef02aba4808e3de20800000000000000
+      internalID: 3374295668141727998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 65
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28cbeb4c6e804470800000000000000
+      internalID: 8376851902690478127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_61
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 65
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e1b6a88bc0e9530800000000000000
+      internalID: 3863539517066256028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d2bf6bf5e7a1c20800000000000000
+      internalID: 3177991436620213616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_63
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd484d7eb29a0a3f0800000000000000
+      internalID: -891526720181205793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_64
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 66
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09ba11deea6977b0800000000000000
+      internalID: -5226028318643799795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_65
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc28c6bf6e346d640800000000000000
+      internalID: 5104341887010767565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_66
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27f19875a818def0800000000000000
+      internalID: -83289494134851797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_67
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 68
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e5a39bfef67ba70800000000000000
+      internalID: 8842659468760735305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_68
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 68
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9466ecce551770a0800000000000000
+      internalID: -6884010008503753571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca43b1f9bbce9890800000000000000
+      internalID: -7449292734139774261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_70
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a811f2bdd4b01740800000000000000
+      internalID: 5120791640603170985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32d5913ccc6d8530800000000000000
+      internalID: 3858860079987413567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_72
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05b015b729bdebb0800000000000000
+      internalID: -4905060838943967988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_73
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0e879193d60a8a0800000000000000
+      internalID: -6295912187056037683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89d027d24dec41b0800000000000000
+      internalID: -5670896959433418357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_75
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f518a038906c9750800000000000000
+      internalID: 6313026984434210297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_76
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7c1bfde03ca7b30800000000000000
+      internalID: 4285952464046376956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_77
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6613ff4afc6aa280800000000000000
+      internalID: -9031286280399153554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_78
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11de241a36f00fd90800000000000000
+      internalID: -7066130894762611439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_79
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e042bc8848d9f50800000000000000
+      internalID: 6889808728005283343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a88650aec5252d60800000000000000
+      internalID: 7864733893655955623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_81
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcb704f8f9e5f660800000000000000
+      internalID: 7419093216618069214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_82
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f9a927353815660800000000000000
+      internalID: 7372818459410472793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37d58c715a0c2be0800000000000000
+      internalID: -1500813230723442886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_84
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac0d8d52766963b0800000000000000
+      internalID: -5518767226984002391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0d24223b9307e10800000000000000
+      internalID: 2193316460066164949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_86
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 34
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fdbbd0c3e7c1270800000000000000
+      internalID: 8222585816065236869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_87
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e18de28a61cdb40800000000000000
+      internalID: 5466268959317171806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_88
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 35
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f83388169f48b00800000000000000
+      internalID: 830062428635238265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1169fa6f24b1510800000000000000
+      internalID: 1520882926442910122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_90
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 36
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e078d6a82d5d3bb90800000000000000
+      internalID: -7227197876757231858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_91
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 37
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c5d1969cc4eeba0800000000000000
+      internalID: -6057820020831069034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 38
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee0d1f04714aa5c0800000000000000
+      internalID: -4203475335471362328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_93
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 38
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8f0c9271ee2e650800000000000000
+      internalID: 6260828215250581751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be358e3abd427f90800000000000000
+      internalID: -6957413012025819470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanCraters_95
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f3f49786fee3b20800000000000000
+      internalID: 3116191224177835822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CleanCraters_0: -6891476334881835581
+      CleanCraters_1: -3507606562675953062
+      CleanCraters_10: 6351315398293650610
+      CleanCraters_11: 3253803989949916467
+      CleanCraters_12: -8501196788189164619
+      CleanCraters_13: 2895182287950018475
+      CleanCraters_14: -711463830211047439
+      CleanCraters_15: -2736035598035055207
+      CleanCraters_16: 967845025813314697
+      CleanCraters_17: -4668580565357710990
+      CleanCraters_18: -1523931188959525084
+      CleanCraters_19: 3341065559975542893
+      CleanCraters_2: 2206603128977580482
+      CleanCraters_20: 7494542579262455287
+      CleanCraters_21: -40461884374600056
+      CleanCraters_22: -1094276072173380479
+      CleanCraters_23: 6401624270305484146
+      CleanCraters_24: 8568132812706152731
+      CleanCraters_25: -7565944719008995076
+      CleanCraters_26: -4718320164466145864
+      CleanCraters_27: 2386758475201965298
+      CleanCraters_28: 1953089276576420413
+      CleanCraters_29: 3539757109587628947
+      CleanCraters_3: 3132464032783355219
+      CleanCraters_30: 1594916210430088547
+      CleanCraters_31: 8741820085740832200
+      CleanCraters_32: -9079471049417787832
+      CleanCraters_33: -2198316969837709358
+      CleanCraters_34: 1394111535149849889
+      CleanCraters_35: 6690896989802274510
+      CleanCraters_36: 9027960401746994798
+      CleanCraters_37: -1954771673494887143
+      CleanCraters_38: -7728987628213829087
+      CleanCraters_39: -2590452701871503415
+      CleanCraters_4: -1196618563049018391
+      CleanCraters_40: -6953655389854648813
+      CleanCraters_41: -3110554076034353256
+      CleanCraters_42: 3499456176949019388
+      CleanCraters_43: 1710391614119705063
+      CleanCraters_44: -5519868816612984374
+      CleanCraters_45: -8310941619273592558
+      CleanCraters_46: -2069057673639498100
+      CleanCraters_47: -3143867745917639254
+      CleanCraters_48: 7908255795927971972
+      CleanCraters_49: -8682020827323752849
+      CleanCraters_5: -1623735686643396648
+      CleanCraters_50: -7636650053092176993
+      CleanCraters_51: -9042564298770254074
+      CleanCraters_52: 539766654765006200
+      CleanCraters_53: -1319717682112299113
+      CleanCraters_54: 5158033353826169113
+      CleanCraters_55: -5153095349890689701
+      CleanCraters_56: 1810551661255086369
+      CleanCraters_57: -5264099139135377818
+      CleanCraters_58: 2123624246529290140
+      CleanCraters_59: 3374295668141727998
+      CleanCraters_6: 6641493105514527913
+      CleanCraters_60: 8376851902690478127
+      CleanCraters_61: 3863539517066256028
+      CleanCraters_62: 3177991436620213616
+      CleanCraters_63: -891526720181205793
+      CleanCraters_64: -5226028318643799795
+      CleanCraters_65: 5104341887010767565
+      CleanCraters_66: -83289494134851797
+      CleanCraters_67: 8842659468760735305
+      CleanCraters_68: -6884010008503753571
+      CleanCraters_69: -7449292734139774261
+      CleanCraters_7: -9122237569500487428
+      CleanCraters_70: 5120791640603170985
+      CleanCraters_71: 3858860079987413567
+      CleanCraters_72: -4905060838943967988
+      CleanCraters_73: -6295912187056037683
+      CleanCraters_74: -5670896959433418357
+      CleanCraters_75: 6313026984434210297
+      CleanCraters_76: 4285952464046376956
+      CleanCraters_77: -9031286280399153554
+      CleanCraters_78: -7066130894762611439
+      CleanCraters_79: 6889808728005283343
+      CleanCraters_8: -4271651451484995451
+      CleanCraters_80: 7864733893655955623
+      CleanCraters_81: 7419093216618069214
+      CleanCraters_82: 7372818459410472793
+      CleanCraters_83: -1500813230723442886
+      CleanCraters_84: -5518767226984002391
+      CleanCraters_85: 2193316460066164949
+      CleanCraters_86: 8222585816065236869
+      CleanCraters_87: 5466268959317171806
+      CleanCraters_88: 830062428635238265
+      CleanCraters_89: 1520882926442910122
+      CleanCraters_9: -5052468165586754284
+      CleanCraters_90: -7227197876757231858
+      CleanCraters_91: -6057820020831069034
+      CleanCraters_92: -4203475335471362328
+      CleanCraters_93: 6260828215250581751
+      CleanCraters_94: -6957413012025819470
+      CleanCraters_95: 3116191224177835822
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

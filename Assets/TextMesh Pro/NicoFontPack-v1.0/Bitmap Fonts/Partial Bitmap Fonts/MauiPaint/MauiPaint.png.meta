@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 2590eb0a005414757823c5449bc803c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5311356355635024351
+    second: MauiPaint_0
+  - first:
+      213: 5765804307641591134
+    second: MauiPaint_1
+  - first:
+      213: -1490564675909759576
+    second: MauiPaint_2
+  - first:
+      213: -2837792790984913832
+    second: MauiPaint_3
+  - first:
+      213: -1136312565683799725
+    second: MauiPaint_4
+  - first:
+      213: 6245578574638088095
+    second: MauiPaint_5
+  - first:
+      213: 8794110209898837334
+    second: MauiPaint_6
+  - first:
+      213: 8990743825926481257
+    second: MauiPaint_7
+  - first:
+      213: -2795868280436603688
+    second: MauiPaint_8
+  - first:
+      213: 7696971666843587245
+    second: MauiPaint_9
+  - first:
+      213: 5032758345088740152
+    second: MauiPaint_10
+  - first:
+      213: -1669536898632963306
+    second: MauiPaint_11
+  - first:
+      213: 3350928362291235102
+    second: MauiPaint_12
+  - first:
+      213: 7358065658423137819
+    second: MauiPaint_13
+  - first:
+      213: 1843281445149389203
+    second: MauiPaint_14
+  - first:
+      213: 3642116785074914653
+    second: MauiPaint_15
+  - first:
+      213: 2799113060318207262
+    second: MauiPaint_16
+  - first:
+      213: -1388130328265386821
+    second: MauiPaint_17
+  - first:
+      213: -1977416219261737502
+    second: MauiPaint_18
+  - first:
+      213: -4872162534315758599
+    second: MauiPaint_19
+  - first:
+      213: -8997480356292851638
+    second: MauiPaint_20
+  - first:
+      213: 4634892678472289436
+    second: MauiPaint_21
+  - first:
+      213: 8686975718151807955
+    second: MauiPaint_22
+  - first:
+      213: -6011438970022521749
+    second: MauiPaint_23
+  - first:
+      213: 8929827759303294437
+    second: MauiPaint_24
+  - first:
+      213: -3588994976931525547
+    second: MauiPaint_25
+  - first:
+      213: 7549570193773912505
+    second: MauiPaint_26
+  - first:
+      213: 4800305577683180007
+    second: MauiPaint_27
+  - first:
+      213: 3190419496020308680
+    second: MauiPaint_28
+  - first:
+      213: 7232807839627627545
+    second: MauiPaint_29
+  - first:
+      213: -8684361462662885145
+    second: MauiPaint_30
+  - first:
+      213: 2805219484184203671
+    second: MauiPaint_31
+  - first:
+      213: -3488940584396937435
+    second: MauiPaint_32
+  - first:
+      213: -7074095750768436084
+    second: MauiPaint_33
+  - first:
+      213: 986869077019679662
+    second: MauiPaint_34
+  - first:
+      213: -572865547844021928
+    second: MauiPaint_35
+  - first:
+      213: 6008565031226939013
+    second: MauiPaint_36
+  - first:
+      213: 8446115485667334473
+    second: MauiPaint_37
+  - first:
+      213: -6373739329114398943
+    second: MauiPaint_38
+  - first:
+      213: 4299711506939601290
+    second: MauiPaint_39
+  - first:
+      213: 3899538107803512167
+    second: MauiPaint_40
+  - first:
+      213: 1417793102541405823
+    second: MauiPaint_41
+  - first:
+      213: 1733077674369492543
+    second: MauiPaint_42
+  - first:
+      213: -4209367787057859381
+    second: MauiPaint_43
+  - first:
+      213: -1709924828084690604
+    second: MauiPaint_44
+  - first:
+      213: 1249534113043402320
+    second: MauiPaint_45
+  - first:
+      213: -1047650432002559709
+    second: MauiPaint_46
+  - first:
+      213: 5085218121671006593
+    second: MauiPaint_47
+  - first:
+      213: 7450162307239688735
+    second: MauiPaint_48
+  - first:
+      213: 8856820486617312420
+    second: MauiPaint_49
+  - first:
+      213: -236033795934132757
+    second: MauiPaint_50
+  - first:
+      213: -7492390832575927212
+    second: MauiPaint_51
+  - first:
+      213: 8782914286422403473
+    second: MauiPaint_52
+  - first:
+      213: -5272003934158673558
+    second: MauiPaint_53
+  - first:
+      213: 2575551023034727539
+    second: MauiPaint_54
+  - first:
+      213: 4494921766350155982
+    second: MauiPaint_55
+  - first:
+      213: 2590545764968824101
+    second: MauiPaint_56
+  - first:
+      213: -8047394983591382207
+    second: MauiPaint_57
+  - first:
+      213: -224017277287681503
+    second: MauiPaint_58
+  - first:
+      213: 3745408749970157806
+    second: MauiPaint_59
+  - first:
+      213: 5985039529285252662
+    second: MauiPaint_60
+  - first:
+      213: -5013096119344704941
+    second: MauiPaint_61
+  - first:
+      213: 3668548336031479464
+    second: MauiPaint_62
+  - first:
+      213: 4550711036473050101
+    second: MauiPaint_63
+  - first:
+      213: 481038685674973172
+    second: MauiPaint_64
+  - first:
+      213: 4806548991637354834
+    second: MauiPaint_65
+  - first:
+      213: -7650159164118940782
+    second: MauiPaint_66
+  - first:
+      213: 6349443378732233557
+    second: MauiPaint_67
+  - first:
+      213: 3532655583790271579
+    second: MauiPaint_68
+  - first:
+      213: -2964817821961114303
+    second: MauiPaint_69
+  - first:
+      213: -232144456304632439
+    second: MauiPaint_70
+  - first:
+      213: -1474088038128052551
+    second: MauiPaint_71
+  - first:
+      213: 3355253038387994896
+    second: MauiPaint_72
+  - first:
+      213: -2863479084224894483
+    second: MauiPaint_73
+  - first:
+      213: 7121182682610903556
+    second: MauiPaint_74
+  - first:
+      213: -7526657354536148082
+    second: MauiPaint_75
+  - first:
+      213: -7847259495492539301
+    second: MauiPaint_76
+  - first:
+      213: 105459394418084157
+    second: MauiPaint_77
+  - first:
+      213: 2016390355565350051
+    second: MauiPaint_78
+  - first:
+      213: 5990002768491896717
+    second: MauiPaint_79
+  - first:
+      213: 129624019141470276
+    second: MauiPaint_80
+  - first:
+      213: -649485708650967068
+    second: MauiPaint_81
+  - first:
+      213: -2306295809309931268
+    second: MauiPaint_82
+  - first:
+      213: 5927688515275477793
+    second: MauiPaint_83
+  - first:
+      213: -802332100873754435
+    second: MauiPaint_84
+  - first:
+      213: 4641671931455196035
+    second: MauiPaint_85
+  - first:
+      213: -1490023900667915858
+    second: MauiPaint_86
+  - first:
+      213: 7325652156842926856
+    second: MauiPaint_87
+  - first:
+      213: -5911438535153960030
+    second: MauiPaint_88
+  - first:
+      213: -2419417230235373507
+    second: MauiPaint_89
+  - first:
+      213: 8492861426499527164
+    second: MauiPaint_90
+  - first:
+      213: 5987703969785778044
+    second: MauiPaint_91
+  - first:
+      213: -7779504317366837903
+    second: MauiPaint_92
+  - first:
+      213: 1630275381902268341
+    second: MauiPaint_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MauiPaint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e6cda09854a46b0800000000000000
+      internalID: -5311356355635024351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 299
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55e4612870440050800000000000000
+      internalID: 5765804307641591134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 299
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad47a91353705be0800000000000000
+      internalID: -1490564675909759576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 299
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c0e2bed722e98d0800000000000000
+      internalID: -2837792790984913832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 299
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ba90fdb10b30f0800000000000000
+      internalID: -1136312565683799725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 299
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff7168f90cca650800000000000000
+      internalID: 6245578574638088095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 299
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655f7a884a4fa0a70800000000000000
+      internalID: 8794110209898837334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 300
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96562eaefd985cc70800000000000000
+      internalID: 8990743825926481257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 302
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d44bc1bc941339d0800000000000000
+      internalID: -2795868280436603688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 302
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2557063f221da60800000000000000
+      internalID: 7696971666843587245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ba567dc03f7d540800000000000000
+      internalID: 5032758345088740152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 265
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b2399490d94d8e0800000000000000
+      internalID: -1669536898632963306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 265
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19862e6793e08e20800000000000000
+      internalID: 3350928362291235102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 266
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16df4c4bb91d1660800000000000000
+      internalID: 7358065658423137819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 266
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391b23f45b6a49910800000000000000
+      internalID: 1843281445149389203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 266
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55c0e45be56b8230800000000000000
+      internalID: 3642116785074914653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 266
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d5c6e7f7278d620800000000000000
+      internalID: 2799113060318207262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 266
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb49bc132de5cbce0800000000000000
+      internalID: -1388130328265386821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 266
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5eec5ec6ece84e0800000000000000
+      internalID: -1977416219261737502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb64262df9926cb0800000000000000
+      internalID: -4872162534315758599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 232
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a480c916947822380800000000000000
+      internalID: -8997480356292851638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 232
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c46689552725040800000000000000
+      internalID: 4634892678472289436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 232
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3e1ecd3665e8870800000000000000
+      internalID: 8686975718151807955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 232
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b641ed25b14139ca0800000000000000
+      internalID: -6011438970022521749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 232
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edf1bae80f1deb70800000000000000
+      internalID: 8929827759303294437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 232
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cc5537514513ec0800000000000000
+      internalID: -3588994976931525547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 232
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b165c6871675c860800000000000000
+      internalID: 7549570193773912505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9d1236d7c1e9240800000000000000
+      internalID: 4800305577683180007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c275c8c0a5a64c20800000000000000
+      internalID: 3190419496020308680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 199
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c4aa9b868106460800000000000000
+      internalID: 7232807839627627545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 199
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e013ece243fa7780800000000000000
+      internalID: -8684361462662885145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 199
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791ddc712442ee620800000000000000
+      internalID: 2805219484184203671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_32
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 199
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527a390160bc49fc0800000000000000
+      internalID: -3488940584396937435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 199
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd8541563c3dd90800000000000000
+      internalID: -7074095750768436084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_34
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 199
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab5397623012bd00800000000000000
+      internalID: 986869077019679662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_35
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 199
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85192b4c1d5cc08f0800000000000000
+      internalID: -572865547844021928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 199
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5869d18af06b26350800000000000000
+      internalID: 6008565031226939013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9499027e841a63570800000000000000
+      internalID: 8446115485667334473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_38
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 166
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f133589ddeb87a0800000000000000
+      internalID: -6373739329114398943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 166
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816bcfa5d4abab30800000000000000
+      internalID: 4299711506939601290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 166
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d2ab79f31fd1630800000000000000
+      internalID: 3899538107803512167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 166
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ebaf1a0530da310800000000000000
+      internalID: 1417793102541405823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 166
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3624fc66f02d0810800000000000000
+      internalID: 1733077674369492543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_43
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 166
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4b173cc425595c0800000000000000
+      internalID: -4209367787057859381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 166
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451246dad602548e0800000000000000
+      internalID: -1709924828084690604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_45
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 166
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e4faec7ac375110800000000000000
+      internalID: 1249534113043402320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321f3b79b7ff571f0800000000000000
+      internalID: -1047650432002559709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189549360f2529640800000000000000
+      internalID: 5085218121671006593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_48
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 133
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab602552b446760800000000000000
+      internalID: 7450162307239688735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac2a30ae4fb9ea70800000000000000
+      internalID: 8856820486617312420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 133
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5eb5e538079bcf0800000000000000
+      internalID: -236033795934132757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 133
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c2be1fb3ea50890800000000000000
+      internalID: -7492390832575927212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 133
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19929e6720e23e970800000000000000
+      internalID: 8782914286422403473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69a20aaa5416d6b0800000000000000
+      internalID: -5272003934158673558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_54
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cf0e472023eb320800000000000000
+      internalID: 2575551023034727539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 133
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0f878088b216e30800000000000000
+      internalID: 4494921766350155982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dfb5fd5a773f320800000000000000
+      internalID: 2590545764968824101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_57
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14376cb36e8e15090800000000000000
+      internalID: -8047394983591382207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_58
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 100
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122b7b3297124ecf0800000000000000
+      internalID: -224017277287681503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_59
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 100
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee07c900a6d5af330800000000000000
+      internalID: 3745408749970157806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_60
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 100
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636f7b5edb12f0350800000000000000
+      internalID: 5985039529285252662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_61
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 100
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352d195d3a7ed6ab0800000000000000
+      internalID: -5013096119344704941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_62
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6b18a564d49e230800000000000000
+      internalID: 3668548336031479464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_63
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 100
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f30d64b39f572f30800000000000000
+      internalID: 4550711036473050101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 101
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7a0eec22efca600800000000000000
+      internalID: 481038685674973172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 101
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2597e0a77da44b240800000000000000
+      internalID: 4806548991637354834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293cd73c5cc25d590800000000000000
+      internalID: -7650159164118940782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_67
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 69
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5537ac6bc11cd1850800000000000000
+      internalID: 6349443378732233557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_68
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 70
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c8e916983860130800000000000000
+      internalID: 3532655583790271579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_69
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 70
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14da24236e9dad6d0800000000000000
+      internalID: -2964817821961114303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_70
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 70
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dd261d8d147ccf0800000000000000
+      internalID: -232144456304632439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_71
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 70
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b699b74dbcfa8be0800000000000000
+      internalID: -1474088038128052551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_72
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 70
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011aaac8cd0409e20800000000000000
+      internalID: 3355253038387994896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 70
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9a30bb1f0e248d0800000000000000
+      internalID: -2863479084224894483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_74
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 70
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40aafa19be583d260800000000000000
+      internalID: 7121182682610903556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83aac49301fb8790800000000000000
+      internalID: -7526657354536148082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_76
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 38
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c2bdeb01fe81390800000000000000
+      internalID: -7847259495492539301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 38
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39848ea2caa67100800000000000000
+      internalID: 105459394418084157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_78
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 38
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac0ff75858abfb10800000000000000
+      internalID: 2016390355565350051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_79
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 39
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fd09318c3c02350800000000000000
+      internalID: 5990002768491896717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_80
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 39
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448294fcb548cc100800000000000000
+      internalID: 129624019141470276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 39
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef8a2960309cf6f0800000000000000
+      internalID: -649485708650967068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf80c134e246effd0800000000000000
+      internalID: -2306295809309931268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 40
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12358246c41634250800000000000000
+      internalID: 5927688515275477793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 41
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e687843b8dd4f0800000000000000
+      internalID: -802332100873754435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bc94e67088a6040800000000000000
+      internalID: 4641671931455196035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_86
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1d8d5282f525be0800000000000000
+      internalID: -1490023900667915858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 12
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80362bcd2d1f9a560800000000000000
+      internalID: 7325652156842926856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 12
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abb790f8f956fda0800000000000000
+      internalID: -5911438535153960030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 13
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d307c5409d08c6ed0800000000000000
+      internalID: -2419417230235373507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 13
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf12f156874bcd570800000000000000
+      internalID: 8492861426499527164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 14
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f074b4909981350800000000000000
+      internalID: 5987703969785778044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_92
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d5bba7a06a90490800000000000000
+      internalID: -7779504317366837903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauiPaint_93
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7595082d6ef9610800000000000000
+      internalID: 1630275381902268341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MauiPaint_0: -5311356355635024351
+      MauiPaint_1: 5765804307641591134
+      MauiPaint_10: 5032758345088740152
+      MauiPaint_11: -1669536898632963306
+      MauiPaint_12: 3350928362291235102
+      MauiPaint_13: 7358065658423137819
+      MauiPaint_14: 1843281445149389203
+      MauiPaint_15: 3642116785074914653
+      MauiPaint_16: 2799113060318207262
+      MauiPaint_17: -1388130328265386821
+      MauiPaint_18: -1977416219261737502
+      MauiPaint_19: -4872162534315758599
+      MauiPaint_2: -1490564675909759576
+      MauiPaint_20: -8997480356292851638
+      MauiPaint_21: 4634892678472289436
+      MauiPaint_22: 8686975718151807955
+      MauiPaint_23: -6011438970022521749
+      MauiPaint_24: 8929827759303294437
+      MauiPaint_25: -3588994976931525547
+      MauiPaint_26: 7549570193773912505
+      MauiPaint_27: 4800305577683180007
+      MauiPaint_28: 3190419496020308680
+      MauiPaint_29: 7232807839627627545
+      MauiPaint_3: -2837792790984913832
+      MauiPaint_30: -8684361462662885145
+      MauiPaint_31: 2805219484184203671
+      MauiPaint_32: -3488940584396937435
+      MauiPaint_33: -7074095750768436084
+      MauiPaint_34: 986869077019679662
+      MauiPaint_35: -572865547844021928
+      MauiPaint_36: 6008565031226939013
+      MauiPaint_37: 8446115485667334473
+      MauiPaint_38: -6373739329114398943
+      MauiPaint_39: 4299711506939601290
+      MauiPaint_4: -1136312565683799725
+      MauiPaint_40: 3899538107803512167
+      MauiPaint_41: 1417793102541405823
+      MauiPaint_42: 1733077674369492543
+      MauiPaint_43: -4209367787057859381
+      MauiPaint_44: -1709924828084690604
+      MauiPaint_45: 1249534113043402320
+      MauiPaint_46: -1047650432002559709
+      MauiPaint_47: 5085218121671006593
+      MauiPaint_48: 7450162307239688735
+      MauiPaint_49: 8856820486617312420
+      MauiPaint_5: 6245578574638088095
+      MauiPaint_50: -236033795934132757
+      MauiPaint_51: -7492390832575927212
+      MauiPaint_52: 8782914286422403473
+      MauiPaint_53: -5272003934158673558
+      MauiPaint_54: 2575551023034727539
+      MauiPaint_55: 4494921766350155982
+      MauiPaint_56: 2590545764968824101
+      MauiPaint_57: -8047394983591382207
+      MauiPaint_58: -224017277287681503
+      MauiPaint_59: 3745408749970157806
+      MauiPaint_6: 8794110209898837334
+      MauiPaint_60: 5985039529285252662
+      MauiPaint_61: -5013096119344704941
+      MauiPaint_62: 3668548336031479464
+      MauiPaint_63: 4550711036473050101
+      MauiPaint_64: 481038685674973172
+      MauiPaint_65: 4806548991637354834
+      MauiPaint_66: -7650159164118940782
+      MauiPaint_67: 6349443378732233557
+      MauiPaint_68: 3532655583790271579
+      MauiPaint_69: -2964817821961114303
+      MauiPaint_7: 8990743825926481257
+      MauiPaint_70: -232144456304632439
+      MauiPaint_71: -1474088038128052551
+      MauiPaint_72: 3355253038387994896
+      MauiPaint_73: -2863479084224894483
+      MauiPaint_74: 7121182682610903556
+      MauiPaint_75: -7526657354536148082
+      MauiPaint_76: -7847259495492539301
+      MauiPaint_77: 105459394418084157
+      MauiPaint_78: 2016390355565350051
+      MauiPaint_79: 5990002768491896717
+      MauiPaint_8: -2795868280436603688
+      MauiPaint_80: 129624019141470276
+      MauiPaint_81: -649485708650967068
+      MauiPaint_82: -2306295809309931268
+      MauiPaint_83: 5927688515275477793
+      MauiPaint_84: -802332100873754435
+      MauiPaint_85: 4641671931455196035
+      MauiPaint_86: -1490023900667915858
+      MauiPaint_87: 7325652156842926856
+      MauiPaint_88: -5911438535153960030
+      MauiPaint_89: -2419417230235373507
+      MauiPaint_9: 7696971666843587245
+      MauiPaint_90: 8492861426499527164
+      MauiPaint_91: 5987703969785778044
+      MauiPaint_92: -7779504317366837903
+      MauiPaint_93: 1630275381902268341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'NicoClean';
+    src: url('NicoClean-Monospaced.eot');
+    src: url('NicoClean-Monospaced.eot?#iefix') format('embedded-opentype'),
+        url('NicoClean-Monospaced.woff2') format('woff2'),
+        url('NicoClean-Monospaced.woff') format('woff'),
+        url('NicoClean-Monospaced.ttf') format('truetype'),
+        url('NicoClean-Monospaced.svg#NicoClean-Monospaced') format('svg');
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NicoClean';
+    src: url('NicoClean-Regular.eot');
+    src: url('NicoClean-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NicoClean-Regular.woff2') format('woff2'),
+        url('NicoClean-Regular.woff') format('woff'),
+        url('NicoClean-Regular.ttf') format('truetype'),
+        url('NicoClean-Regular.svg#NicoClean-Regular') format('svg');
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}

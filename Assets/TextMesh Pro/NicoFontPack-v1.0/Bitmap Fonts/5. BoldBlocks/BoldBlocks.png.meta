@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 886ff13bb38da4ee9b3e5345f3c8fb89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5025825957812989069
+    second: BoldBlocks_0
+  - first:
+      213: 2875391637370232944
+    second: BoldBlocks_1
+  - first:
+      213: 1707639986304340402
+    second: BoldBlocks_2
+  - first:
+      213: 8542081476791719821
+    second: BoldBlocks_3
+  - first:
+      213: 1458143793060391174
+    second: BoldBlocks_4
+  - first:
+      213: -2356808744532908523
+    second: BoldBlocks_5
+  - first:
+      213: 4702057253973133599
+    second: BoldBlocks_6
+  - first:
+      213: -3667009248191761402
+    second: BoldBlocks_7
+  - first:
+      213: 3837925501377810824
+    second: BoldBlocks_8
+  - first:
+      213: -7195141445546071084
+    second: BoldBlocks_9
+  - first:
+      213: 5698668361083023316
+    second: BoldBlocks_10
+  - first:
+      213: -7475017915476883399
+    second: BoldBlocks_11
+  - first:
+      213: -7333385902038967045
+    second: BoldBlocks_12
+  - first:
+      213: 8853649071244114718
+    second: BoldBlocks_13
+  - first:
+      213: -729694162425262988
+    second: BoldBlocks_14
+  - first:
+      213: 5791350088513430821
+    second: BoldBlocks_15
+  - first:
+      213: -1897597827043160857
+    second: BoldBlocks_16
+  - first:
+      213: 1694725871081598608
+    second: BoldBlocks_17
+  - first:
+      213: 2696467125524853810
+    second: BoldBlocks_18
+  - first:
+      213: 6979280114095110113
+    second: BoldBlocks_19
+  - first:
+      213: -976761397229338938
+    second: BoldBlocks_20
+  - first:
+      213: -7308240789206048276
+    second: BoldBlocks_21
+  - first:
+      213: 7909035593068339962
+    second: BoldBlocks_22
+  - first:
+      213: 2477657257479519721
+    second: BoldBlocks_23
+  - first:
+      213: 8444308413105913734
+    second: BoldBlocks_24
+  - first:
+      213: -4001890175219748140
+    second: BoldBlocks_25
+  - first:
+      213: 3040081614289151782
+    second: BoldBlocks_26
+  - first:
+      213: 5005399805233215362
+    second: BoldBlocks_27
+  - first:
+      213: 8259080995742192910
+    second: BoldBlocks_28
+  - first:
+      213: -4650674003830882532
+    second: BoldBlocks_29
+  - first:
+      213: 1689275511702437813
+    second: BoldBlocks_30
+  - first:
+      213: -1378687112508624632
+    second: BoldBlocks_31
+  - first:
+      213: -5490010409131472595
+    second: BoldBlocks_32
+  - first:
+      213: 7353354330260484494
+    second: BoldBlocks_33
+  - first:
+      213: 1903184144511253676
+    second: BoldBlocks_34
+  - first:
+      213: 1446744585450071875
+    second: BoldBlocks_35
+  - first:
+      213: -4005359781760214602
+    second: BoldBlocks_36
+  - first:
+      213: 2104432101845285860
+    second: BoldBlocks_37
+  - first:
+      213: -5342437144287330406
+    second: BoldBlocks_38
+  - first:
+      213: 1833183932268578146
+    second: BoldBlocks_39
+  - first:
+      213: -4983253426153639961
+    second: BoldBlocks_40
+  - first:
+      213: 7864208869453211141
+    second: BoldBlocks_41
+  - first:
+      213: -6793821685023430745
+    second: BoldBlocks_42
+  - first:
+      213: -1463028295855514367
+    second: BoldBlocks_43
+  - first:
+      213: -4488998316315839610
+    second: BoldBlocks_44
+  - first:
+      213: 1342957694881218031
+    second: BoldBlocks_45
+  - first:
+      213: 7287933633331215716
+    second: BoldBlocks_46
+  - first:
+      213: -7247456534955750254
+    second: BoldBlocks_47
+  - first:
+      213: 3116983167124389729
+    second: BoldBlocks_48
+  - first:
+      213: 7865088505303152816
+    second: BoldBlocks_49
+  - first:
+      213: 8259774585243749392
+    second: BoldBlocks_50
+  - first:
+      213: -7769522623651689326
+    second: BoldBlocks_51
+  - first:
+      213: 4493223467760850299
+    second: BoldBlocks_52
+  - first:
+      213: -4077854084788638353
+    second: BoldBlocks_53
+  - first:
+      213: 2582667139393417328
+    second: BoldBlocks_54
+  - first:
+      213: 3459550029072983286
+    second: BoldBlocks_55
+  - first:
+      213: 4801881013108209745
+    second: BoldBlocks_56
+  - first:
+      213: -5713389216295402046
+    second: BoldBlocks_57
+  - first:
+      213: -4915521607396211095
+    second: BoldBlocks_58
+  - first:
+      213: -5763572375775805090
+    second: BoldBlocks_59
+  - first:
+      213: 2000088539707022841
+    second: BoldBlocks_60
+  - first:
+      213: -817691209917681361
+    second: BoldBlocks_61
+  - first:
+      213: 5216630250089681119
+    second: BoldBlocks_62
+  - first:
+      213: 7021676154100753437
+    second: BoldBlocks_63
+  - first:
+      213: -8214013895095416208
+    second: BoldBlocks_64
+  - first:
+      213: 3774387755805314712
+    second: BoldBlocks_65
+  - first:
+      213: -5220232310758441248
+    second: BoldBlocks_66
+  - first:
+      213: -6630624950122610403
+    second: BoldBlocks_67
+  - first:
+      213: -5997405327481110551
+    second: BoldBlocks_68
+  - first:
+      213: 6192402310945963463
+    second: BoldBlocks_69
+  - first:
+      213: -3455306155436653137
+    second: BoldBlocks_70
+  - first:
+      213: 6103536194423712916
+    second: BoldBlocks_71
+  - first:
+      213: 3387995249871715093
+    second: BoldBlocks_72
+  - first:
+      213: -6749133464390930802
+    second: BoldBlocks_73
+  - first:
+      213: 2899519109131638926
+    second: BoldBlocks_74
+  - first:
+      213: -1109406571511974836
+    second: BoldBlocks_75
+  - first:
+      213: 8511298189837217438
+    second: BoldBlocks_76
+  - first:
+      213: -5104241716527524946
+    second: BoldBlocks_77
+  - first:
+      213: -4824459572218060159
+    second: BoldBlocks_78
+  - first:
+      213: -6715143504865309458
+    second: BoldBlocks_79
+  - first:
+      213: 4004204580581708981
+    second: BoldBlocks_80
+  - first:
+      213: 2075121248832195191
+    second: BoldBlocks_81
+  - first:
+      213: 1856444478969563610
+    second: BoldBlocks_82
+  - first:
+      213: -3231363472705502737
+    second: BoldBlocks_83
+  - first:
+      213: -4970846045988035987
+    second: BoldBlocks_84
+  - first:
+      213: 2682500861116675753
+    second: BoldBlocks_85
+  - first:
+      213: -4602114113817422465
+    second: BoldBlocks_86
+  - first:
+      213: -5839245697994828032
+    second: BoldBlocks_87
+  - first:
+      213: -1112484193392209608
+    second: BoldBlocks_88
+  - first:
+      213: 7688099407331274402
+    second: BoldBlocks_89
+  - first:
+      213: 4449112934078924018
+    second: BoldBlocks_90
+  - first:
+      213: -6656630558351855315
+    second: BoldBlocks_91
+  - first:
+      213: -810111413721443151
+    second: BoldBlocks_92
+  - first:
+      213: 4047900183877134799
+    second: BoldBlocks_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoldBlocks_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6166a4125fb540800000000000000
+      internalID: 5025825957812989069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 315
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e49fa57177e720800000000000000
+      internalID: 2875391637370232944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 317
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b15ce32581c2b710800000000000000
+      internalID: 1707639986304340402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 317
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d875d9268d19b8670800000000000000
+      internalID: 8542081476791719821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 317
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6092ec0ed0e5c3410800000000000000
+      internalID: 1458143793060391174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 317
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516e49a0feeea4fd0800000000000000
+      internalID: -2356808744532908523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 317
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f190e90f820114140800000000000000
+      internalID: 4702057253973133599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6043575748a2c1dc0800000000000000
+      internalID: -3667009248191761402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8819908c8ec034530800000000000000
+      internalID: 3837925501377810824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 319
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db298d0af8b52c90800000000000000
+      internalID: -7195141445546071084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 319
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df6c1b7eacb51f40800000000000000
+      internalID: 5698668361083023316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938c15a6fc6634890800000000000000
+      internalID: -7475017915476883399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 278
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc1c1440649a3a90800000000000000
+      internalID: -7333385902038967045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 278
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bf871fbea7eda70800000000000000
+      internalID: 8853649071244114718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 278
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c47fd760b9fd5f0800000000000000
+      internalID: -729694162425262988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 278
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52525cbb8320f5050800000000000000
+      internalID: 5791350088513430821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 278
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec0a8884d06aa5e0800000000000000
+      internalID: -1897597827043160857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 278
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eab716330e48710800000000000000
+      internalID: 1694725871081598608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_18
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 278
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347d6d6096cb6520800000000000000
+      internalID: 2696467125524853810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7369439426bd060800000000000000
+      internalID: 6979280114095110113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceb4df2fa8d172f0800000000000000
+      internalID: -976761397229338938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 243
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce16a5219b9e39a90800000000000000
+      internalID: -7308240789206048276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 243
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af262c0d7f982cd60800000000000000
+      internalID: 7909035593068339962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 243
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed3c330628626220800000000000000
+      internalID: 2477657257479519721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 243
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f350903c5303570800000000000000
+      internalID: 8444308413105913734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 243
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2b6eba61e6678c0800000000000000
+      internalID: -4001890175219748140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 243
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a6e30f1a803a20800000000000000
+      internalID: 3040081614289151782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2873cb56a90c67540800000000000000
+      internalID: 5005399805233215362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05946a38662e9270800000000000000
+      internalID: 8259080995742192910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f348342ac757fb0800000000000000
+      internalID: -4650674003830882532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_30
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf3ac2b023817710800000000000000
+      internalID: 1689275511702437813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_31
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801b382306beddce0800000000000000
+      internalID: -1378687112508624632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_32
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d298586ce909fc3b0800000000000000
+      internalID: -5490010409131472595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_33
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 208
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81b1cabdcc5c0660800000000000000
+      internalID: 7353354330260484494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 208
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacbfbb55e7796a10800000000000000
+      internalID: 1903184144511253676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 208
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347a878098ed31410800000000000000
+      internalID: 1446744585450071875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9db82ff7a1a68c0800000000000000
+      internalID: -4005359781760214602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebba6cc8d1743d10800000000000000
+      internalID: 2104432101845285860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fb6e309b9dbd5b0800000000000000
+      internalID: -5342437144287330406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_39
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26582d2e217c07910800000000000000
+      internalID: 1833183932268578146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_40
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef2d5c496de7dab0800000000000000
+      internalID: -4983253426153639961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5062c37ec48432d60800000000000000
+      internalID: 7864208869453211141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a725d43c2f77b1a0800000000000000
+      internalID: -6793821685023430745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ddf21348742bbe0800000000000000
+      internalID: -1463028295855514367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_44
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 173
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683faa6a0dfd3b1c0800000000000000
+      internalID: -4488998316315839610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedb5cf78e423a210800000000000000
+      internalID: 1342957694881218031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_46
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d3451c601f32560800000000000000
+      internalID: 7287933633331215716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_47
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c01ec1eacdb6b90800000000000000
+      internalID: -7247456534955750254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f325f0dafb14b20800000000000000
+      internalID: 3116983167124389729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b83a951358662d60800000000000000
+      internalID: 7865088505303152816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cc04e193d90a270800000000000000
+      internalID: 8259774585243749392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c41e6a65c1d2490800000000000000
+      internalID: -7769522623651689326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75955410f22b5e30800000000000000
+      internalID: 4493223467760850299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_53
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2c46b05d8867c0800000000000000
+      internalID: -4077854084788638353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_54
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0707e98641a77d320800000000000000
+      internalID: 2582667139393417328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 103
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f466950c6ac20030800000000000000
+      internalID: 3459550029072983286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_56
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 103
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158f1080755b3a240800000000000000
+      internalID: 4801881013108209745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_57
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 103
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c54a2357c6f5b0b0800000000000000
+      internalID: -5713389216295402046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 103
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9664461442f88cbb0800000000000000
+      internalID: -4915521607396211095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 103
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5101a0067da300b0800000000000000
+      internalID: -5763572375775805090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 103
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd11901eedb1cb10800000000000000
+      internalID: 2000088539707022841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_61
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 103
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21b5e84d2af6a4f0800000000000000
+      internalID: -817691209917681361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 103
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd01725d291356840800000000000000
+      internalID: 5216630250089681119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_63
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14a10d7241027160800000000000000
+      internalID: 7021676154100753437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_64
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 105
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a07b2d1e5f10e80800000000000000
+      internalID: -8214013895095416208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 105
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e0c559aa1516430800000000000000
+      internalID: 3774387755805314712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 107
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eef9301f520e87b0800000000000000
+      internalID: -5220232310758441248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 72
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1189190db94bf3a0800000000000000
+      internalID: -6630624950122610403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_68
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 74
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eff37951afe4cca0800000000000000
+      internalID: -5997405327481110551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 76
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdfd32d715dfe550800000000000000
+      internalID: 6192402310945963463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_70
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 76
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa54afecb594c00d0800000000000000
+      internalID: -3455306155436653137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 76
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c6d56b4dd14b450800000000000000
+      internalID: 6103536194423712916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_72
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 76
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b7059bab3940f20800000000000000
+      internalID: 3387995249871715093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_73
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee6416fd24652a0800000000000000
+      internalID: -6749133464390930802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_74
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e889f3774492d3820800000000000000
+      internalID: 2899519109131638926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_75
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c447b81e9989a90f0800000000000000
+      internalID: -1109406571511974836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_76
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e2caedb943e1670800000000000000
+      internalID: 8511298189837217438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_77
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 45
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea395a6c3371a29b0800000000000000
+      internalID: -5104241716527524946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_78
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 45
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182a5b484931c0db0800000000000000
+      internalID: -4824459572218060159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 45
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec4bb88f840fc2a0800000000000000
+      internalID: -6715143504865309458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_80
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 45
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b49091d9dac19730800000000000000
+      internalID: 4004204580581708981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 45
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a028608cf4ccc10800000000000000
+      internalID: 2075121248832195191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_82
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 45
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad94732fa6a63c910800000000000000
+      internalID: 1856444478969563610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_83
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 49
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe14735ca04e723d0800000000000000
+      internalID: -3231363472705502737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d626abb9bd1040bb0800000000000000
+      internalID: -4970846045988035987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_85
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 51
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6f98812582a3520800000000000000
+      internalID: 2682500861116675753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_86
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 51
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75d916b8910220c0800000000000000
+      internalID: -4602114113817422465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0075acea9f4d6fea0800000000000000
+      internalID: -5839245697994828032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 24
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831de923589af80f0800000000000000
+      internalID: -1112484193392209608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_89
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 26
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae2fdb7dad91ba60800000000000000
+      internalID: 7688099407331274402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_90
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 28
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4ce5124ac6ebd30800000000000000
+      internalID: 4449112934078924018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_91
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 28
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d217d6886c5ee93a0800000000000000
+      internalID: -6656630558351855315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_92
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 30
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4d4ac16f7e1c4f0800000000000000
+      internalID: -810111413721443151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBlocks_93
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 30
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc92c3245c70d2830800000000000000
+      internalID: 4047900183877134799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoldBlocks_0: 5025825957812989069
+      BoldBlocks_1: 2875391637370232944
+      BoldBlocks_10: 5698668361083023316
+      BoldBlocks_11: -7475017915476883399
+      BoldBlocks_12: -7333385902038967045
+      BoldBlocks_13: 8853649071244114718
+      BoldBlocks_14: -729694162425262988
+      BoldBlocks_15: 5791350088513430821
+      BoldBlocks_16: -1897597827043160857
+      BoldBlocks_17: 1694725871081598608
+      BoldBlocks_18: 2696467125524853810
+      BoldBlocks_19: 6979280114095110113
+      BoldBlocks_2: 1707639986304340402
+      BoldBlocks_20: -976761397229338938
+      BoldBlocks_21: -7308240789206048276
+      BoldBlocks_22: 7909035593068339962
+      BoldBlocks_23: 2477657257479519721
+      BoldBlocks_24: 8444308413105913734
+      BoldBlocks_25: -4001890175219748140
+      BoldBlocks_26: 3040081614289151782
+      BoldBlocks_27: 5005399805233215362
+      BoldBlocks_28: 8259080995742192910
+      BoldBlocks_29: -4650674003830882532
+      BoldBlocks_3: 8542081476791719821
+      BoldBlocks_30: 1689275511702437813
+      BoldBlocks_31: -1378687112508624632
+      BoldBlocks_32: -5490010409131472595
+      BoldBlocks_33: 7353354330260484494
+      BoldBlocks_34: 1903184144511253676
+      BoldBlocks_35: 1446744585450071875
+      BoldBlocks_36: -4005359781760214602
+      BoldBlocks_37: 2104432101845285860
+      BoldBlocks_38: -5342437144287330406
+      BoldBlocks_39: 1833183932268578146
+      BoldBlocks_4: 1458143793060391174
+      BoldBlocks_40: -4983253426153639961
+      BoldBlocks_41: 7864208869453211141
+      BoldBlocks_42: -6793821685023430745
+      BoldBlocks_43: -1463028295855514367
+      BoldBlocks_44: -4488998316315839610
+      BoldBlocks_45: 1342957694881218031
+      BoldBlocks_46: 7287933633331215716
+      BoldBlocks_47: -7247456534955750254
+      BoldBlocks_48: 3116983167124389729
+      BoldBlocks_49: 7865088505303152816
+      BoldBlocks_5: -2356808744532908523
+      BoldBlocks_50: 8259774585243749392
+      BoldBlocks_51: -7769522623651689326
+      BoldBlocks_52: 4493223467760850299
+      BoldBlocks_53: -4077854084788638353
+      BoldBlocks_54: 2582667139393417328
+      BoldBlocks_55: 3459550029072983286
+      BoldBlocks_56: 4801881013108209745
+      BoldBlocks_57: -5713389216295402046
+      BoldBlocks_58: -4915521607396211095
+      BoldBlocks_59: -5763572375775805090
+      BoldBlocks_6: 4702057253973133599
+      BoldBlocks_60: 2000088539707022841
+      BoldBlocks_61: -817691209917681361
+      BoldBlocks_62: 5216630250089681119
+      BoldBlocks_63: 7021676154100753437
+      BoldBlocks_64: -8214013895095416208
+      BoldBlocks_65: 3774387755805314712
+      BoldBlocks_66: -5220232310758441248
+      BoldBlocks_67: -6630624950122610403
+      BoldBlocks_68: -5997405327481110551
+      BoldBlocks_69: 6192402310945963463
+      BoldBlocks_7: -3667009248191761402
+      BoldBlocks_70: -3455306155436653137
+      BoldBlocks_71: 6103536194423712916
+      BoldBlocks_72: 3387995249871715093
+      BoldBlocks_73: -6749133464390930802
+      BoldBlocks_74: 2899519109131638926
+      BoldBlocks_75: -1109406571511974836
+      BoldBlocks_76: 8511298189837217438
+      BoldBlocks_77: -5104241716527524946
+      BoldBlocks_78: -4824459572218060159
+      BoldBlocks_79: -6715143504865309458
+      BoldBlocks_8: 3837925501377810824
+      BoldBlocks_80: 4004204580581708981
+      BoldBlocks_81: 2075121248832195191
+      BoldBlocks_82: 1856444478969563610
+      BoldBlocks_83: -3231363472705502737
+      BoldBlocks_84: -4970846045988035987
+      BoldBlocks_85: 2682500861116675753
+      BoldBlocks_86: -4602114113817422465
+      BoldBlocks_87: -5839245697994828032
+      BoldBlocks_88: -1112484193392209608
+      BoldBlocks_89: 7688099407331274402
+      BoldBlocks_9: -7195141445546071084
+      BoldBlocks_90: 4449112934078924018
+      BoldBlocks_91: -6656630558351855315
+      BoldBlocks_92: -810111413721443151
+      BoldBlocks_93: 4047900183877134799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

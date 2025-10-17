@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'NicoBold';
+    src: url('NicoBold-Monospaced.eot');
+    src: url('NicoBold-Monospaced.eot?#iefix') format('embedded-opentype'),
+        url('NicoBold-Monospaced.woff2') format('woff2'),
+        url('NicoBold-Monospaced.woff') format('woff'),
+        url('NicoBold-Monospaced.ttf') format('truetype'),
+        url('NicoBold-Monospaced.svg#NicoBold-Monospaced') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NicoBold';
+    src: url('NicoBold-Regular.eot');
+    src: url('NicoBold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NicoBold-Regular.woff2') format('woff2'),
+        url('NicoBold-Regular.woff') format('woff'),
+        url('NicoBold-Regular.ttf') format('truetype'),
+        url('NicoBold-Regular.svg#NicoBold-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 6b6dccaaff5b24cc5805287ebcab004a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9145877512273560739
+    second: BoldBasic_0
+  - first:
+      213: -554244001872932938
+    second: BoldBasic_1
+  - first:
+      213: 5249254405986401792
+    second: BoldBasic_2
+  - first:
+      213: -8945651369285341985
+    second: BoldBasic_3
+  - first:
+      213: 5927020640226830971
+    second: BoldBasic_4
+  - first:
+      213: 268057995238692427
+    second: BoldBasic_5
+  - first:
+      213: 4562436300365788861
+    second: BoldBasic_6
+  - first:
+      213: 8365431442744621375
+    second: BoldBasic_7
+  - first:
+      213: 1207727811254088405
+    second: BoldBasic_8
+  - first:
+      213: 3982082148574281842
+    second: BoldBasic_9
+  - first:
+      213: -244572483523458174
+    second: BoldBasic_10
+  - first:
+      213: -9195463620899653921
+    second: BoldBasic_11
+  - first:
+      213: -4989802284126872051
+    second: BoldBasic_12
+  - first:
+      213: -6531742430083527116
+    second: BoldBasic_13
+  - first:
+      213: -7421436617768705377
+    second: BoldBasic_14
+  - first:
+      213: 3515012403184662930
+    second: BoldBasic_15
+  - first:
+      213: 146211388932950979
+    second: BoldBasic_16
+  - first:
+      213: 236563928367004176
+    second: BoldBasic_17
+  - first:
+      213: -3551359923689411510
+    second: BoldBasic_18
+  - first:
+      213: -6478468713275346057
+    second: BoldBasic_19
+  - first:
+      213: -8113948172444494642
+    second: BoldBasic_20
+  - first:
+      213: -7691210518951383540
+    second: BoldBasic_21
+  - first:
+      213: 3138522718997215192
+    second: BoldBasic_22
+  - first:
+      213: 6944038813931796811
+    second: BoldBasic_23
+  - first:
+      213: -2411149733735050308
+    second: BoldBasic_24
+  - first:
+      213: -5745013477619708916
+    second: BoldBasic_25
+  - first:
+      213: -5355094046714517102
+    second: BoldBasic_26
+  - first:
+      213: -7879742969355756891
+    second: BoldBasic_27
+  - first:
+      213: 8858437133773262354
+    second: BoldBasic_28
+  - first:
+      213: 3473498202989402014
+    second: BoldBasic_29
+  - first:
+      213: 9012949264343179501
+    second: BoldBasic_30
+  - first:
+      213: 6101431413395013867
+    second: BoldBasic_31
+  - first:
+      213: 2628011000514497650
+    second: BoldBasic_32
+  - first:
+      213: -2345609984370309209
+    second: BoldBasic_33
+  - first:
+      213: 3960787150406398547
+    second: BoldBasic_34
+  - first:
+      213: -2382474961110576058
+    second: BoldBasic_35
+  - first:
+      213: -7976942913220096930
+    second: BoldBasic_36
+  - first:
+      213: 1467160907117967429
+    second: BoldBasic_37
+  - first:
+      213: -3587291484441270385
+    second: BoldBasic_38
+  - first:
+      213: -7249308108796539117
+    second: BoldBasic_39
+  - first:
+      213: -4861353030765946315
+    second: BoldBasic_40
+  - first:
+      213: -8255641736750782698
+    second: BoldBasic_41
+  - first:
+      213: -4095867222496193806
+    second: BoldBasic_42
+  - first:
+      213: 1742571038527526679
+    second: BoldBasic_43
+  - first:
+      213: -5577473032508613899
+    second: BoldBasic_44
+  - first:
+      213: 2205994654985104824
+    second: BoldBasic_45
+  - first:
+      213: 1279458786565928636
+    second: BoldBasic_46
+  - first:
+      213: 7597416833403690428
+    second: BoldBasic_47
+  - first:
+      213: 9068895569845319098
+    second: BoldBasic_48
+  - first:
+      213: -4684047353451844390
+    second: BoldBasic_49
+  - first:
+      213: -6207222648646728142
+    second: BoldBasic_50
+  - first:
+      213: 3873592527152252757
+    second: BoldBasic_51
+  - first:
+      213: 840583883972742272
+    second: BoldBasic_52
+  - first:
+      213: 145890310883062581
+    second: BoldBasic_53
+  - first:
+      213: -486085004224933237
+    second: BoldBasic_54
+  - first:
+      213: -8489239280875243929
+    second: BoldBasic_55
+  - first:
+      213: -6604974430056033259
+    second: BoldBasic_56
+  - first:
+      213: 9178723753839560537
+    second: BoldBasic_57
+  - first:
+      213: 8532452373695420927
+    second: BoldBasic_58
+  - first:
+      213: -6621566557720790323
+    second: BoldBasic_59
+  - first:
+      213: -54798938518529993
+    second: BoldBasic_60
+  - first:
+      213: 2560794272304340970
+    second: BoldBasic_61
+  - first:
+      213: -5119417531124567131
+    second: BoldBasic_62
+  - first:
+      213: -3610540279067613834
+    second: BoldBasic_63
+  - first:
+      213: -4304245901412950126
+    second: BoldBasic_64
+  - first:
+      213: 3241335336791406207
+    second: BoldBasic_65
+  - first:
+      213: 4096852857798300685
+    second: BoldBasic_66
+  - first:
+      213: -886501299042556915
+    second: BoldBasic_67
+  - first:
+      213: -5426549309557291574
+    second: BoldBasic_68
+  - first:
+      213: 1168248388735173043
+    second: BoldBasic_69
+  - first:
+      213: 5394840656437964974
+    second: BoldBasic_70
+  - first:
+      213: -1990561246945672428
+    second: BoldBasic_71
+  - first:
+      213: 6633919685013716380
+    second: BoldBasic_72
+  - first:
+      213: -4990541575744941101
+    second: BoldBasic_73
+  - first:
+      213: -6519850452801132284
+    second: BoldBasic_74
+  - first:
+      213: -2945961939211942944
+    second: BoldBasic_75
+  - first:
+      213: -4988094914604259326
+    second: BoldBasic_76
+  - first:
+      213: -1044174222788018026
+    second: BoldBasic_77
+  - first:
+      213: -3905519572606566242
+    second: BoldBasic_78
+  - first:
+      213: -3438490240094735185
+    second: BoldBasic_79
+  - first:
+      213: -7796055264403199011
+    second: BoldBasic_80
+  - first:
+      213: -2342623909368805511
+    second: BoldBasic_81
+  - first:
+      213: 3895950537261846826
+    second: BoldBasic_82
+  - first:
+      213: -3549738580900121499
+    second: BoldBasic_83
+  - first:
+      213: 7767412546895683552
+    second: BoldBasic_84
+  - first:
+      213: -2534028446168520440
+    second: BoldBasic_85
+  - first:
+      213: -2591188744531852047
+    second: BoldBasic_86
+  - first:
+      213: -2417643146135557200
+    second: BoldBasic_87
+  - first:
+      213: 1026977240667819745
+    second: BoldBasic_88
+  - first:
+      213: -558473880707413260
+    second: BoldBasic_89
+  - first:
+      213: 7525367414626101852
+    second: BoldBasic_90
+  - first:
+      213: 5645649758959586470
+    second: BoldBasic_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoldBasic_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b73b90cd0531180800000000000000
+      internalID: -9145877512273560739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 155
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf097d440eee48f0800000000000000
+      internalID: -554244001872932938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 155
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e397c021919d840800000000000000
+      internalID: 5249254405986401792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 155
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdca249c979aad380800000000000000
+      internalID: -8945651369285341985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ae02d9ed1014250800000000000000
+      internalID: 5927020640226830971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 155
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d761935558b300800000000000000
+      internalID: 268057995238692427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 155
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db676a174a7015f30800000000000000
+      internalID: 4562436300365788861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f393da1439bf71470800000000000000
+      internalID: 8365431442744621375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 156
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2f827ab06b2c010800000000000000
+      internalID: 1207727811254088405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 156
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270c13cbd92334730800000000000000
+      internalID: 3982082148574281842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 156
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bcfbd3f9a1b9cf0800000000000000
+      internalID: -244572483523458174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6bf337e86236080800000000000000
+      internalID: -9195463620899653921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 136
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e5f2b7249a0cab0800000000000000
+      internalID: -4989802284126872051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 136
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e4682ddd69a55a0800000000000000
+      internalID: -6531742430083527116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 136
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92e1d277b2c10990800000000000000
+      internalID: -7421436617768705377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 136
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299f9e84825d7c030800000000000000
+      internalID: 3515012403184662930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 136
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb077bcb72770200800000000000000
+      internalID: 146211388932950979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a7cf4b3a1784300800000000000000
+      internalID: 236563928367004176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 119
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c2fee17f807bec0800000000000000
+      internalID: -3551359923689411510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 119
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773bdb8970bd716a0800000000000000
+      internalID: -6478468713275346057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 119
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4148f6027756f80800000000000000
+      internalID: -8113948172444494642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ea72568c4534590800000000000000
+      internalID: -7691210518951383540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d77259c8c54e8b20800000000000000
+      internalID: 3138522718997215192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49fdea928e2e5060800000000000000
+      internalID: 6944038813931796811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3d17c8710e98ed0800000000000000
+      internalID: -2411149733735050308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c45a43eac9540b0800000000000000
+      internalID: -5745013477619708916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a5c64652eea5b0800000000000000
+      internalID: -5355094046714517102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa1b2e948785a290800000000000000
+      internalID: -7879742969355756891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e4faf93ad7fea70800000000000000
+      internalID: 8858437133773262354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_29
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9714255638543030800000000000000
+      internalID: 3473498202989402014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de02bcf6a9d641d70800000000000000
+      internalID: 9012949264343179501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_31
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0c1d03b83aca450800000000000000
+      internalID: 6101431413395013867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4c77c412987420800000000000000
+      internalID: 2628011000514497650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a78ff39528b27fd0800000000000000
+      internalID: -2345609984370309209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 102
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352b7ea9dea87f630800000000000000
+      internalID: 3960787150406398547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ddb055afbfeed0800000000000000
+      internalID: -2382474961110576058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c42ff1fa43c4190800000000000000
+      internalID: -7976942913220096930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5483b1952176c5410800000000000000
+      internalID: 1467160907117967429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f872814b661673ec0800000000000000
+      internalID: -3587291484441270385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fc2dbfea8456b90800000000000000
+      internalID: -7249308108796539117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a5d61dc21098cb0800000000000000
+      internalID: -4861353030765946315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617a418a4911e6d80800000000000000
+      internalID: -8255641736750782698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d2f3467e8827c0800000000000000
+      internalID: -4095867222496193806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7171153802bde2810800000000000000
+      internalID: 1742571038527526679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fad001e3d5d892b0800000000000000
+      internalID: -5577473032508613899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd2cca63744d9e10800000000000000
+      internalID: 2205994654985104824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_46
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6b30eccfc81c110800000000000000
+      internalID: 1279458786565928636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_47
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd999d6b527f6960800000000000000
+      internalID: 7597416833403690428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab57eb1c8703bdd70800000000000000
+      internalID: 9068895569845319098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adce46acfbbeefeb0800000000000000
+      internalID: -4684047353451844390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23607a963e38bd9a0800000000000000
+      internalID: -6207222648646728142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557848951e3c1c530800000000000000
+      internalID: 3873592527152252757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_52
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c0d10c69a5aab00800000000000000
+      internalID: 840583883972742272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 68
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5333b5cf67e460200800000000000000
+      internalID: 145890310883062581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 51
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82578893441149f0800000000000000
+      internalID: -486085004224933237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 51
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766732a1ad9203a80800000000000000
+      internalID: -8489239280875243929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514d8f120ca6654a0800000000000000
+      internalID: -6604974430056033259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 51
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9570c078f90616f70800000000000000
+      internalID: 9178723753839560537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_58
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 51
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9dd0d1a3c596670800000000000000
+      internalID: 8532452373695420927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_59
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 51
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca327e5c487b14a0800000000000000
+      internalID: -6621566557720790323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 51
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738d88fd7a05d3ff0800000000000000
+      internalID: -54798938518529993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 51
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef1e8fa2d4c98320800000000000000
+      internalID: 2560794272304340970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 51
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3b96811ec24f8b0800000000000000
+      internalID: -5119417531124567131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_63
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 52
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6756fe2eeb8c4edc0800000000000000
+      internalID: -3610540279067613834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_64
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f9954582f3444c0800000000000000
+      internalID: -4304245901412950126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_65
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f767f53c0598bfc20800000000000000
+      internalID: 3241335336791406207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_66
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 53
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d049c16d7f1fad830800000000000000
+      internalID: 4096852857798300685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0465a1f3c382b3f0800000000000000
+      internalID: -886501299042556915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 37
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac542bf672601b4b0800000000000000
+      internalID: -5426549309557291574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_69
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 38
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b18bfb48b3763010800000000000000
+      internalID: 1168248388735173043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0f1d27ef25eda40800000000000000
+      internalID: 5394840656437964974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 38
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4130524a71b1064e0800000000000000
+      internalID: -1990561246945672428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_72
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 38
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9db6b53eca601c50800000000000000
+      internalID: 6633919685013716380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_73
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 38
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d397ecb0e80ebab0800000000000000
+      internalID: -4990541575744941101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4096e1c8e86d485a0800000000000000
+      internalID: -6519850452801132284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_75
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 38
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e383738937dd17d0800000000000000
+      internalID: -2945961939211942944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_76
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208a41d6a1ab6cab0800000000000000
+      internalID: -4988094914604259326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_77
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690c91f93195281f0800000000000000
+      internalID: -1044174222788018026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_78
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 23
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90437b14aeccc9c0800000000000000
+      internalID: -3905519572606566242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 23
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4718338570840d0800000000000000
+      internalID: -3438490240094735185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_80
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbeee3da09dec390800000000000000
+      internalID: -7796055264403199011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_81
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9774cb757f35d7fd0800000000000000
+      internalID: -2342623909368805511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a211cfb3f52311630800000000000000
+      internalID: 3895950537261846826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_83
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564f2f7619bccbec0800000000000000
+      internalID: -3549738580900121499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef11a1de846bcb60800000000000000
+      internalID: 7767412546895683552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_85
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809e367dd8255dcd0800000000000000
+      internalID: -2534028446168520440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_86
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 26
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f44038c09f3a0cd0800000000000000
+      internalID: -2591188744531852047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_87
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 26
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbaee82e5ec27ed0800000000000000
+      internalID: -2417643146135557200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee8a66fb5e804e00800000000000000
+      internalID: 1026977240667819745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_89
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fac914e6f6ef38f0800000000000000
+      internalID: -558473880707413260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_90
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa611eac97f6860800000000000000
+      internalID: 7525367414626101852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBasic_91
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 15
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac4e093b80695e40800000000000000
+      internalID: 5645649758959586470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoldBasic_0: -9145877512273560739
+      BoldBasic_1: -554244001872932938
+      BoldBasic_10: -244572483523458174
+      BoldBasic_11: -9195463620899653921
+      BoldBasic_12: -4989802284126872051
+      BoldBasic_13: -6531742430083527116
+      BoldBasic_14: -7421436617768705377
+      BoldBasic_15: 3515012403184662930
+      BoldBasic_16: 146211388932950979
+      BoldBasic_17: 236563928367004176
+      BoldBasic_18: -3551359923689411510
+      BoldBasic_19: -6478468713275346057
+      BoldBasic_2: 5249254405986401792
+      BoldBasic_20: -8113948172444494642
+      BoldBasic_21: -7691210518951383540
+      BoldBasic_22: 3138522718997215192
+      BoldBasic_23: 6944038813931796811
+      BoldBasic_24: -2411149733735050308
+      BoldBasic_25: -5745013477619708916
+      BoldBasic_26: -5355094046714517102
+      BoldBasic_27: -7879742969355756891
+      BoldBasic_28: 8858437133773262354
+      BoldBasic_29: 3473498202989402014
+      BoldBasic_3: -8945651369285341985
+      BoldBasic_30: 9012949264343179501
+      BoldBasic_31: 6101431413395013867
+      BoldBasic_32: 2628011000514497650
+      BoldBasic_33: -2345609984370309209
+      BoldBasic_34: 3960787150406398547
+      BoldBasic_35: -2382474961110576058
+      BoldBasic_36: -7976942913220096930
+      BoldBasic_37: 1467160907117967429
+      BoldBasic_38: -3587291484441270385
+      BoldBasic_39: -7249308108796539117
+      BoldBasic_4: 5927020640226830971
+      BoldBasic_40: -4861353030765946315
+      BoldBasic_41: -8255641736750782698
+      BoldBasic_42: -4095867222496193806
+      BoldBasic_43: 1742571038527526679
+      BoldBasic_44: -5577473032508613899
+      BoldBasic_45: 2205994654985104824
+      BoldBasic_46: 1279458786565928636
+      BoldBasic_47: 7597416833403690428
+      BoldBasic_48: 9068895569845319098
+      BoldBasic_49: -4684047353451844390
+      BoldBasic_5: 268057995238692427
+      BoldBasic_50: -6207222648646728142
+      BoldBasic_51: 3873592527152252757
+      BoldBasic_52: 840583883972742272
+      BoldBasic_53: 145890310883062581
+      BoldBasic_54: -486085004224933237
+      BoldBasic_55: -8489239280875243929
+      BoldBasic_56: -6604974430056033259
+      BoldBasic_57: 9178723753839560537
+      BoldBasic_58: 8532452373695420927
+      BoldBasic_59: -6621566557720790323
+      BoldBasic_6: 4562436300365788861
+      BoldBasic_60: -54798938518529993
+      BoldBasic_61: 2560794272304340970
+      BoldBasic_62: -5119417531124567131
+      BoldBasic_63: -3610540279067613834
+      BoldBasic_64: -4304245901412950126
+      BoldBasic_65: 3241335336791406207
+      BoldBasic_66: 4096852857798300685
+      BoldBasic_67: -886501299042556915
+      BoldBasic_68: -5426549309557291574
+      BoldBasic_69: 1168248388735173043
+      BoldBasic_7: 8365431442744621375
+      BoldBasic_70: 5394840656437964974
+      BoldBasic_71: -1990561246945672428
+      BoldBasic_72: 6633919685013716380
+      BoldBasic_73: -4990541575744941101
+      BoldBasic_74: -6519850452801132284
+      BoldBasic_75: -2945961939211942944
+      BoldBasic_76: -4988094914604259326
+      BoldBasic_77: -1044174222788018026
+      BoldBasic_78: -3905519572606566242
+      BoldBasic_79: -3438490240094735185
+      BoldBasic_8: 1207727811254088405
+      BoldBasic_80: -7796055264403199011
+      BoldBasic_81: -2342623909368805511
+      BoldBasic_82: 3895950537261846826
+      BoldBasic_83: -3549738580900121499
+      BoldBasic_84: 7767412546895683552
+      BoldBasic_85: -2534028446168520440
+      BoldBasic_86: -2591188744531852047
+      BoldBasic_87: -2417643146135557200
+      BoldBasic_88: 1026977240667819745
+      BoldBasic_89: -558473880707413260
+      BoldBasic_9: 3982082148574281842
+      BoldBasic_90: 7525367414626101852
+      BoldBasic_91: 5645649758959586470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

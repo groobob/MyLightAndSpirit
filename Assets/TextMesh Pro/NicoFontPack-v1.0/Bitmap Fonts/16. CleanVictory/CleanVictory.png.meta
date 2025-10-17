@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 38e1bb68d54c7476cbae2b27ca471c5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4067630527987147002
+    second: CleanVictory_0
+  - first:
+      213: 1421021426934570420
+    second: CleanVictory_1
+  - first:
+      213: 8742964189929771132
+    second: CleanVictory_2
+  - first:
+      213: -5959284748579675298
+    second: CleanVictory_3
+  - first:
+      213: 3866235089983728882
+    second: CleanVictory_4
+  - first:
+      213: 6428195803087459654
+    second: CleanVictory_5
+  - first:
+      213: 2537116221612272988
+    second: CleanVictory_6
+  - first:
+      213: 1503904091805706775
+    second: CleanVictory_7
+  - first:
+      213: -618829649108796401
+    second: CleanVictory_8
+  - first:
+      213: 2254970206609481598
+    second: CleanVictory_9
+  - first:
+      213: 2051282246264346364
+    second: CleanVictory_10
+  - first:
+      213: 8368081835624914555
+    second: CleanVictory_11
+  - first:
+      213: 8403194147361012720
+    second: CleanVictory_12
+  - first:
+      213: -7802616634604418481
+    second: CleanVictory_13
+  - first:
+      213: -1252231510540551078
+    second: CleanVictory_14
+  - first:
+      213: -1544150237376771361
+    second: CleanVictory_15
+  - first:
+      213: -7605830429853226361
+    second: CleanVictory_16
+  - first:
+      213: -1050998787470565668
+    second: CleanVictory_17
+  - first:
+      213: -2233049059637257450
+    second: CleanVictory_18
+  - first:
+      213: -8032941239236524726
+    second: CleanVictory_19
+  - first:
+      213: 5197249888460214554
+    second: CleanVictory_20
+  - first:
+      213: -2832259336306610510
+    second: CleanVictory_21
+  - first:
+      213: -4638960635489908025
+    second: CleanVictory_22
+  - first:
+      213: 7033344334523278675
+    second: CleanVictory_23
+  - first:
+      213: 2282277866065333872
+    second: CleanVictory_24
+  - first:
+      213: 4188493145739324886
+    second: CleanVictory_25
+  - first:
+      213: -6876364555388429486
+    second: CleanVictory_26
+  - first:
+      213: -3600931144786788395
+    second: CleanVictory_27
+  - first:
+      213: -2381616520242233646
+    second: CleanVictory_28
+  - first:
+      213: -1867442585029430416
+    second: CleanVictory_29
+  - first:
+      213: 5145780223976670395
+    second: CleanVictory_30
+  - first:
+      213: -6216960459006956767
+    second: CleanVictory_31
+  - first:
+      213: 3184865169418346911
+    second: CleanVictory_32
+  - first:
+      213: -510867099923176446
+    second: CleanVictory_33
+  - first:
+      213: 4286365593450639660
+    second: CleanVictory_34
+  - first:
+      213: 7863811663984331653
+    second: CleanVictory_35
+  - first:
+      213: -8507109252039760508
+    second: CleanVictory_36
+  - first:
+      213: -5226046646556859676
+    second: CleanVictory_37
+  - first:
+      213: 3838971619530179218
+    second: CleanVictory_38
+  - first:
+      213: 2195976214984799126
+    second: CleanVictory_39
+  - first:
+      213: -7073329492452547759
+    second: CleanVictory_40
+  - first:
+      213: 3225884302142366857
+    second: CleanVictory_41
+  - first:
+      213: 7285999236516529677
+    second: CleanVictory_42
+  - first:
+      213: -1836888014210669877
+    second: CleanVictory_43
+  - first:
+      213: 2653414768086822393
+    second: CleanVictory_44
+  - first:
+      213: -412493032296285014
+    second: CleanVictory_45
+  - first:
+      213: 4636690214160910006
+    second: CleanVictory_46
+  - first:
+      213: -5481440738565090109
+    second: CleanVictory_47
+  - first:
+      213: -5692780413669510997
+    second: CleanVictory_48
+  - first:
+      213: 3166584075728194746
+    second: CleanVictory_49
+  - first:
+      213: 7470398014442455505
+    second: CleanVictory_50
+  - first:
+      213: 8420723360261313240
+    second: CleanVictory_51
+  - first:
+      213: -3772247004560617148
+    second: CleanVictory_52
+  - first:
+      213: -8881236401091901824
+    second: CleanVictory_53
+  - first:
+      213: 1114171826229481667
+    second: CleanVictory_54
+  - first:
+      213: 9092173562580539624
+    second: CleanVictory_55
+  - first:
+      213: 1180640881774998723
+    second: CleanVictory_56
+  - first:
+      213: 925381018343228498
+    second: CleanVictory_57
+  - first:
+      213: 6304148584798086910
+    second: CleanVictory_58
+  - first:
+      213: 5952904242573190768
+    second: CleanVictory_59
+  - first:
+      213: 1985173017121643480
+    second: CleanVictory_60
+  - first:
+      213: 1061054359442396761
+    second: CleanVictory_61
+  - first:
+      213: -8472437942134899809
+    second: CleanVictory_62
+  - first:
+      213: 3564300491755902431
+    second: CleanVictory_63
+  - first:
+      213: 4467111010090325976
+    second: CleanVictory_64
+  - first:
+      213: 5906770681281178488
+    second: CleanVictory_65
+  - first:
+      213: 6774414520528933646
+    second: CleanVictory_66
+  - first:
+      213: 5181388719947515970
+    second: CleanVictory_67
+  - first:
+      213: -1453179582888727909
+    second: CleanVictory_68
+  - first:
+      213: 2035260282721412349
+    second: CleanVictory_69
+  - first:
+      213: -3835692404499694190
+    second: CleanVictory_70
+  - first:
+      213: 740557828145101585
+    second: CleanVictory_71
+  - first:
+      213: -7219251459933883162
+    second: CleanVictory_72
+  - first:
+      213: 3471744173048917052
+    second: CleanVictory_73
+  - first:
+      213: 7754362624783691015
+    second: CleanVictory_74
+  - first:
+      213: -8911749905647100966
+    second: CleanVictory_75
+  - first:
+      213: 2712493422331145479
+    second: CleanVictory_76
+  - first:
+      213: -7619546085947345900
+    second: CleanVictory_77
+  - first:
+      213: 2850805364034235131
+    second: CleanVictory_78
+  - first:
+      213: 3113666857597605462
+    second: CleanVictory_79
+  - first:
+      213: 3240181848238680772
+    second: CleanVictory_80
+  - first:
+      213: -4467507451371031973
+    second: CleanVictory_81
+  - first:
+      213: -4137952216629121362
+    second: CleanVictory_82
+  - first:
+      213: 1976513697897835399
+    second: CleanVictory_83
+  - first:
+      213: 5130235697492673002
+    second: CleanVictory_84
+  - first:
+      213: 1819234525100002654
+    second: CleanVictory_85
+  - first:
+      213: -4225310253722589336
+    second: CleanVictory_86
+  - first:
+      213: -1130888304198976699
+    second: CleanVictory_87
+  - first:
+      213: 5172449672931852185
+    second: CleanVictory_88
+  - first:
+      213: -1459969535288876437
+    second: CleanVictory_89
+  - first:
+      213: 4601218991015680172
+    second: CleanVictory_90
+  - first:
+      213: 2378139978296984904
+    second: CleanVictory_91
+  - first:
+      213: -5645384338025671406
+    second: CleanVictory_92
+  - first:
+      213: -8922089609038328290
+    second: CleanVictory_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CleanVictory_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 209
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0653af960237830800000000000000
+      internalID: 4067630527987147002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd57aa757b78b310800000000000000
+      internalID: 1421021426934570420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 209
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7099b8cb9f355970800000000000000
+      internalID: 8742964189929771132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 209
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e536185481e5c4da0800000000000000
+      internalID: -5959284748579675298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc61a48450a7a530800000000000000
+      internalID: 3866235089983728882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 210
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6455fad560a853950800000000000000
+      internalID: 6428195803087459654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 210
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5da417e2c5a53320800000000000000
+      internalID: 2537116221612272988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 211
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ae550bdc0fed410800000000000000
+      internalID: 1503904091805706775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 211
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cf36c76b97967f0800000000000000
+      internalID: -618829649108796401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 211
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f1c00a4734b4f10800000000000000
+      internalID: 2254970206609481598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 211
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6d6a6b55e977c10800000000000000
+      internalID: 2051282246264346364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 185
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e52dfe716612470800000000000000
+      internalID: 8368081835624914555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 185
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb38141e842e9470800000000000000
+      internalID: 8403194147361012720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 186
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a89d7c28987b390800000000000000
+      internalID: -7802616634604418481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 186
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cfda5631e2f9ee0800000000000000
+      internalID: -1252231510540551078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 186
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda82555a83129ae0800000000000000
+      internalID: -1544150237376771361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 186
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78aedbe7589a27690800000000000000
+      internalID: -7605830429853226361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 186
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde5375db2a1a61f0800000000000000
+      internalID: -1050998787470565668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 186
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b1d4226bd9201e0800000000000000
+      internalID: -2233049059637257450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4588b5d082458090800000000000000
+      internalID: -8032941239236524726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 162
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a111c92cc37502840800000000000000
+      internalID: 5197249888460214554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 162
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be29abb32bc1b8d0800000000000000
+      internalID: -2832259336306610510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 162
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca8a9a51e91f9fb0800000000000000
+      internalID: -4638960635489908025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 162
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355244278657b9160800000000000000
+      internalID: 7033344334523278675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 162
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e8f8d80a74caf10800000000000000
+      internalID: 2282277866065333872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 162
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd63ff0354802a30800000000000000
+      internalID: 4188493145739324886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 162
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b5cf19ede3290a0800000000000000
+      internalID: -6876364555388429486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 139
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb75ec33ce60ec0800000000000000
+      internalID: -3600931144786788395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 139
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de72c7a46cc2fed0800000000000000
+      internalID: -2381616520242233646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 139
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07332e0fcd28516e0800000000000000
+      internalID: -1867442585029430416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 139
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb40c56a9db796740800000000000000
+      internalID: 5145780223976670395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 139
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bad32c66be8b9a0800000000000000
+      internalID: -6216960459006956767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 139
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91e1b85ff9e23c20800000000000000
+      internalID: 3184865169418346911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 139
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20425ad441909e8f0800000000000000
+      internalID: -510867099923176446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 139
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21f41f0cca3c7b30800000000000000
+      internalID: 4286365593450639660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 139
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b0c5c4b0fd12d60800000000000000
+      internalID: 7863811663984331653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852bb6353da0f980800000000000000
+      internalID: -8507109252039760508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e26b54834a5977b0800000000000000
+      internalID: -5226046646556859676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29207e42954c64530800000000000000
+      internalID: 3838971619530179218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69330659bbca97e10800000000000000
+      internalID: 2195976214984799126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153621f7d4c76dd90800000000000000
+      internalID: -7073329492452547759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98464bb6ea4a4cc20800000000000000
+      internalID: 3225884302142366857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06c556e3b11d1560800000000000000
+      internalID: 7285999236516529677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 116
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2ecc455101286e0800000000000000
+      internalID: -1836888014210669877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_44
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd27955ca2d2d420800000000000000
+      internalID: 2653414768086822393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacf7a9c5c7864af0800000000000000
+      internalID: -412493032296285014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_46
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6479cfe25d85040800000000000000
+      internalID: 4636690214160910006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41970b0b20ee3b0800000000000000
+      internalID: -5481440738565090109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_48
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba07dea106e2ff0b0800000000000000
+      internalID: -5692780413669510997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_49
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc00398077f1fb20800000000000000
+      internalID: 3166584075728194746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d140ad0a6f2ca760800000000000000
+      internalID: 7470398014442455505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d29530084b6cd470800000000000000
+      internalID: 8420723360261313240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4411228e55946abc0800000000000000
+      internalID: -3772247004560617148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_53
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08606aa4c828fb480800000000000000
+      internalID: -8881236401091901824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c018217f55567f00800000000000000
+      internalID: 1114171826229481667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 70
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e89fc9cea3ed2e70800000000000000
+      internalID: 9092173562580539624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4b08d60aa726010800000000000000
+      internalID: 1180640881774998723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_57
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 70
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254cc30222d97dc00800000000000000
+      internalID: 925381018343228498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6eb20bcb5dc7750800000000000000
+      internalID: 6304148584798086910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_59
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 70
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076ad786ed6fc9250800000000000000
+      internalID: 5952904242573190768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_60
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 70
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbd9375750cc8b10800000000000000
+      internalID: 1985173017121643480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_61
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 70
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95691f5715f99be00800000000000000
+      internalID: 1061054359442396761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_62
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 70
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bf18d949adb6a80800000000000000
+      internalID: -8472437942134899809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_63
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 71
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd55cdba960f67130800000000000000
+      internalID: 3564300491755902431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 71
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d79ba0cbcd5efd30800000000000000
+      internalID: 4467111010090325976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87be473a3a019f150800000000000000
+      internalID: 5906770681281178488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_66
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 50
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0310613d1e830e50800000000000000
+      internalID: 6774414520528933646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 50
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24800bfa69df7e740800000000000000
+      internalID: 5181388719947515970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_68
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a211f5ed445dbe0800000000000000
+      internalID: -1453179582888727909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_69
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df42211a172be3c10800000000000000
+      internalID: 2035260282721412349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_70
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29db12a9412e4cac0800000000000000
+      internalID: -3835692404499694190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_71
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 50
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b393acb6df64a00800000000000000
+      internalID: 740557828145101585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_72
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 50
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4bb62eb0110db90800000000000000
+      internalID: -7219251459933883162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_73
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 50
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cec996eec1e2030800000000000000
+      internalID: 3471744173048917052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 28
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d2ccd09b70d9b60800000000000000
+      internalID: 7754362624783691015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 28
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb98c26daa135480800000000000000
+      internalID: -8911749905647100966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 28
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70da1ad6566b4a520800000000000000
+      internalID: 2712493422331145479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_77
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 28
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f365743fe14690800000000000000
+      internalID: -7619546085947345900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_78
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 28
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfae907df58109720800000000000000
+      internalID: 2850805364034235131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_79
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 28
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65613049287f53b20800000000000000
+      internalID: 3113666857597605462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 28
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca6fe7493077fc20800000000000000
+      internalID: 3240181848238680772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b527e9194a93002c0800000000000000
+      internalID: -4467507451371031973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_82
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 29
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaee74ef16a0396c0800000000000000
+      internalID: -4137952216629121362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78be4e87cbcfd6b10800000000000000
+      internalID: 1976513697897835399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1441b8f22423740800000000000000
+      internalID: 5130235697492673002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 12
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d46bf69283f3910800000000000000
+      internalID: 1819234525100002654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_86
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 12
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867ac0df5beac55c0800000000000000
+      internalID: -4225310253722589336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_87
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 12
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b739b34174e40f0800000000000000
+      internalID: -1130888304198976699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_88
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 13
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f30bd929b38c740800000000000000
+      internalID: 5172449672931852185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 14
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62e63261752dbbe0800000000000000
+      internalID: -1459969535288876437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca855454b40dadf30800000000000000
+      internalID: 4601218991015680172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_91
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8450c88d5b9d00120800000000000000
+      internalID: 2378139978296984904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_92
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2151d67ead097a1b0800000000000000
+      internalID: -5645384338025671406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanVictory_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e011795ce5e2480800000000000000
+      internalID: -8922089609038328290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CleanVictory_0: 4067630527987147002
+      CleanVictory_1: 1421021426934570420
+      CleanVictory_10: 2051282246264346364
+      CleanVictory_11: 8368081835624914555
+      CleanVictory_12: 8403194147361012720
+      CleanVictory_13: -7802616634604418481
+      CleanVictory_14: -1252231510540551078
+      CleanVictory_15: -1544150237376771361
+      CleanVictory_16: -7605830429853226361
+      CleanVictory_17: -1050998787470565668
+      CleanVictory_18: -2233049059637257450
+      CleanVictory_19: -8032941239236524726
+      CleanVictory_2: 8742964189929771132
+      CleanVictory_20: 5197249888460214554
+      CleanVictory_21: -2832259336306610510
+      CleanVictory_22: -4638960635489908025
+      CleanVictory_23: 7033344334523278675
+      CleanVictory_24: 2282277866065333872
+      CleanVictory_25: 4188493145739324886
+      CleanVictory_26: -6876364555388429486
+      CleanVictory_27: -3600931144786788395
+      CleanVictory_28: -2381616520242233646
+      CleanVictory_29: -1867442585029430416
+      CleanVictory_3: -5959284748579675298
+      CleanVictory_30: 5145780223976670395
+      CleanVictory_31: -6216960459006956767
+      CleanVictory_32: 3184865169418346911
+      CleanVictory_33: -510867099923176446
+      CleanVictory_34: 4286365593450639660
+      CleanVictory_35: 7863811663984331653
+      CleanVictory_36: -8507109252039760508
+      CleanVictory_37: -5226046646556859676
+      CleanVictory_38: 3838971619530179218
+      CleanVictory_39: 2195976214984799126
+      CleanVictory_4: 3866235089983728882
+      CleanVictory_40: -7073329492452547759
+      CleanVictory_41: 3225884302142366857
+      CleanVictory_42: 7285999236516529677
+      CleanVictory_43: -1836888014210669877
+      CleanVictory_44: 2653414768086822393
+      CleanVictory_45: -412493032296285014
+      CleanVictory_46: 4636690214160910006
+      CleanVictory_47: -5481440738565090109
+      CleanVictory_48: -5692780413669510997
+      CleanVictory_49: 3166584075728194746
+      CleanVictory_5: 6428195803087459654
+      CleanVictory_50: 7470398014442455505
+      CleanVictory_51: 8420723360261313240
+      CleanVictory_52: -3772247004560617148
+      CleanVictory_53: -8881236401091901824
+      CleanVictory_54: 1114171826229481667
+      CleanVictory_55: 9092173562580539624
+      CleanVictory_56: 1180640881774998723
+      CleanVictory_57: 925381018343228498
+      CleanVictory_58: 6304148584798086910
+      CleanVictory_59: 5952904242573190768
+      CleanVictory_6: 2537116221612272988
+      CleanVictory_60: 1985173017121643480
+      CleanVictory_61: 1061054359442396761
+      CleanVictory_62: -8472437942134899809
+      CleanVictory_63: 3564300491755902431
+      CleanVictory_64: 4467111010090325976
+      CleanVictory_65: 5906770681281178488
+      CleanVictory_66: 6774414520528933646
+      CleanVictory_67: 5181388719947515970
+      CleanVictory_68: -1453179582888727909
+      CleanVictory_69: 2035260282721412349
+      CleanVictory_7: 1503904091805706775
+      CleanVictory_70: -3835692404499694190
+      CleanVictory_71: 740557828145101585
+      CleanVictory_72: -7219251459933883162
+      CleanVictory_73: 3471744173048917052
+      CleanVictory_74: 7754362624783691015
+      CleanVictory_75: -8911749905647100966
+      CleanVictory_76: 2712493422331145479
+      CleanVictory_77: -7619546085947345900
+      CleanVictory_78: 2850805364034235131
+      CleanVictory_79: 3113666857597605462
+      CleanVictory_8: -618829649108796401
+      CleanVictory_80: 3240181848238680772
+      CleanVictory_81: -4467507451371031973
+      CleanVictory_82: -4137952216629121362
+      CleanVictory_83: 1976513697897835399
+      CleanVictory_84: 5130235697492673002
+      CleanVictory_85: 1819234525100002654
+      CleanVictory_86: -4225310253722589336
+      CleanVictory_87: -1130888304198976699
+      CleanVictory_88: 5172449672931852185
+      CleanVictory_89: -1459969535288876437
+      CleanVictory_9: 2254970206609481598
+      CleanVictory_90: 4601218991015680172
+      CleanVictory_91: 2378139978296984904
+      CleanVictory_92: -5645384338025671406
+      CleanVictory_93: -8922089609038328290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
