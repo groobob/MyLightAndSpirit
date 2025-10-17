@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3051126843964389159}
   - component: {fileID: 8035235667104137547}
   - component: {fileID: 7899860285212590549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,11 +104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f440e57ad993ada4d8187bc0a2924ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Switch
-  lightFormBlock: 0
-  visibleBlock: 1
+  lightFormBlock: 1
   movableBlock: 0
-  isLightForm: 0
   linkedBlock: {fileID: 0}
+  switchMode: 0
+  interactionKey: 101
 --- !u!61 &7899860285212590549
 BoxCollider2D:
   m_ObjectHideFlags: 0

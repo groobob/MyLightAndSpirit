@@ -1,11 +1,14 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
     public float maxDistance = 100;
-    public LayerMask reflectionLayers; // layers that can reflect rays
+    public float spotlightRayDistance = 0.4f;
+    public LayerMask hittableLayers; // layers that can reflect rays
+    
     // TODO: what value to make this?
     protected int reflectionLimit = 100; // number of times to check if ray is reflected 
     
@@ -16,15 +19,16 @@ public class SimultaneousRaycast : MonoBehaviour{
     void Update(){
         Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         CastRaysInCone(direction);
+        CircularRayCasts();
     }
 
     protected bool CheckHit(RaycastHit2D hit, int reflectionCount){
         if(hit.collider != null){ // if ray hits an object
-            Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
+            //Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
             return true;
         } 
         else{ // if ray didn't hit anything
-            Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
+            //Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
             return false;
         }
     }
@@ -38,23 +42,44 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    protected void ReflectRay(Vector2 initialRayDirection, int rayIndex){
+    void ReflectRay(Vector2 initialRayDirection, int rayIndex, float distance)
+    {
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
         int reflectionCount = 0;
 
-        for(int i = 0; i < reflectionLimit; i++){
-            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, reflectionLayers);
-            DrawRay(currentOrigin, currentDirection, hit, maxDistance);
-            bool didHit = CheckHit(hit, reflectionCount);
+        for (int i = 0; i < reflectionLimit; i++)
+        {
+            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
+            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+            foreach (RaycastHit2D hit in hits)
+            {
+                DrawRay(currentOrigin, currentDirection, hit, distance);
+                bool didHit = CheckHit(hit, reflectionCount);
 
-            if(didHit){ // if ray hits a mirror, reflect ray
-                currentOrigin = hit.point + hit.normal * 0.01f;
-                currentDirection = Vector2.Reflect(currentDirection, hit.normal);
-                reflectionCount++;
-            }
-            else{ // no hit, stop reflecting this ray
-                break; 
+                //InteractableBlock.checkRayCollision(hit);
+                if (didHit)
+                { // if ray hits a mirror, reflect 
+                    if (hit.collider.gameObject.CompareTag("Mirror"))
+                    {
+                        currentOrigin = hit.point + hit.normal * 0.01f;
+                        currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                        reflectionCount++;
+                    }
+                    else
+                    {
+                        InteractableBlock.checkRayCollision(hit);
+                    }
+
+                    if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
+                    {
+                        break; // stop reflecting this ray if it hits a visible InteractableBlock
+                    }
+                }
+                else
+                { // no hit, stop reflecting this ray
+                    break;
+                }
             }
         }
     }
@@ -71,7 +96,21 @@ public class SimultaneousRaycast : MonoBehaviour{
             // direction vector for this ray
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
         
-            ReflectRay(rayDirection, rayIndex);
+            ReflectRay(rayDirection, rayIndex, maxDistance);
+        }
+    }
+
+    void CircularRayCasts()
+    {
+        int numberOfRays = 36; // number of rays in the circle
+        float angleIncrement = 360f / numberOfRays; // angle between each ray
+        for (int i = 0; i < numberOfRays; i++)
+        {
+            float currentAngle = i * angleIncrement;
+            float angleInRadians = currentAngle * Mathf.Deg2Rad;
+            // direction vector for this ray
+            Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
+            ReflectRay(rayDirection, i, spotlightRayDistance);
         }
     }
 }

@@ -15,35 +15,91 @@ public abstract class InteractableBlock : MonoBehaviour
 {
     private Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
-    GameObject lightBlock;
-
-    protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
+    protected GameObject lightBlock;
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
+    [SerializeField] protected bool onlyInLight = false; // whether the block only appears in the light world
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
 
     private static float interpolationValue = 0.1f;
 
+    public int shineFrames = 0; // counts how many frames the block has been lit
+    public int currentShineFrames = 0; // last known amount of shineframes
+
+    [Header("For Debugging")]
+    [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
+    [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
+    [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
+
     protected void init()
     {
         if (isLightForm) return; // light forms don't need to init
-        Debug.Log("Initializing block: " + gameObject.name);
         snapToCellPosition();
         createLightForm();
         targetPosition = transform.position;
+        if (onlyInLight)
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+            changeVisibility(false);
+        }
     }
     protected virtual void Update()
     {
-        if (transform.position != targetPosition)
-            transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
-        if (isLightForm)
+        if (movableBlock) { checkDeath(); } // only destroyable if the block is movable
+        checkShineReset();
+        interpolateMovementForBlock();
+    }
+
+    /**
+    * Removes the collider and sprite render, Invisible and No Collision, but script is still active 
+    */
+    public static void disableBlock(GameObject block)
+    {
+        if (block.GetComponent<InteractableBlock>().isOnlyInLight())
         {
-            if (transform.parent != null)
-                transform.position = transform.parent.position;
-            else
-                Debug.LogWarning("Light form block has no parent to follow.");
+            //Debug.Log("Block has no DarkMode cannot disable: " + block.name);
+            return;
+        }
+        block.GetComponent<SpriteRenderer>().enabled = false;
+        //block.GetComponent<BoxCollider2D>().enabled = false;
+        block.GetComponent<InteractableBlock>().changeVisibility(false);
+    }
+    /**
+    * Adds the collider and sprite render. Visible and Solid
+    */
+    public static void enableBlock(GameObject block)
+    {
+        if (block.GetComponent<InteractableBlock>().isOnlyInLight())
+        {
+            //Debug.Log("Block has no DarkMode cannot enable: " + block.name);
+            return;
+        }
+        block.GetComponent<SpriteRenderer>().enabled = true;
+        //block.GetComponent<BoxCollider2D>().enabled = true;
+        block.GetComponent<InteractableBlock>().changeVisibility(true);
+    }
+
+    /**
+     * Static Method to check if a ray hit an interactable block, and if so, call its addShineCounter method
+     */
+    public static void checkRayCollision(RaycastHit2D hit)
+    {
+        //Debug.Log("Ray hit: " + hit.collider.name);
+        if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Blocks"))
+        {
+            InteractableBlock block = hit.collider.gameObject.GetComponent<InteractableBlock>();
+            if (block != null && !block.checkIsLightForm())
+            { 
+                block.addShineCounter();
+                block.startShining();
+            }
         }
     }
+
+    public bool isOnlyInLight()
+    {
+        return onlyInLight;
+    }   
 
     /**
     * Called on a light block to make it know it's a light block, Basically only used by this script
@@ -56,7 +112,26 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
     * Abstract method to define interaction behavior. 
     */
-    public abstract void Interact();
+    public abstract void ShineInteract();
+
+    /**
+    * Abstract method to define deinteraction behavior. 
+    */
+    public abstract void ShineDeinteract();
+    /**
+    * Abstract method to define playerInteraction behavior. 
+    */
+    public void plrInteractEvent(Vector3Int dir)
+    {
+        if (movableBlock)
+        {
+            moveBlock(dir);
+        }
+        else
+        {
+            // implement other interactions here (dialogue, other stuff, etc)
+        }
+    }
 
     // Public Methods
     /**
@@ -74,6 +149,15 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         var collider = gameObject.GetComponent<BoxCollider2D>();
         collider.enabled = true;
+    }
+
+    /**
+     * Checks if the block is a light form
+     * @return true if the block is a light form, false otherwise
+     */
+    public bool checkIsLightForm()
+    {
+        return isLightForm;
     }
     /**
      * Makes block movable by the player, changes bool to true
@@ -102,34 +186,25 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Moves the block in the given direction if it is movable
      * @param direction The direction to move the block (Vector3.up, Vector3.down, Vector3.left, Vector3.right)
-     * @return the new position of the block after moving, or the current position if not movable
+     * @return the new cell position of the block after moving, or the current position if not movable
      */
-    public Vector3 moveBlock(Vector3 direction)
+    public Vector3Int moveBlock(Vector3Int direction)
     {
-        if (isLightForm) return transform.position; // light forms match the position of the parent block
-        //Debug.Log("Attempting to move block " + gameObject.name + " in direction " + direction);
-        if (!movableBlock) return transform.position;
-        
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
-
-        switch (direction)
+        if (isLightForm || !movableBlock) return cellPosition; // light forms match the position of the parent block
+        //Debug.Log(direction);
+        if (direction != Vector3Int.up && direction != Vector3Int.down && direction != Vector3Int.left && direction != Vector3Int.right)
         {
-            case Vector3 dir when dir == Vector3.up:
-                cellPosition += new Vector3Int(0, 1, 0);
-                break;
-            case Vector3 dir when dir == Vector3.down:
-                cellPosition += new Vector3Int(0, -1, 0);
-                break;
-            case Vector3 dir when dir == Vector3.left:
-                cellPosition += new Vector3Int(-1, 0, 0);
-                break;
-            case Vector3 dir when dir == Vector3.right:
-                cellPosition += new Vector3Int(1, 0, 0);
-                break;
-            default:
-                Debug.LogWarning("Invalid direction for moving block.");
-                return transform.position;
+            Debug.LogWarning("Invalid direction for moving block.");
+            return cellPosition;
         }
+        //ADD WALL CHECK
+        if (wallCheck(cellPosition + direction))
+        {
+            return cellPosition;
+        }
+
+        cellPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
         return cellPosition;
     }
@@ -137,8 +212,13 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Turns the block to its light form
      */
-    public void shineBlock()
+    public virtual void shineBlock()
     {
+        if (fullDisabled)
+        {
+             //Debug.Log("Block is fully disabled, cannot shine: " + gameObject.name);
+            return;
+        }
         if (isLightForm || lightFormBlock == BlockType.repeat) return;
         disableBlock(gameObject);
         if (lightBlock != null) // if not EmptySpace
@@ -147,41 +227,57 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
      * Turns the block back to its shadow form
      */
-    public void deshineBlock()
+    public virtual void deshineBlock()
     {
+        if (fullDisabled)
+        {
+            //Debug.Log("Block is fully disabled, cannot deshine: " + gameObject.name);
+            return;
+        }
         if (isLightForm || lightFormBlock == BlockType.repeat) return;
+        //Debug.Log("Deshining block: " + gameObject.name);
         enableBlock(gameObject);
         if (lightBlock != null) // if not EmptySpace
             disableBlock(lightBlock);
     }
 
-    public void changeVisibilityTag(bool isVisible)
+    public void changeVisibility(bool isVisible)
     {
         visibleBlock = isVisible;
     }
+    /**
+     * Disables both the block and its light form, making them invisible and non-collidable
+     */
+    public void fullyDisable()
+    {
+        //Debug.Log("Fully disabling block: " + gameObject.name);
+        disableBlock(gameObject);
+        if (lightBlock != null)
+            disableBlock(lightBlock);
+        changeVisibility(false);
+        fullDisabled = true;
+    }
 
+    public void fullyEnable()
+    {
+        //Debug.Log("Fully enabling block: " + gameObject.name);
+        enableBlock(gameObject);
+        changeVisibility(true);
+        fullDisabled = false;
+        isShining = false;
+    }
+    public bool isFullDisabled()
+    {
+        return fullDisabled;
+    }
+    /**
+     * Returns whether the block can be moved by the player
+     */
     public bool isMovable()
     {
         return movableBlock;
     }
-    /**
-    * Removes the collider and sprite render, Invisible and No Collision, but script is still active 
-    */
-    public static void disableBlock(GameObject block)
-    {
-        block.GetComponent<SpriteRenderer>().enabled = false;
-        block.GetComponent<BoxCollider2D>().enabled = false;
-        block.GetComponent<InteractableBlock>().changeVisibilityTag(false);
-    }
-    /**
-    * Adds the collider and sprite render. Visible and Solid
-    */
-    public static void enableBlock(GameObject block)
-    {
-        block.GetComponent<SpriteRenderer>().enabled = true;
-        block.GetComponent<BoxCollider2D>().enabled = true;
-        block.GetComponent<InteractableBlock>().changeVisibilityTag(true);
-    }
+    
     /**
      * Returns whether the block is currently visible in the game world
      */
@@ -192,6 +288,27 @@ public abstract class InteractableBlock : MonoBehaviour
 
 
     /**
+     * Increments the shine counter
+     */
+    public void addShineCounter()
+    {
+        shineFrames += 1;
+    }
+
+    private void interpolateMovementForBlock()
+    {
+        if (transform.position != targetPosition)
+            transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        if (isLightForm)
+        {
+            if (transform.parent != null)
+                transform.position = transform.parent.position;
+            else
+                Debug.LogWarning("Light form block has no parent to follow.");
+        }
+    }
+
+    /**
      * changes the current block to its light form
      * @return GameObject of the light form created
      */
@@ -199,7 +316,7 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         lightBlock = null;
         if (isLightForm || lightFormBlock == BlockType.emptySpace || lightFormBlock == BlockType.repeat) return; // DONT MAKE IT IF EMPTY OR REPEAT
-        Debug.Log("Creating light form for " + gameObject.name);
+        //Debug.Log("Creating light form for " + gameObject.name);
         switch (lightFormBlock)
         {
             case BlockType.ShadowWall:
@@ -215,7 +332,7 @@ public abstract class InteractableBlock : MonoBehaviour
         }
         lightBlock.transform.SetParent(transform);
         
-        lightBlock.name = gameObject.name + "_LightForm";
+        lightBlock.name = lightFormBlock+ "_LightForm";
         InteractableBlock blockScript = lightBlock.GetComponent<InteractableBlock>();
         if (blockScript == null)
         {
@@ -232,12 +349,39 @@ public abstract class InteractableBlock : MonoBehaviour
             disableBlock(lightBlock);
         }
     }
+    private void startShining() 
+    {
+        if (!isShining && !isLightForm && !fullDisabled)
+        {
+            isShining = true;
+            shineBlock();
+            //Debug.Log("Block started shining");
+            ShineInteract();
+        }
+    }
+
+    private void checkShineReset()
+    {
+        if (Mathf.Abs(shineFrames - currentShineFrames) == 0 && isShining)
+        {
+            //Debug.Log("b");
+            shineFrames = 0;
+            currentShineFrames = 0;
+            // Debug.Log("Shine frames reset for block: " + gameObject.name);
+            isShining = false;
+            deshineBlock();
+            ShineDeinteract(); // Consider adding a deinteract method if needed?
+        }
+        currentShineFrames = shineFrames;
+    }
+    
+
     /**
      * On start, snaps the object to the nearest cell position in the grid. Basically, if you aren't too precise on ur placement, it will fix it for you.
      */
     private void snapToCellPosition()
     {
-        _grid = GetComponentInParent<Grid>();
+        _grid = transform.parent.GetComponentInParent<Grid>();
         if (_grid == null)
         {
             Debug.LogError("Grid component not found in parent hierarchy.");
@@ -247,6 +391,49 @@ public abstract class InteractableBlock : MonoBehaviour
 
         //Debug.Log($"Cell Position: {cellPosition}");
         transform.position = _grid.GetCellCenterWorld(cellPosition);
+    }
+
+    /**
+     * Checks if the block is trying to move into a wall
+     * @return true if there is a wall, false otherwise
+     */
+    private bool wallCheck(Vector3Int cellPos)
+    {
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(_grid.GetCellCenterWorld(cellPos), new Vector2(0.1f, 0.1f), 0);
+        //GameObject wall = tilemap.GetInstantiatedObject(cellPos);
+        foreach (Collider2D collider in colliderList)
+        {
+            //Debug.Log(collider.gameObject.layer + " | " + LayerMask.LayerToName(collider.gameObject.layer));
+            InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
+            if (interactable == null) { Debug.Log("interactableBlock Not Found, for block movement"); }
+            if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
+            {
+
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks if the block is touching another block
+     * If so, restarts the level
+     */
+    private void checkDeath()
+    {
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(transform.position, new Vector2(0.1f, 0.1f), 0);
+        foreach (Collider2D collider in colliderList)
+        {
+            if (collider.gameObject == gameObject) continue; // skip self
+
+            InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
+            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
+            {
+                Debug.Log("Block Destroyed");
+                Destroy(gameObject);
+            }
+        }
     }
 }
 

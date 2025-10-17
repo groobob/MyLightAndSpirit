@@ -1,46 +1,51 @@
 using UnityEngine;
 using static UnityEngine.UI.Image;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
-    [SerializeField] private Vector3Int direction = Vector3Int.right;
-    private Grid _grid;
+    [SerializeField] protected Vector3Int initalDirection = Vector3Int.right;
+    protected Grid _grid;
     [SerializeField] float interpolationValue = 0.1f;
-    
+    protected Vector3Int direction;
 
-    private string environmentLayer = "Default";
+    private string environmentLayer = "Blocks";
 
-    private Vector3 targetPosition;
-    void Start()
+    protected Vector3 targetPosition;
+    protected void init()
     {
+        direction = initalDirection;
         _grid = GetComponentInParent<Grid>();
         snapToCellPosition();
         targetPosition = transform.position;
     }
-    void Update()
+
+    protected virtual void Update()
     {
         //Debug.DrawLine(transform.position, new Vector3(direction.x, direction.y, 0) * 0.5f, Color.red, 0.5f); // Mark hit point
         transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
-
-        if (Input.GetKeyDown(KeyCode.M))
+    }
+    /**
+     * Moves all enemies in the given level object by calling their movement method.
+     */
+    public static void moveAllEnemies(GameObject levelObject)
+    {
+        Enemy[] enemies = levelObject.GetComponentsInChildren<Enemy>();
+        foreach (Enemy enemy in enemies)
         {
-            movement();
+            enemy.movement();
         }
     }
 
-    private void movement()
-    {
-        if (hitCheck()) { return; }
-        Vector3Int gridPosition = _grid.WorldToCell(transform.position);
-        gridPosition += direction;
-        targetPosition = _grid.GetCellCenterWorld(gridPosition);
-        //Debug.Log($"Moving to {gridPosition} at world position {targetPosition}");
-    }
+    /**
+     * Abstract method to define movement behavior. Called by moveAllEnemies.
+     */
+    protected abstract void movement();
+
     /*
      * Checks if the enemy hits a wall or player in front of it. If it hits a wall, it reverses direction. If it hits a player, it logs a message (to be replaced with player damage).
      * @return true if a player is hit OR if the enemy is cornered, false otherwise. If true is returned, movement is stopped.
      */
-    private bool hitCheck()
+    protected virtual bool hitCheck()
     {
         //PlayerRay
         RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
