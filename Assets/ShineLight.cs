@@ -8,7 +8,7 @@ public class ShineLight : SimultaneousRaycast{
     
     private LineRenderer[] lightBeams;
     private Material beamMaterial;
-    private int maxTotalBeams = 50; // max number of reflections
+    private int maxTotalBeams = 50; // number of beams generated
     private float lightAlpha = 0.2f;
 
     void Start(){
