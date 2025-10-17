@@ -9,7 +9,7 @@ public class ShineLight : SimultaneousRaycast{
     private LineRenderer[] lightBeams;
     private Material beamMaterial;
     private int maxTotalBeams = 50; // max number of reflections
-    private float lightAlpha = 1f;
+    private float lightAlpha = 0.2f;
 
     void Start(){
         intervalDegree = 0.25f; // interval between raycasts. smaller interval for no gaps
