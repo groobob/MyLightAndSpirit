@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: d8f6a9f00a85f4bf4b104a83c15a42fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2197365804598472486
+    second: BasicPupBlack_0
+  - first:
+      213: 7223162113451458323
+    second: BasicPupBlack_1
+  - first:
+      213: 433700545485772978
+    second: BasicPupBlack_2
+  - first:
+      213: -2050244104377863885
+    second: BasicPupBlack_3
+  - first:
+      213: -253489517997443375
+    second: BasicPupBlack_4
+  - first:
+      213: 4325565096644631042
+    second: BasicPupBlack_5
+  - first:
+      213: -602213316132817798
+    second: BasicPupBlack_6
+  - first:
+      213: -678877928318839620
+    second: BasicPupBlack_7
+  - first:
+      213: -5397509380878649472
+    second: BasicPupBlack_8
+  - first:
+      213: -2973492664829203178
+    second: BasicPupBlack_9
+  - first:
+      213: -622311776079724333
+    second: BasicPupBlack_10
+  - first:
+      213: 1385027671106214363
+    second: BasicPupBlack_11
+  - first:
+      213: 1419396683420967751
+    second: BasicPupBlack_12
+  - first:
+      213: -1801639372881846778
+    second: BasicPupBlack_13
+  - first:
+      213: -7125296805555560745
+    second: BasicPupBlack_14
+  - first:
+      213: -4931109797867995273
+    second: BasicPupBlack_15
+  - first:
+      213: -712500587721398713
+    second: BasicPupBlack_16
+  - first:
+      213: 645611354241476503
+    second: BasicPupBlack_17
+  - first:
+      213: 5258514735067915430
+    second: BasicPupBlack_18
+  - first:
+      213: -3768302019633239493
+    second: BasicPupBlack_19
+  - first:
+      213: 1191888585139476491
+    second: BasicPupBlack_20
+  - first:
+      213: -8015546274231076280
+    second: BasicPupBlack_21
+  - first:
+      213: -1512153952885618375
+    second: BasicPupBlack_22
+  - first:
+      213: -4361667851966696054
+    second: BasicPupBlack_23
+  - first:
+      213: 2360076289517721215
+    second: BasicPupBlack_24
+  - first:
+      213: 8734847007504528257
+    second: BasicPupBlack_25
+  - first:
+      213: -3902135462504797097
+    second: BasicPupBlack_26
+  - first:
+      213: -6376748742827475408
+    second: BasicPupBlack_27
+  - first:
+      213: -2304251391078805822
+    second: BasicPupBlack_28
+  - first:
+      213: -219963494157555704
+    second: BasicPupBlack_29
+  - first:
+      213: 4436211975412911897
+    second: BasicPupBlack_30
+  - first:
+      213: -5652988001928280071
+    second: BasicPupBlack_31
+  - first:
+      213: -3671365867824419731
+    second: BasicPupBlack_32
+  - first:
+      213: -1946868724064975631
+    second: BasicPupBlack_33
+  - first:
+      213: -7680328624422354808
+    second: BasicPupBlack_34
+  - first:
+      213: 3703449140680109428
+    second: BasicPupBlack_35
+  - first:
+      213: -1386801719438745896
+    second: BasicPupBlack_36
+  - first:
+      213: -820053403853205024
+    second: BasicPupBlack_37
+  - first:
+      213: -8556009167167585077
+    second: BasicPupBlack_38
+  - first:
+      213: 8862612181083426844
+    second: BasicPupBlack_39
+  - first:
+      213: 2302486600800081995
+    second: BasicPupBlack_40
+  - first:
+      213: 6490145904562830607
+    second: BasicPupBlack_41
+  - first:
+      213: 3831870836490296839
+    second: BasicPupBlack_42
+  - first:
+      213: 2521861893684574156
+    second: BasicPupBlack_43
+  - first:
+      213: -446102768774121403
+    second: BasicPupBlack_44
+  - first:
+      213: -6335234848412480974
+    second: BasicPupBlack_45
+  - first:
+      213: 3697077935927073549
+    second: BasicPupBlack_46
+  - first:
+      213: -836227733996037799
+    second: BasicPupBlack_47
+  - first:
+      213: 275465509524351233
+    second: BasicPupBlack_48
+  - first:
+      213: -6657971910507771811
+    second: BasicPupBlack_49
+  - first:
+      213: 6254425513362481847
+    second: BasicPupBlack_50
+  - first:
+      213: 2976629206135831997
+    second: BasicPupBlack_51
+  - first:
+      213: -112059934438986523
+    second: BasicPupBlack_52
+  - first:
+      213: -4413889154360709335
+    second: BasicPupBlack_53
+  - first:
+      213: -7487941924724794329
+    second: BasicPupBlack_54
+  - first:
+      213: -6934576920600376032
+    second: BasicPupBlack_55
+  - first:
+      213: 5830344032092172499
+    second: BasicPupBlack_56
+  - first:
+      213: -5292900342109345805
+    second: BasicPupBlack_57
+  - first:
+      213: 5388642890365845390
+    second: BasicPupBlack_58
+  - first:
+      213: 4442092735864942909
+    second: BasicPupBlack_59
+  - first:
+      213: -785459530087094011
+    second: BasicPupBlack_60
+  - first:
+      213: 5467226127546142457
+    second: BasicPupBlack_61
+  - first:
+      213: 6234636408577688896
+    second: BasicPupBlack_62
+  - first:
+      213: -3985650750242929056
+    second: BasicPupBlack_63
+  - first:
+      213: -4891434582758650167
+    second: BasicPupBlack_64
+  - first:
+      213: -660984602038774074
+    second: BasicPupBlack_65
+  - first:
+      213: 4227410036819353684
+    second: BasicPupBlack_66
+  - first:
+      213: 8124353658143521695
+    second: BasicPupBlack_67
+  - first:
+      213: 4716322144817957177
+    second: BasicPupBlack_68
+  - first:
+      213: -6246598678514476581
+    second: BasicPupBlack_69
+  - first:
+      213: -1767306140924786624
+    second: BasicPupBlack_70
+  - first:
+      213: 2331071855984919149
+    second: BasicPupBlack_71
+  - first:
+      213: 7382453144949163715
+    second: BasicPupBlack_72
+  - first:
+      213: 1421171998696439584
+    second: BasicPupBlack_73
+  - first:
+      213: 6618077524857213617
+    second: BasicPupBlack_74
+  - first:
+      213: 8088417741700814133
+    second: BasicPupBlack_75
+  - first:
+      213: 9095256159503493702
+    second: BasicPupBlack_76
+  - first:
+      213: 7723053069965601831
+    second: BasicPupBlack_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BasicPupBlack_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0515f51736181e0800000000000000
+      internalID: -2197365804598472486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f75571ca3dd3460800000000000000
+      internalID: 7223162113451458323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b892982950d40600800000000000000
+      internalID: 433700545485772978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 114
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331f7b789d11c83e0800000000000000
+      internalID: -2050244104377863885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63a7d50ac6b7cf0800000000000000
+      internalID: -253489517997443375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ad45e998e770c30800000000000000
+      internalID: 4325565096644631042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74b4ecfd2284a7f0800000000000000
+      internalID: -602213316132817798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d3bcfe142496f0800000000000000
+      internalID: -678877928318839620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087b3e8b0d13815b0800000000000000
+      internalID: -5397509380878649472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 114
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d20a2fc280cb6d0800000000000000
+      internalID: -2973492664829203178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 114
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0c93f9cba1d57f0800000000000000
+      internalID: -622311776079724333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd95f54245b983310800000000000000
+      internalID: 1385027671106214363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743aca663c5b2b310800000000000000
+      internalID: 1419396683420967751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e150e298a4ff6e0800000000000000
+      internalID: -1801639372881846778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de92a98e4cdd1d90800000000000000
+      internalID: -7125296805555560745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f31a5d3cd219bb0800000000000000
+      internalID: -4931109797867995273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 87
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746eb9e8d70bc16f0800000000000000
+      internalID: -712500587721398713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 101
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797a5882b1ca5f800800000000000000
+      internalID: 645611354241476503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a461ed6a4ff9f840800000000000000
+      internalID: 5258514735067915430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aaf59474d44bbc0800000000000000
+      internalID: -3768302019633239493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08d4117a507a8010800000000000000
+      internalID: 1191888585139476491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a30cbb12f03c090800000000000000
+      internalID: -8015546274231076280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939cc88ddffb30be0800000000000000
+      internalID: -1512153952885618375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85b84f923e3873c0800000000000000
+      internalID: -4361667851966696054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76968f81eca0c020800000000000000
+      internalID: 2360076289517721215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183f0b9f219683970800000000000000
+      internalID: 8734847007504528257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c62f3a874d8d9c0800000000000000
+      internalID: -3902135462504797097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e79d9cdcc3187a0800000000000000
+      internalID: -6376748742827475408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce4c897197a500e0800000000000000
+      internalID: -2304251391078805822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8086f231e5882fcf0800000000000000
+      internalID: -219963494157555704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f02de9947909d30800000000000000
+      internalID: 4436211975412911897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70581fc5d8c81b0800000000000000
+      internalID: -5652988001928280071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ce4d7e130bc0dc0800000000000000
+      internalID: -3671365867824419731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f40acdd5355bf4e0800000000000000
+      internalID: -1946868724064975631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_34
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8808a07eecdf96590800000000000000
+      internalID: -7680328624422354808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47da6f92f5b456330800000000000000
+      internalID: 3703449140680109428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ded3fa0f2711cce0800000000000000
+      internalID: -1386801719438745896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 61
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1da7626c59e94f0800000000000000
+      internalID: -820053403853205024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_38
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 61
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc48dff7ef2f24980800000000000000
+      internalID: -8556009167167585077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10178392d25efa70800000000000000
+      internalID: 8862612181083426844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4819c44d5314ff10800000000000000
+      internalID: 2302486600800081995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d7ced5051a11a50800000000000000
+      internalID: 6490145904562830607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ede22493a8d2530800000000000000
+      internalID: 3831870836490296839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7b9a9e7047ff220800000000000000
+      internalID: 2521861893684574156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_44
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54876e535ef1fc9f0800000000000000
+      internalID: -446102768774121403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 61
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ac2bb8879b418a0800000000000000
+      internalID: -6335234848412480974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1ed57bc8ae4330800000000000000
+      internalID: 3697077935927073549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_47
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95916d37e4f1564f0800000000000000
+      internalID: -836227733996037799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092213eb66a2d300800000000000000
+      internalID: 275465509524351233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58c7a5a2d12a93a0800000000000000
+      internalID: -6657971910507771811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b26c16fdde2cc650800000000000000
+      internalID: 6254425513362481847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd77cbfd7c1f4920800000000000000
+      internalID: 2976629206135831997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_52
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ece5365512e17ef0800000000000000
+      internalID: -112059934438986523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_53
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f616c2337beb2c0800000000000000
+      internalID: -4413889154360709335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c16060e7c751890800000000000000
+      internalID: -7487941924724794329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d0efb180f63cf90800000000000000
+      internalID: -6934576920600376032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d03c27b10b89e050800000000000000
+      internalID: 5830344032092172499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 35
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7670d8e27db86b0800000000000000
+      internalID: -5292900342109345805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_58
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 24
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fb0b5982e48ca40800000000000000
+      internalID: 5388642890365845390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 36
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31b29cdecb75ad30800000000000000
+      internalID: 4442092735864942909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_60
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a6bb08bc7915f0800000000000000
+      internalID: -785459530087094011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_61
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe4f17423d7fdb40800000000000000
+      internalID: 5467226127546142457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_62
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0458df4f7c0e58650800000000000000
+      internalID: 6234636408577688896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066400172cf10b8c0800000000000000
+      internalID: -3985650750242929056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce0c94b9222e1cb0800000000000000
+      internalID: -4891434582758650167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6d979a106b3d6f0800000000000000
+      internalID: -660984602038774074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450e98cd707caaa30800000000000000
+      internalID: 4227410036819353684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b3a4f7b908fb070800000000000000
+      internalID: 8124353658143521695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_68
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939ce28a00eb37140800000000000000
+      internalID: 4716322144817957177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_69
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd958b8099f9f49a0800000000000000
+      internalID: -6246598678514476581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_70
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 14
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048cfccad644977e0800000000000000
+      internalID: -1767306140924786624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_71
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6244e1a081a95020800000000000000
+      internalID: 2331071855984919149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_72
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c609ab750eb37660800000000000000
+      internalID: 7382453144949163715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f7803376409b310800000000000000
+      internalID: 1421171998696439584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b25c1dd17228db50800000000000000
+      internalID: 6618077524857213617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_75
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5355b01f415df3070800000000000000
+      internalID: 8088417741700814133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aa360d947d83e70800000000000000
+      internalID: 9095256159503493702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicPupBlack_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 16
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c2ac049dbcd2b60800000000000000
+      internalID: 7723053069965601831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BasicPupBlack_0: -2197365804598472486
+      BasicPupBlack_1: 7223162113451458323
+      BasicPupBlack_10: -622311776079724333
+      BasicPupBlack_11: 1385027671106214363
+      BasicPupBlack_12: 1419396683420967751
+      BasicPupBlack_13: -1801639372881846778
+      BasicPupBlack_14: -7125296805555560745
+      BasicPupBlack_15: -4931109797867995273
+      BasicPupBlack_16: -712500587721398713
+      BasicPupBlack_17: 645611354241476503
+      BasicPupBlack_18: 5258514735067915430
+      BasicPupBlack_19: -3768302019633239493
+      BasicPupBlack_2: 433700545485772978
+      BasicPupBlack_20: 1191888585139476491
+      BasicPupBlack_21: -8015546274231076280
+      BasicPupBlack_22: -1512153952885618375
+      BasicPupBlack_23: -4361667851966696054
+      BasicPupBlack_24: 2360076289517721215
+      BasicPupBlack_25: 8734847007504528257
+      BasicPupBlack_26: -3902135462504797097
+      BasicPupBlack_27: -6376748742827475408
+      BasicPupBlack_28: -2304251391078805822
+      BasicPupBlack_29: -219963494157555704
+      BasicPupBlack_3: -2050244104377863885
+      BasicPupBlack_30: 4436211975412911897
+      BasicPupBlack_31: -5652988001928280071
+      BasicPupBlack_32: -3671365867824419731
+      BasicPupBlack_33: -1946868724064975631
+      BasicPupBlack_34: -7680328624422354808
+      BasicPupBlack_35: 3703449140680109428
+      BasicPupBlack_36: -1386801719438745896
+      BasicPupBlack_37: -820053403853205024
+      BasicPupBlack_38: -8556009167167585077
+      BasicPupBlack_39: 8862612181083426844
+      BasicPupBlack_4: -253489517997443375
+      BasicPupBlack_40: 2302486600800081995
+      BasicPupBlack_41: 6490145904562830607
+      BasicPupBlack_42: 3831870836490296839
+      BasicPupBlack_43: 2521861893684574156
+      BasicPupBlack_44: -446102768774121403
+      BasicPupBlack_45: -6335234848412480974
+      BasicPupBlack_46: 3697077935927073549
+      BasicPupBlack_47: -836227733996037799
+      BasicPupBlack_48: 275465509524351233
+      BasicPupBlack_49: -6657971910507771811
+      BasicPupBlack_5: 4325565096644631042
+      BasicPupBlack_50: 6254425513362481847
+      BasicPupBlack_51: 2976629206135831997
+      BasicPupBlack_52: -112059934438986523
+      BasicPupBlack_53: -4413889154360709335
+      BasicPupBlack_54: -7487941924724794329
+      BasicPupBlack_55: -6934576920600376032
+      BasicPupBlack_56: 5830344032092172499
+      BasicPupBlack_57: -5292900342109345805
+      BasicPupBlack_58: 5388642890365845390
+      BasicPupBlack_59: 4442092735864942909
+      BasicPupBlack_6: -602213316132817798
+      BasicPupBlack_60: -785459530087094011
+      BasicPupBlack_61: 5467226127546142457
+      BasicPupBlack_62: 6234636408577688896
+      BasicPupBlack_63: -3985650750242929056
+      BasicPupBlack_64: -4891434582758650167
+      BasicPupBlack_65: -660984602038774074
+      BasicPupBlack_66: 4227410036819353684
+      BasicPupBlack_67: 8124353658143521695
+      BasicPupBlack_68: 4716322144817957177
+      BasicPupBlack_69: -6246598678514476581
+      BasicPupBlack_7: -678877928318839620
+      BasicPupBlack_70: -1767306140924786624
+      BasicPupBlack_71: 2331071855984919149
+      BasicPupBlack_72: 7382453144949163715
+      BasicPupBlack_73: 1421171998696439584
+      BasicPupBlack_74: 6618077524857213617
+      BasicPupBlack_75: 8088417741700814133
+      BasicPupBlack_76: 9095256159503493702
+      BasicPupBlack_77: 7723053069965601831
+      BasicPupBlack_8: -5397509380878649472
+      BasicPupBlack_9: -2973492664829203178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: 24a515334a3d04a3e90295041e0fd380
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7992202732808121516
+    second: BoldTwilight_0
+  - first:
+      213: 4073159681521512438
+    second: BoldTwilight_1
+  - first:
+      213: -858423796203069701
+    second: BoldTwilight_2
+  - first:
+      213: 2911773163967257404
+    second: BoldTwilight_3
+  - first:
+      213: -3620926828718869600
+    second: BoldTwilight_4
+  - first:
+      213: 4837790920548672303
+    second: BoldTwilight_5
+  - first:
+      213: 1391248969099362132
+    second: BoldTwilight_6
+  - first:
+      213: -1445237335981762799
+    second: BoldTwilight_7
+  - first:
+      213: 8099831075781638852
+    second: BoldTwilight_8
+  - first:
+      213: -3084844966144609803
+    second: BoldTwilight_9
+  - first:
+      213: -5792503306519980995
+    second: BoldTwilight_10
+  - first:
+      213: 4392464582914654858
+    second: BoldTwilight_11
+  - first:
+      213: -2026590502392202462
+    second: BoldTwilight_12
+  - first:
+      213: -3069330605708751664
+    second: BoldTwilight_13
+  - first:
+      213: -5672103580343691116
+    second: BoldTwilight_14
+  - first:
+      213: 1429806413363206462
+    second: BoldTwilight_15
+  - first:
+      213: 462652220577639533
+    second: BoldTwilight_16
+  - first:
+      213: 7736973745366453545
+    second: BoldTwilight_17
+  - first:
+      213: 5510407210998643825
+    second: BoldTwilight_18
+  - first:
+      213: 1297167277951845679
+    second: BoldTwilight_19
+  - first:
+      213: 3078143283283112267
+    second: BoldTwilight_20
+  - first:
+      213: -3054169537205772627
+    second: BoldTwilight_21
+  - first:
+      213: 4231214229032401669
+    second: BoldTwilight_22
+  - first:
+      213: -5611524299491981831
+    second: BoldTwilight_23
+  - first:
+      213: -2684575361657005376
+    second: BoldTwilight_24
+  - first:
+      213: 5103437656179341215
+    second: BoldTwilight_25
+  - first:
+      213: 4611096269933375309
+    second: BoldTwilight_26
+  - first:
+      213: 388237665506792058
+    second: BoldTwilight_27
+  - first:
+      213: -3661530402908046496
+    second: BoldTwilight_28
+  - first:
+      213: -9178253405010900749
+    second: BoldTwilight_29
+  - first:
+      213: 3112009986632120307
+    second: BoldTwilight_30
+  - first:
+      213: -7273868983067099204
+    second: BoldTwilight_31
+  - first:
+      213: -5797779262219080845
+    second: BoldTwilight_32
+  - first:
+      213: -356214147940554343
+    second: BoldTwilight_33
+  - first:
+      213: 6881997193656443999
+    second: BoldTwilight_34
+  - first:
+      213: -7466585311106964631
+    second: BoldTwilight_35
+  - first:
+      213: 4053713381047298157
+    second: BoldTwilight_36
+  - first:
+      213: 1420248336054601635
+    second: BoldTwilight_37
+  - first:
+      213: 2929864593682465578
+    second: BoldTwilight_38
+  - first:
+      213: 8688079686701115219
+    second: BoldTwilight_39
+  - first:
+      213: -4320310796813530095
+    second: BoldTwilight_40
+  - first:
+      213: 2309992036999822547
+    second: BoldTwilight_41
+  - first:
+      213: -7734932579179799087
+    second: BoldTwilight_42
+  - first:
+      213: 7784692910007198978
+    second: BoldTwilight_43
+  - first:
+      213: -8080812299085318547
+    second: BoldTwilight_44
+  - first:
+      213: 3561053061653860252
+    second: BoldTwilight_45
+  - first:
+      213: -1460886542974711024
+    second: BoldTwilight_46
+  - first:
+      213: -579681616935266686
+    second: BoldTwilight_47
+  - first:
+      213: -4411621461909845483
+    second: BoldTwilight_48
+  - first:
+      213: -2548170146397968109
+    second: BoldTwilight_49
+  - first:
+      213: 4280912822195468670
+    second: BoldTwilight_50
+  - first:
+      213: -5200212442683697488
+    second: BoldTwilight_51
+  - first:
+      213: 1917331956407814166
+    second: BoldTwilight_52
+  - first:
+      213: -445183016279314515
+    second: BoldTwilight_53
+  - first:
+      213: 9139054549488217483
+    second: BoldTwilight_54
+  - first:
+      213: 3598098605015245329
+    second: BoldTwilight_55
+  - first:
+      213: -6264394250186972140
+    second: BoldTwilight_56
+  - first:
+      213: 1879136296324891782
+    second: BoldTwilight_57
+  - first:
+      213: 6104755543508575320
+    second: BoldTwilight_58
+  - first:
+      213: 8621906673603589688
+    second: BoldTwilight_59
+  - first:
+      213: 5016606055814335927
+    second: BoldTwilight_60
+  - first:
+      213: 6636211998241197803
+    second: BoldTwilight_61
+  - first:
+      213: -953508409286102842
+    second: BoldTwilight_62
+  - first:
+      213: 6111813087869605533
+    second: BoldTwilight_63
+  - first:
+      213: 5050119168335733518
+    second: BoldTwilight_64
+  - first:
+      213: 7221737071643049323
+    second: BoldTwilight_65
+  - first:
+      213: -5704257444716009502
+    second: BoldTwilight_66
+  - first:
+      213: 5909226925576982252
+    second: BoldTwilight_67
+  - first:
+      213: -2285265650434483616
+    second: BoldTwilight_68
+  - first:
+      213: -8164604202555214029
+    second: BoldTwilight_69
+  - first:
+      213: -3005003653491995034
+    second: BoldTwilight_70
+  - first:
+      213: 4493313130730012766
+    second: BoldTwilight_71
+  - first:
+      213: 7379117273970013015
+    second: BoldTwilight_72
+  - first:
+      213: -5266634388199122992
+    second: BoldTwilight_73
+  - first:
+      213: -5946577365332494321
+    second: BoldTwilight_74
+  - first:
+      213: -687117838934824020
+    second: BoldTwilight_75
+  - first:
+      213: -2431726199378717813
+    second: BoldTwilight_76
+  - first:
+      213: -3528528331821641129
+    second: BoldTwilight_77
+  - first:
+      213: -162221056612949546
+    second: BoldTwilight_78
+  - first:
+      213: -2537565409685559585
+    second: BoldTwilight_79
+  - first:
+      213: -4712615865997731467
+    second: BoldTwilight_80
+  - first:
+      213: 7700745234536365863
+    second: BoldTwilight_81
+  - first:
+      213: 233117128939572819
+    second: BoldTwilight_82
+  - first:
+      213: 9040037887900839503
+    second: BoldTwilight_83
+  - first:
+      213: -4390818766196676662
+    second: BoldTwilight_84
+  - first:
+      213: -8755436071418506005
+    second: BoldTwilight_85
+  - first:
+      213: -7764183757998448268
+    second: BoldTwilight_86
+  - first:
+      213: -639543944547177748
+    second: BoldTwilight_87
+  - first:
+      213: -7274758780894717159
+    second: BoldTwilight_88
+  - first:
+      213: -7029362601214014450
+    second: BoldTwilight_89
+  - first:
+      213: -7366438612578467187
+    second: BoldTwilight_90
+  - first:
+      213: -4259667234117821619
+    second: BoldTwilight_91
+  - first:
+      213: -6572830834913878102
+    second: BoldTwilight_92
+  - first:
+      213: 7968496008561805349
+    second: BoldTwilight_93
+  - first:
+      213: -8460861398741614723
+    second: BoldTwilight_94
+  - first:
+      213: -3786828890762632277
+    second: BoldTwilight_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoldTwilight_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 250
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453d01285fdf51190800000000000000
+      internalID: -7992202732808121516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 252
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff688a5625c68830800000000000000
+      internalID: 4073159681521512438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 254
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfed2900b144614f0800000000000000
+      internalID: -858423796203069701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 254
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b98c0f342b86820800000000000000
+      internalID: 2911773163967257404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3b788db32efbdc0800000000000000
+      internalID: -3620926828718869600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 254
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23e9e4e539432340800000000000000
+      internalID: 4837790920548672303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 254
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fbb45f095be4310800000000000000
+      internalID: 1391248969099362132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 254
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117dca4dc4c71fbe0800000000000000
+      internalID: -1445237335981762799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca72acd271686070800000000000000
+      internalID: 8099831075781638852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 256
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f17cc5f8dd6035d0800000000000000
+      internalID: -3084844966144609803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 256
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34d996cee4ec9fa0800000000000000
+      internalID: -5792503306519980995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 256
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82cc11144b25fc30800000000000000
+      internalID: 4392464582914654858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b7bb7ecaa10e3e0800000000000000
+      internalID: -2026590502392202462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 220
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcce7c731c8765d0800000000000000
+      internalID: -3069330605708751664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 220
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498946488d3a841b0800000000000000
+      internalID: -5672103580343691116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 220
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39d6168b51b7d310800000000000000
+      internalID: 1429806413363206462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 220
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c631e4ebbab6600800000000000000
+      internalID: 462652220577639533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 220
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d471111a04f5b60800000000000000
+      internalID: 7736973745366453545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 220
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c335bb926e87c40800000000000000
+      internalID: 5510407210998643825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 190
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25849044c6700210800000000000000
+      internalID: 1297167277951845679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 190
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4138d7e103c7ba20800000000000000
+      internalID: 3078143283283112267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 190
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daed703dcf86d95d0800000000000000
+      internalID: -3054169537205772627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 190
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bfd026cea48ba30800000000000000
+      internalID: 4231214229032401669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 190
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5ce48716cdf12b0800000000000000
+      internalID: -5611524299491981831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 190
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca1bab9ee87ebad0800000000000000
+      internalID: -2684575361657005376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 190
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97fbe5528d03d640800000000000000
+      internalID: 5103437656179341215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fe18a70a7edff30800000000000000
+      internalID: 4611096269933375309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7295fc891c436500800000000000000
+      internalID: 388237665506792058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b7f588f71af2dc0800000000000000
+      internalID: -3661530402908046496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f84ec7182b40a080800000000000000
+      internalID: -9178253405010900749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7fcae3894103b20800000000000000
+      internalID: 3112009986632120307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfbd81d2b60e0b90800000000000000
+      internalID: -7273868983067099204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b2e4d9a762a8fa0800000000000000
+      internalID: -5797779262219080845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999e808ae197e0bf0800000000000000
+      internalID: -356214147940554343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a0293cf3c18f50800000000000000
+      internalID: 6881997193656443999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963e15e183c516890800000000000000
+      internalID: -7466585311106964631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d686292b7dea14830800000000000000
+      internalID: 4053713381047298157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7cf5b365cb5b310800000000000000
+      internalID: 1420248336054601635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23007a2358f8a820800000000000000
+      internalID: 2929864593682465578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3576b129172429870800000000000000
+      internalID: 8688079686701115219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c05a4683c2b04c0800000000000000
+      internalID: -4320310796813530095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcfa5fc48dbe0020800000000000000
+      internalID: 2309992036999822547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd5468fccff7a490800000000000000
+      internalID: -7734932579179799087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2052b72e4f8c80c60800000000000000
+      internalID: 7784692910007198978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 100
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66796827003bdf80800000000000000
+      internalID: -8080812299085318547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f023e64e66b6130800000000000000
+      internalID: 3561053061653860252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b08d4ed63e9bbe0800000000000000
+      internalID: -1460886542974711024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286dfb304ae84f7f0800000000000000
+      internalID: -579681616935266686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51acf5777a5c6c2c0800000000000000
+      internalID: -4411621461909845483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a1bca0c413acd0800000000000000
+      internalID: -2548170146397968109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e793061d78bd86b30800000000000000
+      internalID: 4280912822195468670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b69545d55225d7b0800000000000000
+      internalID: -5200212442683697488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6184132814bbb9a10800000000000000
+      internalID: 1917331956407814166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf62a6c76462d9f0800000000000000
+      internalID: -445183016279314515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8da92521b174de70800000000000000
+      internalID: 9139054549488217483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_55
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11223c22e930fe130800000000000000
+      internalID: 3598098605015245329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4142b90ae966019a0800000000000000
+      internalID: -6264394250186972140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_57
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 70
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6840df26188041a10800000000000000
+      internalID: 1879136296324891782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_58
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 70
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854ec6b82d278b450800000000000000
+      internalID: 6104755543508575320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_59
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83636b6507a27a770800000000000000
+      internalID: 8621906673603589688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_60
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 70
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd03eee0a09e9540800000000000000
+      internalID: 5016606055814335927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 70
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee0a59f6af881c50800000000000000
+      internalID: 6636211998241197803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_62
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 70
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c07726572574c2f0800000000000000
+      internalID: -953508409286102842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_63
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 70
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d961d042f9581d450800000000000000
+      internalID: 6111813087869605533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 72
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03ea0e70a0a51640800000000000000
+      internalID: 5050119168335733518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_65
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 88
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dbd80ba93c83460800000000000000
+      internalID: 7221737071643049323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_66
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e72354931866d0b0800000000000000
+      internalID: -5704257444716009502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 44
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee8034949ac10250800000000000000
+      internalID: 5909226925576982252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 44
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a5370bffa1940e0800000000000000
+      internalID: -2285265650434483616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 46
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337f8075cbf71be80800000000000000
+      internalID: -8164604202555214029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_70
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 48
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ecbdc29151c46d0800000000000000
+      internalID: -3005003653491995034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50c2cd5c747b5e30800000000000000
+      internalID: 4493313130730012766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7537eee7014e76660800000000000000
+      internalID: 7379117273970013015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_73
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7d8818de729e6b0800000000000000
+      internalID: -5266634388199122992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f087afd7463897da0800000000000000
+      internalID: -5946577365332494321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caba47b47fdd676f0800000000000000
+      internalID: -687117838934824020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83550fc7e5c04ed0800000000000000
+      internalID: -2431726199378717813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_77
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7529ed95d26280fc0800000000000000
+      internalID: -3528528331821641129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_78
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d12f79feccafbdf0800000000000000
+      internalID: -162221056612949546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_79
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6af5954b1c8ccd0800000000000000
+      internalID: -2537565409685559585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_80
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 22
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579d550a6dc699eb0800000000000000
+      internalID: -4712615865997731467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_81
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 22
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f72529dfa8eda60800000000000000
+      internalID: 7700745234536365863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 22
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e808d2bc23c3300800000000000000
+      internalID: 233117128939572819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_83
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 32
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ee668109aa47d70800000000000000
+      internalID: 9040037887900839503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac76abf789da013c0800000000000000
+      internalID: -4390818766196676662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_85
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 26
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4557508417e7680800000000000000
+      internalID: -8755436071418506005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_86
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 28
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47125ad2204104490800000000000000
+      internalID: -7764183757998448268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea630fbb22ef17f0800000000000000
+      internalID: -639543944547177748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_88
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bdd1e9e6dda0b90800000000000000
+      internalID: -7274758780894717159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_89
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c093515ffa27e90800000000000000
+      internalID: -7029362601214014450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_90
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d820a856c1725c990800000000000000
+      internalID: -7366438612578467187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b5901283f92e4c0800000000000000
+      internalID: -4259667234117821619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_92
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 10
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf59341e2d98c4a0800000000000000
+      internalID: -6572830834913878102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_93
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528c170a6e8c59e60800000000000000
+      internalID: 7968496008561805349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_94
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 12
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ff03aa26bf49a80800000000000000
+      internalID: -8460861398741614723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldTwilight_95
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba328e4ff2b727bc0800000000000000
+      internalID: -3786828890762632277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoldTwilight_0: -7992202732808121516
+      BoldTwilight_1: 4073159681521512438
+      BoldTwilight_10: -5792503306519980995
+      BoldTwilight_11: 4392464582914654858
+      BoldTwilight_12: -2026590502392202462
+      BoldTwilight_13: -3069330605708751664
+      BoldTwilight_14: -5672103580343691116
+      BoldTwilight_15: 1429806413363206462
+      BoldTwilight_16: 462652220577639533
+      BoldTwilight_17: 7736973745366453545
+      BoldTwilight_18: 5510407210998643825
+      BoldTwilight_19: 1297167277951845679
+      BoldTwilight_2: -858423796203069701
+      BoldTwilight_20: 3078143283283112267
+      BoldTwilight_21: -3054169537205772627
+      BoldTwilight_22: 4231214229032401669
+      BoldTwilight_23: -5611524299491981831
+      BoldTwilight_24: -2684575361657005376
+      BoldTwilight_25: 5103437656179341215
+      BoldTwilight_26: 4611096269933375309
+      BoldTwilight_27: 388237665506792058
+      BoldTwilight_28: -3661530402908046496
+      BoldTwilight_29: -9178253405010900749
+      BoldTwilight_3: 2911773163967257404
+      BoldTwilight_30: 3112009986632120307
+      BoldTwilight_31: -7273868983067099204
+      BoldTwilight_32: -5797779262219080845
+      BoldTwilight_33: -356214147940554343
+      BoldTwilight_34: 6881997193656443999
+      BoldTwilight_35: -7466585311106964631
+      BoldTwilight_36: 4053713381047298157
+      BoldTwilight_37: 1420248336054601635
+      BoldTwilight_38: 2929864593682465578
+      BoldTwilight_39: 8688079686701115219
+      BoldTwilight_4: -3620926828718869600
+      BoldTwilight_40: -4320310796813530095
+      BoldTwilight_41: 2309992036999822547
+      BoldTwilight_42: -7734932579179799087
+      BoldTwilight_43: 7784692910007198978
+      BoldTwilight_44: -8080812299085318547
+      BoldTwilight_45: 3561053061653860252
+      BoldTwilight_46: -1460886542974711024
+      BoldTwilight_47: -579681616935266686
+      BoldTwilight_48: -4411621461909845483
+      BoldTwilight_49: -2548170146397968109
+      BoldTwilight_5: 4837790920548672303
+      BoldTwilight_50: 4280912822195468670
+      BoldTwilight_51: -5200212442683697488
+      BoldTwilight_52: 1917331956407814166
+      BoldTwilight_53: -445183016279314515
+      BoldTwilight_54: 9139054549488217483
+      BoldTwilight_55: 3598098605015245329
+      BoldTwilight_56: -6264394250186972140
+      BoldTwilight_57: 1879136296324891782
+      BoldTwilight_58: 6104755543508575320
+      BoldTwilight_59: 8621906673603589688
+      BoldTwilight_6: 1391248969099362132
+      BoldTwilight_60: 5016606055814335927
+      BoldTwilight_61: 6636211998241197803
+      BoldTwilight_62: -953508409286102842
+      BoldTwilight_63: 6111813087869605533
+      BoldTwilight_64: 5050119168335733518
+      BoldTwilight_65: 7221737071643049323
+      BoldTwilight_66: -5704257444716009502
+      BoldTwilight_67: 5909226925576982252
+      BoldTwilight_68: -2285265650434483616
+      BoldTwilight_69: -8164604202555214029
+      BoldTwilight_7: -1445237335981762799
+      BoldTwilight_70: -3005003653491995034
+      BoldTwilight_71: 4493313130730012766
+      BoldTwilight_72: 7379117273970013015
+      BoldTwilight_73: -5266634388199122992
+      BoldTwilight_74: -5946577365332494321
+      BoldTwilight_75: -687117838934824020
+      BoldTwilight_76: -2431726199378717813
+      BoldTwilight_77: -3528528331821641129
+      BoldTwilight_78: -162221056612949546
+      BoldTwilight_79: -2537565409685559585
+      BoldTwilight_8: 8099831075781638852
+      BoldTwilight_80: -4712615865997731467
+      BoldTwilight_81: 7700745234536365863
+      BoldTwilight_82: 233117128939572819
+      BoldTwilight_83: 9040037887900839503
+      BoldTwilight_84: -4390818766196676662
+      BoldTwilight_85: -8755436071418506005
+      BoldTwilight_86: -7764183757998448268
+      BoldTwilight_87: -639543944547177748
+      BoldTwilight_88: -7274758780894717159
+      BoldTwilight_89: -7029362601214014450
+      BoldTwilight_9: -3084844966144609803
+      BoldTwilight_90: -7366438612578467187
+      BoldTwilight_91: -4259667234117821619
+      BoldTwilight_92: -6572830834913878102
+      BoldTwilight_93: 7968496008561805349
+      BoldTwilight_94: -8460861398741614723
+      BoldTwilight_95: -3786828890762632277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2600 @@
+fileFormatVersion: 2
+guid: c7f2253fd2a5f46af8b97315078e0768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 905073035836307777
+    second: BoldCheese_0
+  - first:
+      213: -2355966643126955895
+    second: BoldCheese_1
+  - first:
+      213: 2413162682570647289
+    second: BoldCheese_2
+  - first:
+      213: 674547156760812197
+    second: BoldCheese_3
+  - first:
+      213: 7345764226668524028
+    second: BoldCheese_4
+  - first:
+      213: 247845857459189929
+    second: BoldCheese_5
+  - first:
+      213: -4300395074621187127
+    second: BoldCheese_6
+  - first:
+      213: -2915409993489307229
+    second: BoldCheese_7
+  - first:
+      213: -8852911782487312838
+    second: BoldCheese_8
+  - first:
+      213: -8990122265058799982
+    second: BoldCheese_9
+  - first:
+      213: 4601065258608884291
+    second: BoldCheese_10
+  - first:
+      213: -6585001391128280764
+    second: BoldCheese_11
+  - first:
+      213: -6077814025885844762
+    second: BoldCheese_12
+  - first:
+      213: 4150105810001042296
+    second: BoldCheese_13
+  - first:
+      213: 2722565300686806374
+    second: BoldCheese_14
+  - first:
+      213: 7793698867282500421
+    second: BoldCheese_15
+  - first:
+      213: 2605502572595263499
+    second: BoldCheese_16
+  - first:
+      213: -4286478322743411606
+    second: BoldCheese_17
+  - first:
+      213: 5319826545292491947
+    second: BoldCheese_18
+  - first:
+      213: 4286891802111901264
+    second: BoldCheese_19
+  - first:
+      213: 5420560625887402720
+    second: BoldCheese_20
+  - first:
+      213: -1389771572020195118
+    second: BoldCheese_21
+  - first:
+      213: -8026414773529014669
+    second: BoldCheese_22
+  - first:
+      213: 6666857665635049195
+    second: BoldCheese_23
+  - first:
+      213: 5380983050671577963
+    second: BoldCheese_24
+  - first:
+      213: 7724817614693179852
+    second: BoldCheese_25
+  - first:
+      213: -8668685674166745670
+    second: BoldCheese_26
+  - first:
+      213: 3956911518720185665
+    second: BoldCheese_27
+  - first:
+      213: 2468980486264012538
+    second: BoldCheese_28
+  - first:
+      213: -3600049164133039902
+    second: BoldCheese_29
+  - first:
+      213: 7873437906729685012
+    second: BoldCheese_30
+  - first:
+      213: 861132636572352204
+    second: BoldCheese_31
+  - first:
+      213: 6667675203387939022
+    second: BoldCheese_32
+  - first:
+      213: -8211323623474539518
+    second: BoldCheese_33
+  - first:
+      213: -4177595858222975707
+    second: BoldCheese_34
+  - first:
+      213: 6055043203410118059
+    second: BoldCheese_35
+  - first:
+      213: 4509295197063562094
+    second: BoldCheese_36
+  - first:
+      213: -3546528714429902136
+    second: BoldCheese_37
+  - first:
+      213: 1858352450339032524
+    second: BoldCheese_38
+  - first:
+      213: -6980969873385111885
+    second: BoldCheese_39
+  - first:
+      213: -3085871093078097572
+    second: BoldCheese_40
+  - first:
+      213: -3369596807097595355
+    second: BoldCheese_41
+  - first:
+      213: -8432760561724460580
+    second: BoldCheese_42
+  - first:
+      213: 3622141520083331375
+    second: BoldCheese_43
+  - first:
+      213: -842637938050667572
+    second: BoldCheese_44
+  - first:
+      213: -5980105365890526620
+    second: BoldCheese_45
+  - first:
+      213: 5811628846481577892
+    second: BoldCheese_46
+  - first:
+      213: 1160693011964936866
+    second: BoldCheese_47
+  - first:
+      213: -4366292656349705381
+    second: BoldCheese_48
+  - first:
+      213: -5776873462972980853
+    second: BoldCheese_49
+  - first:
+      213: -6363243213025095575
+    second: BoldCheese_50
+  - first:
+      213: 4916823487827129391
+    second: BoldCheese_51
+  - first:
+      213: 4537830406982343369
+    second: BoldCheese_52
+  - first:
+      213: -2950181153277774519
+    second: BoldCheese_53
+  - first:
+      213: -6613408364866364736
+    second: BoldCheese_54
+  - first:
+      213: 8712277961741639177
+    second: BoldCheese_55
+  - first:
+      213: -462917823883915749
+    second: BoldCheese_56
+  - first:
+      213: 7936973489076987972
+    second: BoldCheese_57
+  - first:
+      213: -4448482768736950010
+    second: BoldCheese_58
+  - first:
+      213: 6146338867730226962
+    second: BoldCheese_59
+  - first:
+      213: -627895549465656764
+    second: BoldCheese_60
+  - first:
+      213: 8590298550713128662
+    second: BoldCheese_61
+  - first:
+      213: 7987483883563971978
+    second: BoldCheese_62
+  - first:
+      213: 565081677082451626
+    second: BoldCheese_63
+  - first:
+      213: -5114084462989613787
+    second: BoldCheese_64
+  - first:
+      213: -8341857564100405943
+    second: BoldCheese_65
+  - first:
+      213: -8204560290863110594
+    second: BoldCheese_66
+  - first:
+      213: 5602414009461383110
+    second: BoldCheese_67
+  - first:
+      213: 2771577732899899498
+    second: BoldCheese_68
+  - first:
+      213: -2053952557689638834
+    second: BoldCheese_69
+  - first:
+      213: 4008493922713231663
+    second: BoldCheese_70
+  - first:
+      213: -7098230571028287499
+    second: BoldCheese_71
+  - first:
+      213: 1588696558034031657
+    second: BoldCheese_72
+  - first:
+      213: 1528765775350239395
+    second: BoldCheese_73
+  - first:
+      213: 5076856542583877702
+    second: BoldCheese_74
+  - first:
+      213: 1275434907443291341
+    second: BoldCheese_75
+  - first:
+      213: -9113059317672027733
+    second: BoldCheese_76
+  - first:
+      213: -6905980779682600438
+    second: BoldCheese_77
+  - first:
+      213: 1763482672746510907
+    second: BoldCheese_78
+  - first:
+      213: 6033400612825809069
+    second: BoldCheese_79
+  - first:
+      213: 3705198506763776468
+    second: BoldCheese_80
+  - first:
+      213: 7049718546561306838
+    second: BoldCheese_81
+  - first:
+      213: -5584658842788876567
+    second: BoldCheese_82
+  - first:
+      213: -2454020596195909974
+    second: BoldCheese_83
+  - first:
+      213: 2118594673816266192
+    second: BoldCheese_84
+  - first:
+      213: -5844845130553101631
+    second: BoldCheese_85
+  - first:
+      213: -2124262646868341303
+    second: BoldCheese_86
+  - first:
+      213: -6377301867111170797
+    second: BoldCheese_87
+  - first:
+      213: -8040804632035016584
+    second: BoldCheese_88
+  - first:
+      213: -541782944696802970
+    second: BoldCheese_89
+  - first:
+      213: -5768643528138958110
+    second: BoldCheese_90
+  - first:
+      213: -55578175236766357
+    second: BoldCheese_91
+  - first:
+      213: -3718996219899644128
+    second: BoldCheese_92
+  - first:
+      213: -2762098131960061896
+    second: BoldCheese_93
+  - first:
+      213: -1739659139108671548
+    second: BoldCheese_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoldCheese_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 266
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149becc71277f8c00800000000000000
+      internalID: 905073035836307777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 268
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9809fbd02dced4fd0800000000000000
+      internalID: -2355966643126955895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 270
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f62adf9ca64d7120800000000000000
+      internalID: 2413162682570647289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 270
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5afea0197c5900800000000000000
+      internalID: 674547156760812197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 270
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1795605a561f560800000000000000
+      internalID: 7345764226668524028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 270
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a838e48e76807300800000000000000
+      internalID: 247845857459189929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 270
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb5d5fc67de154c0800000000000000
+      internalID: -4300395074621187127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 270
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a92273be026a87d0800000000000000
+      internalID: -2915409993489307229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3639f873a3242580800000000000000
+      internalID: -8852911782487312838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 272
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e07df7e6bac3380800000000000000
+      internalID: -8990122265058799982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 272
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34af5c7a9744adf30800000000000000
+      internalID: 4601065258608884291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 272
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4418854af106d94a0800000000000000
+      internalID: -6585001391128280764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 234
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eaff28585447aba0800000000000000
+      internalID: -6077814025885844762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 234
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b9569fe33289930800000000000000
+      internalID: 4150105810001042296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 234
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ddd3957be78c520800000000000000
+      internalID: 2722565300686806374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 234
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bdcb6b3d7c82c60800000000000000
+      internalID: 7793698867282500421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 234
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0838e409ca982420800000000000000
+      internalID: 2605502572595263499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 234
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c777b1dae5384c0800000000000000
+      internalID: -4286478322743411606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac3adaae02d3d940800000000000000
+      internalID: 5319826545292491947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 202
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ef96f81691e7b30800000000000000
+      internalID: 4286891802111901264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 202
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eadc7d7b23b93b40800000000000000
+      internalID: 5420560625887402720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 202
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0dcca5e1a86bce0800000000000000
+      internalID: -1389771572020195118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 202
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e0bdb0a427c9090800000000000000
+      internalID: -8026414773529014669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee544079bf658c50800000000000000
+      internalID: 6666857665635049195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_24
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 202
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b5dad23971daa40800000000000000
+      internalID: 5380983050671577963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 202
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1a77651b0143b60800000000000000
+      internalID: 7724817614693179852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_26
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 202
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab506c9de44a2b780800000000000000
+      internalID: -8668685674166745670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145d7f8cf06c9e630800000000000000
+      internalID: 3956911518720185665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3329cba4934220800000000000000
+      internalID: 2468980486264012538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e088edeb5e0a0ec0800000000000000
+      internalID: -3600049164133039902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410d7b79f02144d60800000000000000
+      internalID: 7873437906729685012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccef36b029b53fb00800000000000000
+      internalID: 861132636572352204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec85e974547588c50800000000000000
+      internalID: 6667675203387939022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d60f7ba48b0e80800000000000000
+      internalID: -8211323623474539518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 170
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525f97763b23606c0800000000000000
+      internalID: -4177595858222975707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 170
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba547e666b5d70450800000000000000
+      internalID: 6055043203410118059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634958271c349e30800000000000000
+      internalID: 4509295197063562094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2deaeace238cec0800000000000000
+      internalID: -3546528714429902136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_38
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd4fe525b13ac910800000000000000
+      internalID: 1858352450339032524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3d2d03ec9e1f90800000000000000
+      internalID: -6980969873385111885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_40
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c510f6a2798cc25d0800000000000000
+      internalID: -3085871093078097572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a48ac8e89cc31d0800000000000000
+      internalID: -3369596807097595355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd17d72a2f0d8fa80800000000000000
+      internalID: -8432760561724460580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_43
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a2c6858e644230800000000000000
+      internalID: 3622141520083331375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_44
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbe83482495e44f0800000000000000
+      internalID: -842637938050667572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46210ba8ad5620da0800000000000000
+      internalID: -5980105365890526620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a792f005ad07a050800000000000000
+      internalID: 5811628846481577892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2c27f052c9b1010800000000000000
+      internalID: 1160693011964936866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_48
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b01e076ffc763c0800000000000000
+      internalID: -4366292656349705381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b816d1f413c64dfa0800000000000000
+      internalID: -5776873462972980853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_50
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960593cf20831b7a0800000000000000
+      internalID: -6363243213025095575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24bb3769e01c3440800000000000000
+      internalID: 4916823487827129391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_52
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca162376bc99fe30800000000000000
+      internalID: 4537830406982343369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_53
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94573df2fd9de07d0800000000000000
+      internalID: -2950181153277774519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_54
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca1b89a1247834a0800000000000000
+      internalID: -6613408364866364736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e131685aa38e870800000000000000
+      internalID: 8712277961741639177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_56
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 74
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ec33b11b26399f0800000000000000
+      internalID: -462917823883915749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_57
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4486020265bc52e60800000000000000
+      internalID: 7936973489076987972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 74
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609ecfbad70d342c0800000000000000
+      internalID: -4448482768736950010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_59
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 74
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f9c30b2ae2c4550800000000000000
+      internalID: 6146338867730226962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_60
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 74
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4420d0213544947f0800000000000000
+      internalID: -627895549465656764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 74
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d61fcdb40fd63770800000000000000
+      internalID: 8590298550713128662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_62
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 74
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85fcf8c54e39de60800000000000000
+      internalID: 7987483883563971978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 74
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaed4979ac297d700800000000000000
+      internalID: 565081677082451626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 76
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525e828c64f1709b0800000000000000
+      internalID: -5114084462989613787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945d3e41eb4cb3c80800000000000000
+      internalID: -8341857564100405943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_66
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 92
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3624d492eb832e80800000000000000
+      internalID: -8204560290863110594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_67
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 78
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf1e96dbd5cfbd40800000000000000
+      internalID: 5602414009461383110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6881ec734f967620800000000000000
+      internalID: 2771577732899899498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_69
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 48
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e407765f705ee73e0800000000000000
+      internalID: -2053952557689638834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_70
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2162ab1cf701a730800000000000000
+      internalID: 4008493922713231663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_71
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 50
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff6a0857e40e7d90800000000000000
+      internalID: -7098230571028287499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 50
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924118d2a1f2c0610800000000000000
+      internalID: 1588696558034031657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 50
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a096887f54473510800000000000000
+      internalID: 1528765775350239395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640745c802e947640800000000000000
+      internalID: 5076856542583877702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_75
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc46a407a4143b110800000000000000
+      internalID: 1275434907443291341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_76
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9581965d8e78180800000000000000
+      internalID: -9113059317672027733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_77
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae75102170920a0800000000000000
+      internalID: -6905980779682600438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 22
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3abc94c526297810800000000000000
+      internalID: 1763482672746510907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da04b1b14e1fab350800000000000000
+      internalID: 6033400612825809069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d176f139628b6330800000000000000
+      internalID: 3705198506763776468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_81
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 22
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d01546caa1a5d160800000000000000
+      internalID: 7049718546561306838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_82
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 22
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee23db0f5e4f72b0800000000000000
+      internalID: -5584658842788876567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_83
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 22
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae104c054191fdd0800000000000000
+      internalID: -2454020596195909974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_84
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 26
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d56adb81a2c66d10800000000000000
+      internalID: 2118594673816266192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2f5323250f2eea0800000000000000
+      internalID: -5844845130553101631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_86
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 28
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd08c3a06a1582e0800000000000000
+      internalID: -2124262646868341303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d37618db54f77a0800000000000000
+      internalID: -6377301867111170797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_88
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870cc370ac2596090800000000000000
+      internalID: -8040804632035016584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_89
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6616bf348433b78f0800000000000000
+      internalID: -541782944696802970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_90
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eadb655649a1ffa0800000000000000
+      internalID: -5768643528138958110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_91
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b658fbfa1fb8a3ff0800000000000000
+      internalID: -55578175236766357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_92
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0277cdf54a8736cc0800000000000000
+      internalID: -3718996219899644128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_93
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 10
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83020c9126e0ba9d0800000000000000
+      internalID: -2762098131960061896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldCheese_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 10
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf6a27ea3d7bd7e0800000000000000
+      internalID: -1739659139108671548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoldCheese_0: 905073035836307777
+      BoldCheese_1: -2355966643126955895
+      BoldCheese_10: 4601065258608884291
+      BoldCheese_11: -6585001391128280764
+      BoldCheese_12: -6077814025885844762
+      BoldCheese_13: 4150105810001042296
+      BoldCheese_14: 2722565300686806374
+      BoldCheese_15: 7793698867282500421
+      BoldCheese_16: 2605502572595263499
+      BoldCheese_17: -4286478322743411606
+      BoldCheese_18: 5319826545292491947
+      BoldCheese_19: 4286891802111901264
+      BoldCheese_2: 2413162682570647289
+      BoldCheese_20: 5420560625887402720
+      BoldCheese_21: -1389771572020195118
+      BoldCheese_22: -8026414773529014669
+      BoldCheese_23: 6666857665635049195
+      BoldCheese_24: 5380983050671577963
+      BoldCheese_25: 7724817614693179852
+      BoldCheese_26: -8668685674166745670
+      BoldCheese_27: 3956911518720185665
+      BoldCheese_28: 2468980486264012538
+      BoldCheese_29: -3600049164133039902
+      BoldCheese_3: 674547156760812197
+      BoldCheese_30: 7873437906729685012
+      BoldCheese_31: 861132636572352204
+      BoldCheese_32: 6667675203387939022
+      BoldCheese_33: -8211323623474539518
+      BoldCheese_34: -4177595858222975707
+      BoldCheese_35: 6055043203410118059
+      BoldCheese_36: 4509295197063562094
+      BoldCheese_37: -3546528714429902136
+      BoldCheese_38: 1858352450339032524
+      BoldCheese_39: -6980969873385111885
+      BoldCheese_4: 7345764226668524028
+      BoldCheese_40: -3085871093078097572
+      BoldCheese_41: -3369596807097595355
+      BoldCheese_42: -8432760561724460580
+      BoldCheese_43: 3622141520083331375
+      BoldCheese_44: -842637938050667572
+      BoldCheese_45: -5980105365890526620
+      BoldCheese_46: 5811628846481577892
+      BoldCheese_47: 1160693011964936866
+      BoldCheese_48: -4366292656349705381
+      BoldCheese_49: -5776873462972980853
+      BoldCheese_5: 247845857459189929
+      BoldCheese_50: -6363243213025095575
+      BoldCheese_51: 4916823487827129391
+      BoldCheese_52: 4537830406982343369
+      BoldCheese_53: -2950181153277774519
+      BoldCheese_54: -6613408364866364736
+      BoldCheese_55: 8712277961741639177
+      BoldCheese_56: -462917823883915749
+      BoldCheese_57: 7936973489076987972
+      BoldCheese_58: -4448482768736950010
+      BoldCheese_59: 6146338867730226962
+      BoldCheese_6: -4300395074621187127
+      BoldCheese_60: -627895549465656764
+      BoldCheese_61: 8590298550713128662
+      BoldCheese_62: 7987483883563971978
+      BoldCheese_63: 565081677082451626
+      BoldCheese_64: -5114084462989613787
+      BoldCheese_65: -8341857564100405943
+      BoldCheese_66: -8204560290863110594
+      BoldCheese_67: 5602414009461383110
+      BoldCheese_68: 2771577732899899498
+      BoldCheese_69: -2053952557689638834
+      BoldCheese_7: -2915409993489307229
+      BoldCheese_70: 4008493922713231663
+      BoldCheese_71: -7098230571028287499
+      BoldCheese_72: 1588696558034031657
+      BoldCheese_73: 1528765775350239395
+      BoldCheese_74: 5076856542583877702
+      BoldCheese_75: 1275434907443291341
+      BoldCheese_76: -9113059317672027733
+      BoldCheese_77: -6905980779682600438
+      BoldCheese_78: 1763482672746510907
+      BoldCheese_79: 6033400612825809069
+      BoldCheese_8: -8852911782487312838
+      BoldCheese_80: 3705198506763776468
+      BoldCheese_81: 7049718546561306838
+      BoldCheese_82: -5584658842788876567
+      BoldCheese_83: -2454020596195909974
+      BoldCheese_84: 2118594673816266192
+      BoldCheese_85: -5844845130553101631
+      BoldCheese_86: -2124262646868341303
+      BoldCheese_87: -6377301867111170797
+      BoldCheese_88: -8040804632035016584
+      BoldCheese_89: -541782944696802970
+      BoldCheese_9: -8990122265058799982
+      BoldCheese_90: -5768643528138958110
+      BoldCheese_91: -55578175236766357
+      BoldCheese_92: -3718996219899644128
+      BoldCheese_93: -2762098131960061896
+      BoldCheese_94: -1739659139108671548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

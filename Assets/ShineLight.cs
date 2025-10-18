@@ -3,8 +3,7 @@ using UnityEngine;
 public class ShineLight : SimultaneousRaycast{
     [Header("Visual Light Reflection")] // default values
     public float beamWidth = 0.2f; 
-    public Color startColor = Color.white; 
-    public Color endColor = Color.white;
+    public Color color = Color.white; 
     
     private LineRenderer[] lightBeams;
     private Material beamMaterial;
@@ -25,14 +24,12 @@ public class ShineLight : SimultaneousRaycast{
             lr.startWidth = beamWidth;
             lr.endWidth = beamWidth;
             lr.positionCount = 2;
-            lr.useWorldSpace = true;
+            lr.useWorldSpace = true;    
             lr.sortingLayerName = "Default";
             lr.sortingOrder = 10;
 
-            Color beamColor = startColor;
+            Color beamColor = color;
             beamColor.a = lightAlpha;
-            lr.startColor = startColor;
-            lr.endColor = endColor;
 
             lr.textureMode = LineTextureMode.Stretch;
             lr.enabled = false;
@@ -62,8 +59,8 @@ public class ShineLight : SimultaneousRaycast{
             beamMaterial = new Material(Shader.Find("Unlit/Transparent"));
         }
         beamMaterial.mainTexture = gradientTex;
-        beamMaterial.SetColor("_BaseColor", startColor);
-        beamMaterial.SetColor("_Color", endColor);
+        beamMaterial.SetColor("_BaseColor", color);
+        beamMaterial.SetColor("_Color", color);
 
 
         //beamMaterial.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
@@ -74,12 +71,13 @@ public class ShineLight : SimultaneousRaycast{
 
     void Update(){
         // colour each beam
-        Color beamColor = startColor;
+        Color beamColor = color;
         beamColor.a = lightAlpha;
         foreach (LineRenderer beam in lightBeams){
-            if (beam != null)
+            if (beam != null){
                 beam.startColor = beamColor;
                 beam.endColor = beamColor;
+            }
         }
 
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

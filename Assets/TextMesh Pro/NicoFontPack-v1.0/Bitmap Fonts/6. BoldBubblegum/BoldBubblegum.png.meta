@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 32c19db79d4d7472bbcd17550be53900
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7051241703442492574
+    second: BoldBubblegum_0
+  - first:
+      213: -9196531597871785900
+    second: BoldBubblegum_1
+  - first:
+      213: -4679811846435492457
+    second: BoldBubblegum_2
+  - first:
+      213: -735632508149615038
+    second: BoldBubblegum_3
+  - first:
+      213: -6487447017464851750
+    second: BoldBubblegum_4
+  - first:
+      213: 6260604082063270667
+    second: BoldBubblegum_5
+  - first:
+      213: 8280318149741059748
+    second: BoldBubblegum_6
+  - first:
+      213: -7723907089353641671
+    second: BoldBubblegum_7
+  - first:
+      213: 8146811834851471071
+    second: BoldBubblegum_8
+  - first:
+      213: 8129766947717552481
+    second: BoldBubblegum_9
+  - first:
+      213: -901318323317615197
+    second: BoldBubblegum_10
+  - first:
+      213: -6881724899571915120
+    second: BoldBubblegum_11
+  - first:
+      213: 7633037129644719931
+    second: BoldBubblegum_12
+  - first:
+      213: 6226576906120647913
+    second: BoldBubblegum_13
+  - first:
+      213: 6098802705546397303
+    second: BoldBubblegum_14
+  - first:
+      213: 4996466010768639404
+    second: BoldBubblegum_15
+  - first:
+      213: 232907066773066944
+    second: BoldBubblegum_16
+  - first:
+      213: 6866974617989395365
+    second: BoldBubblegum_17
+  - first:
+      213: 1604484341966967670
+    second: BoldBubblegum_18
+  - first:
+      213: -2633822500011183625
+    second: BoldBubblegum_19
+  - first:
+      213: -7614441183864321500
+    second: BoldBubblegum_20
+  - first:
+      213: 3456564745309133784
+    second: BoldBubblegum_21
+  - first:
+      213: 353661730366587508
+    second: BoldBubblegum_22
+  - first:
+      213: -4797980308272109416
+    second: BoldBubblegum_23
+  - first:
+      213: 7226593958557059043
+    second: BoldBubblegum_24
+  - first:
+      213: 3901259146132749104
+    second: BoldBubblegum_25
+  - first:
+      213: 8248156806933994637
+    second: BoldBubblegum_26
+  - first:
+      213: -1135214577092752841
+    second: BoldBubblegum_27
+  - first:
+      213: -4810483021044798414
+    second: BoldBubblegum_28
+  - first:
+      213: -707139140489889553
+    second: BoldBubblegum_29
+  - first:
+      213: 1435074443474005394
+    second: BoldBubblegum_30
+  - first:
+      213: 3241251216380895843
+    second: BoldBubblegum_31
+  - first:
+      213: 848425140656800710
+    second: BoldBubblegum_32
+  - first:
+      213: 6749176392017014075
+    second: BoldBubblegum_33
+  - first:
+      213: -5165146028059155955
+    second: BoldBubblegum_34
+  - first:
+      213: -3338824148946134642
+    second: BoldBubblegum_35
+  - first:
+      213: -1211866442387817945
+    second: BoldBubblegum_36
+  - first:
+      213: 2505229644803164808
+    second: BoldBubblegum_37
+  - first:
+      213: 4630027213811851987
+    second: BoldBubblegum_38
+  - first:
+      213: 7519700751022750945
+    second: BoldBubblegum_39
+  - first:
+      213: 1954737546603662034
+    second: BoldBubblegum_40
+  - first:
+      213: -1947683568176950353
+    second: BoldBubblegum_41
+  - first:
+      213: -7103576321841773054
+    second: BoldBubblegum_42
+  - first:
+      213: -7001602135045762340
+    second: BoldBubblegum_43
+  - first:
+      213: -1987756559937441949
+    second: BoldBubblegum_44
+  - first:
+      213: 2204998581776276007
+    second: BoldBubblegum_45
+  - first:
+      213: -3164862389676036714
+    second: BoldBubblegum_46
+  - first:
+      213: 7420790012225465632
+    second: BoldBubblegum_47
+  - first:
+      213: -6333432537932159400
+    second: BoldBubblegum_48
+  - first:
+      213: -2372023223648927265
+    second: BoldBubblegum_49
+  - first:
+      213: -7965559672724754967
+    second: BoldBubblegum_50
+  - first:
+      213: -7374610372688882674
+    second: BoldBubblegum_51
+  - first:
+      213: 8475869900524474864
+    second: BoldBubblegum_52
+  - first:
+      213: 5753940462849824998
+    second: BoldBubblegum_53
+  - first:
+      213: -4131603071510162091
+    second: BoldBubblegum_54
+  - first:
+      213: 8197511927056561804
+    second: BoldBubblegum_55
+  - first:
+      213: 5305376148907917143
+    second: BoldBubblegum_56
+  - first:
+      213: 725873931399556580
+    second: BoldBubblegum_57
+  - first:
+      213: 2112200239698226533
+    second: BoldBubblegum_58
+  - first:
+      213: 6808024855064994634
+    second: BoldBubblegum_59
+  - first:
+      213: -2482163185147710215
+    second: BoldBubblegum_60
+  - first:
+      213: 3657823484049737802
+    second: BoldBubblegum_61
+  - first:
+      213: -983105708418908581
+    second: BoldBubblegum_62
+  - first:
+      213: 5209469080274368339
+    second: BoldBubblegum_63
+  - first:
+      213: 8753616262330258378
+    second: BoldBubblegum_64
+  - first:
+      213: -6051488249600669156
+    second: BoldBubblegum_65
+  - first:
+      213: 5548677875249552567
+    second: BoldBubblegum_66
+  - first:
+      213: -3144928627472852505
+    second: BoldBubblegum_67
+  - first:
+      213: 3574249285046319933
+    second: BoldBubblegum_68
+  - first:
+      213: -1971856331133667270
+    second: BoldBubblegum_69
+  - first:
+      213: -6507815296618390815
+    second: BoldBubblegum_70
+  - first:
+      213: -2622877960979945154
+    second: BoldBubblegum_71
+  - first:
+      213: 4708616841249028619
+    second: BoldBubblegum_72
+  - first:
+      213: -5606147196075072181
+    second: BoldBubblegum_73
+  - first:
+      213: 6086206227251809050
+    second: BoldBubblegum_74
+  - first:
+      213: 6357062092674884894
+    second: BoldBubblegum_75
+  - first:
+      213: -6623303335960866490
+    second: BoldBubblegum_76
+  - first:
+      213: -8146966806592011794
+    second: BoldBubblegum_77
+  - first:
+      213: 6549754732622243507
+    second: BoldBubblegum_78
+  - first:
+      213: 1343692393099487230
+    second: BoldBubblegum_79
+  - first:
+      213: 4385740931173173681
+    second: BoldBubblegum_80
+  - first:
+      213: 7302666980649790833
+    second: BoldBubblegum_81
+  - first:
+      213: 7462126750701897705
+    second: BoldBubblegum_82
+  - first:
+      213: 5572871584037015529
+    second: BoldBubblegum_83
+  - first:
+      213: 3405269776646772176
+    second: BoldBubblegum_84
+  - first:
+      213: -344951086673428233
+    second: BoldBubblegum_85
+  - first:
+      213: 729782345203908370
+    second: BoldBubblegum_86
+  - first:
+      213: 7832964590632009741
+    second: BoldBubblegum_87
+  - first:
+      213: -4505875704232912849
+    second: BoldBubblegum_88
+  - first:
+      213: 3700154512285076277
+    second: BoldBubblegum_89
+  - first:
+      213: -8758601599866354681
+    second: BoldBubblegum_90
+  - first:
+      213: -3335076912502584207
+    second: BoldBubblegum_91
+  - first:
+      213: -5760303344656758091
+    second: BoldBubblegum_92
+  - first:
+      213: -4246390067183211808
+    second: BoldBubblegum_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoldBubblegum_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 162
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c2c1f58fa0bd160800000000000000
+      internalID: 7051241703442492574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 163
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458523fac3b5f5080800000000000000
+      internalID: -9196531597871785900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 164
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2c8d9be7fd0fb0800000000000000
+      internalID: -4679811846435492457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 164
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2463382a1228ac5f0800000000000000
+      internalID: -735632508149615038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 164
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad217d04f45f7f5a0800000000000000
+      internalID: -6487447017464851750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 164
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03edb61e3222e650800000000000000
+      internalID: 6260604082063270667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae19867c7999e270800000000000000
+      internalID: 8280318149741059748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93174fcdc6b2fc490800000000000000
+      internalID: -7723907089353641671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 165
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde254c333a4f0170800000000000000
+      internalID: 8146811834851471071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 165
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1699a6137fbb2d070800000000000000
+      internalID: 8129766947717552481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a55a15a2cfdd73f0800000000000000
+      internalID: -901318323317615197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 165
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0962e0f2aa33f70a0800000000000000
+      internalID: -6881724899571915120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f37dde3defde960800000000000000
+      internalID: 7633037129644719931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 144
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4d8ffc4be396650800000000000000
+      internalID: 6226576906120647913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 144
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776c8437fbc43a450800000000000000
+      internalID: 6098802705546397303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 144
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca58d284d53075540800000000000000
+      internalID: 4996466010768639404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 144
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4dfa44eb37b3300800000000000000
+      internalID: 232907066773066944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 144
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3b1e248056c4f50800000000000000
+      internalID: 6866974617989395365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 144
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6731e921206444610800000000000000
+      internalID: 1604484341966967670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1f66d0468c27bd0800000000000000
+      internalID: -2633822500011183625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 126
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a89a81612145690800000000000000
+      internalID: -7614441183864321500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 126
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db1a4b725f28ff20800000000000000
+      internalID: 3456564745309133784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4728621587578e400800000000000000
+      internalID: 353661730366587508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8982f1694562a6db0800000000000000
+      internalID: -4797980308272109416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e707cbcae40a4460800000000000000
+      internalID: 7226593958557059043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b7cfd068e042630800000000000000
+      internalID: 3901259146132749104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c55015ae6577270800000000000000
+      internalID: 8248156806933994637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a8a845b58ee30f0800000000000000
+      internalID: -1135214577092752841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ca39ced2bbd3db0800000000000000
+      internalID: -4810483021044798414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe83354c2bcbf26f0800000000000000
+      internalID: -707139140489889553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d628d5a986ae310800000000000000
+      internalID: 1435074443474005394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362af24fecc3bfc20800000000000000
+      internalID: 3241251216380895843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c30c579b2636cb00800000000000000
+      internalID: 848425140656800710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 108
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d60ac7b24e9ad50800000000000000
+      internalID: 6749176392017014075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 108
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02a388bd07b158b0800000000000000
+      internalID: -5165146028059155955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89d19a502d1aa1d0800000000000000
+      internalID: -3338824148946134642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72af14234e59e2fe0800000000000000
+      internalID: -1211866442387817945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a4543b61d54c220800000000000000
+      internalID: 2505229644803164808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2a5a35839214040800000000000000
+      internalID: 4630027213811851987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_39
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecf2f1fdf75b5860800000000000000
+      internalID: 7519700751022750945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da0e66217f902b10800000000000000
+      internalID: 1954737546603662034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa392ff2d1078f4e0800000000000000
+      internalID: -1947683568176950353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206cebdb8f60b6d90800000000000000
+      internalID: -7103576321841773054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_43
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd21bf944ff45de90800000000000000
+      internalID: -7001602135045762340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_44
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fe9f8b0f11a64e0800000000000000
+      internalID: -1987756559937441949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ad30d078ab99e10800000000000000
+      internalID: 2204998581776276007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dad5cbc662414d0800000000000000
+      internalID: -3164862389676036714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d2777f231fbf660800000000000000
+      internalID: 7420790012225465632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85627a7a9a02b18a0800000000000000
+      internalID: -6333432537932159400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_49
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1cd631271e41fd0800000000000000
+      internalID: -2372023223648927265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed60165ea5a47190800000000000000
+      internalID: -7965559672724754967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_51
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04d7fa30fe18a990800000000000000
+      internalID: -7374610372688882674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1df2774c650a570800000000000000
+      internalID: 8475869900524474864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_53
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e819e28d5a1adf40800000000000000
+      internalID: 5753940462849824998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55559b985e899a6c0800000000000000
+      internalID: -4131603071510162091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86fb365aa963c170800000000000000
+      internalID: 8197511927056561804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 54
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f7c739f7b70a940800000000000000
+      internalID: 5305376148907917143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_57
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 54
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed69c8ae72d21a00800000000000000
+      internalID: 725873931399556580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_58
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 54
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d25b55dea005d10800000000000000
+      internalID: 2112200239698226533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43ed240986fa7e50800000000000000
+      internalID: 6808024855064994634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_60
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 54
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4f7b2fbb59d8dd0800000000000000
+      internalID: -2482163185147710215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_61
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 54
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48cdd9241333c230800000000000000
+      internalID: 3657823484049737802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 54
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e3801219e4b52f0800000000000000
+      internalID: -983105708418908581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357722e0780cb4840800000000000000
+      internalID: 5209469080274368339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_64
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 55
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac31748ac971b7970800000000000000
+      internalID: 8753616262330258378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 55
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a0a18cf7bc40ca0800000000000000
+      internalID: -6051488249600669156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_66
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc915f112dd00d40800000000000000
+      internalID: 5548677875249552567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9168b6318fa54d0800000000000000
+      internalID: -3144928627472852505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 39
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b31ed99c84a9130800000000000000
+      internalID: 3574249285046319933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_69
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 40
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a383caa3d1f82a4e0800000000000000
+      internalID: -1971856331133667270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 40
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea1535b7789fa5a0800000000000000
+      internalID: -6507815296618390815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39e69e146aa99bd0800000000000000
+      internalID: -2622877960979945154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_72
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 40
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0af11ed11e585140800000000000000
+      internalID: 4708616841249028619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 40
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45a46be3d6f232b0800000000000000
+      internalID: -5606147196075072181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_74
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 40
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4d1d415c867450800000000000000
+      internalID: 6086206227251809050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_75
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 40
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ecf8ca42d83850800000000000000
+      internalID: 6357062092674884894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 24
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641946c25bc4514a0800000000000000
+      internalID: -6623303335960866490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_77
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee14f289ad820fe80800000000000000
+      internalID: -8146966806592011794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_78
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6e1eb2a3765ea50800000000000000
+      internalID: 6549754732622243507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_79
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7e612cc11c5a210800000000000000
+      internalID: 1343692393099487230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_80
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9c777e3284ddc30800000000000000
+      internalID: 4385740931173173681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_81
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dea9e7de8485560800000000000000
+      internalID: 7302666980649790833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_82
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 24
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7c6846ebcce8760800000000000000
+      internalID: 7462126750701897705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_83
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 26
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef0569ed21d65d40800000000000000
+      internalID: 5572871584037015529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_84
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 27
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d59769e1d2f14f20800000000000000
+      internalID: 3405269776646772176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_85
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 27
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f002f570dc763bf0800000000000000
+      internalID: -344951086673428233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_86
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 27
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ffa392d25b02a00800000000000000
+      internalID: 729782345203908370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_87
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0085da5bc744bc60800000000000000
+      internalID: 7832964590632009741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28522f8be9e771c0800000000000000
+      internalID: -4505875704232912849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 14
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b8fc6bce6995330800000000000000
+      internalID: 3700154512285076277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_90
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044cceff32337680800000000000000
+      internalID: -8758601599866354681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_91
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c4da3d73d67b1d0800000000000000
+      internalID: -3335076912502584207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_92
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba4d3f90aa4f00b0800000000000000
+      internalID: -5760303344656758091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoldBubblegum_93
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 16
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea2cc37bbac115c0800000000000000
+      internalID: -4246390067183211808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoldBubblegum_0: 7051241703442492574
+      BoldBubblegum_1: -9196531597871785900
+      BoldBubblegum_10: -901318323317615197
+      BoldBubblegum_11: -6881724899571915120
+      BoldBubblegum_12: 7633037129644719931
+      BoldBubblegum_13: 6226576906120647913
+      BoldBubblegum_14: 6098802705546397303
+      BoldBubblegum_15: 4996466010768639404
+      BoldBubblegum_16: 232907066773066944
+      BoldBubblegum_17: 6866974617989395365
+      BoldBubblegum_18: 1604484341966967670
+      BoldBubblegum_19: -2633822500011183625
+      BoldBubblegum_2: -4679811846435492457
+      BoldBubblegum_20: -7614441183864321500
+      BoldBubblegum_21: 3456564745309133784
+      BoldBubblegum_22: 353661730366587508
+      BoldBubblegum_23: -4797980308272109416
+      BoldBubblegum_24: 7226593958557059043
+      BoldBubblegum_25: 3901259146132749104
+      BoldBubblegum_26: 8248156806933994637
+      BoldBubblegum_27: -1135214577092752841
+      BoldBubblegum_28: -4810483021044798414
+      BoldBubblegum_29: -707139140489889553
+      BoldBubblegum_3: -735632508149615038
+      BoldBubblegum_30: 1435074443474005394
+      BoldBubblegum_31: 3241251216380895843
+      BoldBubblegum_32: 848425140656800710
+      BoldBubblegum_33: 6749176392017014075
+      BoldBubblegum_34: -5165146028059155955
+      BoldBubblegum_35: -3338824148946134642
+      BoldBubblegum_36: -1211866442387817945
+      BoldBubblegum_37: 2505229644803164808
+      BoldBubblegum_38: 4630027213811851987
+      BoldBubblegum_39: 7519700751022750945
+      BoldBubblegum_4: -6487447017464851750
+      BoldBubblegum_40: 1954737546603662034
+      BoldBubblegum_41: -1947683568176950353
+      BoldBubblegum_42: -7103576321841773054
+      BoldBubblegum_43: -7001602135045762340
+      BoldBubblegum_44: -1987756559937441949
+      BoldBubblegum_45: 2204998581776276007
+      BoldBubblegum_46: -3164862389676036714
+      BoldBubblegum_47: 7420790012225465632
+      BoldBubblegum_48: -6333432537932159400
+      BoldBubblegum_49: -2372023223648927265
+      BoldBubblegum_5: 6260604082063270667
+      BoldBubblegum_50: -7965559672724754967
+      BoldBubblegum_51: -7374610372688882674
+      BoldBubblegum_52: 8475869900524474864
+      BoldBubblegum_53: 5753940462849824998
+      BoldBubblegum_54: -4131603071510162091
+      BoldBubblegum_55: 8197511927056561804
+      BoldBubblegum_56: 5305376148907917143
+      BoldBubblegum_57: 725873931399556580
+      BoldBubblegum_58: 2112200239698226533
+      BoldBubblegum_59: 6808024855064994634
+      BoldBubblegum_6: 8280318149741059748
+      BoldBubblegum_60: -2482163185147710215
+      BoldBubblegum_61: 3657823484049737802
+      BoldBubblegum_62: -983105708418908581
+      BoldBubblegum_63: 5209469080274368339
+      BoldBubblegum_64: 8753616262330258378
+      BoldBubblegum_65: -6051488249600669156
+      BoldBubblegum_66: 5548677875249552567
+      BoldBubblegum_67: -3144928627472852505
+      BoldBubblegum_68: 3574249285046319933
+      BoldBubblegum_69: -1971856331133667270
+      BoldBubblegum_7: -7723907089353641671
+      BoldBubblegum_70: -6507815296618390815
+      BoldBubblegum_71: -2622877960979945154
+      BoldBubblegum_72: 4708616841249028619
+      BoldBubblegum_73: -5606147196075072181
+      BoldBubblegum_74: 6086206227251809050
+      BoldBubblegum_75: 6357062092674884894
+      BoldBubblegum_76: -6623303335960866490
+      BoldBubblegum_77: -8146966806592011794
+      BoldBubblegum_78: 6549754732622243507
+      BoldBubblegum_79: 1343692393099487230
+      BoldBubblegum_8: 8146811834851471071
+      BoldBubblegum_80: 4385740931173173681
+      BoldBubblegum_81: 7302666980649790833
+      BoldBubblegum_82: 7462126750701897705
+      BoldBubblegum_83: 5572871584037015529
+      BoldBubblegum_84: 3405269776646772176
+      BoldBubblegum_85: -344951086673428233
+      BoldBubblegum_86: 729782345203908370
+      BoldBubblegum_87: 7832964590632009741
+      BoldBubblegum_88: -4505875704232912849
+      BoldBubblegum_89: 3700154512285076277
+      BoldBubblegum_9: 8129766947717552481
+      BoldBubblegum_90: -8758601599866354681
+      BoldBubblegum_91: -3335076912502584207
+      BoldBubblegum_92: -5760303344656758091
+      BoldBubblegum_93: -4246390067183211808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

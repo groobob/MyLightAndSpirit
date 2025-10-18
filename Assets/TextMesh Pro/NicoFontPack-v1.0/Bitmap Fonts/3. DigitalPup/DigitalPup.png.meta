@@ -1,0 +1,2366 @@
+fileFormatVersion: 2
+guid: 2b593c1566de249f19c2e1ef957c649d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1113733188636108884
+    second: DigitalPup_0
+  - first:
+      213: 1797239825939602238
+    second: DigitalPup_1
+  - first:
+      213: -3738487582404511803
+    second: DigitalPup_2
+  - first:
+      213: 2241302443401073019
+    second: DigitalPup_3
+  - first:
+      213: 4686059566250474886
+    second: DigitalPup_4
+  - first:
+      213: -7366885924809481570
+    second: DigitalPup_5
+  - first:
+      213: 6746618874088365303
+    second: DigitalPup_6
+  - first:
+      213: -3084321623156566319
+    second: DigitalPup_7
+  - first:
+      213: -5393580044317031019
+    second: DigitalPup_8
+  - first:
+      213: -868028351070386345
+    second: DigitalPup_9
+  - first:
+      213: 288448777220536443
+    second: DigitalPup_10
+  - first:
+      213: -3188876086937800839
+    second: DigitalPup_11
+  - first:
+      213: -7839643726430196403
+    second: DigitalPup_12
+  - first:
+      213: 8005425242257990342
+    second: DigitalPup_13
+  - first:
+      213: 7655300370989386231
+    second: DigitalPup_14
+  - first:
+      213: 2434374324468438424
+    second: DigitalPup_15
+  - first:
+      213: -6885357793030149410
+    second: DigitalPup_16
+  - first:
+      213: 1255146592240572597
+    second: DigitalPup_17
+  - first:
+      213: -2031426395018047977
+    second: DigitalPup_18
+  - first:
+      213: 1237558706185228339
+    second: DigitalPup_19
+  - first:
+      213: 4770018489761416342
+    second: DigitalPup_20
+  - first:
+      213: 1716956438090120841
+    second: DigitalPup_21
+  - first:
+      213: 3875657898640852270
+    second: DigitalPup_22
+  - first:
+      213: -6241836977850945537
+    second: DigitalPup_23
+  - first:
+      213: -5476560530434678874
+    second: DigitalPup_24
+  - first:
+      213: -8695726936091024898
+    second: DigitalPup_25
+  - first:
+      213: 5293698831476197289
+    second: DigitalPup_26
+  - first:
+      213: -1137135646419294906
+    second: DigitalPup_27
+  - first:
+      213: 3232287640556026854
+    second: DigitalPup_28
+  - first:
+      213: 6126692207769687169
+    second: DigitalPup_29
+  - first:
+      213: -1981286285267398825
+    second: DigitalPup_30
+  - first:
+      213: -8776504874961195808
+    second: DigitalPup_31
+  - first:
+      213: -8988520237584782860
+    second: DigitalPup_32
+  - first:
+      213: -5254009039152831724
+    second: DigitalPup_33
+  - first:
+      213: 449809210222463912
+    second: DigitalPup_34
+  - first:
+      213: 1104228546038378960
+    second: DigitalPup_35
+  - first:
+      213: -6725451515741010318
+    second: DigitalPup_36
+  - first:
+      213: 2327351869941213889
+    second: DigitalPup_37
+  - first:
+      213: -9123889723032634727
+    second: DigitalPup_38
+  - first:
+      213: 7685447237789048794
+    second: DigitalPup_39
+  - first:
+      213: -2962606694182719398
+    second: DigitalPup_40
+  - first:
+      213: -727110103296990657
+    second: DigitalPup_41
+  - first:
+      213: 1134724402773631390
+    second: DigitalPup_42
+  - first:
+      213: 2554256072904608510
+    second: DigitalPup_43
+  - first:
+      213: 2040424580059656051
+    second: DigitalPup_44
+  - first:
+      213: -8403745438978716566
+    second: DigitalPup_45
+  - first:
+      213: 8435410545025917551
+    second: DigitalPup_46
+  - first:
+      213: -5328187556027834107
+    second: DigitalPup_47
+  - first:
+      213: -6502928422182142193
+    second: DigitalPup_48
+  - first:
+      213: 6418679476754036983
+    second: DigitalPup_49
+  - first:
+      213: 2583082151322172919
+    second: DigitalPup_50
+  - first:
+      213: 1545708008342807506
+    second: DigitalPup_51
+  - first:
+      213: -63265401463735402
+    second: DigitalPup_52
+  - first:
+      213: -8233630565796238280
+    second: DigitalPup_53
+  - first:
+      213: -516499751760821112
+    second: DigitalPup_54
+  - first:
+      213: 8872193358937011190
+    second: DigitalPup_55
+  - first:
+      213: -4143087057270134644
+    second: DigitalPup_56
+  - first:
+      213: -199829471341070591
+    second: DigitalPup_57
+  - first:
+      213: 3043954292294994587
+    second: DigitalPup_58
+  - first:
+      213: 5024628978648840792
+    second: DigitalPup_59
+  - first:
+      213: -4615980699079884396
+    second: DigitalPup_60
+  - first:
+      213: -700291667352736191
+    second: DigitalPup_61
+  - first:
+      213: -6401391447522692867
+    second: DigitalPup_62
+  - first:
+      213: 152513318230808399
+    second: DigitalPup_63
+  - first:
+      213: -7268286389285564530
+    second: DigitalPup_64
+  - first:
+      213: 1109873233406300861
+    second: DigitalPup_65
+  - first:
+      213: -6137331346236132419
+    second: DigitalPup_66
+  - first:
+      213: -1063658593812681514
+    second: DigitalPup_67
+  - first:
+      213: 3804181760368679023
+    second: DigitalPup_68
+  - first:
+      213: -6689729422250076626
+    second: DigitalPup_69
+  - first:
+      213: -3114151019765916777
+    second: DigitalPup_70
+  - first:
+      213: 8492097938083672416
+    second: DigitalPup_71
+  - first:
+      213: 5880001857049361080
+    second: DigitalPup_72
+  - first:
+      213: -6058167818364347301
+    second: DigitalPup_73
+  - first:
+      213: 8507042821700567798
+    second: DigitalPup_74
+  - first:
+      213: -1061594087440157874
+    second: DigitalPup_75
+  - first:
+      213: 733574311024363190
+    second: DigitalPup_76
+  - first:
+      213: -255447352078450309
+    second: DigitalPup_77
+  - first:
+      213: 5076460997078875155
+    second: DigitalPup_78
+  - first:
+      213: 4036399854934078987
+    second: DigitalPup_79
+  - first:
+      213: 406787465746332754
+    second: DigitalPup_80
+  - first:
+      213: 7849004233444117008
+    second: DigitalPup_81
+  - first:
+      213: -6935427894505808901
+    second: DigitalPup_82
+  - first:
+      213: 5283642604405058824
+    second: DigitalPup_83
+  - first:
+      213: -5123569531390916070
+    second: DigitalPup_84
+  - first:
+      213: -6905151367113572685
+    second: DigitalPup_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DigitalPup_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 135
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458e73b2f66c47f00800000000000000
+      internalID: 1113733188636108884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 135
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b9059791411f810800000000000000
+      internalID: 1797239825939602238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 135
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f195e9593e1cc0800000000000000
+      internalID: -3738487582404511803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 135
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71d22582b4ba1f10800000000000000
+      internalID: 2241302443401073019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3ea2095a380140800000000000000
+      internalID: 4686059566250474886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 136
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92e7e6684093c990800000000000000
+      internalID: -7366885924809481570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 136
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9bf0fe1ec0ad50800000000000000
+      internalID: 6746618874088365303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 137
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d652be33d94235d0800000000000000
+      internalID: -3084321623156566319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 137
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59509dea6872625b0800000000000000
+      internalID: -5393580044317031019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 137
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7574b7f40d424f3f0800000000000000
+      internalID: -868028351070386345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 138
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78302672a6c00400800000000000000
+      internalID: 288448777220536443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 120
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fa5552816deb3d0800000000000000
+      internalID: -3188876086937800839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 120
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d2288219df33390800000000000000
+      internalID: -7839643726430196403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 120
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2abb0e7dbf81f60800000000000000
+      internalID: 8005425242257990342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 120
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f90dbdb0271d3a60800000000000000
+      internalID: 7655300370989386231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 120
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895d54cdc82a8c120800000000000000
+      internalID: 2434374324468438424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 120
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda68f2419b4270a0800000000000000
+      internalID: -6885357793030149410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 120
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b89a83fc2d2b6110800000000000000
+      internalID: 1255146592240572597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 120
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ec899e47ceec3e0800000000000000
+      internalID: -2031426395018047977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 106
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330dcde1611bc2110800000000000000
+      internalID: 1237558706185228339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69446463b82823240800000000000000
+      internalID: 4770018489761416342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 106
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e7e2b98cad3d710800000000000000
+      internalID: 1716956438090120841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 106
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25cc6f135a19c530800000000000000
+      internalID: 3875657898640852270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 106
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffeb4dd65a8069a0800000000000000
+      internalID: -6241836977850945537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_24
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 106
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af1480b6395ff3b0800000000000000
+      internalID: -5476560530434678874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 106
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1af7e6c62925780800000000000000
+      internalID: -8695726936091024898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 106
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a70a0e3a0ff67940800000000000000
+      internalID: 5293698831476197289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6456eb587251830f0800000000000000
+      internalID: -1137135646419294906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb3a33db746bdc20800000000000000
+      internalID: 3232287640556026854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18414443a12660550800000000000000
+      internalID: 6126692207769687169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8840fe9e0184e0800000000000000
+      internalID: -1981286285267398825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec247ee057933680800000000000000
+      internalID: -8776504874961195808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_32
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 92
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f96956977c524380800000000000000
+      internalID: -8988520237584782860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 92
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413aa96ad920617b0800000000000000
+      internalID: -5254009039152831724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 92
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab4200f71b0e3600800000000000000
+      internalID: 449809210222463912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1b67d1302035f00800000000000000
+      internalID: 1104228546038378960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276052aba756aa2a0800000000000000
+      internalID: -6725451515741010318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caef23e13a6c4020800000000000000
+      internalID: 2327351869941213889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_38
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a7dc823ae616180800000000000000
+      internalID: -9123889723032634727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf5c642b8138aa60800000000000000
+      internalID: 7685447237789048794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_40
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a507b0088e4b2e6d0800000000000000
+      internalID: -2962606694182719398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 78
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32a264a639c8e5f0800000000000000
+      internalID: -727110103296990657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e912a4115d95fbf00800000000000000
+      internalID: 1134724402773631390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 78
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa0dd28d5a827320800000000000000
+      internalID: 2554256072904608510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f6e6d485b015c10800000000000000
+      internalID: 2040424580059656051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_45
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c4dd65c06ef5b80800000000000000
+      internalID: -8403745438978716566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_46
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62aadea239901570800000000000000
+      internalID: 8435410545025917551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501ed42d5a97e06b0800000000000000
+      internalID: -5328187556027834107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fba04dd05f0c5a0800000000000000
+      internalID: -6502928422182142193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b30bf9fab31950800000000000000
+      internalID: 6418679476754036983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_50
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdb537e783f8d320800000000000000
+      internalID: 2583082151322172919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3efbb7e35737510800000000000000
+      internalID: 1545708008342807506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b7e2bd37c3f1ff0800000000000000
+      internalID: -63265401463735402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83caae1cf944cbd80800000000000000
+      internalID: -8233630565796238280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88408b9563605d8f0800000000000000
+      internalID: -516499751760821112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f335026adc502b70800000000000000
+      internalID: 8872193358937011190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_56
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8825edb54cc086c0800000000000000
+      internalID: -4143087057270134644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_57
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107bf0197201a3df0800000000000000
+      internalID: -199829471341070591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_58
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ac4c02d4c4e3a20800000000000000
+      internalID: 3043954292294994587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a7f783f611bb540800000000000000
+      internalID: 5024628978648840792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_60
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491c84db20eb0ffb0800000000000000
+      internalID: -4615980699079884396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_61
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 38
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e264850701846f0800000000000000
+      internalID: -700291667352736191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 38
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0bf2ef460b927a0800000000000000
+      internalID: -6401391447522692867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_63
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47d9ac0e06dd1200800000000000000
+      internalID: 152513318230808399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc3d8b90cd12b90800000000000000
+      internalID: -7268286389285564530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_65
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 37
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db295ee43df076f00800000000000000
+      internalID: 1109873233406300861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_66
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 38
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3b9b658a1d3daa0800000000000000
+      internalID: -6137331346236132419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce089f4202d31f0800000000000000
+      internalID: -1063658593812681514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_68
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f689bc7d72b2bc430800000000000000
+      internalID: 3804181760368679023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_69
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e261e4fb88e4923a0800000000000000
+      internalID: -6689729422250076626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_70
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 38
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b9ee1a52058c4d0800000000000000
+      internalID: -3114151019765916777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061fd45e41ef9d570800000000000000
+      internalID: 8492097938083672416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_72
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba70101986f99150800000000000000
+      internalID: 5880001857049361080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c90bc77701deba0800000000000000
+      internalID: -6058167818364347301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_74
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2cf74cf561f0670800000000000000
+      internalID: 8507042821700567798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_75
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4379725dc57441f0800000000000000
+      internalID: -1061594087440157874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_76
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b685f003fd2e2a00800000000000000
+      internalID: 733574311024363190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_77
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 18
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71cc889cf7747cf0800000000000000
+      internalID: -255447352078450309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_78
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 26
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cf20f6166337640800000000000000
+      internalID: 5076460997078875155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_79
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 26
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06b8c4484c240830800000000000000
+      internalID: 4036399854934078987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c34ea7b0335a500800000000000000
+      internalID: 406787465746332754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a49f6b3c34dec60800000000000000
+      internalID: 7849004233444117008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_82
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb55ae431960cf90800000000000000
+      internalID: -6935427894505808901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_83
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 17
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80deeab64f4435940800000000000000
+      internalID: 5283642604405058824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_84
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a0e6338ac65e8b0800000000000000
+      internalID: -5123569531390916070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalPup_85
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be74eaaa69fb20a0800000000000000
+      internalID: -6905151367113572685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DigitalPup_0: 1113733188636108884
+      DigitalPup_1: 1797239825939602238
+      DigitalPup_10: 288448777220536443
+      DigitalPup_11: -3188876086937800839
+      DigitalPup_12: -7839643726430196403
+      DigitalPup_13: 8005425242257990342
+      DigitalPup_14: 7655300370989386231
+      DigitalPup_15: 2434374324468438424
+      DigitalPup_16: -6885357793030149410
+      DigitalPup_17: 1255146592240572597
+      DigitalPup_18: -2031426395018047977
+      DigitalPup_19: 1237558706185228339
+      DigitalPup_2: -3738487582404511803
+      DigitalPup_20: 4770018489761416342
+      DigitalPup_21: 1716956438090120841
+      DigitalPup_22: 3875657898640852270
+      DigitalPup_23: -6241836977850945537
+      DigitalPup_24: -5476560530434678874
+      DigitalPup_25: -8695726936091024898
+      DigitalPup_26: 5293698831476197289
+      DigitalPup_27: -1137135646419294906
+      DigitalPup_28: 3232287640556026854
+      DigitalPup_29: 6126692207769687169
+      DigitalPup_3: 2241302443401073019
+      DigitalPup_30: -1981286285267398825
+      DigitalPup_31: -8776504874961195808
+      DigitalPup_32: -8988520237584782860
+      DigitalPup_33: -5254009039152831724
+      DigitalPup_34: 449809210222463912
+      DigitalPup_35: 1104228546038378960
+      DigitalPup_36: -6725451515741010318
+      DigitalPup_37: 2327351869941213889
+      DigitalPup_38: -9123889723032634727
+      DigitalPup_39: 7685447237789048794
+      DigitalPup_4: 4686059566250474886
+      DigitalPup_40: -2962606694182719398
+      DigitalPup_41: -727110103296990657
+      DigitalPup_42: 1134724402773631390
+      DigitalPup_43: 2554256072904608510
+      DigitalPup_44: 2040424580059656051
+      DigitalPup_45: -8403745438978716566
+      DigitalPup_46: 8435410545025917551
+      DigitalPup_47: -5328187556027834107
+      DigitalPup_48: -6502928422182142193
+      DigitalPup_49: 6418679476754036983
+      DigitalPup_5: -7366885924809481570
+      DigitalPup_50: 2583082151322172919
+      DigitalPup_51: 1545708008342807506
+      DigitalPup_52: -63265401463735402
+      DigitalPup_53: -8233630565796238280
+      DigitalPup_54: -516499751760821112
+      DigitalPup_55: 8872193358937011190
+      DigitalPup_56: -4143087057270134644
+      DigitalPup_57: -199829471341070591
+      DigitalPup_58: 3043954292294994587
+      DigitalPup_59: 5024628978648840792
+      DigitalPup_6: 6746618874088365303
+      DigitalPup_60: -4615980699079884396
+      DigitalPup_61: -700291667352736191
+      DigitalPup_62: -6401391447522692867
+      DigitalPup_63: 152513318230808399
+      DigitalPup_64: -7268286389285564530
+      DigitalPup_65: 1109873233406300861
+      DigitalPup_66: -6137331346236132419
+      DigitalPup_67: -1063658593812681514
+      DigitalPup_68: 3804181760368679023
+      DigitalPup_69: -6689729422250076626
+      DigitalPup_7: -3084321623156566319
+      DigitalPup_70: -3114151019765916777
+      DigitalPup_71: 8492097938083672416
+      DigitalPup_72: 5880001857049361080
+      DigitalPup_73: -6058167818364347301
+      DigitalPup_74: 8507042821700567798
+      DigitalPup_75: -1061594087440157874
+      DigitalPup_76: 733574311024363190
+      DigitalPup_77: -255447352078450309
+      DigitalPup_78: 5076460997078875155
+      DigitalPup_79: 4036399854934078987
+      DigitalPup_8: -5393580044317031019
+      DigitalPup_80: 406787465746332754
+      DigitalPup_81: 7849004233444117008
+      DigitalPup_82: -6935427894505808901
+      DigitalPup_83: 5283642604405058824
+      DigitalPup_84: -5123569531390916070
+      DigitalPup_85: -6905151367113572685
+      DigitalPup_9: -868028351070386345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

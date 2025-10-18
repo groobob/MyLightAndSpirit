@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'NicoPaint';
+    src: url('NicoPaint-Monospaced.eot');
+    src: url('NicoPaint-Monospaced.eot?#iefix') format('embedded-opentype'),
+        url('NicoPaint-Monospaced.woff2') format('woff2'),
+        url('NicoPaint-Monospaced.woff') format('woff'),
+        url('NicoPaint-Monospaced.ttf') format('truetype'),
+        url('NicoPaint-Monospaced.svg#NicoPaint-Monospaced') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NicoPaint';
+    src: url('NicoPaint-Regular.eot');
+    src: url('NicoPaint-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NicoPaint-Regular.woff2') format('woff2'),
+        url('NicoPaint-Regular.woff') format('woff'),
+        url('NicoPaint-Regular.ttf') format('truetype'),
+        url('NicoPaint-Regular.svg#NicoPaint-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

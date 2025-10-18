@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: 4f03e9246bf2d41e5867f1d66f3bbd9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703288078321843796
+    second: CleanPlate_0
+  - first:
+      213: -5572198719461519880
+    second: CleanPlate_1
+  - first:
+      213: -4040439598965769902
+    second: CleanPlate_2
+  - first:
+      213: 7722271705191402189
+    second: CleanPlate_3
+  - first:
+      213: -8018804961463897255
+    second: CleanPlate_4
+  - first:
+      213: -3660216144692324751
+    second: CleanPlate_5
+  - first:
+      213: 7688521880223644967
+    second: CleanPlate_6
+  - first:
+      213: 7566152332771116909
+    second: CleanPlate_7
+  - first:
+      213: 4818860790666911076
+    second: CleanPlate_8
+  - first:
+      213: -591417114007929343
+    second: CleanPlate_9
+  - first:
+      213: -8978114223216118595
+    second: CleanPlate_10
+  - first:
+      213: 1237986491821342275
+    second: CleanPlate_11
+  - first:
+      213: 5846068697094157231
+    second: CleanPlate_12
+  - first:
+      213: -4128688360445420996
+    second: CleanPlate_13
+  - first:
+      213: -760099446100819485
+    second: CleanPlate_14
+  - first:
+      213: 7704004636552189458
+    second: CleanPlate_15
+  - first:
+      213: 7285426614273359901
+    second: CleanPlate_16
+  - first:
+      213: 5221696308520142274
+    second: CleanPlate_17
+  - first:
+      213: 6750939300616549947
+    second: CleanPlate_18
+  - first:
+      213: 4097041510018168837
+    second: CleanPlate_19
+  - first:
+      213: 2204885218965145725
+    second: CleanPlate_20
+  - first:
+      213: 4500474786462925674
+    second: CleanPlate_21
+  - first:
+      213: -2884515992207481586
+    second: CleanPlate_22
+  - first:
+      213: -8822656275651634952
+    second: CleanPlate_23
+  - first:
+      213: -7525350495413292396
+    second: CleanPlate_24
+  - first:
+      213: 1000711902923417888
+    second: CleanPlate_25
+  - first:
+      213: 6838386344985083977
+    second: CleanPlate_26
+  - first:
+      213: -3348357642563382608
+    second: CleanPlate_27
+  - first:
+      213: 7339330636559115754
+    second: CleanPlate_28
+  - first:
+      213: 1474232585449332654
+    second: CleanPlate_29
+  - first:
+      213: -4593198749320403250
+    second: CleanPlate_30
+  - first:
+      213: 535703292713157114
+    second: CleanPlate_31
+  - first:
+      213: -6936002416003070364
+    second: CleanPlate_32
+  - first:
+      213: 7764320466329483316
+    second: CleanPlate_33
+  - first:
+      213: -7882471691554773725
+    second: CleanPlate_34
+  - first:
+      213: -326129154023140496
+    second: CleanPlate_35
+  - first:
+      213: -2952121971724392853
+    second: CleanPlate_36
+  - first:
+      213: 301418254642522077
+    second: CleanPlate_37
+  - first:
+      213: -7429796573346905415
+    second: CleanPlate_38
+  - first:
+      213: 9167036945321768880
+    second: CleanPlate_39
+  - first:
+      213: 1131347472765939024
+    second: CleanPlate_40
+  - first:
+      213: -6899873792506312030
+    second: CleanPlate_41
+  - first:
+      213: -4463298308070365164
+    second: CleanPlate_42
+  - first:
+      213: 7393440747930684141
+    second: CleanPlate_43
+  - first:
+      213: -2615866051814390340
+    second: CleanPlate_44
+  - first:
+      213: -8618626894408561784
+    second: CleanPlate_45
+  - first:
+      213: 5065142313035323568
+    second: CleanPlate_46
+  - first:
+      213: 3687592922275282731
+    second: CleanPlate_47
+  - first:
+      213: 3577437207838334160
+    second: CleanPlate_48
+  - first:
+      213: -6203505702412081864
+    second: CleanPlate_49
+  - first:
+      213: -36393155161506659
+    second: CleanPlate_50
+  - first:
+      213: 6285828730671363902
+    second: CleanPlate_51
+  - first:
+      213: -3859922157439005971
+    second: CleanPlate_52
+  - first:
+      213: 9107718292676839453
+    second: CleanPlate_53
+  - first:
+      213: -124961495147351931
+    second: CleanPlate_54
+  - first:
+      213: -3217019313586158451
+    second: CleanPlate_55
+  - first:
+      213: 509009489792618859
+    second: CleanPlate_56
+  - first:
+      213: -8083421320317292247
+    second: CleanPlate_57
+  - first:
+      213: -4924206296360787047
+    second: CleanPlate_58
+  - first:
+      213: -5325879541481612007
+    second: CleanPlate_59
+  - first:
+      213: -231757495503541248
+    second: CleanPlate_60
+  - first:
+      213: 4407934225654655443
+    second: CleanPlate_61
+  - first:
+      213: 1735143214109508604
+    second: CleanPlate_62
+  - first:
+      213: -8396685798293669886
+    second: CleanPlate_63
+  - first:
+      213: -6365624563443403002
+    second: CleanPlate_64
+  - first:
+      213: -3168426566235469041
+    second: CleanPlate_65
+  - first:
+      213: -738479183715238801
+    second: CleanPlate_66
+  - first:
+      213: 8696098185020629704
+    second: CleanPlate_67
+  - first:
+      213: 9039625681749412351
+    second: CleanPlate_68
+  - first:
+      213: -8441990110166017757
+    second: CleanPlate_69
+  - first:
+      213: 6319298743303422603
+    second: CleanPlate_70
+  - first:
+      213: -6126512237629784081
+    second: CleanPlate_71
+  - first:
+      213: 5672616217016666070
+    second: CleanPlate_72
+  - first:
+      213: 1468009215176794546
+    second: CleanPlate_73
+  - first:
+      213: -1929427288684044154
+    second: CleanPlate_74
+  - first:
+      213: -3487452534820530428
+    second: CleanPlate_75
+  - first:
+      213: -3538646093975971676
+    second: CleanPlate_76
+  - first:
+      213: -1716417425844922454
+    second: CleanPlate_77
+  - first:
+      213: -8985702846380432025
+    second: CleanPlate_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CleanPlate_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef34e256a48c870800000000000000
+      internalID: 8703288078321843796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 159
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd0c9499c29ba2b0800000000000000
+      internalID: -5572198719461519880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 159
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259393787997de7c0800000000000000
+      internalID: -4040439598965769902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 142
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcacbf693350b2b60800000000000000
+      internalID: 7722271705191402189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 160
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953fdcc7f5b77b090800000000000000
+      internalID: -8018804961463897255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 160
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176d67e1fcc443dc0800000000000000
+      internalID: -3660216144692324751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 160
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d7c8e1aed13ba60800000000000000
+      internalID: 7688521880223644967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 161
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67c05f957f500960800000000000000
+      internalID: 7566152332771116909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 161
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d52c19b5800e240800000000000000
+      internalID: 4818860790666911076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 161
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e787da44ddac7f0800000000000000
+      internalID: -591417114007929343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4325c9ea4576380800000000000000
+      internalID: -8978114223216118595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 141
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e3eb9b7263e2110800000000000000
+      internalID: 1237986491821342275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 141
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3f3d69188612150800000000000000
+      internalID: 5846068697094157231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 142
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a5c579fc3f3b6c0800000000000000
+      internalID: -4128688360445420996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 142
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e18039b4959375f0800000000000000
+      internalID: -760099446100819485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216d7ad366f1aea60800000000000000
+      internalID: 7704004636552189458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10c0f4e7e80b1560800000000000000
+      internalID: 7285426614273359901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 124
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5cf4a7021377840800000000000000
+      internalID: 5221696308520142274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 124
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b363971a68720bd50800000000000000
+      internalID: 6750939300616549947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 124
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508b9aadb8d9bd830800000000000000
+      internalID: 4097041510018168837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 124
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d784de6bc63599e10800000000000000
+      internalID: 2204885218965145725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 124
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6389b749f5e47e30800000000000000
+      internalID: 4500474786462925674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 124
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e052a87ecf328f7d0800000000000000
+      internalID: -2884515992207481586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 124
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d96a9cd0af8580800000000000000
+      internalID: -8822656275651634952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492b49e6895909790800000000000000
+      internalID: -7525350495413292396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02961487c2e33ed00800000000000000
+      internalID: 1000711902923417888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940c7b14624d6ee50800000000000000
+      internalID: 6838386344985083977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b29b06e67e3881d0800000000000000
+      internalID: -3348357642563382608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae56f39145a8ad560800000000000000
+      internalID: 7339330636559115754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf5304c9b6857410800000000000000
+      internalID: 1474232585449332654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 107
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec62df3c21ea140c0800000000000000
+      internalID: -4593198749320403250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 107
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1cc237e433f6700800000000000000
+      internalID: 535703292713157114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466c2e81d8e5ebf90800000000000000
+      internalID: -6936002416003070364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4383dd5b35860cb60800000000000000
+      internalID: 7764320466329483316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3252ec872c5db9290800000000000000
+      internalID: -7882471691554773725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0735d87234b597bf0800000000000000
+      internalID: -326129154023140496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66edbd25b4f707d0800000000000000
+      internalID: -2952121971724392853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd729cc3e4ade2400800000000000000
+      internalID: 301418254642522077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b24e3c916f04e890800000000000000
+      internalID: -7429796573346905415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b739c0688bd73f70800000000000000
+      internalID: 9167036945321768880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05defb7488a53bf00800000000000000
+      internalID: 1131347472765939024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 73
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa42a2c759be30a0800000000000000
+      internalID: -6899873792506312030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_42
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4182ddc16dd2f02c0800000000000000
+      internalID: -4463298308070365164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_43
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea8e482037ca9660800000000000000
+      internalID: 7393440747930684141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb589917fa392bbd0800000000000000
+      internalID: -2615866051814390340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4623c08c746880800000000000000
+      internalID: -8618626894408561784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b85541f8100b4640800000000000000
+      internalID: 5065142313035323568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f7670a936fc2330800000000000000
+      internalID: 3687592922275282731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 73
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc187bbf2c95a130800000000000000
+      internalID: 3577437207838334160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8352e956e68b8e9a0800000000000000
+      internalID: -6203505702412081864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 56
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cb7524e94be7ff0800000000000000
+      internalID: -36393155161506659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 56
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e377c924defbb3750800000000000000
+      internalID: 6285828730671363902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 56
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea4031af3dce6ac0800000000000000
+      internalID: -3859922157439005971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_53
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18845d488d156e70800000000000000
+      internalID: 9107718292676839453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_54
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580f327ae2c044ef0800000000000000
+      internalID: -124961495147351931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_55
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 56
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8440229af9da53d0800000000000000
+      internalID: -3217019313586158451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 56
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6154622f6d501700800000000000000
+      internalID: 509009489792618859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9213ba0132be1df80800000000000000
+      internalID: -8083421320317292247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9936ca88674b9abb0800000000000000
+      internalID: -4924206296360787047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_59
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dd77556cca616b0800000000000000
+      internalID: -5325879541481612007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 40
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c2a7629c1a8ccf0800000000000000
+      internalID: -231757495503541248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 42
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9ae61f2d02c2d30800000000000000
+      internalID: 4407934225654655443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 42
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf34d6f5f87741810800000000000000
+      internalID: 1735143214109508604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 42
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208732601caf87b80800000000000000
+      internalID: -8396685798293669886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_64
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 42
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6077472af22c8a7a0800000000000000
+      internalID: -6365624563443403002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bcf9633dc7704d0800000000000000
+      internalID: -3168426566235469041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_66
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cf1a4581560c5f0800000000000000
+      internalID: -738479183715238801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_67
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2e212b93fbea870800000000000000
+      internalID: 8696098185020629704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_68
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff90c2fd9a3337d70800000000000000
+      internalID: 9039625681749412351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_69
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329913ee8b608da80800000000000000
+      internalID: -8441990110166017757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b824c28d9b8a2b750800000000000000
+      internalID: 6319298743303422603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_71
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 25
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef3efb54914afaa0800000000000000
+      internalID: -6126512237629784081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_72
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 25
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d70662056e29be40800000000000000
+      internalID: 5672616217016666070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1ec957a9a6f5410800000000000000
+      internalID: 1468009215176794546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680ea0e7a1c4935e0800000000000000
+      internalID: -1929427288684044154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_75
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 12
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4079cfa95641a9fc0800000000000000
+      internalID: -3487452534820530428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_76
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 14
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a81db6402434eec0800000000000000
+      internalID: -3538646093975971676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_77
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 15
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa71936f17f0e28e0800000000000000
+      internalID: -1716417425844922454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanPlate_78
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76527489ede5c4380800000000000000
+      internalID: -8985702846380432025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CleanPlate_0: 8703288078321843796
+      CleanPlate_1: -5572198719461519880
+      CleanPlate_10: -8978114223216118595
+      CleanPlate_11: 1237986491821342275
+      CleanPlate_12: 5846068697094157231
+      CleanPlate_13: -4128688360445420996
+      CleanPlate_14: -760099446100819485
+      CleanPlate_15: 7704004636552189458
+      CleanPlate_16: 7285426614273359901
+      CleanPlate_17: 5221696308520142274
+      CleanPlate_18: 6750939300616549947
+      CleanPlate_19: 4097041510018168837
+      CleanPlate_2: -4040439598965769902
+      CleanPlate_20: 2204885218965145725
+      CleanPlate_21: 4500474786462925674
+      CleanPlate_22: -2884515992207481586
+      CleanPlate_23: -8822656275651634952
+      CleanPlate_24: -7525350495413292396
+      CleanPlate_25: 1000711902923417888
+      CleanPlate_26: 6838386344985083977
+      CleanPlate_27: -3348357642563382608
+      CleanPlate_28: 7339330636559115754
+      CleanPlate_29: 1474232585449332654
+      CleanPlate_3: 7722271705191402189
+      CleanPlate_30: -4593198749320403250
+      CleanPlate_31: 535703292713157114
+      CleanPlate_32: -6936002416003070364
+      CleanPlate_33: 7764320466329483316
+      CleanPlate_34: -7882471691554773725
+      CleanPlate_35: -326129154023140496
+      CleanPlate_36: -2952121971724392853
+      CleanPlate_37: 301418254642522077
+      CleanPlate_38: -7429796573346905415
+      CleanPlate_39: 9167036945321768880
+      CleanPlate_4: -8018804961463897255
+      CleanPlate_40: 1131347472765939024
+      CleanPlate_41: -6899873792506312030
+      CleanPlate_42: -4463298308070365164
+      CleanPlate_43: 7393440747930684141
+      CleanPlate_44: -2615866051814390340
+      CleanPlate_45: -8618626894408561784
+      CleanPlate_46: 5065142313035323568
+      CleanPlate_47: 3687592922275282731
+      CleanPlate_48: 3577437207838334160
+      CleanPlate_49: -6203505702412081864
+      CleanPlate_5: -3660216144692324751
+      CleanPlate_50: -36393155161506659
+      CleanPlate_51: 6285828730671363902
+      CleanPlate_52: -3859922157439005971
+      CleanPlate_53: 9107718292676839453
+      CleanPlate_54: -124961495147351931
+      CleanPlate_55: -3217019313586158451
+      CleanPlate_56: 509009489792618859
+      CleanPlate_57: -8083421320317292247
+      CleanPlate_58: -4924206296360787047
+      CleanPlate_59: -5325879541481612007
+      CleanPlate_6: 7688521880223644967
+      CleanPlate_60: -231757495503541248
+      CleanPlate_61: 4407934225654655443
+      CleanPlate_62: 1735143214109508604
+      CleanPlate_63: -8396685798293669886
+      CleanPlate_64: -6365624563443403002
+      CleanPlate_65: -3168426566235469041
+      CleanPlate_66: -738479183715238801
+      CleanPlate_67: 8696098185020629704
+      CleanPlate_68: 9039625681749412351
+      CleanPlate_69: -8441990110166017757
+      CleanPlate_7: 7566152332771116909
+      CleanPlate_70: 6319298743303422603
+      CleanPlate_71: -6126512237629784081
+      CleanPlate_72: 5672616217016666070
+      CleanPlate_73: 1468009215176794546
+      CleanPlate_74: -1929427288684044154
+      CleanPlate_75: -3487452534820530428
+      CleanPlate_76: -3538646093975971676
+      CleanPlate_77: -1716417425844922454
+      CleanPlate_78: -8985702846380432025
+      CleanPlate_8: 4818860790666911076
+      CleanPlate_9: -591417114007929343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
