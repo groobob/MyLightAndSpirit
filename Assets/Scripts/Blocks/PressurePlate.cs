@@ -68,6 +68,7 @@ public class PressurePlate : Switch
 
     private void plateInteract()
     {
+        SwitchState changeState = SwitchState.On;
         switch (switchMode)
         {
             case SwitchMode.ToggleAppear:
@@ -75,14 +76,15 @@ public class PressurePlate : Switch
             case SwitchMode.ToggleDisappear:
                 toggleDisappear(); break;
             case SwitchMode.ToggleMovement:
-                toggleLinkedBlockMovement(); break;
+                toggleLinkedBlockMovement(changeState); break;
             case SwitchMode.ToggleShine:
-                toggleLinkedBlockShine(); break;
+                toggleLinkedBlockShine(changeState); break;
         }
     }
 
     private void plateDeinteract()
     {
+        SwitchState changeState = SwitchState.Off;
         switch (switchMode)
         {
             case SwitchMode.ToggleAppear:
@@ -90,9 +92,9 @@ public class PressurePlate : Switch
             case SwitchMode.ToggleDisappear:
                 toggleDisappearOff(); break;
             case SwitchMode.ToggleMovement:
-                toggleLinkedBlockMovement(); break;
+                toggleLinkedBlockMovement(changeState); break;
             case SwitchMode.ToggleShine:
-                toggleLinkedBlockShine(); break;
+                toggleLinkedBlockShine(changeState); break;
         }
     }
 }

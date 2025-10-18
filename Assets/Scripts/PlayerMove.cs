@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class PlayerMove : MonoBehaviour
 {
-    Tilemap tilemap;
+    private Tilemap tilemap;
 
     [Header("Values")]
     [SerializeField] float interpolationValue = 0.35f;

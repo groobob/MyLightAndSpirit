@@ -1,6 +1,7 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
@@ -87,6 +88,7 @@ public class SimultaneousRaycast : MonoBehaviour{
                 //InteractableBlock.checkRayCollision(hit);
                 if (didHit)
                 { // if ray hits a mirror, reflect 
+                    
                     if (hit.collider.gameObject.CompareTag("Mirror"))
                     {
                         currentOrigin = hit.point + hit.normal * 0.01f;
@@ -96,6 +98,7 @@ public class SimultaneousRaycast : MonoBehaviour{
                     else
                     {
                         InteractableBlock.checkRayCollision(hit);
+                        checkSurroundingHitPosition(hit.collider.gameObject.transform.position);
                     }
 
                     if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
@@ -138,6 +141,19 @@ public class SimultaneousRaycast : MonoBehaviour{
             // direction vector for this ray
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
             ReflectRay(rayDirection, i, spotlightRayDistance);
+        }
+    }
+
+    /**
+     * For when two blocks are stack ontop of eachother, both get shined
+     */
+    void checkSurroundingHitPosition(Vector3 pos)
+    {
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(pos, new Vector2(0.8f, 0.8f), 0);
+        foreach (Collider2D collider in colliderList)
+        {
+            //InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
+            InteractableBlock.checkRayCollision(collider);
         }
     }
 }
