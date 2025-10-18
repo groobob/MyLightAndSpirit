@@ -20,6 +20,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] protected bool onlyInLight = false; // whether the block only appears in the light world
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
+    protected SpriteRenderer spriteRenderer;
 
     private static float interpolationValue = 0.1f;
 
@@ -33,6 +34,7 @@ public abstract class InteractableBlock : MonoBehaviour
 
     protected void init()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (isLightForm) return; // light forms don't need to init
         snapToCellPosition();
         createLightForm();

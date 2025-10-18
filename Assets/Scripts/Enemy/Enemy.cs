@@ -7,12 +7,14 @@ public abstract class Enemy : MonoBehaviour
     protected Grid _grid;
     [SerializeField] float interpolationValue = 0.1f;
     protected Vector3Int direction;
+    protected SpriteRenderer spriteRenderer;
 
     private string environmentLayer = "Blocks";
 
     protected Vector3 targetPosition;
     protected void init()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         direction = initalDirection;
         _grid = GetComponentInParent<Grid>();
         snapToCellPosition();

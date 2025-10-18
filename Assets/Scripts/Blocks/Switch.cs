@@ -1,11 +1,12 @@
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Switch : InteractableBlock
 {
-    [Header("!!!!Switches should be set to Repeat!!!!")] 
+    [Header("Switch Mode & Linked Block")]
     [SerializeField] private GameObject linkedBlock;
     [SerializeField] SwitchMode switchMode;
-    [SerializeField] KeyCode interactionKey = KeyCode.E; // Default interaction key is 'E'
     private enum SwitchMode
     {
         toggleShine,
@@ -14,8 +15,17 @@ public class Switch : InteractableBlock
         toggleAppear
     }
 
+    [Header("!!!!Switches should be set to Repeat!!!!")] 
+    
+    [SerializeField] private Sprite onSprite;
+    [SerializeField] private Sprite offSprite;
+    [SerializeField] private bool onCD = false; // To prevent rapid toggling 
+    [SerializeField] private float toggleCD = 0.5f; // Cooldown duration in seconds
+
     public override void ShineInteract()
     {
+        if (!checkSwitchCD()) return;
+        spriteRenderer.sprite = onSprite;
         if (switchMode == SwitchMode.toggleShine)
         {
             toggleLinkedBlockShine();
@@ -36,6 +46,7 @@ public class Switch : InteractableBlock
 
     public override void ShineDeinteract()
     {
+        spriteRenderer.sprite = offSprite;
         if (switchMode == SwitchMode.toggleShine)
         {
             toggleLinkedBlockShine();
@@ -157,18 +168,18 @@ public class Switch : InteractableBlock
     protected override void Update()
     {
         base.Update();
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            shineBlock();
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            deshineBlock();
-        }
-        if (Input.GetKeyDown(interactionKey))
-        {
-            ShineInteract();
-        }
     }
-    
+
+    private void ResetSwitchCD()
+    {
+        onCD = false;
+    }
+
+    private bool checkSwitchCD()
+    {
+        if (onCD) return false; // If on cooldown, do nothing
+        onCD = true;
+        Invoke(nameof(ResetSwitchCD), toggleCD); // Set cooldown duration
+        return true;
+    }
 }

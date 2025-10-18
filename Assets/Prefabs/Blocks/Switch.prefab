@@ -115,6 +115,8 @@ MonoBehaviour:
   linkedBlock: {fileID: 0}
   switchMode: 3
   interactionKey: 101
+  onSprite: {fileID: -1373663373, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
+  offSprite: {fileID: -1356122279, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
 --- !u!61 &7899860285212590549
 BoxCollider2D:
   m_ObjectHideFlags: 0
