@@ -135,7 +135,7 @@ public class PlayerMove : MonoBehaviour
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null && collider.gameObject.layer != LayerMask.NameToLayer("Enemies")) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
+            if (interactable == null && collider.gameObject.layer != LayerMask.NameToLayer("Enemies") && collider.gameObject != gameObject) { Debug.Log("player should've died but interactableBlock Not Found"); return; }
             if ((collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible()) || (collider.gameObject.layer == LayerMask.NameToLayer("Enemies")))
             {
                 Debug.Log($"Player Died to {collider.gameObject.name}");

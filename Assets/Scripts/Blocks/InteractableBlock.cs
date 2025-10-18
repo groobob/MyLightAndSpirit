@@ -15,7 +15,7 @@ using System.Collections.Generic;
 
 public abstract class InteractableBlock : MonoBehaviour
 {
-    private Grid _grid;
+    protected Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
     protected GameObject lightBlock;
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
@@ -32,7 +32,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [Header("For Debugging")]
     [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
-    [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
+    [SerializeField] protected bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
     [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); // IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
 
@@ -461,7 +461,7 @@ public abstract class InteractableBlock : MonoBehaviour
             if (collider.gameObject == gameObject) continue; // skip self
 
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.LogWarning("interactableBlock Not Found"); }
+            //if (interactable == null) { Debug.LogWarning("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 Debug.Log("Block Destroyed");
