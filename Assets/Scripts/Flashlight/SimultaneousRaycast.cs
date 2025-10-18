@@ -20,7 +20,7 @@ public class SimultaneousRaycast : MonoBehaviour{
 
 
     void Update(){
-        if (!playerMove.playerDroppedFlashLight())
+        if (!playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie())
         {
             direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         }

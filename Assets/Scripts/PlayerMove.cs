@@ -18,6 +18,10 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private Vector2Int direction = Vector2Int.right;
     [SerializeField] private GameObject flashLightObject;
     private bool droppedFlashLight = false;
+    private bool playerDead = false;
+
+    private float deathPauseTime = 2f;
+    
     private void Start()
     {
         tilemap = GetComponentInParent<Tilemap>();
@@ -44,6 +48,10 @@ public class PlayerMove : MonoBehaviour
      */
     private void HandleInput()
     {
+        if (playerDead)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.W))
         {
             direction = Vector2Int.up;
@@ -83,12 +91,13 @@ public class PlayerMove : MonoBehaviour
         if (onMoveCD) { return; }
         onMoveCD = true;
         Invoke(nameof(ResetMoveCD), cdDuration);
+
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
 
-        Enemy.moveAllEnemies(LevelManager.Instance.GetComponent<LevelManager>().getCurrentLevel());
+        moveAllEnemies(direction);
     }
     /**
      * Checks if the player is trying to move into a wall
@@ -130,11 +139,7 @@ public class PlayerMove : MonoBehaviour
             if ((collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible()) || (collider.gameObject.layer == LayerMask.NameToLayer("Enemies")))
             {
                 Debug.Log($"Player Died to {collider.gameObject.name}");
-                /*
-                transform.position = LevelManager.Instance.GetComponent<LevelManager>().GetPlayerSpawnPosition();
-                targetPosition = transform.position;
-                */
-                LevelManager.Instance.GetComponent<LevelManager>().RestartLevel();
+                killPlayer();
             }
         }
     }
@@ -157,7 +162,7 @@ public class PlayerMove : MonoBehaviour
                 Vector3Int blockMovePos = new Vector3Int(direction.x, direction.y, 0);
                 if (interactable.plrInteractEvent(blockMovePos))
                 {
-                    Enemy.moveAllEnemies(LevelManager.Instance.GetComponent<LevelManager>().getCurrentLevel());
+                    moveAllEnemies(Vector2Int.zero);
                 }
             }
         }
@@ -169,13 +174,20 @@ public class PlayerMove : MonoBehaviour
         {
             droppedFlashLight = true;
             flashLightObject.transform.parent = LevelManager.Instance.getCurrentLevel().transform;
+            flashLightObject.GetComponent<SpriteRenderer>().enabled = true;
         }
         else
         {
             droppedFlashLight = false;
             flashLightObject.transform.parent = gameObject.transform;
             flashLightObject.transform.position = gameObject.transform.position;
+            flashLightObject.GetComponent<SpriteRenderer>().enabled = false;
         }
+    }
+
+    private void moveAllEnemies(Vector2Int direction)
+    {
+        Enemy.moveAllEnemies(LevelManager.Instance.GetComponent<LevelManager>().getCurrentLevel(), direction);
     }
 
     private void ResetMoveCD()
@@ -186,5 +198,26 @@ public class PlayerMove : MonoBehaviour
     public bool playerDroppedFlashLight()
     {
         return droppedFlashLight;
+    }
+
+    public bool didPlayerDie()
+    {
+        return playerDead;
+    }
+
+    public void killPlayer()
+    {
+        if (playerDead)
+        {
+            return;
+        }
+        playerDead = true;
+        StartCoroutine(ResetLevelAfterDelay(deathPauseTime));
+    }
+
+    IEnumerator ResetLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        LevelManager.Instance.GetComponent<LevelManager>().RestartLevel();
     }
 }

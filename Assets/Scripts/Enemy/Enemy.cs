@@ -1,9 +1,14 @@
-using UnityEngine;
+﻿using UnityEngine;
 using static UnityEngine.UI.Image;
 
 public abstract class Enemy : MonoBehaviour
 {
-    [SerializeField] protected Vector3Int initalDirection = Vector3Int.right;
+    public enum InitalDirection
+    {
+        Up, Down, Left, Right
+    }
+
+    [SerializeField] protected InitalDirection initalDirection = InitalDirection.Right;
     protected Grid _grid;
     [SerializeField] float interpolationValue = 0.1f;
     protected Vector3Int direction;
@@ -15,7 +20,15 @@ public abstract class Enemy : MonoBehaviour
     protected void init()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        direction = initalDirection;
+
+        switch (initalDirection)
+        {
+            case InitalDirection.Left:   direction = Vector3Int.left; break;
+            case InitalDirection.Right: direction = Vector3Int.right; break;
+            case InitalDirection.Up: direction = Vector3Int.up; break;
+            case InitalDirection.Down: direction = Vector3Int.down; break;
+            default: direction = Vector3Int.right; break;
+        }
         _grid = GetComponentInParent<Grid>();
         snapToCellPosition();
         targetPosition = transform.position;
@@ -29,11 +42,16 @@ public abstract class Enemy : MonoBehaviour
     /**
      * Moves all enemies in the given level object by calling their movement method.
      */
-    public static void moveAllEnemies(GameObject levelObject)
+    public static void moveAllEnemies(GameObject levelObject, Vector2Int playerDirection)
     {
         Enemy[] enemies = levelObject.GetComponentsInChildren<Enemy>();
         foreach (Enemy enemy in enemies)
         {
+            if (enemy is CopyEnemy)
+            {
+                CopyEnemy enemy1 = enemy as CopyEnemy;
+                enemy1.giveDirection(playerDirection);
+            }
             enemy.movement();
         }
     }
@@ -56,15 +74,27 @@ public abstract class Enemy : MonoBehaviour
 
         bool playerFound = false;
         bool enemyCornered = false;
+        bool pushedBlock = false;
         bool coordinateUsed = false;
 
         foreach (Collider2D hit in colliderList)
         {
+            
+
             InteractableBlock interactable = hit.gameObject.GetComponent<InteractableBlock>();
             if (hit != null && hit.CompareTag("Player"))
             {
-                //Debug.Log("Enemy hit the player!");
+                PlayerMove plrMove = hit.GetComponent<PlayerMove>();
+                if (plrMove != null)
+                {
+                    plrMove.killPlayer();
+                }
                 playerFound = true;
+            }
+            else if (hit != null && hit.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible() && interactable.canMove(direction))
+            {
+                enemyMoveBlock(interactable.gameObject);
+                pushedBlock = true;
             }
             else if (hit != null && hit.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible())
             {
@@ -77,20 +107,24 @@ public abstract class Enemy : MonoBehaviour
                     InteractableBlock cornerInteractable = collider.gameObject.GetComponent<InteractableBlock>();
                     if (collider != null && collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && cornerInteractable.isVisible())
                     {
-                        Debug.Log(collider.gameObject);
+                        //Debug.Log(collider.gameObject);
                         enemyCornered = true; // Enemy is cornered, cannot move
                     }
                 }
             }
-            /*
-            else if (InteractableBlock.movingBlockCordinates.Contains(_grid.WorldToCell(transform.position + direction))) // if current block is occupied
-            {
-                Debug.Log("Block is occupied");
-                coordinateUsed = true;
-            }
-            */
+            
+            
         }
-        return playerFound || enemyCornered || coordinateUsed;
+        /*
+        bool inABlock = InteractableBlock.movingBlockCordinates.Contains(_grid.WorldToCell(transform.position + direction));
+        if (inABlock) // if current block is occupied
+        {
+            Debug.Log("Block is occupied");
+            coordinateUsed = true;
+        }
+        */
+
+        return playerFound || enemyCornered || pushedBlock || coordinateUsed;
     }
 
 
