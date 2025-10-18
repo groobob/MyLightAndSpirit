@@ -9,6 +9,8 @@ using UnityEngine.Tilemaps;
 using static UnityEngine.EventSystems.EventTrigger;
 using static UnityEngine.GraphicsBuffer;
 using TMPro;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 
 public abstract class InteractableBlock : MonoBehaviour
@@ -32,7 +34,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
     [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
-    public static Vector2Int[] currentBlockMovingCoordinates;
+    [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>();
 
     protected void init()
     {
@@ -212,6 +214,8 @@ public abstract class InteractableBlock : MonoBehaviour
 
         cellPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
+        movingBlockCordinates.Add(cellPosition);
+        Invoke("clearMovingBlockCoords", PlayerMove.cdDuration);
         return cellPosition;
     }
 
@@ -440,6 +444,11 @@ public abstract class InteractableBlock : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
+
+    private void clearMovingBlockCoords()
+    {
+        movingBlockCordinates.Clear();
     }
 }
 

@@ -13,6 +13,7 @@ public class PlayerMove : MonoBehaviour
 
     Vector3 targetPosition;
     private bool onMoveCD = false;
+    public static float cdDuration = 0.1f;
 
     [SerializeField] private Vector2Int direction = Vector2Int.right;
     private void Start()
@@ -75,7 +76,7 @@ public class PlayerMove : MonoBehaviour
     {
         if (onMoveCD) { return; }
         onMoveCD = true;
-        Invoke(nameof(ResetMoveCD), 0.1f);
+        Invoke(nameof(ResetMoveCD), cdDuration);
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
@@ -134,6 +135,10 @@ public class PlayerMove : MonoBehaviour
 
     private void blockInteraction()
     {
+        if (onMoveCD) { return; }
+        onMoveCD = true;
+        Invoke(nameof(ResetMoveCD), cdDuration);
+
         Vector3Int pos = tilemap.WorldToCell(targetPosition + (Vector3Int) direction);
         Collider2D[] colliderList = Physics2D.OverlapBoxAll(tilemap.GetCellCenterWorld(pos), new Vector2(0.1f, 0.1f), 0);
         foreach (Collider2D collider in colliderList)
