@@ -20,7 +20,6 @@ public class SimultaneousRaycast : MonoBehaviour{
 
         
     private bool mouseDisabled = false;
-    Vector3 direction;
 
     private void Start()
     {
