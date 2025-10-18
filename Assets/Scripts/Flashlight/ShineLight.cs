@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShineLight : SimultaneousRaycast{
@@ -8,7 +9,7 @@ public class ShineLight : SimultaneousRaycast{
     
     private LineRenderer[] lightBeams;
     private Material beamMaterial;
-    private int maxTotalBeams = 50; // number of beams generated
+    private int maxTotalBeams = 45; // number of beams generated // 50 
     private float lightAlpha = 0.2f;
 
     void Start(){
@@ -121,10 +122,11 @@ public class ShineLight : SimultaneousRaycast{
         Vector2 currentDirection = initialDirection.normalized;
         int reflectionCount = 0;
 
-        for(int reflection = 0; reflection < reflectionLimit && globalBeamIndex < maxTotalBeams; reflection++){
-            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, maxDistance, hittableLayers);
-        
-            if(lightBeams[globalBeamIndex] != null){
+        for(int reflection = 0; reflection < reflectionLimit && globalBeamIndex < maxTotalBeams; reflection++){ 
+            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, maxDistance, hittableLayers);
+            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+
+            if (lightBeams[globalBeamIndex] != null){
                 lightBeams[globalBeamIndex].enabled = true;
                 if(globalBeamIndex == 0){
                     lightBeams[globalBeamIndex].startWidth = beamWidth * 0.1f;
@@ -137,17 +139,41 @@ public class ShineLight : SimultaneousRaycast{
 
                 Vector3 startPos = new Vector3(currentOrigin.x, currentOrigin.y, 0);
                 Vector3 endPos;
-
-                if(hit.collider != null){
+                int count = 0;
+                foreach (RaycastHit2D hit in hits)
+                {
+                    count++;
                     endPos = new Vector3(hit.point.x, hit.point.y, 0);
                     lightBeams[globalBeamIndex].SetPosition(0, startPos);
                     lightBeams[globalBeamIndex].SetPosition(1, endPos);
-
-                    currentOrigin = hit.point + hit.normal * 0.01f;
-                    currentDirection = Vector2.Reflect(currentDirection, hit.normal);
-                    reflectionCount++;
+                    
+                    InteractableBlock interactableBlock = hit.collider.GetComponent<InteractableBlock>();
+                    if (hit.collider.gameObject.CompareTag("Mirror"))
+                    {
+                        currentOrigin = hit.point + hit.normal * 0.01f;
+                        currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                        reflectionCount++;
+                    }
+                    else if (interactableBlock && !interactableBlock.isVisible())
+                    {
+                        continue; // continue to next hit to see if there's another thing behind
+                    }
+                    else if (interactableBlock != null && !interactableBlock.isVisible() && count == hits.Length)
+                    {
+                        // if it's the last hit and still not visible, keep going
+                        Debug.Log("Last hit is invisible interactable block, continuing ray");
+                        endPos = startPos + new Vector3(currentDirection.x, currentDirection.y, 0) * maxDistance;
+                        lightBeams[globalBeamIndex].SetPosition(1, endPos);
+                        globalBeamIndex++;
+                    }
+                    else
+                    {
+                        globalBeamIndex++;
+                        return; // stop tracing this ray
+                    }
                 }
-                else{
+                if (hits.Length == 0)
+                {
                     endPos = startPos + new Vector3(currentDirection.x, currentDirection.y, 0) * maxDistance;
                     lightBeams[globalBeamIndex].SetPosition(0, startPos);
                     lightBeams[globalBeamIndex].SetPosition(1, endPos);
@@ -159,7 +185,7 @@ public class ShineLight : SimultaneousRaycast{
 
             globalBeamIndex++;
             
-            if(hit.collider == null){
+            if(hits.Length == 0){
                 break;
             }
         }

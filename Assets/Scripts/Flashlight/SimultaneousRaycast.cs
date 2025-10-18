@@ -5,12 +5,12 @@ using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
-    public float maxDistance = 100;
+    public float maxDistance = 50;
     public float spotlightRayDistance = 0.4f;
     public LayerMask hittableLayers; // layers that can reflect rays
     
     // TODO: what value to make this?
-    protected int reflectionLimit = 100; // number of times to check if ray is reflected 
+    protected int reflectionLimit = 5; // number of times to check if ray is reflected 
     
     protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
@@ -51,6 +51,12 @@ public class SimultaneousRaycast : MonoBehaviour{
         {
             RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+
+            if (hits.Length == 0)
+            {
+                DrawRay(currentOrigin, currentDirection, Physics2D.Raycast(currentOrigin, currentDirection, distance), distance);
+            }
+
             foreach (RaycastHit2D hit in hits)
             {
                 DrawRay(currentOrigin, currentDirection, hit, distance);
@@ -98,7 +104,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void CircularRayCasts()
+    protected void CircularRayCasts()
     {
         int numberOfRays = 36; // number of rays in the circle
         float angleIncrement = 360f / numberOfRays; // angle between each ray
