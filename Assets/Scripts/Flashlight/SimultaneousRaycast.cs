@@ -15,9 +15,27 @@ public class SimultaneousRaycast : MonoBehaviour{
     protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
 
-    
+    private bool mouseDisabled = false;
+    Vector3 direction;
+
+    private void Start()
+    {
+        GameManager.Instance.OnPause += Raycasts_OnPause;
+        GameManager.Instance.OnUnpause += Raycasts_OnUnpause;
+    }
+
+    private void Raycasts_OnUnpause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = false;
+    }
+
+    private void Raycasts_OnPause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = true;
+    }
+
     void Update(){
-        Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        if(!mouseDisabled) direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         CastRaysInCone(direction);
         CircularRayCasts();
     }
