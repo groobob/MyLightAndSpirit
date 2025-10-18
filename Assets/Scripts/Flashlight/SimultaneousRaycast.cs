@@ -14,10 +14,17 @@ public class SimultaneousRaycast : MonoBehaviour{
     
     protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
+    [SerializeField] bool showMissedRays = false;
+    [SerializeField] PlayerMove playerMove;
+    private Vector3 direction;
 
-    
+
     void Update(){
-        Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        if (!playerMove.playerDroppedFlashLight())
+        {
+            direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        }
+        
         CastRaysInCone(direction);
         CircularRayCasts();
     }
@@ -51,6 +58,12 @@ public class SimultaneousRaycast : MonoBehaviour{
         {
             RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+
+            if (hits.Length == 0 && showMissedRays)
+            {
+                DrawRay(currentOrigin, currentDirection, Physics2D.Raycast(currentOrigin, currentDirection, distance), distance);
+            }
+
             foreach (RaycastHit2D hit in hits)
             {
                 DrawRay(currentOrigin, currentDirection, hit, distance);

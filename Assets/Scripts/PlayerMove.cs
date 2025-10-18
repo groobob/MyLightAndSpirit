@@ -16,6 +16,8 @@ public class PlayerMove : MonoBehaviour
     public static float cdDuration = 0.1f;
 
     [SerializeField] private Vector2Int direction = Vector2Int.right;
+    [SerializeField] private GameObject flashLightObject;
+    private bool droppedFlashLight = false;
     private void Start()
     {
         tilemap = GetComponentInParent<Tilemap>();
@@ -65,6 +67,10 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             blockInteraction();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            dropFlashLight();
         }
     }
 
@@ -157,8 +163,28 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    private void dropFlashLight()
+    {
+        if (!droppedFlashLight)
+        {
+            droppedFlashLight = true;
+            flashLightObject.transform.parent = LevelManager.Instance.getCurrentLevel().transform;
+        }
+        else
+        {
+            droppedFlashLight = false;
+            flashLightObject.transform.parent = gameObject.transform;
+            flashLightObject.transform.position = gameObject.transform.position;
+        }
+    }
+
     private void ResetMoveCD()
     {
         onMoveCD = false;
+    }
+
+    public bool playerDroppedFlashLight()
+    {
+        return droppedFlashLight;
     }
 }

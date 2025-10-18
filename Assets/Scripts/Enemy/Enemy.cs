@@ -50,36 +50,58 @@ public abstract class Enemy : MonoBehaviour
     protected virtual bool hitCheck()
     {
         //PlayerRay
-        RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
+        //RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position + direction, new Vector3(direction.x, direction.y, 0), 1f);
         // Implement Player Checking Here
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(transform.position + direction, new Vector2(0.1f, 0.1f), 0);
 
         bool playerFound = false;
         bool enemyCornered = false;
+        bool coordinateUsed = false;
 
-        foreach (RaycastHit2D hit in hits)
+        foreach (Collider2D hit in colliderList)
         {
-            InteractableBlock interactable = hit.collider.gameObject.GetComponent<InteractableBlock>();
-            if (hit.collider != null && hit.collider.CompareTag("Player"))
+            InteractableBlock interactable = hit.gameObject.GetComponent<InteractableBlock>();
+            if (hit != null && hit.CompareTag("Player"))
             {
                 //Debug.Log("Enemy hit the player!");
                 playerFound = true;
             }
-            else if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible())
+            else if (hit != null && hit.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible())
             {
                 //Debug.Log("Enemy hit a wall! Reversing direction.");
                 direction = -direction; // Reverse direction on wall hit
-                RaycastHit2D[] hit2D = Physics2D.RaycastAll(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
-                foreach (RaycastHit2D raycastHit2D in hit2D)
+                //RaycastHit2D[] hit2D = Physics2D.RaycastAll(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
+                Collider2D[] corneredCollider = Physics2D.OverlapBoxAll(transform.position + direction, new Vector2(0.1f, 0.1f), 0);
+                foreach (Collider2D collider in corneredCollider)
                 {
-                    if (raycastHit2D.collider != null && raycastHit2D.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
+                    InteractableBlock cornerInteractable = collider.gameObject.GetComponent<InteractableBlock>();
+                    if (collider != null && collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && cornerInteractable.isVisible())
                     {
+                        Debug.Log(collider.gameObject);
                         enemyCornered = true; // Enemy is cornered, cannot move
                     }
                 }
             }
+            /*
+            else if (InteractableBlock.movingBlockCordinates.Contains(_grid.WorldToCell(transform.position + direction))) // if current block is occupied
+            {
+                Debug.Log("Block is occupied");
+                coordinateUsed = true;
+            }
+            */
         }
-        Debug.Log("is cornered?: " + enemyCornered);
-        return playerFound || enemyCornered;
+        return playerFound || enemyCornered || coordinateUsed;
+    }
+
+
+    private void enemyMoveBlock(GameObject block)
+    {
+        Vector3Int blockMovePos = new Vector3Int(direction.x, direction.y, 0);
+        InteractableBlock interactable = block.gameObject.GetComponent<InteractableBlock>();
+        if (interactable != null)
+        {
+            interactable.enemyInteractEvent(blockMovePos);
+        }
     }
 
     /**

@@ -34,7 +34,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
     [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
-    [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>();
+    //[SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
 
     protected void init()
     {
@@ -125,7 +125,7 @@ public abstract class InteractableBlock : MonoBehaviour
     */
     public abstract void ShineDeinteract();
     /**
-    * Abstract method to define playerInteraction behavior. 
+    * Event Called by player to interact with block 
     */
     public bool plrInteractEvent(Vector3Int dir)
     {
@@ -137,6 +137,22 @@ public abstract class InteractableBlock : MonoBehaviour
         else
         {
             // implement other interactions here (dialogue, other stuff, etc)
+            return false;
+        }
+    }
+    /**
+     * Event for enemies interacting with blocks, called by enemy. Different from Player because, enemies won't use other features like
+     * dialogue, and anything else we decide to do
+     */
+    public bool enemyInteractEvent(Vector3Int dir)
+    {
+        if (movableBlock)
+        {
+            moveBlock(dir);
+            return true;
+        }
+        else
+        {
             return false;
         }
     }
@@ -214,8 +230,8 @@ public abstract class InteractableBlock : MonoBehaviour
 
         cellPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
-        movingBlockCordinates.Add(cellPosition);
-        Invoke("clearMovingBlockCoords", PlayerMove.cdDuration);
+        //movingBlockCordinates.Add(cellPosition);
+        //Invoke("clearMovingBlockCoords", PlayerMove.cdDuration);
         return cellPosition;
     }
 
@@ -446,10 +462,12 @@ public abstract class InteractableBlock : MonoBehaviour
         }
     }
 
+    /*
     private void clearMovingBlockCoords()
     {
         movingBlockCordinates.Clear();
     }
+    */
 }
 
 

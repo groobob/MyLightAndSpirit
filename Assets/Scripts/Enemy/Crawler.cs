@@ -21,6 +21,7 @@ public class Crawler : Enemy
         if (hitCheck()) {
             if (direction == Vector3Int.right) { spriteRenderer.sprite = rightSprite; }
             else if (direction == Vector3Int.left) { spriteRenderer.sprite = leftSprite; }
+            Debug.Log("Cornered and Turned Around");
             return;
         }
         Vector3Int gridPosition = _grid.WorldToCell(transform.position);
