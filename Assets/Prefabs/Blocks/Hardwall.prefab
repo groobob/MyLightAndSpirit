@@ -81,8 +81,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6226415, g: 0.5819725, b: 0.41411534, a: 1}
+  m_Sprite: {fileID: -1098333712, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShadowWall
   lightFormBlock: 1
   movableBlock: 0
+  onlyInLight: 0
   shineFrames: 0
   currentShineFrames: 0
   visibleBlock: 1

@@ -5,6 +5,7 @@ using UnityEngine;
 /// /// </summary>
 public class SwitchAppearDoor : InteractableBlock
 {
+
     public override void ShineDeinteract()
     {
         //
