@@ -5,40 +5,40 @@ using UnityEngine;
 public class Switch : InteractableBlock
 {
     [Header("Switch Mode & Linked Block")]
-    [SerializeField] private GameObject linkedBlock;
-    [SerializeField] SwitchMode switchMode;
-    private enum SwitchMode
+    [SerializeField] protected GameObject linkedBlock;
+    [SerializeField] protected SwitchMode switchMode;
+    protected enum SwitchMode
     {
-        toggleShine,
-        toggleMovement,
-        toggleDisappear,
-        toggleAppear
+        ToggleShine,
+        ToggleMovement,
+        ToggleDisappear,
+        ToggleAppear
     }
 
     [Header("!!!!Switches should be set to Repeat!!!!")] 
     
-    [SerializeField] private Sprite onSprite;
-    [SerializeField] private Sprite offSprite;
-    [SerializeField] private bool onCD = false; // To prevent rapid toggling 
-    [SerializeField] private float toggleCD = 0.5f; // Cooldown duration in seconds
+    [SerializeField] protected Sprite onSprite;
+    [SerializeField] protected Sprite offSprite;
+    protected bool onCD = false; // To prevent rapid toggling 
+    protected float toggleCD = 0.3f; // Cooldown duration in seconds
 
     public override void ShineInteract()
     {
         if (!checkSwitchCD()) return;
         spriteRenderer.sprite = onSprite;
-        if (switchMode == SwitchMode.toggleShine)
+        if (switchMode == SwitchMode.ToggleShine)
         {
             toggleLinkedBlockShine();
         }
-        else if (switchMode == SwitchMode.toggleMovement)
+        else if (switchMode == SwitchMode.ToggleMovement)
         {
             toggleLinkedBlockMovement();
         }
-        else if (switchMode == SwitchMode.toggleDisappear)
+        else if (switchMode == SwitchMode.ToggleDisappear)
         {
             toggleDisappear(); // Note: This mode is not fully implemented yet
         }
-        else if (switchMode == SwitchMode.toggleAppear)
+        else if (switchMode == SwitchMode.ToggleAppear)
         {
             toggleAppear(); // Note: This mode is not fully implemented yet
         }
@@ -47,28 +47,27 @@ public class Switch : InteractableBlock
     public override void ShineDeinteract()
     {
         spriteRenderer.sprite = offSprite;
-        if (switchMode == SwitchMode.toggleShine)
+        if (switchMode == SwitchMode.ToggleShine)
         {
             toggleLinkedBlockShine();
         }
-        else if (switchMode == SwitchMode.toggleMovement)
+        else if (switchMode == SwitchMode.ToggleMovement)
         {
             toggleLinkedBlockMovement();
         }
-        else if (switchMode == SwitchMode.toggleDisappear)
+        else if (switchMode == SwitchMode.ToggleDisappear)
         {
             toggleDisappearOff(); // Note: This mode is not fully implemented yet
         }
-        else if (switchMode == SwitchMode.toggleAppear)
+        else if (switchMode == SwitchMode.ToggleAppear)
         {
             toggleAppearOff(); // Note: This mode is not fully implemented yet
         }
     }
 
 
-    private void toggleLinkedBlockShine()
+    protected void toggleLinkedBlockShine()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isVisible())
         {
             linkedBlock.GetComponent<InteractableBlock>().shineBlock();
@@ -84,10 +83,9 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleDisappear() // THIS IS NOT THE SAME AS APPEAR, THIS CORRESPONDS TO DISSAPPEAR OFF NOT APPEAR. I REPEAT, THIS CORRESPONDS WITH DISAPPEAR OFF
+    protected void toggleDisappear() // THIS IS NOT THE SAME AS APPEAR, THIS CORRESPONDS TO DISSAPPEAR OFF NOT APPEAR. I REPEAT, THIS CORRESPONDS WITH DISAPPEAR OFF
     {
         //Debug.Log("Toggle Existance start called");
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<InteractableBlock>())
         {
             linkedBlock.GetComponent<InteractableBlock>().fullyDisable();
@@ -98,10 +96,9 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleDisappearOff()
+    protected void toggleDisappearOff()
     {
         //Debug.Log("Toggle Existance reverse called");
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<InteractableBlock>())
         {
             linkedBlock.GetComponent<InteractableBlock>().fullyEnable();
@@ -113,9 +110,8 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleAppear()
+    protected void toggleAppear()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<SwitchAppearDoor>())
         {
             linkedBlock.GetComponent<SwitchAppearDoor>().appear();
@@ -126,9 +122,8 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleAppearOff()
+    protected void toggleAppearOff()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<SwitchAppearDoor>())
         {
             linkedBlock.GetComponent<SwitchAppearDoor>().disappear();
@@ -138,9 +133,8 @@ public class Switch : InteractableBlock
             Debug.LogWarning("Linked block does not have a SwitchAppearDoor component.");
         }
     }
-    private void toggleLinkedBlockMovement()
+    protected void toggleLinkedBlockMovement()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isMovable())
         {
             linkedBlock.GetComponent<InteractableBlock>().makeImmovable();
@@ -157,14 +151,11 @@ public class Switch : InteractableBlock
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         base.init();
         //makeMovable(); // Switches are not movable
     }
-    
-    // Update is called once per frame
     protected override void Update()
     {
         base.Update();

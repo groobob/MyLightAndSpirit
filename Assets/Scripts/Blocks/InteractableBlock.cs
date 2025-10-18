@@ -9,11 +9,13 @@ using UnityEngine.Tilemaps;
 using static UnityEngine.EventSystems.EventTrigger;
 using static UnityEngine.GraphicsBuffer;
 using TMPro;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 
 public abstract class InteractableBlock : MonoBehaviour
 {
-    private Grid _grid;
+    protected Grid _grid;
     [SerializeField] private BlockType lightFormBlock;
     protected GameObject lightBlock;
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
@@ -30,9 +32,9 @@ public abstract class InteractableBlock : MonoBehaviour
     [Header("For Debugging")]
     [SerializeField] protected bool visibleBlock = true; // whether the block is currently visible in the gameWorld
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
-    [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
+    [SerializeField] protected bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
-    public static Vector2Int[] currentBlockMovingCoordinates;
+    [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); // IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
 
     protected void init()
     {
@@ -123,7 +125,7 @@ public abstract class InteractableBlock : MonoBehaviour
     */
     public abstract void ShineDeinteract();
     /**
-    * Abstract method to define playerInteraction behavior. 
+    * Event Called by player to interact with block 
     */
     public bool plrInteractEvent(Vector3Int dir)
     {
@@ -137,6 +139,41 @@ public abstract class InteractableBlock : MonoBehaviour
             // implement other interactions here (dialogue, other stuff, etc)
             return false;
         }
+    }
+    /**
+     * Event for enemies interacting with blocks, called by enemy. Different from Player because, enemies won't use other features like
+     * dialogue, and anything else we decide to do
+     */
+    public bool enemyInteractEvent(Vector3Int dir)
+    {
+        if (movableBlock)
+        {
+            moveBlock(dir);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public bool canMove(Vector3Int direction)
+    {
+        Vector3Int cellPosition = _grid.WorldToCell(transform.position);
+        if (isLightForm || !movableBlock) return false; // light forms match the position of the parent block
+        //Debug.Log(direction);
+        if (direction != Vector3Int.up && direction != Vector3Int.down && direction != Vector3Int.left && direction != Vector3Int.right)
+        {
+            Debug.LogWarning("Invalid direction for moving block.");
+            return false;
+        }
+        //ADD WALL CHECK
+        if (wallCheck(cellPosition + direction))
+        {
+            return false;
+        }
+
+        return true;
     }
 
     // Public Methods
@@ -197,21 +234,12 @@ public abstract class InteractableBlock : MonoBehaviour
     public Vector3Int moveBlock(Vector3Int direction)
     {
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
-        if (isLightForm || !movableBlock) return cellPosition; // light forms match the position of the parent block
-        //Debug.Log(direction);
-        if (direction != Vector3Int.up && direction != Vector3Int.down && direction != Vector3Int.left && direction != Vector3Int.right)
-        {
-            Debug.LogWarning("Invalid direction for moving block.");
-            return cellPosition;
-        }
-        //ADD WALL CHECK
-        if (wallCheck(cellPosition + direction))
-        {
-            return cellPosition;
-        }
+        if (!canMove(direction)) { return cellPosition; }
 
         cellPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
+        movingBlockCordinates.Add(cellPosition);
+        Invoke("clearMovingBlockCoords", PlayerMove.cdDuration); // clear the used coords once done
         return cellPosition;
     }
 
@@ -403,7 +431,7 @@ public abstract class InteractableBlock : MonoBehaviour
      * Checks if the block is trying to move into a wall
      * @return true if there is a wall, false otherwise
      */
-    private bool wallCheck(Vector3Int cellPos)
+    public bool wallCheck(Vector3Int cellPos)
     {
         Collider2D[] colliderList = Physics2D.OverlapBoxAll(_grid.GetCellCenterWorld(cellPos), new Vector2(0.1f, 0.1f), 0);
         //GameObject wall = tilemap.GetInstantiatedObject(cellPos);
@@ -412,7 +440,7 @@ public abstract class InteractableBlock : MonoBehaviour
             //Debug.Log(collider.gameObject.layer + " | " + LayerMask.LayerToName(collider.gameObject.layer));
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
             if (interactable == null) { Debug.Log("interactableBlock Not Found, for block movement"); }
-            if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
+            if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible() || collider.GetComponent<Enemy>())
             {
 
                 return true;
@@ -433,7 +461,7 @@ public abstract class InteractableBlock : MonoBehaviour
             if (collider.gameObject == gameObject) continue; // skip self
 
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.LogWarning("interactableBlock Not Found"); }
+            //if (interactable == null) { Debug.LogWarning("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 Debug.Log("Block Destroyed");
@@ -441,6 +469,13 @@ public abstract class InteractableBlock : MonoBehaviour
             }
         }
     }
+
+    
+    private void clearMovingBlockCoords()
+    {
+        movingBlockCordinates.Clear();
+    }
+    
 }
 
 
