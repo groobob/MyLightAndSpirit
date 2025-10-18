@@ -24,34 +24,4 @@ public class ShadowWall : InteractableBlock
     {
         // Do nothing, it's a wall
     }
-
-
-    private void testingCode()
-    {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            shineBlock();
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            deshineBlock();
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            moveBlock(Vector3Int.up);
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            moveBlock(Vector3Int.left);
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            moveBlock(Vector3Int.down);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            moveBlock(Vector3Int.right);
-        }
-    }
-
 }

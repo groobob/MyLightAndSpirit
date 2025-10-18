@@ -5,6 +5,9 @@ using UnityEngine;
 /// /// </summary>
 public class SwitchAppearDoor : InteractableBlock
 {
+    [SerializeField] private Sprite onSprite;
+    [SerializeField] private Sprite offSprite;
+
     public override void ShineDeinteract()
     {
         //
@@ -17,8 +20,7 @@ public class SwitchAppearDoor : InteractableBlock
     void Start()
     {
         base.init();
-        onlyInLight = true;
-        fullyDisable();
+        //fullyDisable();
     }
 
     protected override void Update()
@@ -28,11 +30,14 @@ public class SwitchAppearDoor : InteractableBlock
 
     public void appear()
     {
-        enableBlock(lightBlock);
+        spriteRenderer.sprite = onSprite;
+        changeVisibility(true);
+
     }
 
     public void disappear()
     {
-        disableBlock(lightBlock);
+        spriteRenderer.sprite = offSprite;
+        changeVisibility(false);
     }
 }

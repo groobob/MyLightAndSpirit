@@ -20,6 +20,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] protected bool onlyInLight = false; // whether the block only appears in the light world
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
+    protected SpriteRenderer spriteRenderer;
 
     private static float interpolationValue = 0.1f;
 
@@ -31,8 +32,11 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
     [SerializeField] private bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
+    public static Vector2Int[] currentBlockMovingCoordinates;
+
     protected void init()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (isLightForm) return; // light forms don't need to init
         snapToCellPosition();
         createLightForm();
@@ -121,15 +125,17 @@ public abstract class InteractableBlock : MonoBehaviour
     /**
     * Abstract method to define playerInteraction behavior. 
     */
-    public void plrInteractEvent(Vector3Int dir)
+    public bool plrInteractEvent(Vector3Int dir)
     {
         if (movableBlock)
         {
             moveBlock(dir);
+            return true;
         }
         else
         {
             // implement other interactions here (dialogue, other stuff, etc)
+            return false;
         }
     }
 
@@ -427,7 +433,7 @@ public abstract class InteractableBlock : MonoBehaviour
             if (collider.gameObject == gameObject) continue; // skip self
 
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            if (interactable == null) { Debug.LogWarning("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 Debug.Log("Block Destroyed");

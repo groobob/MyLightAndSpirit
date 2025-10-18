@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Crawler : Enemy
 {
+    [SerializeField] private Sprite rightSprite;
+    [SerializeField] private Sprite leftSprite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,10 +18,16 @@ public class Crawler : Enemy
 
     protected override void movement()
     {
-        if (hitCheck()) { return; }
+        if (hitCheck()) {
+            if (direction == Vector3Int.right) { spriteRenderer.sprite = rightSprite; }
+            else if (direction == Vector3Int.left) { spriteRenderer.sprite = leftSprite; }
+            return;
+        }
         Vector3Int gridPosition = _grid.WorldToCell(transform.position);
         gridPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(gridPosition);
-        //Debug.Log($"Moving to {gridPosition} at world position {targetPosition}");
+
+        if (direction == Vector3Int.right) { spriteRenderer.sprite = rightSprite; }
+        else if (direction == Vector3Int.left) { spriteRenderer.sprite = leftSprite; }
     }
 }
