@@ -36,8 +36,9 @@ public class CopyEnemy : Enemy
         foreach (Collider2D collider in colliderList)
         {
             //Debug.Log(collider.gameObject.layer + " | " + LayerMask.LayerToName(collider.gameObject.layer));
+            Debug.Log(collider.gameObject);
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
-            if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
+            //if (interactable == null) { Debug.Log("interactableBlock Not Found"); }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 return true;
