@@ -18,13 +18,30 @@ public class SimultaneousRaycast : MonoBehaviour{
     [SerializeField] PlayerMove playerMove;
     private Vector3 direction;
 
+        
+    private bool mouseDisabled = false;
+    Vector3 direction;
+
+    private void Start()
+    {
+        GameManager.Instance.OnPause += Raycasts_OnPause;
+        GameManager.Instance.OnUnpause += Raycasts_OnUnpause;
+    }
+
+    private void Raycasts_OnUnpause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = false;
+    }
+
+    private void Raycasts_OnPause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = true;
+    }
 
     void Update(){
-        if (!playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie())
-        {
-            direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        if(!mouseDisabled && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
+          direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         }
-        
         CastRaysInCone(direction);
         CircularRayCasts();
     }
