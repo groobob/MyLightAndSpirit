@@ -9,7 +9,7 @@ public abstract class Enemy : MonoBehaviour
     protected Vector3Int direction;
     protected SpriteRenderer spriteRenderer;
 
-    private string environmentLayer = "Blocks";
+    [SerializeField] private string environmentLayer = "Blocks";
 
     protected Vector3 targetPosition;
     protected void init()
@@ -58,23 +58,27 @@ public abstract class Enemy : MonoBehaviour
 
         foreach (RaycastHit2D hit in hits)
         {
+            InteractableBlock interactable = hit.collider.gameObject.GetComponent<InteractableBlock>();
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
-                //Debug.Log("Enemy hit the player!"); //Implement player damage here
+                //Debug.Log("Enemy hit the player!");
                 playerFound = true;
             }
-            else if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
+            else if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible())
             {
                 //Debug.Log("Enemy hit a wall! Reversing direction.");
                 direction = -direction; // Reverse direction on wall hit
-                RaycastHit2D hit2D = Physics2D.Raycast(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
-                if (hit2D.collider != null && hit2D.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
+                RaycastHit2D[] hit2D = Physics2D.RaycastAll(transform.position, new Vector3(direction.x, direction.y, 0), 1f);
+                foreach (RaycastHit2D raycastHit2D in hit2D)
                 {
-                    enemyCornered = true; // Enemy is cornered, cannot move
+                    if (raycastHit2D.collider != null && raycastHit2D.collider.gameObject.layer == LayerMask.NameToLayer(environmentLayer))
+                    {
+                        enemyCornered = true; // Enemy is cornered, cannot move
+                    }
                 }
             }
         }
-
+        Debug.Log("is cornered?: " + enemyCornered);
         return playerFound || enemyCornered;
     }
 

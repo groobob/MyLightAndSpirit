@@ -18,7 +18,11 @@ public class Crawler : Enemy
 
     protected override void movement()
     {
-        if (hitCheck()) { return; }
+        if (hitCheck()) {
+            if (direction == Vector3Int.right) { spriteRenderer.sprite = rightSprite; }
+            else if (direction == Vector3Int.left) { spriteRenderer.sprite = leftSprite; }
+            return;
+        }
         Vector3Int gridPosition = _grid.WorldToCell(transform.position);
         gridPosition += direction;
         targetPosition = _grid.GetCellCenterWorld(gridPosition);

@@ -144,7 +144,10 @@ public class PlayerMove : MonoBehaviour
             {
                 //Debug.Log($"Player Interacted with {collider.gameObject.name} at {pos}");
                 Vector3Int blockMovePos = new Vector3Int(direction.x, direction.y, 0);
-                interactable.plrInteractEvent(blockMovePos);
+                if (interactable.plrInteractEvent(blockMovePos))
+                {
+                    Enemy.moveAllEnemies(LevelManager.Instance.GetComponent<LevelManager>().getCurrentLevel());
+                }
             }
         }
     }
