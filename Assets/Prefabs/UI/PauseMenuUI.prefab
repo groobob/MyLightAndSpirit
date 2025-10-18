@@ -152,7 +152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4857289125533880129
 RectTransform:
   m_ObjectHideFlags: 0
@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e570fbeaca9b54d9514ea937780750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseUI
-  resumeButton: {fileID: 0}
-  settingsButton: {fileID: 0}
-  quitToTitleButton: {fileID: 0}
+  resumeButton: {fileID: 5088955916181903496}
+  settingsButton: {fileID: 7680222200518389969}
+  quitToTitleButton: {fileID: 6139508679366044215}
   settingsMenu: {fileID: 0}
 --- !u!1 &1954957207325284684
 GameObject:
