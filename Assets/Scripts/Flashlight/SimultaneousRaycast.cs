@@ -2,19 +2,27 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
+using System;
+using Haze;
+using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
+using System.Linq;
+using NUnit.Framework.Internal.Commands;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
-    public float maxDistance = 100;
+    public float maxDistance = 20f;
     public float spotlightRayDistance = 0.4f;
-    public LayerMask hittableLayers; // layers that can reflect rays
+    [SerializeField] public LayerMask hittableLayers; // layers that can reflect rays
     
     // TODO: what value to make this?
     protected int reflectionLimit = 100; // number of times to check if ray is reflected 
     
-    protected float totalDegree = 15; // degree of flashlight's cone
+    [SerializeField] protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
 
+    private List<Vector2> meshPoints2D = new List<Vector2>();
+    [SerializeField] private bool doEdge = true;
     
     void Update(){
         Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
@@ -22,19 +30,8 @@ public class SimultaneousRaycast : MonoBehaviour{
         CircularRayCasts();
     }
 
-    protected bool CheckHit(RaycastHit2D hit, int reflectionCount){
-        if(hit.collider != null){ // if ray hits an object
-            //Debug.Log($"Reflection #{reflectionCount} - Hit {hit.collider.name} at distance: {hit.distance:F2} units");
-            return true;
-        } 
-        else{ // if ray didn't hit anything
-            //Debug.Log($"Ray didn't hit anything after {reflectionCount} reflections");
-            return false;
-        }
-    }
-
     protected void DrawRay(Vector2 origin, Vector2 direction, RaycastHit2D hit, float maxDistance){
-        if(hit.collider != null){ // if ray hits an object, draw ray from origin to hit point
+        if(hit){ // if ray hits an object, draw ray from origin to hit point
             Debug.DrawRay(origin, direction * hit.distance, Color.green);
         }
         else{ // if ray didn't hit anything, draw ray to max distance
@@ -42,59 +39,196 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
     }
 
-    void ReflectRay(Vector2 initialRayDirection, int rayIndex, float distance)
+    void ReflectRay(Vector2 initialRayDirection, float distance)
     {
         Vector2 currentOrigin = transform.position;
         Vector2 currentDirection = initialRayDirection;
         int reflectionCount = 0;
+
         for (int i = 0; i < reflectionLimit; i++)
         {
-            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
-            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
-            foreach (RaycastHit2D hit in hits)
-            {
-                DrawRay(currentOrigin, currentDirection, hit, distance);
-                bool didHit = CheckHit(hit, reflectionCount);
-                //InteractableBlock.checkRayCollision(hit);
-                if (didHit)
-                { // if ray hits a mirror, reflect 
-                    if (hit.collider.gameObject.CompareTag("Mirror"))
-                    {
-                        currentOrigin = hit.point + hit.normal * 0.01f;
-                        currentDirection = Vector2.Reflect(currentDirection, hit.normal);
-                        reflectionCount++;
-                    }
-                    else
-                    {
-                        InteractableBlock.checkRayCollision(hit);
-                    }
+            RaycastHit2D hit = Physics2D.Raycast(currentOrigin, currentDirection, distance, hittableLayers);
+            DrawRay(currentOrigin, currentDirection, hit, distance);
 
-                    if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
-                    {
-                        break; // stop reflecting this ray if it hits a visible InteractableBlock
-                    }
+            //InteractableBlock.checkRayCollision(hit);
+            if (hit)
+            {
+                // if ray hits a mirror, reflect 
+                if (hit.collider.gameObject.CompareTag("Mirror"))
+                {
+                    currentOrigin = hit.point + hit.normal * 0.01f;
+                    currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                    reflectionCount++;
                 }
                 else
-                { // no hit, stop reflecting this ray
-                    break;
+                {
+                    InteractableBlock.checkRayCollision(hit);
                 }
+
+                if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
+                {
+                    break; // stop reflecting this ray if it hits a visible InteractableBlock
+                }
+            }
+            else
+            { // no hit, stop reflecting this ray
+                break;
             }
         }
     }
 
-    protected void CastRaysInCone(Vector2 initialRayDirection){
+    public struct Ray
+    {
+        public Vector2 origin;
+        public Vector2 direction;
+
+        public Ray(Vector2 _origin, Vector2 _direction)
+        {
+            origin = _origin;
+            direction = _direction;
+        }
+    }
+
+    private void AddMeshPoint(Vector2 position)
+    {
+        Vector2 point = position - new Vector2(transform.position.x, transform.position.y);
+        foreach (Vector2 other in meshPoints2D)
+        {
+            if (Triangulator.IsVector3ApproximatelyEqual(point, other))
+            {
+                return;
+            }
+        }
+        meshPoints2D.Add(point);
+    }
+
+    private List<Ray> CastRays(List<Ray> rays)
+    {
+        List<Ray> result = new();
+        RaycastHit2D lastHit = new();
+        for (int i = rays.Count - 1; i >= 0; i--)
+        {
+            AddMeshPoint(rays[i].origin);
+        }
+        for (int i = 0; i < rays.Count; i++)
+        {
+            Ray ray = rays[i];
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, maxDistance, hittableLayers);
+            DrawRay(ray.origin, ray.direction, hit, maxDistance);
+            /*
+            if (doEdge && i > 0 && hit.collider != lastHit.collider)
+            {
+                if (lastHit.collider)
+                {
+                    Vector2 targetPoint = ray.origin + ray.direction * lastHit.distance;
+                    Vector2 closestPoint = lastHit.collider.ClosestPoint(targetPoint);
+                    Vector2 avgOrigin = (ray.origin + rays[i - 1].origin) / 2f;
+                    Vector2 beforeEdgeDirection = (closestPoint - (closestPoint - targetPoint) * 0.3f - avgOrigin).normalized;
+                    Vector2 afterEdgeDirection = (closestPoint + (closestPoint - targetPoint) * 0.3f - avgOrigin).normalized;
+                    RaycastHit2D beforeEdgeHit = Physics2D.Raycast(avgOrigin, beforeEdgeDirection, maxDistance, hittableLayers);
+                    RaycastHit2D afterEdgeHit = Physics2D.Raycast(avgOrigin, afterEdgeDirection, maxDistance, hittableLayers);
+                    AddMeshPoint(closestPoint);
+                    AddMeshPoint(afterEdgeHit ? afterEdgeHit.point : avgOrigin + afterEdgeDirection * maxDistance);
+                    AddMeshPoint(beforeEdgeHit ? beforeEdgeHit.point : avgOrigin + beforeEdgeDirection * maxDistance);
+                    if (beforeEdgeHit)
+                    {
+                        result.Add(new Ray(beforeEdgeHit.point + beforeEdgeHit.normal * 0.01f, Vector2.Reflect(beforeEdgeDirection, beforeEdgeHit.normal)));
+                    }
+                    if (afterEdgeHit)
+                    {
+                        result.Add(new Ray(afterEdgeHit.point + afterEdgeHit.normal * 0.01f, Vector2.Reflect(afterEdgeDirection, afterEdgeHit.normal)));
+                    }
+                }
+                if (hit.collider)
+                {
+                    Vector2 targetPoint = rays[i - 1].origin + rays[i - 1].direction * hit.distance;
+                    Vector2 closestPoint = hit.collider.ClosestPoint(targetPoint);
+                    Vector2 avgOrigin = (ray.origin + rays[i - 1].origin) / 2f;
+                    Vector2 beforeEdgeDirection = (closestPoint - (closestPoint - targetPoint) * 0.3f - avgOrigin).normalized;
+                    Vector2 afterEdgeDirection = (closestPoint + (closestPoint - targetPoint) * 0.3f - avgOrigin).normalized;
+                    RaycastHit2D beforeEdgeHit = Physics2D.Raycast(avgOrigin, beforeEdgeDirection, maxDistance, hittableLayers);
+                    RaycastHit2D afterEdgeHit = Physics2D.Raycast(avgOrigin, afterEdgeDirection, maxDistance, hittableLayers);
+                    AddMeshPoint(beforeEdgeHit ? beforeEdgeHit.point : avgOrigin + beforeEdgeDirection * maxDistance);
+                    AddMeshPoint(afterEdgeHit ? afterEdgeHit.point : avgOrigin + afterEdgeDirection * maxDistance);
+                    AddMeshPoint(closestPoint);
+                    if (beforeEdgeHit)
+                    {
+                        result.Add(new Ray(beforeEdgeHit.point + beforeEdgeHit.normal * 0.01f, Vector2.Reflect(beforeEdgeDirection, beforeEdgeHit.normal)));
+                    }
+                    if (afterEdgeHit)
+                    {
+                        result.Add(new Ray(afterEdgeHit.point + afterEdgeHit.normal * 0.01f, Vector2.Reflect(afterEdgeDirection, afterEdgeHit.normal)));
+                    }
+                }
+            }
+            */
+            if (hit)
+            {
+                // if ray hits a mirror, reflect 
+                if (hit.collider.gameObject.CompareTag("Mirror"))
+                {
+                    result.Add(new Ray(hit.point + hit.normal * 0.01f, Vector2.Reflect(ray.direction, hit.normal)));
+                }
+                else
+                {
+                    InteractableBlock.checkRayCollision(hit);
+                }
+                AddMeshPoint(hit.point);
+                lastHit = hit;
+            }
+            else
+            {
+                AddMeshPoint(ray.origin + ray.direction * maxDistance);
+                lastHit = new RaycastHit2D();
+            }
+        }
+        return result;
+    }
+
+    protected void CastRaysInCone(Vector2 initialRayDirection)
+    {
         int numberOfRays = Mathf.FloorToInt(totalDegree / intervalDegree) + 1; // number of rays in the cone
         float startAngle = -totalDegree / 2f; // starting angle of the first ray
         float baseAngle = Mathf.Atan2(initialRayDirection.y, initialRayDirection.x) * Mathf.Rad2Deg; // base angle of the initial ray
-
-        for(int rayIndex = 0; rayIndex < numberOfRays; rayIndex++){
+        List<Ray> nextRays = new List<Ray>();
+        for (int rayIndex = 0; rayIndex < numberOfRays; rayIndex++)
+        {
             float currentAngle = baseAngle + startAngle + (rayIndex * intervalDegree);
             float angleInRadians = currentAngle * Mathf.Deg2Rad;
+            nextRays.Add(new Ray(transform.position, new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians))));
+        }
 
-            // direction vector for this ray
-            Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
-        
-            ReflectRay(rayDirection, rayIndex, maxDistance);
+        List<Vector3> vertices = new List<Vector3>();
+        List<int> indices = new List<int>();
+        bool skip = false;
+        for (int i = 0; i < reflectionLimit; i++)
+        {
+            meshPoints2D.Clear();
+            nextRays = CastRays(nextRays);
+            Debug.Log("-------------------------------------------------------");
+            foreach (Vector2 v in meshPoints2D)
+            {
+                Debug.Log(v);
+            }
+            if (!skip && meshPoints2D.Count >= 3)
+            {
+                try
+                {
+                    List<Triangulator.Triangle> triangles = Triangulator.Triangulate(meshPoints2D);
+                    Triangulator.AddTrianglesToMesh(ref vertices, ref indices, triangles, 0, true);
+                } catch
+                {
+                    skip = true;
+                }
+            }
+        }
+        if (!skip)
+        {
+            Mesh mesh = new Mesh();
+            mesh.SetVertices(vertices);
+            mesh.SetTriangles(indices, 0);
+            mesh.SetUVs(0, vertices);
+            transform.GetChild(1).gameObject.GetComponent<MeshFilter>().mesh = mesh;
         }
     }
 
@@ -108,7 +242,7 @@ public class SimultaneousRaycast : MonoBehaviour{
             float angleInRadians = currentAngle * Mathf.Deg2Rad;
             // direction vector for this ray
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
-            ReflectRay(rayDirection, i, spotlightRayDistance);
+            ReflectRay(rayDirection, spotlightRayDistance);
         }
     }
 }
