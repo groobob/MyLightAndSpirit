@@ -2,6 +2,7 @@ using System.Collections;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Tilemaps;
 
 public class PlayerMove : MonoBehaviour
@@ -65,6 +66,15 @@ public class PlayerMove : MonoBehaviour
         {
             blockInteraction();
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            _rayTest();
+        }
+    }
+
+    private void _rayTest()
+    {
+
     }
 
     /**

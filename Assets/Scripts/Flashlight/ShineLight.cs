@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public class ShineLight : SimultaneousRaycast{
     private LineRenderer[] lightBeams;
     private Material beamMaterial;
     private int maxTotalBeams = 45; // number of beams generated // 50 
-    private float lightAlpha = 0.2f;
+    [SerializeField] private float lightAlpha = 0.2f;
 
     void Start(){
         intervalDegree = 0.25f; // interval between raycasts. smaller interval for no gaps
@@ -74,6 +75,7 @@ public class ShineLight : SimultaneousRaycast{
     }
 
     void Update(){
+        
         // colour each beam
         Color beamColor = startColor;
         beamColor.a = lightAlpha;
@@ -95,6 +97,7 @@ public class ShineLight : SimultaneousRaycast{
         }
 
         CastBeams(direction);
+        
     }
 
     void CastBeams(Vector2 initialRayDirection){
@@ -114,6 +117,7 @@ public class ShineLight : SimultaneousRaycast{
             float angleInRadians = currentAngle * Mathf.Deg2Rad;
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
             TraceRayWithReflections(rayDirection, ref globalBeamIndex);
+            globalBeamIndex++;
         }
     }
 
@@ -126,10 +130,20 @@ public class ShineLight : SimultaneousRaycast{
             RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, maxDistance, hittableLayers);
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
 
+            // Debug info for hits
+            if (hits.Length >0 && globalBeamIndex == 1){
+                string debugMsg = "";
+                for (int i = 0; i < hits.Length; i++){
+                    debugMsg += $"{hits[i].collider.gameObject.name} at distance {hits[i].distance:F2} ";
+                }
+                
+                //Debug.Log($"Raycast hit {hits.Length} objects: {debugMsg}");
+            }
+            // DELETE ABOVE LATER
             if (lightBeams[globalBeamIndex] != null){
                 lightBeams[globalBeamIndex].enabled = true;
                 if(globalBeamIndex == 0){
-                    lightBeams[globalBeamIndex].startWidth = beamWidth * 0.1f;
+                    lightBeams[globalBeamIndex].startWidth = beamWidth * 0.1f; // 0.1f for first beam
                     lightBeams[globalBeamIndex].endWidth = beamWidth;
                 }
                 else{
@@ -164,11 +178,11 @@ public class ShineLight : SimultaneousRaycast{
                         Debug.Log("Last hit is invisible interactable block, continuing ray");
                         endPos = startPos + new Vector3(currentDirection.x, currentDirection.y, 0) * maxDistance;
                         lightBeams[globalBeamIndex].SetPosition(1, endPos);
-                        globalBeamIndex++;
+                        //globalBeamIndex++;
                     }
                     else
                     {
-                        globalBeamIndex++;
+                        //globalBeamIndex++;
                         return; // stop tracing this ray
                     }
                 }
@@ -178,12 +192,12 @@ public class ShineLight : SimultaneousRaycast{
                     lightBeams[globalBeamIndex].SetPosition(0, startPos);
                     lightBeams[globalBeamIndex].SetPosition(1, endPos);
 
-                    globalBeamIndex++;
+                    //globalBeamIndex++;
                     break;
                 }
             }
 
-            globalBeamIndex++;
+            //globalBeamIndex++;
             
             if(hits.Length == 0){
                 break;
