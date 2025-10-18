@@ -15,6 +15,8 @@ public class PlayerMove : MonoBehaviour
     private bool onMoveCD = false;
 
     [SerializeField] private Vector2Int direction = Vector2Int.right;
+
+    private bool paused = false;
     private void Start()
     {
         tilemap = GetComponentInParent<Tilemap>();
@@ -22,18 +24,35 @@ public class PlayerMove : MonoBehaviour
         Vector3Int cellPosition = tilemap.WorldToCell(transform.position);
         transform.position = tilemap.GetCellCenterWorld(cellPosition);
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
+
+        // Stop movement if paused
+        GameManager.Instance.OnPause += Player_OnPause;
+        GameManager.Instance.OnUnpause += Player_OnUnpause;
+    }
+
+    private void Player_OnUnpause(object sender, System.EventArgs e)
+    {
+        paused = false;
+    }
+
+    private void Player_OnPause(object sender, System.EventArgs e)
+    {
+        paused = true;
     }
 
     private void FixedUpdate()
     {
         // Interpolation of player movement
-        transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        if(!paused) transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
     }
 
     void Update()
     {
-        HandleInput();
-        checkDeath();
+        if (!paused)
+        {
+            HandleInput();
+            checkDeath();
+        }
     }
 
     /**
