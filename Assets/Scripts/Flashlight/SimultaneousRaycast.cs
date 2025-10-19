@@ -16,14 +16,14 @@ public class SimultaneousRaycast : MonoBehaviour{
     [SerializeField] protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
     [SerializeField] bool showMissedRays = false;
-    [SerializeField] PlayerMove playerMove;
-    private Vector3 direction;
+    [SerializeField] protected PlayerMove playerMove;
+    protected Vector3 direction;
 
     [SerializeField] private GameObject lightVisualObject;
     private List<Vector3> meshVertices = new();
     private List<int> meshIndices = new();
         
-    private bool mouseDisabled = false;
+    protected bool mouseDisabled = false;
 
     private void Start()
     {
@@ -41,8 +41,8 @@ public class SimultaneousRaycast : MonoBehaviour{
         mouseDisabled = true;
     }
 
-    void Update(){
-        if(!mouseDisabled && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
+    protected virtual void Update(){
+        if(!mouseDisabled && playerMove != null && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
           direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         }
         CastRaysInCone(direction);
@@ -161,14 +161,17 @@ public class SimultaneousRaycast : MonoBehaviour{
         {
             nextRays = CastRays(nextRays, maxDistance);
         }
-        Mesh mesh = new Mesh();
-        mesh.SetVertices(meshVertices);
-        mesh.SetTriangles(meshIndices, 0);
-        mesh.SetUVs(0, meshVertices);
-        lightVisualObject.GetComponent<MeshFilter>().mesh = mesh;
+        if (lightVisualObject != null)
+        {
+            Mesh mesh = new Mesh();
+            mesh.SetVertices(meshVertices);
+            mesh.SetTriangles(meshIndices, 0);
+            mesh.SetUVs(0, meshVertices);
+            lightVisualObject.GetComponent<MeshFilter>().mesh = mesh;
+        }
     }
 
-    void CircularRayCasts()
+    protected void CircularRayCasts()
     {
         int numberOfRays = 36; // number of rays in the circle
         float angleIncrement = 360f / numberOfRays; // angle between each ray
