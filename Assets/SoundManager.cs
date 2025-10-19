@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum AudioSourceType
 {
@@ -15,7 +16,8 @@ public enum AudioSourceType
     PlayerDeath,
     NextLevel,
     UIButtonPress,
-    MainMusic
+    MainMusic,
+    MenuMusic
 }
 
 public class SoundManager : MonoBehaviour
@@ -38,10 +40,18 @@ public class SoundManager : MonoBehaviour
 
     // music sources
     [SerializeField] private AudioSource mainMusicSource;
+    [SerializeField] private AudioSource menuMusicSource;
 
     private void Awake()
     {
         Instance = this;
+
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.name == "SettingsScene" || scene.name == "PauseScene" || scene.name == "TitleScene"){
+            PlayMusic(1, AudioSourceType.MenuMusic);
+        } else {
+            PlayMusic(0, AudioSourceType.MainMusic);
+        }
     }
 
     /**
@@ -69,6 +79,8 @@ public class SoundManager : MonoBehaviour
                 return uiButtonPressSource;
             case AudioSourceType.MainMusic:
                 return mainMusicSource;
+            case AudioSourceType.MenuMusic:
+                return menuMusicSource;
             default:
                 Debug.LogWarning($"Unknown audio source type: {sourceType}");
                 return walkSource; // fallback
@@ -84,6 +96,22 @@ public class SoundManager : MonoBehaviour
     {
         AudioSource source = GetAudioSource(sourceType);
         source.PlayOneShot(sounds[audioID]);
+    }
+
+    /**
+     * Plays a music clip with the specified music ID using the specified audio source type.
+     * @param musicID The ID of the music clip to play.
+     * @param sourceType The type of audio source to use.
+     */
+    public void PlayMusic(int musicID, AudioSourceType sourceType)
+    {
+        AudioSource source = GetAudioSource(sourceType);
+        if (source.isPlaying)
+        {
+            source.Stop();
+        }
+        source.clip = music[musicID];
+        source.Play();
     }
     /**
      * Plays the music clip with the specified music ID, stopping any currently playing music.
