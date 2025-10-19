@@ -693,6 +693,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch
       objectReference: {fileID: 0}
+    - target: {fileID: 8035235667104137547, guid: 9b6b4eec74bc5bf41989d9b619e502ec, type: 3}
+      propertyPath: switchMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035235667104137547, guid: 9b6b4eec74bc5bf41989d9b619e502ec, type: 3}
+      propertyPath: linkedBlock
+      value: 
+      objectReference: {fileID: 4796602386249238461}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2191,6 +2199,11 @@ PrefabInstance:
 --- !u!4 &2031595061062781102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5863647968873965215, guid: 48bd4942d36c745479148c14da89b637, type: 3}
+  m_PrefabInstance: {fileID: 5579520354696146481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4796602386249238461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1152503997405653388, guid: 48bd4942d36c745479148c14da89b637, type: 3}
   m_PrefabInstance: {fileID: 5579520354696146481}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5617525776832896814
