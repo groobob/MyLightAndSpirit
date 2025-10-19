@@ -31,8 +31,6 @@ public class Switch : InteractableBlock
     public override void ShineInteract()
     {
         if (!checkSwitchCD()) return;
-        //spriteRenderer = GetComponent<SpriteRenderer>();
-        Debug.Log(spriteRenderer);
         spriteRenderer.sprite = onSprite;
         SwitchState changeState = SwitchState.On;
         if (linkedBlock == null)
