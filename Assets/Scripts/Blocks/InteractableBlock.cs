@@ -50,6 +50,12 @@ public abstract class InteractableBlock : MonoBehaviour
             changeVisibility(false);
         }
     }
+
+    protected virtual void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     protected virtual void Update()
     {
         checkDeath(); // only destroyable if the block is movable

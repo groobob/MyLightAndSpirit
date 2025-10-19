@@ -26,11 +26,13 @@ public class Switch : InteractableBlock
     [SerializeField] protected Sprite onSprite;
     [SerializeField] protected Sprite offSprite;
     protected bool onCD = false; // To prevent rapid toggling 
-    protected float toggleCD = 0.3f; // Cooldown duration in seconds
+    protected float toggleCD = 0.1f; // Cooldown duration in seconds
 
     public override void ShineInteract()
     {
         if (!checkSwitchCD()) return;
+        //spriteRenderer = GetComponent<SpriteRenderer>();
+        Debug.Log(spriteRenderer);
         spriteRenderer.sprite = onSprite;
         SwitchState changeState = SwitchState.On;
         if (linkedBlock == null)
@@ -186,9 +188,10 @@ public class Switch : InteractableBlock
         }
         //makeMovable(); // Switches are not movable
     }
-    protected override void Update()
+
+    protected override void Awake()
     {
-        base.Update();
+        base.Awake();
     }
 
     private void ResetSwitchCD()

@@ -6,6 +6,12 @@ public class ShadowWall : InteractableBlock
     {
         base.init();
     }
+
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
     protected override void Update()
     {
         base.Update();

@@ -19,6 +19,11 @@ public class PressurePlate : Switch
         fullDisabled = true;
         changeVisibility(false);
     }
+
+    protected override void Awake()
+    {
+        base.Awake();
+    }
     protected override void Update()
     {
         base.Update();

@@ -18,6 +18,11 @@ public class NoBlockDoor : InteractableBlock
         changeVisibility(false);
     }
 
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
     protected override void Update()
     {
         base.Update();

@@ -16,6 +16,11 @@ public class NextLevel : InteractableBlock
     {
         base.init();
     }
+
+    protected override void Awake()
+    {
+        base.Update();
+    }
     protected override void Update()
     {
         base.Update();

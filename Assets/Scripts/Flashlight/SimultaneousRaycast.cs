@@ -194,6 +194,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         foreach (Collider2D collider in colliderList)
         {
             //InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
+            //Debug.Log(collider.gameObject.name);
             InteractableBlock.checkRayCollision(collider);
         }
     }

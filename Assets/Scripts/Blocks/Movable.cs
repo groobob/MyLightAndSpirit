@@ -20,6 +20,11 @@ public class Movable : InteractableBlock
         makeMovable();
     }
 
+    protected override void Awake()
+    {
+        base.Update();
+    }
+
     protected override void Update()
     {
         base.Update();
