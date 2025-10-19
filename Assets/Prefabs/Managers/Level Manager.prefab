@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3976479871014497530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8701124051708970213}
+  - component: {fileID: 3855166074790862824}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8701124051708970213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3976479871014497530}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.12705, y: 3.54487, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3855166074790862824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3976479871014497530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35fcf1940f3ab534f9dcf98f6746e0b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  levelTilemapObjects:
+  - {fileID: 4350731845985933768, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
+  - {fileID: 5337840134176860529, guid: 6931c683c9f4f70419a2a91b872e1318, type: 3}
+  - {fileID: 5935709865261465741, guid: a19395d2dff6cf741b91b23ad346ac47, type: 3}
+  - {fileID: 3436383038266511010, guid: 12839a2fd7d6f094bafe1c7555d531b1, type: 3}
+  - {fileID: 8363039317843685022, guid: aa612d070b4cd4545a92d28cf3f71212, type: 3}
+  - {fileID: 5083356828240520882, guid: f963bfab596518e43ab87938c9654172, type: 3}
+  - {fileID: 6298699889922254620, guid: ead19aef3b26bb54dabf77c7c71e666a, type: 3}
+  gridObject: {fileID: 0}
+  currentLevel: {fileID: 0}
+  playerSpawn: {x: -5.5, y: -3.5, z: 0}
