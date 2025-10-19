@@ -19,7 +19,7 @@ public class NextLevel : InteractableBlock
 
     protected override void Awake()
     {
-        base.Update();
+        base.Awake();
     }
     protected override void Update()
     {
