@@ -259,6 +259,7 @@ public abstract class InteractableBlock : MonoBehaviour
      */
     public Vector3Int moveBlock(Vector3Int direction)
     {
+        SoundManager.Instance.PlayAudio(1, AudioSourceType.Push);
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
         if (!canMove(direction)) { return cellPosition; }
 
