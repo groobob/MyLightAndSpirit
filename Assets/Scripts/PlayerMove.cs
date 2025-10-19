@@ -107,6 +107,7 @@ public class PlayerMove : MonoBehaviour
      */
     void Move(Vector2Int direction)
     {
+        SoundManager.Instance.PlayAudio(0, AudioSourceType.Walk);
         if (onMoveCD) { return; }
         onMoveCD = true;
         Invoke(nameof(ResetMoveCD), cdDuration);
@@ -191,12 +192,14 @@ public class PlayerMove : MonoBehaviour
     {
         if (!droppedFlashLight)
         {
+            SoundManager.Instance.PlayAudio(3, AudioSourceType.LightDrop);
             droppedFlashLight = true;
             flashLightObject.transform.parent = LevelManager.Instance.getCurrentLevel().transform;
             flashLightObject.GetComponent<SpriteRenderer>().enabled = true;
         }
         else
         {
+            SoundManager.Instance.PlayAudio(2, AudioSourceType.LightPickup);
             droppedFlashLight = false;
             flashLightObject.transform.parent = gameObject.transform;
             flashLightObject.transform.position = gameObject.transform.position;
@@ -230,6 +233,7 @@ public class PlayerMove : MonoBehaviour
         {
             return;
         }
+        SoundManager.Instance.PlayAudio(5, AudioSourceType.PlayerDeath);
         playerDead = true;
         StartCoroutine(ResetLevelAfterDelay(deathPauseTime));
     }

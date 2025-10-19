@@ -32,6 +32,7 @@ public class LevelManager : MonoBehaviour
      */
     public void GenerateNextLevel()
     {
+        SoundManager.Instance.PlayAudio(4, AudioSourceType.NextLevel);
         DestroyLevel();
 
         currentLevel = Instantiate(levelTilemapObjects[nextLevelIndex], Vector3.zero, Quaternion.identity);
