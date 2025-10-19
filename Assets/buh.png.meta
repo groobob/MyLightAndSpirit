@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 423b012bfee939544a34acca869b7266
+guid: ffd9f2a3dd05fbce9b236279370c930e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3168322132195510635
-    second: shittymirror_0
+      213: 8249061669243454875
+    second: buh_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shittymirror_0
+      name: buh_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 485
-        height: 371
+        width: 464
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5967a78aecbd704d0800000000000000
-      internalID: -3168322132195510635
+      spriteID: b950c8df1ed8a7270800000000000000
+      internalID: 8249061669243454875
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      shittymirror_0: -3168322132195510635
+      buh_0: 8249061669243454875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
