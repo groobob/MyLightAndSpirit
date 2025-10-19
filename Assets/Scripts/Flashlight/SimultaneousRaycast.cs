@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
-    public float maxDistance = 20f;
+    public float maxDistance = 10f;
     public float spotlightRayDistance = 0.4f;
     [SerializeField] public LayerMask hittableLayers; // layers that can reflect rays
     
