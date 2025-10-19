@@ -5,40 +5,52 @@ using UnityEngine;
 public class Switch : InteractableBlock
 {
     [Header("Switch Mode & Linked Block")]
-    [SerializeField] private GameObject linkedBlock;
-    [SerializeField] SwitchMode switchMode;
-    private enum SwitchMode
+    [SerializeField] protected GameObject linkedBlock;
+    [SerializeField] protected SwitchMode switchMode;
+    protected enum SwitchMode
     {
-        toggleShine,
-        toggleMovement,
-        toggleDisappear,
-        toggleAppear
+        ToggleShine,
+        ToggleMovement,
+        ToggleDisappear,
+        ToggleAppear
+    }
+
+    protected enum SwitchState
+    {
+        On,
+        Off,
     }
 
     [Header("!!!!Switches should be set to Repeat!!!!")] 
     
-    [SerializeField] private Sprite onSprite;
-    [SerializeField] private Sprite offSprite;
-    [SerializeField] private bool onCD = false; // To prevent rapid toggling 
-    [SerializeField] private float toggleCD = 0.5f; // Cooldown duration in seconds
+    [SerializeField] protected Sprite onSprite;
+    [SerializeField] protected Sprite offSprite;
+    protected bool onCD = false; // To prevent rapid toggling 
+    protected float toggleCD = 0.3f; // Cooldown duration in seconds
 
     public override void ShineInteract()
     {
         if (!checkSwitchCD()) return;
         spriteRenderer.sprite = onSprite;
-        if (switchMode == SwitchMode.toggleShine)
+        SwitchState changeState = SwitchState.On;
+        if (linkedBlock == null)
         {
-            toggleLinkedBlockShine();
+            Debug.Log("interactable Block has been destroyed");
+            return;
         }
-        else if (switchMode == SwitchMode.toggleMovement)
+        if (switchMode == SwitchMode.ToggleShine)
         {
-            toggleLinkedBlockMovement();
+            toggleLinkedBlockShine(changeState);
         }
-        else if (switchMode == SwitchMode.toggleDisappear)
+        else if (switchMode == SwitchMode.ToggleMovement)
+        {
+            toggleLinkedBlockMovement(changeState);
+        }
+        else if (switchMode == SwitchMode.ToggleDisappear)
         {
             toggleDisappear(); // Note: This mode is not fully implemented yet
         }
-        else if (switchMode == SwitchMode.toggleAppear)
+        else if (switchMode == SwitchMode.ToggleAppear)
         {
             toggleAppear(); // Note: This mode is not fully implemented yet
         }
@@ -47,34 +59,39 @@ public class Switch : InteractableBlock
     public override void ShineDeinteract()
     {
         spriteRenderer.sprite = offSprite;
-        if (switchMode == SwitchMode.toggleShine)
+        SwitchState changeState = SwitchState.Off;
+        if (linkedBlock == null)
         {
-            toggleLinkedBlockShine();
+            Debug.Log("interactable Block has been destroyed");
+            return;
         }
-        else if (switchMode == SwitchMode.toggleMovement)
+        if (switchMode == SwitchMode.ToggleShine)
         {
-            toggleLinkedBlockMovement();
+            toggleLinkedBlockShine(changeState);
         }
-        else if (switchMode == SwitchMode.toggleDisappear)
+        else if (switchMode == SwitchMode.ToggleMovement)
+        {
+            toggleLinkedBlockMovement(changeState);
+        }
+        else if (switchMode == SwitchMode.ToggleDisappear)
         {
             toggleDisappearOff(); // Note: This mode is not fully implemented yet
         }
-        else if (switchMode == SwitchMode.toggleAppear)
+        else if (switchMode == SwitchMode.ToggleAppear)
         {
             toggleAppearOff(); // Note: This mode is not fully implemented yet
         }
     }
 
 
-    private void toggleLinkedBlockShine()
+    protected void toggleLinkedBlockShine(SwitchState changeState)
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
-        if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        if (linkedBlock.GetComponent<InteractableBlock>() && changeState == SwitchState.On)
         {
             linkedBlock.GetComponent<InteractableBlock>().shineBlock();
             
         }
-        else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isVisible())
+        else if (linkedBlock.GetComponent<InteractableBlock>() && changeState == SwitchState.Off)
         {
             linkedBlock.GetComponent<InteractableBlock>().deshineBlock();
         }
@@ -84,11 +101,14 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleDisappear() // THIS IS NOT THE SAME AS APPEAR, THIS CORRESPONDS TO DISSAPPEAR OFF NOT APPEAR. I REPEAT, THIS CORRESPONDS WITH DISAPPEAR OFF
+    protected void toggleDisappear() // THIS IS NOT THE SAME AS APPEAR, THIS CORRESPONDS TO DISSAPPEAR OFF NOT APPEAR. I REPEAT, THIS CORRESPONDS WITH DISAPPEAR OFF
     {
         //Debug.Log("Toggle Existance start called");
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
-        if (linkedBlock.GetComponent<InteractableBlock>())
+        if (linkedBlock.GetComponent<SwitchDisappearDoor>())
+        {
+            linkedBlock.GetComponent<SwitchDisappearDoor>().disappear();
+        }
+        else if (linkedBlock.GetComponent<InteractableBlock>())
         {
             linkedBlock.GetComponent<InteractableBlock>().fullyDisable();
         }
@@ -98,11 +118,14 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleDisappearOff()
+    protected void toggleDisappearOff()
     {
         //Debug.Log("Toggle Existance reverse called");
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
-        if (linkedBlock.GetComponent<InteractableBlock>())
+        if (linkedBlock.GetComponent<SwitchDisappearDoor>())
+        {
+            linkedBlock.GetComponent<SwitchDisappearDoor>().appear();
+        }
+        else if (linkedBlock.GetComponent<InteractableBlock>())
         {
             linkedBlock.GetComponent<InteractableBlock>().fullyEnable();
             //linkedBlock.GetComponentInChildren<InteractableBlock>().shineBlock(); // Also shine for its light form if it has one
@@ -113,9 +136,8 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleAppear()
+    protected void toggleAppear()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<SwitchAppearDoor>())
         {
             linkedBlock.GetComponent<SwitchAppearDoor>().appear();
@@ -126,9 +148,8 @@ public class Switch : InteractableBlock
         }
     }
 
-    private void toggleAppearOff()
+    protected void toggleAppearOff()
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
         if (linkedBlock.GetComponent<SwitchAppearDoor>())
         {
             linkedBlock.GetComponent<SwitchAppearDoor>().disappear();
@@ -138,15 +159,14 @@ public class Switch : InteractableBlock
             Debug.LogWarning("Linked block does not have a SwitchAppearDoor component.");
         }
     }
-    private void toggleLinkedBlockMovement()
+    protected void toggleLinkedBlockMovement(SwitchState changeState)
     {
-        if (!visibleBlock) return; // Do nothing if the switch is invisible
-        if (linkedBlock.GetComponent<InteractableBlock>() && linkedBlock.GetComponent<InteractableBlock>().isMovable())
+        if (linkedBlock.GetComponent<InteractableBlock>() && changeState == SwitchState.Off)
         {
             linkedBlock.GetComponent<InteractableBlock>().makeImmovable();
             //linkedBlock.GetComponentInChildren<InteractableBlock>().makeImmovable(); // Also make immovable for its light form if it has one
         }
-        else if (linkedBlock.GetComponent<InteractableBlock>() && !linkedBlock.GetComponent<InteractableBlock>().isMovable())
+        else if (linkedBlock.GetComponent<InteractableBlock>() && changeState == SwitchState.On)
         {
             linkedBlock.GetComponent<InteractableBlock>().makeMovable();
             //linkedBlock.GetComponentInChildren<InteractableBlock>().makeMovable(); // Also make immovable for its light form if it has one
@@ -157,14 +177,15 @@ public class Switch : InteractableBlock
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         base.init();
+        if (switchMode == SwitchMode.ToggleMovement)
+        {
+            linkedBlock.GetComponent<InteractableBlock>().makeToggleMoveBlock();
+        }
         //makeMovable(); // Switches are not movable
     }
-    
-    // Update is called once per frame
     protected override void Update()
     {
         base.Update();

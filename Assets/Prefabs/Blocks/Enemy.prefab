@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1800876184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -152,5 +152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Crawler
   initalDirection: {x: 1, y: 0, z: 0}
   interpolationValue: 0.1
+  environmentLayer: Blocks
   rightSprite: {fileID: 1800876184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
   leftSprite: {fileID: 943205184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}

@@ -1,5 +1,8 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
+using UnityEngine.UIElements;
 
 public class SimultaneousRaycast : MonoBehaviour{
 
@@ -12,13 +15,37 @@ public class SimultaneousRaycast : MonoBehaviour{
     
     [SerializeField] protected float totalDegree = 15; // degree of flashlight's cone
     protected float intervalDegree = 2f; // degree between each ray in the cone
+    [SerializeField] bool showMissedRays = false;
+    [SerializeField] PlayerMove playerMove;
+    private Vector3 direction;
+
+        
+    private bool mouseDisabled = false;
+
+    private void Start()
+    {
+        GameManager.Instance.OnPause += Raycasts_OnPause;
+        GameManager.Instance.OnUnpause += Raycasts_OnUnpause;
+    }
+
+    private void Raycasts_OnUnpause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = false;
+    }
+
+    private void Raycasts_OnPause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = true;
+    }
 
     private List<Vector3> meshVertices = new();
     private List<int> meshIndices = new();
     [SerializeField] private bool doEdge = true;
     
     void Update(){
-        Vector3 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        if(!mouseDisabled && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
+          direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
+        }
         CastRaysInCone(direction);
         CircularRayCasts();
     }
@@ -57,6 +84,33 @@ public class SimultaneousRaycast : MonoBehaviour{
                 {
                     InteractableBlock.checkRayCollision(hit);
                 }
+            RaycastHit2D[] hits = Physics2D.RaycastAll(currentOrigin, currentDirection, distance, hittableLayers);
+            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+
+            if (hits.Length == 0 && showMissedRays)
+            {
+                DrawRay(currentOrigin, currentDirection, Physics2D.Raycast(currentOrigin, currentDirection, distance), distance);
+            }
+
+            foreach (RaycastHit2D hit in hits)
+            {
+                DrawRay(currentOrigin, currentDirection, hit, distance);
+                bool didHit = CheckHit(hit, reflectionCount);
+                //InteractableBlock.checkRayCollision(hit);
+                if (didHit)
+                { // if ray hits a mirror, reflect 
+                    
+                    if (hit.collider.gameObject.CompareTag("Mirror"))
+                    {
+                        currentOrigin = hit.point + hit.normal * 0.01f;
+                        currentDirection = Vector2.Reflect(currentDirection, hit.normal);
+                        reflectionCount++;
+                    }
+                    else
+                    {
+                        InteractableBlock.checkRayCollision(hit);
+                        checkSurroundingHitPosition(hit.collider.gameObject.transform.position);
+                    }
 
                 if (hit.collider.gameObject.GetComponent<InteractableBlock>() && hit.collider.gameObject.GetComponent<InteractableBlock>().isVisible())
                 {
@@ -176,6 +230,19 @@ public class SimultaneousRaycast : MonoBehaviour{
             // direction vector for this ray
             Vector2 rayDirection = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians));
             ReflectRay(rayDirection, spotlightRayDistance);
+        }
+    }
+
+    /**
+     * For when two blocks are stack ontop of eachother, both get shined
+     */
+    void checkSurroundingHitPosition(Vector3 pos)
+    {
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(pos, new Vector2(0.8f, 0.8f), 0);
+        foreach (Collider2D collider in colliderList)
+        {
+            //InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
+            InteractableBlock.checkRayCollision(collider);
         }
     }
 }

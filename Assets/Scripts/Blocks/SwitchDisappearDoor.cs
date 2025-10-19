@@ -1,0 +1,39 @@
+using UnityEngine;
+
+public class SwitchDisappearDoor : InteractableBlock
+{
+    [SerializeField] private Sprite onSprite;
+    [SerializeField] private Sprite offSprite;
+
+    public override void ShineDeinteract()
+    {
+        //
+    }
+
+    public override void ShineInteract()
+    {
+        //
+    }
+    void Start()
+    {
+        base.init();
+        //fullyDisable();
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+    }
+
+    public void appear()
+    {
+        spriteRenderer.sprite = onSprite;
+        changeVisibility(true);
+    }
+
+    public void disappear()
+    {
+        spriteRenderer.sprite = offSprite;
+        changeVisibility(false);
+    }
+}
