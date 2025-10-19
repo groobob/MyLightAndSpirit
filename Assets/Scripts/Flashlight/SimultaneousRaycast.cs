@@ -19,8 +19,9 @@ public class SimultaneousRaycast : MonoBehaviour{
     [SerializeField] PlayerMove playerMove;
     private Vector3 direction;
 
+    [SerializeField] private GameObject lightVisualObject;
+    private List<Vector3> meshVertices = new();
     private List<int> meshIndices = new();
-    [SerializeField] private bool doEdge = true;
         
     private bool mouseDisabled = false;
 
@@ -197,7 +198,7 @@ public class SimultaneousRaycast : MonoBehaviour{
         mesh.SetVertices(meshVertices);
         mesh.SetTriangles(meshIndices, 0);
         mesh.SetUVs(0, meshVertices);
-        transform.GetChild(1).gameObject.GetComponent<MeshFilter>().mesh = mesh;
+        lightVisualObject.GetComponent<MeshFilter>().mesh = mesh;
     }
 
     void CircularRayCasts()
