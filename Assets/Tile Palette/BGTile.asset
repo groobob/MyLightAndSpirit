@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BGTile
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
   m_Sprite: {fileID: 546696310, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6818874, g: 0.56781775, b: 0.8301887, a: 1}
   m_Transform:
     e00: 1
     e01: 0
