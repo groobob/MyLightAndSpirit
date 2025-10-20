@@ -176,6 +176,12 @@ public abstract class InteractableBlock : MonoBehaviour
             return false;
         }
     }
+
+    public bool checkHasDialogue()
+    {
+        return hasDialogue;
+    }
+
     /**
      * Event for enemies interacting with blocks, called by enemy. Different from Player because, enemies won't use other features like
      * dialogue, and anything else we decide to do

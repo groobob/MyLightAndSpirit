@@ -19,6 +19,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private GameObject flashLightObject;
     protected bool droppedFlashLight = false;
     private bool playerDead = false;
+    private bool playerInDialogue = false;
 
     private float deathPauseTime = 2f;
     
@@ -67,7 +68,7 @@ public class PlayerMove : MonoBehaviour
      */
     private void HandleInput()
     {
-        if (playerDead)
+        if (playerDead || playerInDialogue)
         {
             return;
         }
@@ -103,23 +104,16 @@ public class PlayerMove : MonoBehaviour
         {
             LevelManager.Instance.GetComponent<LevelManager>().ResetButtonPressed();
         }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            silly();
-        }
     }
 
-    public Sprite aliceSprite;
-    private void silly()
+    public void takePlayerOutOfDialogue()
     {
-        DialogueLine[] conversation = new DialogueLine[]
-        {
-            new DialogueLine { text = "This line has no name or portrait." },
-            new DialogueLine { speakerName = "Alice", text = "But this one does!", portrait = aliceSprite },
-            new DialogueLine { speakerName = "", text = "Now back to anonymous dialogue." }
-        };
+        playerInDialogue = false;
+    }
 
-        DialogueManager.Instance.StartDialogue(conversation);
+    public bool isInDialogue()
+    {
+        return playerInDialogue;
     }
 
     /**
@@ -207,6 +201,11 @@ public class PlayerMove : MonoBehaviour
                 if (interactable.plrInteractEvent(blockMovePos))
                 {
                     moveAllEnemies(Vector2Int.zero);
+                }
+
+                if (interactable.checkHasDialogue())
+                {
+                    playerInDialogue = true;
                 }
             }
         }

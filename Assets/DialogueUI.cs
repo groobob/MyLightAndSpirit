@@ -24,7 +24,17 @@ public class DialogueUI : MonoBehaviour
 
     public void Hide()
     {
+        Invoke("deStunPlayerFromDialogue", 0.1f);
         dialogueBox.SetActive(false);
+    }
+
+    private void deStunPlayerFromDialogue()
+    {
+        PlayerMove plrMove = LevelManager.Instance.GetComponent<LevelManager>().GetPlayerMove();
+        if (plrMove)
+        {
+            plrMove.takePlayerOutOfDialogue();
+        } // DESTUNS THE PLAYER]
     }
 
     public void SetSpeaker(string name, Sprite portrait)

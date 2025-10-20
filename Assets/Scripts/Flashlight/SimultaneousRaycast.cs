@@ -42,7 +42,7 @@ public class SimultaneousRaycast : MonoBehaviour{
     }
 
     protected virtual void Update(){
-        if(!mouseDisabled && playerMove != null && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
+        if(!mouseDisabled && playerMove != null && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie() && !playerMove.isInDialogue()) {
           direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position).normalized;
         }
         CastRaysInCone(direction);

@@ -3,14 +3,9 @@ using UnityEngine;
 public class NPCBlock : InteractableBlock
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    /*
-        private DialogueLine[] setDialogue = new DialogueLine[]
-        {
-            new DialogueLine { text = "This line has no name or portrait." },
-            new DialogueLine { speakerName = "Alice", text = "But this one does!", portrait = DialogueManager.Instance.GetComponent<DialogueManager>().GetPortrait(0) },
-            new DialogueLine { speakerName = "", text = "Now back to anonymous dialogue." }
-        };
-    */
+
+    [SerializeField] private DialogueLine[] setDialogue;
+    
 
     void Start()
     {

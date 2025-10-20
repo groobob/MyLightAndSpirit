@@ -30,6 +30,11 @@ public class LevelManager : MonoBehaviour
         return currentLevel;
     }
 
+    public PlayerMove GetPlayerMove()
+    {
+        return getCurrentLevel().GetComponentInChildren<PlayerMove>();
+    }
+
     /**
      * Destroys the current level and generates the next level in the list
      */
