@@ -614,7 +614,6 @@ MonoBehaviour:
   interpolationValue: 0.35
   direction: {x: 1, y: 0}
   flashLightObject: {fileID: 5254526376549753037}
-  aliceSprite: {fileID: 8249061669243454875, guid: ac5fb5bda6bbd4402a12d962c6d5bcc3, type: 3}
 --- !u!61 &1698649176536109138
 BoxCollider2D:
   m_ObjectHideFlags: 0

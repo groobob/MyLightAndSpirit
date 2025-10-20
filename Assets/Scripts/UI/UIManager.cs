@@ -25,5 +25,6 @@ public class UIManager : MonoBehaviour
     private void UIManager_OnUnpause(object sender, System.EventArgs e)
     {
         pauseMenu.GetComponent<PauseUI>().Hide();
+        pauseMenu.GetComponent<PauseUI>().settingsMenu.SetActive(false);
     }
 }

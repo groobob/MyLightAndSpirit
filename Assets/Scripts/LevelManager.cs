@@ -98,9 +98,10 @@ public class LevelManager : MonoBehaviour
     {
         if (!canReset) { return; }
         canReset = false;
+        
         Invoke("allowReset", resetCD);
-
-        RestartLevel();
+        AnimationManager.Instance.PlayTransition();
+        Invoke("RestartLevel", .4f);
     }
 
     private void allowReset()

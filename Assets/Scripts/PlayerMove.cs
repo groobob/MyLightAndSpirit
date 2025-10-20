@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour
     private bool playerDead = false;
     private bool playerInDialogue = false;
 
-    private float deathPauseTime = 2f;
+    private float deathPauseTime = .5f;
     
 
     private bool paused = false;
@@ -156,12 +156,18 @@ public class PlayerMove : MonoBehaviour
                 if (interactable is NextLevel)
                 {
                     Debug.Log("Player reached Next Level Block");
-                    LevelManager.Instance.GetComponent<LevelManager>().GenerateNextLevel();
+                    AnimationManager.Instance.PlayTransition();
+                    Invoke("GenerateNextLevel", .4f);
                 }
                 return true;
             }
         }
         return false;
+    }
+
+    private void GenerateNextLevel()
+    {
+        LevelManager.Instance.GetComponent<LevelManager>().GenerateNextLevel();
     }
 
     /**
@@ -258,6 +264,7 @@ public class PlayerMove : MonoBehaviour
         }
         ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Deathcloud, transform.position, 5f);
         SoundManager.Instance.PlayAudio(5, AudioSourceType.PlayerDeath);
+        AnimationManager.Instance.PlayTransition();
         playerDead = true;
         StartCoroutine(ResetLevelAfterDelay(deathPauseTime));
     }
