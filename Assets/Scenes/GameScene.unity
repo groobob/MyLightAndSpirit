@@ -4014,26 +4014,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5212969581193122936, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7052746
-      objectReference: {fileID: 0}
-    - target: {fileID: 5212969581193122936, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5212969581193122936, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5212969581193122936, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.70893425
-      objectReference: {fileID: 0}
-    - target: {fileID: 5212969581193122936, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90.297
-      objectReference: {fileID: 0}
     - target: {fileID: 6035899793034063764, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4119,6 +4099,7 @@ MonoBehaviour:
   - {fileID: 8453715371013371956, guid: dda7de3973f7b1945895a045a5108cf8, type: 3}
   - {fileID: 6155896107194255054, guid: c455909a131af0a4aa57a7a1df6b1e5e, type: 3}
   - {fileID: 7530044694670223929, guid: 4db93e31714abc94fb486316b71732a5, type: 3}
+  - {fileID: 4187782930009443057, guid: 9f0020350ce6c4447a1fa06e27feb76c, type: 3}
   gridObject: {fileID: 347553526}
   currentLevel: {fileID: 717957706}
   playerSpawn: {x: -3, y: -4, z: 0}
