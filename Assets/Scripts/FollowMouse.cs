@@ -6,6 +6,22 @@ public class FollowMouse : MonoBehaviour
     [SerializeField] private bool mouseDisabled = false;
     [SerializeField] private float angleOffset = -90f;
 
+    private void Start()
+    {
+        GameManager.Instance.OnPause += FollowMouse_OnPause;
+        GameManager.Instance.OnUnpause += FollowMouse_OnUnpause;
+    }
+
+    private void FollowMouse_OnUnpause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = false;
+    }
+
+    private void FollowMouse_OnPause(object sender, System.EventArgs e)
+    {
+        mouseDisabled = true;
+    }
+
     void Update()
     {
         if(!mouseDisabled && playerMove != null && !playerMove.playerDroppedFlashLight() && !playerMove.didPlayerDie()) {
