@@ -17,6 +17,7 @@ public class PlayerMove : MonoBehaviour
 
     [SerializeField] protected Vector2Int direction = Vector2Int.right;
     [SerializeField] private GameObject flashLightObject;
+    [SerializeField] private Animator playerAnimator;
     protected bool droppedFlashLight = false;
     private bool playerDead = false;
     private bool playerInDialogue = false;
@@ -52,6 +53,10 @@ public class PlayerMove : MonoBehaviour
     {
         // Interpolation of player movement
         if(!paused) transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
+        playerAnimator.SetFloat("X", direction.x);
+        playerAnimator.SetFloat("Y", direction.y);
+        if ((transform.position - targetPosition).magnitude > 0.1f) playerAnimator.SetBool("Walk", true);
+        else playerAnimator.SetBool("Walk", false);
     }
 
     protected virtual void Update()
