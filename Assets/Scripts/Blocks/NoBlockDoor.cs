@@ -30,6 +30,6 @@ public class NoBlockDoor : InteractableBlock
 
     protected override void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
     }
 }

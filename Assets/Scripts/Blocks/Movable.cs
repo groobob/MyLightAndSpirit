@@ -25,13 +25,8 @@ public class Movable : InteractableBlock
         base.Awake();
     }
 
-    protected override void Update()
-    {
-        base.Update();
-    }
-
     protected override void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
     }
 }

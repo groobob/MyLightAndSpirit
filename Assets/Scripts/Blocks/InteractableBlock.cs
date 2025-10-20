@@ -282,7 +282,6 @@ public abstract class InteractableBlock : MonoBehaviour
         SoundManager.Instance.PlayAudio(1, AudioSourceType.Push);
         Vector3Int cellPosition = _grid.WorldToCell(transform.position);
         if (!canMove(direction)) { return cellPosition; }
-
         cellPosition += direction;
         ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Pushcloud, transform.position, 5f);
         targetPosition = _grid.GetCellCenterWorld(cellPosition);

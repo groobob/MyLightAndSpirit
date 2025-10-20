@@ -32,7 +32,7 @@ public class SwitchDisappearDoor : InteractableBlock
 
     protected override void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
     }
 
     public void appear()

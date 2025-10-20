@@ -35,7 +35,7 @@ public class SwitchAppearDoor : InteractableBlock
 
     protected override void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
     }
 
     public void appear()

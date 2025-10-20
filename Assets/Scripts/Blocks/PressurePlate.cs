@@ -33,7 +33,7 @@ public class PressurePlate : Switch
 
     protected override void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
     }
 
     private void checkBlockAbove()
