@@ -7,7 +7,7 @@ public class PauseUI : MonoBehaviour
     [SerializeField] Button resumeButton;
     [SerializeField] Button settingsButton;
     [SerializeField] Button quitToTitleButton;
-    [SerializeField] GameObject settingsMenu;
+    [SerializeField] public GameObject settingsMenu;
 
     [Header("Audio")]
     private int buttonClickSoundID = 6;
