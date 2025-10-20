@@ -384,7 +384,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1242,11 +1242,11 @@ PrefabInstance:
       objectReference: {fileID: 231032917}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: text.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: panels.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[0]'
@@ -1284,6 +1284,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[8]'
+      value: "While clutching the ancient relic on your necklace, you leave your
+        mortality by the door\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
+      propertyPath: 'text.Array.data[9]'
       value: "While clutching the ancient relic on your necklace, you leave your
         mortality by the door\u2026"
       objectReference: {fileID: 0}
@@ -1326,7 +1331,7 @@ PrefabInstance:
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'panels.Array.data[9]'
       value: 
-      objectReference: {fileID: 6584560087856830271, guid: 3fcae3fbc54892841b5821c070c9528a, type: 3}
+      objectReference: {fileID: 7364280029956402119, guid: 60f9253b224ab894db16ff50ffa28aa4, type: 3}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'panels.Array.data[10]'
       value: 
