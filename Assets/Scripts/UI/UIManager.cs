@@ -19,11 +19,11 @@ public class UIManager : MonoBehaviour
 
     private void UIManager_OnPause(object sender, System.EventArgs e)
     {
-        pauseMenu.SetActive(true);
+        pauseMenu.GetComponent<PauseUI>().Show();
     }
 
     private void UIManager_OnUnpause(object sender, System.EventArgs e)
     {
-        pauseMenu.SetActive(false);
+        pauseMenu.GetComponent<PauseUI>().Hide();
     }
 }

@@ -2,6 +2,7 @@
  * Class for managing playing all related sounds.
  */
 
+using Mono.Cecil;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,12 +43,14 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource mainMusicSource;
     [SerializeField] private AudioSource menuMusicSource;
 
+    private float mainMusicCurrentTime = 0f;
+
     private void Awake()
     {
         Instance = this;
 
         Scene scene = SceneManager.GetActiveScene();
-        if(scene.name == "SettingsScene" || scene.name == "PauseScene" || scene.name == "TitleScene"){
+        if(scene.name == "SettingsScene" || scene.name == "TitleScene"){
             PlayMusic(1, AudioSourceType.MenuMusic);
         } else {
             PlayMusic(0, AudioSourceType.MainMusic);
@@ -113,30 +116,77 @@ public class SoundManager : MonoBehaviour
         source.clip = music[musicID];
         source.Play();
     }
+
     /**
      * Plays the music clip with the specified music ID, stopping any currently playing music.
      * @param musicID The ID of the music clip to play.
      */
-//     public void PlayMusic(int musicID)
-//     {
-//         if (musicSource.isPlaying)
-//         {
-//             musicSource.Stop();
-//         }
+    //     public void PlayMusic(int musicID)
+    //     {
+    //         if (musicSource.isPlaying)
+    //         {
+    //             musicSource.Stop();
+    //         }
 
-//         musicSource.clip = music[musicID];
-//         musicSource.Play();
+    //         musicSource.clip = music[musicID];
+    //         musicSource.Play();
 
-//     }
+    //     }
 
-//     /**
-//      * Stops the currently playing music.
-//      */
-//     public void StopMusic()
-//     {
-//         if (musicSource.isPlaying)
-//         {
-//             musicSource.Stop();
-//         }
-//     }
+    /**
+     * * Stops the currently playing music.
+     */
+    public void StopMusic(int musicID, AudioSourceType sourceType)
+    {
+        AudioSource source = GetAudioSource(sourceType);
+        if (source.isPlaying)
+        {
+            source.Stop();
+        }
+    }
+    /**
+     * Stops the currently playing music.
+     */
+    public void StopMusicAtTime(int musicID, AudioSourceType sourceType)
+    {
+        AudioSource source = GetAudioSource(sourceType);
+        
+
+        if (musicID == 0)
+        {
+            mainMusicCurrentTime = source.time;
+        }
+        else
+        {
+            Debug.Log("BRUH CHECK SOUND MANAGER I MADE THE SCRIPT AWFULLY SPECIFIC");
+        }
+        if (source.isPlaying)
+        {
+            source.Stop();
+        }
+    }
+
+    public void PlayMusicAtTime(int musicID, AudioSourceType sourceType)
+    {
+        AudioSource source = GetAudioSource(sourceType);
+        if (source.isPlaying)
+        {
+            source.Stop();
+        }
+        source.clip = music[musicID];
+        source.time = mainMusicCurrentTime;
+        source.PlayScheduled(mainMusicCurrentTime);
+    }
+
+    public void PlayMusicAtTime(int musicID, AudioSourceType sourceType, float startTime)
+    {
+        AudioSource source = GetAudioSource(sourceType);
+        if (source.isPlaying)
+        {
+            source.Stop();
+        }
+        source.clip = music[musicID];
+        source.time = startTime;
+        source.PlayScheduled(mainMusicCurrentTime);
+    }
 }
