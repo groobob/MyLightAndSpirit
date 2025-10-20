@@ -19,7 +19,7 @@ public class SettingsUI : MonoBehaviour
         if(PlayerPrefs.HasKey("volume"))
         {
             volumeSlider.value = PlayerPrefs.GetFloat("volume");
-            //set master mixer to the value
+            SoundManager.Instance.SetMasterVolume(PlayerPrefs.GetFloat("volume"));
         }
         if(PlayerPrefs.HasKey("brightness"))
         {
@@ -34,6 +34,7 @@ public class SettingsUI : MonoBehaviour
         volumeSlider.onValueChanged.AddListener((float value) =>
         {
             PlayerPrefs.SetFloat("volume", value);
+            SoundManager.Instance.SetMasterVolume(value);
         });
         brightnessSlider.onValueChanged.AddListener((float value) =>
         {

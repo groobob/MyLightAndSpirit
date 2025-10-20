@@ -51,6 +51,20 @@ public class SoundManager : MonoBehaviour
     {
         Instance = this;
 
+        // Load and apply saved master volume
+        if (PlayerPrefs.HasKey("volume"))
+        {
+            SetMasterVolume(PlayerPrefs.GetFloat("volume"));
+        }
+    }
+
+    /**
+     * Sets the master volume for all audio in the game.
+     * @param volume The volume level (0.0 to 1.0).
+     */
+    public void SetMasterVolume(float volume)
+    {
+        AudioListener.volume = Mathf.Clamp01(volume);
     }
 
     /**
