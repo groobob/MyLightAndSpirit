@@ -12,6 +12,20 @@ public class SceneLoader : MonoBehaviour
         Instance = this;
     }
 
+    public void Start(){
+        if (SceneManager.GetActiveScene().name == "TitleScene"){
+            if (SoundManager.Instance != null)
+            {
+                SoundManager.Instance.PlayMusic(2, AudioSourceType.IntroMusic);
+            }
+        } else if (SceneManager.GetActiveScene().name == "GameScene"){
+            if (SoundManager.Instance != null)
+            {
+                SoundManager.Instance.PlayMusic(0, AudioSourceType.MainMusic);
+            }
+        }
+    }
+
     /**
      * Loads the next scene in the build index
      */
@@ -26,6 +40,12 @@ public class SceneLoader : MonoBehaviour
     public void LoadStartScene()
     {
         SceneManager.LoadScene(0);
+
+        // stop music
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.StopMusic(2, AudioSourceType.IntroMusic);
+        }
     }
 
     /**
@@ -34,5 +54,11 @@ public class SceneLoader : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        // stop music
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.StopMusic(2, AudioSourceType.MainMusic);
+        }
+        
     }
 }

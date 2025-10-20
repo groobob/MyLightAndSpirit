@@ -432,6 +432,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &734981537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734981538}
+  - component: {fileID: 734981539}
+  m_Layer: 0
+  m_Name: Intro Music Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &734981538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734981537}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 784177641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &734981539
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734981537}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 0.67
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &784177641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9135836337625831910, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+  m_PrefabInstance: {fileID: 1741460169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &857453607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,6 +1261,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: introMusicSource
+      value: 
+      objectReference: {fileID: 734981539}
+    - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: music.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: 'music.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
     - target: {fileID: 9135836337625831910, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1169,7 +1315,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9135836337625831910, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 734981538}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
 --- !u!1001 &4900128216542821688
@@ -1250,47 +1399,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[0]'
-      value: "Before you lies the ruins of Abbarus\u2026 a once mighty fortress that
-        still houses a deep secret"
+      value: Here lies the shattered Abbarus--once a mighty fortress of gods, now
+        a silent tomb of secrecy.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[1]'
-      value: Within lies the last gate to Yaagen, the spirit purgatory for the rotten
+      value: Beneath its ashes stirs the final gate to Yagen--the spirit purgatory
+        of the damned.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[2]'
-      value: Within lies the last gate to Yaagen, the spirit purgatory for the rotten
+      value: Beneath its ashes stirs the final gate to Yagen--the spirit purgatory
+        of the damned.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[3]'
-      value: You are here for your lover, a once great mage falsely damned to Yaagen
+      value: You've come for your beloved, a divine mage of light, unjustly condemned
+        to the void of Yagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[4]'
-      value: You are here for your lover, a once great mage falsely damned to Yaagen
+      value: You've come for your beloved, a divine mage of light, unjustly condemned
+        to the void of Yagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[5]'
-      value: You are here for your lover, a once great mage falsely damned to Yaagen
+      value: You've come for your beloved, a divine mage of light, unjustly condemned
+        to the void of Yagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[6]'
-      value: You are here for your lover, a once great mage falsely damned to Yaagen
+      value: You've come for your beloved, a divine mage of light, unjustly condemned
+        to the void of Yagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[7]'
-      value: The gate to the hellhole stands imposingly before you. The ominous abyss
-        mocking your quest.
+      value: A monolith of despair--the gate of Yagen--taunts your fragile resolve.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[8]'
-      value: "While clutching the ancient relic on your necklace, you leave your
-        mortality by the door\u2026"
+      value: With trembling hands, you clutch the relic at your throat...
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[9]'
-      value: "While clutching the ancient relic on your necklace, you leave your
-        mortality by the door\u2026"
+      value: and the cold takes you, as your soul slips from its mortal shell.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'panels.Array.data[0]'

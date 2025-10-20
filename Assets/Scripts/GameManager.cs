@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        SoundManager.Instance.PlayMusic(0, AudioSourceType.MainMusic);
     }
 
     private void Start()
