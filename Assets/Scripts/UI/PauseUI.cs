@@ -42,11 +42,15 @@ public class PauseUI : MonoBehaviour
     public void Show()
     {
         gameObject.SetActive(true);
+        SoundManager.Instance.GetComponent<SoundManager>().StopMusicAtTime(0, AudioSourceType.MainMusic);
+        SoundManager.Instance.GetComponent<SoundManager>().PlayMusicAtTime(1, AudioSourceType.MenuMusic, 0.4f);
     }
 
     public void Hide()
     {
         gameObject.SetActive(false);
+        SoundManager.Instance.GetComponent<SoundManager>().PlayMusicAtTime(0, AudioSourceType.MainMusic);
+        SoundManager.Instance.GetComponent<SoundManager>().StopMusic(1, AudioSourceType.MenuMusic);
     }
 
     private void PlayButtonSound()
