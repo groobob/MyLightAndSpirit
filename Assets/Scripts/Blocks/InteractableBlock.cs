@@ -65,6 +65,10 @@ public abstract class InteractableBlock : MonoBehaviour
     {
         checkDeath(); // only destroyable if the block is movable
         checkShineReset();
+    }
+
+    protected virtual void FixedUpdate()
+    {
         interpolateMovementForBlock();
     }
 

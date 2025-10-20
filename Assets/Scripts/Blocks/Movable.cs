@@ -29,4 +29,9 @@ public class Movable : InteractableBlock
     {
         base.Update();
     }
+
+    protected override void FixedUpdate()
+    {
+        base.Update();
+    }
 }

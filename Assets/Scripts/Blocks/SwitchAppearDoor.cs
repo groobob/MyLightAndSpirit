@@ -33,6 +33,11 @@ public class SwitchAppearDoor : InteractableBlock
         base.Update();
     }
 
+    protected override void FixedUpdate()
+    {
+        base.Update();
+    }
+
     public void appear()
     {
         spriteRenderer.sprite = onSprite;

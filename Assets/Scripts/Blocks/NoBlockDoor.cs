@@ -27,4 +27,9 @@ public class NoBlockDoor : InteractableBlock
     {
         base.Update();
     }
+
+    protected override void FixedUpdate()
+    {
+        base.Update();
+    }
 }

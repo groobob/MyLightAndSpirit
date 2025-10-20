@@ -24,7 +24,6 @@ public class PlayerMove : MonoBehaviour
     private bool playerInDialogue = false;
 
     private float deathPauseTime = .5f;
-    
 
     private bool paused = false;
     private void Start()
@@ -110,6 +109,10 @@ public class PlayerMove : MonoBehaviour
         {
             LevelManager.Instance.GetComponent<LevelManager>().ResetButtonPressed();
         }
+        if (Input.GetKeyDown(KeyCode.L)) // Debug Enemies
+        {
+            moveAllEnemies(direction);
+        }
     }
 
     public void takePlayerOutOfDialogue()
@@ -131,6 +134,7 @@ public class PlayerMove : MonoBehaviour
         if (onMoveCD) { return; }
         onMoveCD = true;
         Invoke(nameof(ResetMoveCD), cdDuration);
+
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }

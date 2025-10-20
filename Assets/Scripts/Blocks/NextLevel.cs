@@ -25,4 +25,9 @@ public class NextLevel : InteractableBlock
     {
         base.Update();
     }
+
+    protected override void FixedUpdate()
+    {
+        base.Update();
+    }
 }

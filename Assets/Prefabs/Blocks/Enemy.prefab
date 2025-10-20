@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 0.7}
   m_EdgeRadius: 0
 --- !u!114 &5853963464226403904
 MonoBehaviour:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crawler
   initalDirection: 3
-  interpolationValue: 0.1
+  interpolationValue: 0.35
   environmentLayer: Blocks
   rightSprite: {fileID: 1800876184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
   leftSprite: {fileID: 943205184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
