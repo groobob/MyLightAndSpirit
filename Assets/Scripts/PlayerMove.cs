@@ -115,6 +115,8 @@ public class PlayerMove : MonoBehaviour
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
+
+        ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Walkcloud, transform.position, 5f);
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
 
         moveAllEnemies(direction);
@@ -159,6 +161,7 @@ public class PlayerMove : MonoBehaviour
             if ((collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible()) || (collider.gameObject.layer == LayerMask.NameToLayer("Enemies")))
             {
                 Debug.Log($"Player Died to {collider.gameObject.name}");
+                ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Deathcloud, transform.position, 5f);
                 killPlayer();
             }
         }

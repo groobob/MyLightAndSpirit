@@ -264,6 +264,7 @@ public abstract class InteractableBlock : MonoBehaviour
         if (!canMove(direction)) { return cellPosition; }
 
         cellPosition += direction;
+        ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Pushcloud, transform.position, 5f);
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
         movingBlockCordinates.Add(cellPosition);
         Invoke("clearMovingBlockCoords", PlayerMove.cdDuration); // clear the used coords once done
@@ -504,6 +505,7 @@ public abstract class InteractableBlock : MonoBehaviour
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 Debug.Log("Block Destroyed");
+                ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Deathcloud, transform.position, 5f);
                 Destroy(gameObject);
             }
         }
