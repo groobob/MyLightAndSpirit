@@ -87,9 +87,9 @@ public abstract class Enemy : MonoBehaviour
                 PlayerMove plrMove = hit.GetComponent<PlayerMove>();
                 if (plrMove != null)
                 {
-                    plrMove.killPlayer();
+                    //plrMove.killPlayer();
                 }
-                playerFound = true;
+                //playerFound = true;
             }
             else if (hit != null && hit.gameObject.layer == LayerMask.NameToLayer(environmentLayer) && interactable.isVisible() && interactable.canMove(direction))
             {
