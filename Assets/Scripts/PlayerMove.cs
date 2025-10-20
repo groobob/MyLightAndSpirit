@@ -15,9 +15,9 @@ public class PlayerMove : MonoBehaviour
     private bool onMoveCD = false;
     public static float cdDuration = 0.1f;
 
-    [SerializeField] private Vector2Int direction = Vector2Int.right;
+    [SerializeField] protected Vector2Int direction = Vector2Int.right;
     [SerializeField] private GameObject flashLightObject;
-    private bool droppedFlashLight = false;
+    protected bool droppedFlashLight = false;
     private bool playerDead = false;
 
     private float deathPauseTime = 2f;
@@ -53,7 +53,7 @@ public class PlayerMove : MonoBehaviour
         if(!paused) transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);
     }
 
-    void Update()
+    protected virtual void Update()
     {
         if (!paused)
         {
@@ -191,7 +191,7 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    private void dropFlashLight()
+    protected void dropFlashLight()
     {
         if (!droppedFlashLight)
         {
