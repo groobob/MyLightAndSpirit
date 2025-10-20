@@ -34,7 +34,7 @@ public abstract class Enemy : MonoBehaviour
         targetPosition = transform.position;
     }
 
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         //Debug.DrawLine(transform.position, new Vector3(direction.x, direction.y, 0) * 0.5f, Color.red, 0.5f); // Mark hit point
         transform.position = Vector3.Lerp(transform.position, targetPosition, interpolationValue);

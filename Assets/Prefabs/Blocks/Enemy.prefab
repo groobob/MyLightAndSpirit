@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a1b66ffe38b1946b20527ce10cbb67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crawler
-  initalDirection: {x: 1, y: 0, z: 0}
+  initalDirection: 3
   interpolationValue: 0.1
   environmentLayer: Blocks
   rightSprite: {fileID: 1800876184, guid: 0c2cb32c783343641bfc19260b2de312, type: 3}
