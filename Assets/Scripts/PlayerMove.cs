@@ -103,6 +103,23 @@ public class PlayerMove : MonoBehaviour
         {
             LevelManager.Instance.GetComponent<LevelManager>().ResetButtonPressed();
         }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            silly();
+        }
+    }
+
+    public Sprite aliceSprite;
+    private void silly()
+    {
+        DialogueLine[] conversation = new DialogueLine[]
+        {
+            new DialogueLine { text = "This line has no name or portrait." },
+            new DialogueLine { speakerName = "Alice", text = "But this one does!", portrait = aliceSprite },
+            new DialogueLine { speakerName = "", text = "Now back to anonymous dialogue." }
+        };
+
+        DialogueManager.Instance.StartDialogue(conversation);
     }
 
     /**
