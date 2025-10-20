@@ -4067,11 +4067,14 @@ MonoBehaviour:
   levelTilemapObjects:
   - {fileID: 4350731845985933768, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
   - {fileID: 5337840134176860529, guid: 6931c683c9f4f70419a2a91b872e1318, type: 3}
-  - {fileID: 1468135114721588008, guid: d8dc6a9acac44ee48a22e724595b53f4, type: 3}
+  - {fileID: 5935709865261465741, guid: a19395d2dff6cf741b91b23ad346ac47, type: 3}
   - {fileID: 3436383038266511010, guid: 12839a2fd7d6f094bafe1c7555d531b1, type: 3}
   - {fileID: 8363039317843685022, guid: aa612d070b4cd4545a92d28cf3f71212, type: 3}
   - {fileID: 5083356828240520882, guid: f963bfab596518e43ab87938c9654172, type: 3}
   - {fileID: 6298699889922254620, guid: ead19aef3b26bb54dabf77c7c71e666a, type: 3}
+  - {fileID: 8453715371013371956, guid: dda7de3973f7b1945895a045a5108cf8, type: 3}
+  - {fileID: 6155896107194255054, guid: c455909a131af0a4aa57a7a1df6b1e5e, type: 3}
+  - {fileID: 7530044694670223929, guid: 4db93e31714abc94fb486316b71732a5, type: 3}
   gridObject: {fileID: 347553526}
   currentLevel: {fileID: 717957706}
   playerSpawn: {x: -3, y: -4, z: 0}
@@ -4084,7 +4087,7 @@ Transform:
   m_GameObject: {fileID: 1514567525}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.12705, y: 3.54487, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

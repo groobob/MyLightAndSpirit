@@ -2527,7 +2527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7522363032741814965, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: fadeTime
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3421,11 +3421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.47
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 2545289991110939792, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3469,11 +3469,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_text
-      value: Shift to drop your light
+      value: Shift to drop/recall your light
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
+      propertyPath: m_fontSize
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_margin.z
-      value: 0.59026074
+      value: 0.25979972
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 7522363032741814965, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: fadeTime
