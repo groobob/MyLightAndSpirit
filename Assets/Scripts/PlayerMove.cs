@@ -17,6 +17,7 @@ public class PlayerMove : MonoBehaviour
 
     [SerializeField] protected Vector2Int direction = Vector2Int.right;
     [SerializeField] private GameObject flashLightObject;
+    [SerializeField] private GameObject playerSpriteBlock;
     [SerializeField] private Animator playerAnimator;
     protected bool droppedFlashLight = false;
     private bool playerDead = false;
@@ -271,6 +272,8 @@ public class PlayerMove : MonoBehaviour
         SoundManager.Instance.PlayAudio(5, AudioSourceType.PlayerDeath);
         AnimationManager.Instance.PlayTransition();
         playerDead = true;
+        playerSpriteBlock.GetComponent<SpriteRenderer>().enabled = false;
+        if (flashLightObject.transform.parent == gameObject.transform) { flashLightObject.SetActive(false); }
         StartCoroutine(ResetLevelAfterDelay(deathPauseTime));
     }
 
