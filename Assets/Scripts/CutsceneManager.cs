@@ -13,6 +13,7 @@ public class CutsceneManager : MonoBehaviour
 
     [SerializeField] SpriteRenderer panel;
     [SerializeField] TextMeshProUGUI comicText;
+    [SerializeField] bool returnToTitle = false;
     private int index = 0;
 
     private void Start()
@@ -23,7 +24,8 @@ public class CutsceneManager : MonoBehaviour
         {
             if(index ==  panels.Length)
             {
-                SceneLoader.Instance.LoadNextScene();
+                if (!returnToTitle) SceneLoader.Instance.LoadNextScene();
+                else SceneLoader.Instance.LoadStartScene();
             }
             else GenerateNext();
         });
