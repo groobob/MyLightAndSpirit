@@ -18,6 +18,12 @@ public class CutsceneManager : MonoBehaviour
 
     private void Start()
     {
+        // Play intro music
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayMusic(2, AudioSourceType.IntroMusic);
+        }
+        
         buttonText.text = "next";
         GenerateNext();
         nextButton.onClick.AddListener(() =>

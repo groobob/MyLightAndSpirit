@@ -18,7 +18,8 @@ public enum AudioSourceType
     NextLevel,
     UIButtonPress,
     MainMusic,
-    MenuMusic
+    MenuMusic,
+    IntroMusic,
 }
 
 public class SoundManager : MonoBehaviour
@@ -38,6 +39,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource playerDeathSource;
     [SerializeField] private AudioSource nextLevelSource;
     [SerializeField] private AudioSource uiButtonPressSource;
+    [SerializeField] private AudioSource introMusicSource;
 
     // music sources
     [SerializeField] private AudioSource mainMusicSource;
@@ -49,12 +51,6 @@ public class SoundManager : MonoBehaviour
     {
         Instance = this;
 
-        Scene scene = SceneManager.GetActiveScene();
-        if(scene.name == "SettingsScene" || scene.name == "TitleScene"){
-            PlayMusic(1, AudioSourceType.MenuMusic);
-        } else {
-            PlayMusic(0, AudioSourceType.MainMusic);
-        }
     }
 
     /**
@@ -84,6 +80,8 @@ public class SoundManager : MonoBehaviour
                 return mainMusicSource;
             case AudioSourceType.MenuMusic:
                 return menuMusicSource;
+            case AudioSourceType.IntroMusic:
+                return introMusicSource;
             default:
                 Debug.LogWarning($"Unknown audio source type: {sourceType}");
                 return walkSource; // fallback
