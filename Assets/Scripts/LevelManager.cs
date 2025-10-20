@@ -40,13 +40,17 @@ public class LevelManager : MonoBehaviour
      */
     public void GenerateNextLevel()
     {
-        SoundManager.Instance.PlayAudio(4, AudioSourceType.NextLevel);
-        DestroyLevel();
+        if (nextLevelIndex == levelTilemapObjects.Length) SceneLoader.Instance.LoadNextScene();
+        else
+        {
+            SoundManager.Instance.PlayAudio(4, AudioSourceType.NextLevel);
+            DestroyLevel();
 
-        currentLevel = Instantiate(levelTilemapObjects[nextLevelIndex], Vector3.zero, Quaternion.identity);
-        currentLevel.transform.SetParent(gridObject.transform, true);
-        nextLevelIndex++;
-        playerSpawn = currentLevel.transform.Find("Player").position;
+            currentLevel = Instantiate(levelTilemapObjects[nextLevelIndex], Vector3.zero, Quaternion.identity);
+            currentLevel.transform.SetParent(gridObject.transform, true);
+            nextLevelIndex++;
+            playerSpawn = currentLevel.transform.Find("Player").position;
+        }
     }
 
     /**

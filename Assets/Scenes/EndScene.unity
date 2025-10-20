@@ -837,7 +837,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7808765515698171442, guid: b11ef4d605eca0645aff8e8ad923a6d5, type: 3}
+  m_Sprite: {fileID: 602040221966680826, guid: feadc6a94106cad4da413c538998cbdc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -949,11 +949,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[0]'
-      value: yippee
+      value: The End
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[1]'
-      value: The End
+      value: Thanks for Playing
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[2]'
