@@ -14,7 +14,7 @@ public class SimultaneousRaycast : MonoBehaviour{
     protected int reflectionLimit = 100; // number of times to check if ray is reflected 
     
     [SerializeField] protected float totalDegree = 15; // degree of flashlight's cone
-    protected float intervalDegree = 2f; // degree between each ray in the cone
+    [SerializeField] protected float intervalDegree = 0.35f; // degree between each ray in the cone
     [SerializeField] bool showMissedRays = false;
     [SerializeField] protected PlayerMove playerMove;
     protected Vector3 direction;

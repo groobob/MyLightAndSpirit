@@ -99,6 +99,10 @@ public class PlayerMove : MonoBehaviour
         {
             dropFlashLight();
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            LevelManager.Instance.GetComponent<LevelManager>().ResetButtonPressed();
+        }
     }
 
     /**
@@ -107,20 +111,21 @@ public class PlayerMove : MonoBehaviour
      */
     void Move(Vector2Int direction)
     {
-        SoundManager.Instance.PlayAudio(0, AudioSourceType.Walk);
         if (onMoveCD) { return; }
         onMoveCD = true;
         Invoke(nameof(ResetMoveCD), cdDuration);
-
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
-
+        SoundManager.Instance.PlayAudio(0, AudioSourceType.Walk);
         ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Walkcloud, transform.position, 5f);
         targetPosition = tilemap.GetCellCenterWorld(cellPosition);
 
         moveAllEnemies(direction);
     }
+
+    
+
     /**
      * Checks if the player is trying to move into a wall
      * @return true if there is a wall, false otherwise
@@ -153,7 +158,7 @@ public class PlayerMove : MonoBehaviour
      * If so, restarts the level
      */
     private void checkDeath() {
-        Collider2D[] colliderList = Physics2D.OverlapBoxAll(targetPosition, new Vector2(0.1f, 0.1f), 0);
+        Collider2D[] colliderList = Physics2D.OverlapBoxAll(transform.position, new Vector2(0.1f, 0.1f), 0);
         foreach (Collider2D collider in colliderList)
         {
             InteractableBlock interactable = collider.gameObject.GetComponent<InteractableBlock>();
@@ -161,7 +166,6 @@ public class PlayerMove : MonoBehaviour
             if ((collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible()) || (collider.gameObject.layer == LayerMask.NameToLayer("Enemies")))
             {
                 Debug.Log($"Player Died to {collider.gameObject.name}");
-                ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Deathcloud, transform.position, 5f);
                 killPlayer();
             }
         }
@@ -236,6 +240,7 @@ public class PlayerMove : MonoBehaviour
         {
             return;
         }
+        ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Deathcloud, transform.position, 5f);
         SoundManager.Instance.PlayAudio(5, AudioSourceType.PlayerDeath);
         playerDead = true;
         StartCoroutine(ResetLevelAfterDelay(deathPauseTime));

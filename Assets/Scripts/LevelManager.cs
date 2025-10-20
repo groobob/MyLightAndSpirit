@@ -15,6 +15,9 @@ public class LevelManager : MonoBehaviour
     int nextLevelIndex = 1;
     [SerializeField] private Vector3 playerSpawn;
 
+    private float resetCD = 0.8f;
+    private bool canReset = true;
+
 
     private void Awake()
     {
@@ -84,5 +87,19 @@ public class LevelManager : MonoBehaviour
     public Vector3 GetPlayerSpawnPosition()
     {         
         return playerSpawn;
+    }
+
+    public void ResetButtonPressed()
+    {
+        if (!canReset) { return; }
+        canReset = false;
+        Invoke("allowReset", resetCD);
+
+        RestartLevel();
+    }
+
+    private void allowReset()
+    {
+        canReset = true;
     }
 }
