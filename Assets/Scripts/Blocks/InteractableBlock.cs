@@ -21,6 +21,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] protected bool movableBlock = false; // whether the block can be moved by the player
     [SerializeField] protected bool onlyInLight = false; // whether the block only appears in the light world
     [SerializeField] protected bool isToggleMoveLinkedBlock = false; // Important so toggle Move Blocks Die when they are placed in another block
+    [SerializeField] protected bool hasDialogue = false;
     protected bool isLightForm = false;
     protected Vector3 targetPosition;
     protected SpriteRenderer spriteRenderer;
@@ -36,6 +37,10 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] protected bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
     [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); // IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
+
+
+
+    protected DialogueLine[] dialogueLines;
 
     protected void init()
     {
@@ -160,12 +165,23 @@ public abstract class InteractableBlock : MonoBehaviour
             moveBlock(dir);
             return true;
         }
+        else if (hasDialogue)
+        {
+            DialogueManager.Instance.StartDialogue(dialogueLines);
+            return false;
+        }
         else
         {
             // implement other interactions here (dialogue, other stuff, etc)
             return false;
         }
     }
+
+    public bool checkHasDialogue()
+    {
+        return hasDialogue;
+    }
+
     /**
      * Event for enemies interacting with blocks, called by enemy. Different from Player because, enemies won't use other features like
      * dialogue, and anything else we decide to do
