@@ -9,7 +9,6 @@ public static class BlockEnumGenerator
     private const string enumName = "BlockType";
     private const string outputPath = "Assets/EvanThings/BlockType.cs";
 
-    [MenuItem("Tools/Generate BlockType Enum")]
     public static void GenerateBlockEnum()
     {
         var allBlocks = AppDomain.CurrentDomain.GetAssemblies()
@@ -41,7 +40,6 @@ public static class BlockEnumGenerator
             writer.WriteLine("}");
         }
 
-        AssetDatabase.Refresh();
         Debug.Log($"✅ Enum regenerated at {outputPath}");
     }
 }

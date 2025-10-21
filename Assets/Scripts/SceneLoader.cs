@@ -13,6 +13,8 @@ public class SceneLoader : MonoBehaviour
     }
 
     public void Start(){
+        Screen.SetResolution(1024, 768, false);
+
         if (SceneManager.GetActiveScene().name == "TitleScene"){
             if (SoundManager.Instance != null)
             {
