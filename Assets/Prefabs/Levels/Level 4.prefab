@@ -766,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_text
-      value: Only some mirrors can be moved
+      value: Only white mirrors can be moved
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_margin.z
