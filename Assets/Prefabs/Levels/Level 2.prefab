@@ -1000,6 +1000,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2715921418275643181}
     m_Modifications:
+    - target: {fileID: 1900140349644115651, guid: 846481c00e74fe246baf31e6784f4e65, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8828125
+      objectReference: {fileID: 0}
     - target: {fileID: 2511163420830603785, guid: 846481c00e74fe246baf31e6784f4e65, type: 3}
       propertyPath: m_Name
       value: Hardwall
@@ -1558,6 +1562,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2715921418275643181}
     m_Modifications:
+    - target: {fileID: 1900140349644115651, guid: 846481c00e74fe246baf31e6784f4e65, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8828125
+      objectReference: {fileID: 0}
     - target: {fileID: 2511163420830603785, guid: 846481c00e74fe246baf31e6784f4e65, type: 3}
       propertyPath: m_Name
       value: Hardwall
