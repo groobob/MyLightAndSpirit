@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
+
 public class SettingsUI : MonoBehaviour
 {
     [Header("References")]
@@ -19,6 +20,7 @@ public class SettingsUI : MonoBehaviour
         if(PlayerPrefs.HasKey("volume"))
         {
             volumeSlider.value = PlayerPrefs.GetFloat("volume");
+            SoundManager.Instance.ChangeVolume(volumeSlider.value);
             //set master mixer to the value
         }
         if(PlayerPrefs.HasKey("brightness"))
@@ -34,6 +36,7 @@ public class SettingsUI : MonoBehaviour
         volumeSlider.onValueChanged.AddListener((float value) =>
         {
             PlayerPrefs.SetFloat("volume", value);
+            SoundManager.Instance.ChangeVolume(value);
         });
         brightnessSlider.onValueChanged.AddListener((float value) =>
         {

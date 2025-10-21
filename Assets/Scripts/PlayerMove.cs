@@ -109,10 +109,6 @@ public class PlayerMove : MonoBehaviour
         {
             LevelManager.Instance.GetComponent<LevelManager>().ResetButtonPressed();
         }
-        if (Input.GetKeyDown(KeyCode.L)) // Debug Enemies
-        {
-            moveAllEnemies(direction);
-        }
     }
 
     public void takePlayerOutOfDialogue()

@@ -47,10 +47,22 @@ public class SoundManager : MonoBehaviour
 
     private float mainMusicCurrentTime = 0f;
 
+    private Dictionary<string, float> originalVolumes = new Dictionary<string, float>();
+
+
     private void Awake()
     {
         Instance = this;
+        BuildVolumeDictionary();
+    }
 
+    private void Start()
+    {
+        if (PlayerPrefs.HasKey("volume"))
+        { 
+            ChangeVolume(PlayerPrefs.GetFloat("volume"));
+            //set master mixer to the value
+        }
     }
 
     /**
@@ -186,5 +198,30 @@ public class SoundManager : MonoBehaviour
         source.clip = music[musicID];
         source.time = startTime;
         source.PlayScheduled(mainMusicCurrentTime);
+    }
+
+    private void BuildVolumeDictionary()
+    {
+        // Clear any previous entries
+        originalVolumes.Clear();
+
+        // Loop through all children of this SoundManager
+        foreach (Transform child in transform)
+        {
+            AudioSource source = child.GetComponent<AudioSource>();
+            if (source != null)
+            {
+                originalVolumes[child.name] = source.volume * 2;
+            }
+        }
+    }
+
+    public void ChangeVolume(float volume)
+    {
+        foreach (AudioSource source in GetComponentsInChildren<AudioSource>()) {
+            float ogVolume = originalVolumes[source.transform.name];
+            source.volume = ogVolume * volume / 10;
+            if (source.volume > ogVolume) { source.volume = ogVolume; }
+        }
     }
 }
