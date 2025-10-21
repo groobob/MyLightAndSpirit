@@ -460,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341191110925698913, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: m_Volume
-      value: 0.396
+      value: 0.065
       objectReference: {fileID: 0}
     - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: introMusicSource
@@ -482,6 +482,10 @@ PrefabInstance:
       propertyPath: 'music.Array.data[2]'
       value: 
       objectReference: {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
+    - target: {fileID: 9072665246177256281, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9135836337625831910, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

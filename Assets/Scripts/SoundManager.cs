@@ -209,7 +209,7 @@ public class SoundManager : MonoBehaviour
             AudioSource source = child.GetComponent<AudioSource>();
             if (source != null)
             {
-                originalVolumes[child.name] = source.volume * 2;
+                originalVolumes[child.name] = source.volume * 1.75f;
             }
         }
     }
