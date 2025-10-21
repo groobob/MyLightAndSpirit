@@ -1270,6 +1270,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: 'music.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 35226897837084ed3aaf1efe76494750, type: 3}
+    - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: 'music.Array.data[2]'
       value: 
       objectReference: {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
