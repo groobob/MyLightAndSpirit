@@ -642,6 +642,10 @@ PrefabInstance:
       value: Tutorial Text
       objectReference: {fileID: 0}
     - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.24
       objectReference: {fileID: 0}

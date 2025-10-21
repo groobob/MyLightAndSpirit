@@ -109,6 +109,7 @@ MonoBehaviour:
   movableBlock: 0
   onlyInLight: 0
   isToggleMoveLinkedBlock: 0
+  hasDialogue: 0
   shineFrames: 0
   currentShineFrames: 0
   visibleBlock: 1
@@ -158,7 +159,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8828125, y: 1}
   m_EdgeRadius: 0
 --- !u!1001 &2533598660368657308
 PrefabInstance:

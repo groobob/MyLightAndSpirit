@@ -916,7 +916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &504635266
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4397,6 +4397,7 @@ MonoBehaviour:
   levelTilemapObjects:
   - {fileID: 4350731845985933768, guid: 35d04315f0ccc124288a9bb4a70faf0d, type: 3}
   - {fileID: 5337840134176860529, guid: 6931c683c9f4f70419a2a91b872e1318, type: 3}
+  - {fileID: 827728988444270532, guid: 1b6452f446f127e4b8de51b20d43e6ba, type: 3}
   - {fileID: 5935709865261465741, guid: a19395d2dff6cf741b91b23ad346ac47, type: 3}
   - {fileID: 3436383038266511010, guid: 12839a2fd7d6f094bafe1c7555d531b1, type: 3}
   - {fileID: 8363039317843685022, guid: aa612d070b4cd4545a92d28cf3f71212, type: 3}
