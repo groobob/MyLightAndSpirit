@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 0.7}
   m_EdgeRadius: 0
 --- !u!114 &5109507142898884520
 MonoBehaviour:
@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9667e4d4b706446bc2e646348c56f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CopyEnemy
-  initalDirection: {x: 1, y: 0, z: 0}
-  interpolationValue: 0.1
+  initalDirection: 3
+  interpolationValue: 0.35
   environmentLayer: Blocks
+  invertedHorizontal: 0
+  invertedVertical: 0

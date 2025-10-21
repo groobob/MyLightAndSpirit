@@ -660,6 +660,7 @@ MonoBehaviour:
   interpolationValue: 0.35
   direction: {x: 1, y: 0}
   flashLightObject: {fileID: 5254526376549753037}
+  playerSpriteBlock: {fileID: 6217128384577393536}
   playerAnimator: {fileID: 8482018759125336782}
 --- !u!61 &1698649176536109138
 BoxCollider2D:

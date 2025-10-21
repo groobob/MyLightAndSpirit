@@ -13,17 +13,17 @@ public class PlayerMove : MonoBehaviour
 
     Vector3 targetPosition;
     private bool onMoveCD = false;
-    public static float cdDuration = 0.1f;
+    public float cdDuration = 0.1f;
 
     [SerializeField] protected Vector2Int direction = Vector2Int.right;
     [SerializeField] private GameObject flashLightObject;
+    [SerializeField] private GameObject playerSpriteBlock;
     [SerializeField] private Animator playerAnimator;
     protected bool droppedFlashLight = false;
     private bool playerDead = false;
     private bool playerInDialogue = false;
 
     private float deathPauseTime = .5f;
-    
 
     private bool paused = false;
     private void Start()
@@ -130,6 +130,7 @@ public class PlayerMove : MonoBehaviour
         if (onMoveCD) { return; }
         onMoveCD = true;
         Invoke(nameof(ResetMoveCD), cdDuration);
+
         transform.position = targetPosition;
         Vector3Int cellPosition = tilemap.WorldToCell(targetPosition + (Vector3Int)direction);
         if (wallCheck(cellPosition)) { return; }
@@ -158,7 +159,14 @@ public class PlayerMove : MonoBehaviour
             if (collider.gameObject.layer == LayerMask.NameToLayer("Blocks") && interactable.isVisible())
             {
                 // Check WIN BLOCK
-                if (interactable is NextLevel)
+                if (interactable is NextLevel && interactable.gameObject.transform.name == "LeEpicWinBlock")
+                {
+                    playerDead = true; // well this is technically wrong,but hey! im tired
+                    Debug.Log("playerDead set to true by playermove, lmao it was a lazy fix");
+                    Invoke("LastLevel", 1f);
+                    Invoke("GenerateNextLevel", 1.4f);
+                }
+                else if (interactable is NextLevel)
                 {
                     Debug.Log("Player reached Next Level Block");
                     AnimationManager.Instance.PlayTransition();
@@ -173,6 +181,11 @@ public class PlayerMove : MonoBehaviour
     private void GenerateNextLevel()
     {
         LevelManager.Instance.GetComponent<LevelManager>().GenerateNextLevel();
+    }
+
+    private void LastLevel()
+    {
+        AnimationManager.Instance.PlayTransition();
     }
 
     /**
@@ -271,6 +284,8 @@ public class PlayerMove : MonoBehaviour
         SoundManager.Instance.PlayAudio(5, AudioSourceType.PlayerDeath);
         AnimationManager.Instance.PlayTransition();
         playerDead = true;
+        playerSpriteBlock.GetComponent<SpriteRenderer>().enabled = false;
+        if (flashLightObject.transform.parent == gameObject.transform) { flashLightObject.SetActive(false); }
         StartCoroutine(ResetLevelAfterDelay(deathPauseTime));
     }
 

@@ -10,7 +10,7 @@ public abstract class Enemy : MonoBehaviour
 
     [SerializeField] protected InitalDirection initalDirection = InitalDirection.Right;
     protected Grid _grid;
-    [SerializeField] float interpolationValue = 0.1f;
+    [SerializeField] float interpolationValue = 0.35f;
     protected Vector3Int direction;
     protected SpriteRenderer spriteRenderer;
 

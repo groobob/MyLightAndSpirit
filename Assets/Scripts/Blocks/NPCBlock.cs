@@ -29,6 +29,11 @@ public class NPCBlock : InteractableBlock
         //testingCode()
     }
 
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+    }
+
     public override void ShineInteract()
     {
         //Do nothing, it's a wall
