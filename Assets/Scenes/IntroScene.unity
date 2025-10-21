@@ -477,7 +477,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 0.67
   Loop: 1
   Mute: 0
@@ -1404,37 +1404,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[1]'
-      value: Beneath its ashes stirs the final gate to Yagen--the spirit purgatory
+      value: Beneath its ashes stirs the final gate to Yaagen--the spirit purgatory
         of the damned.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[2]'
-      value: Beneath its ashes stirs the final gate to Yagen--the spirit purgatory
+      value: Beneath its ashes stirs the final gate to Yaagen--the spirit purgatory
         of the damned.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[3]'
       value: You've come for your beloved, a divine mage of light, unjustly condemned
-        to the void of Yagen.
+        to the void of Yaagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[4]'
       value: You've come for your beloved, a divine mage of light, unjustly condemned
-        to the void of Yagen.
+        to the void of Yaagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[5]'
       value: You've come for your beloved, a divine mage of light, unjustly condemned
-        to the void of Yagen.
+        to the void of Yaagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[6]'
       value: You've come for your beloved, a divine mage of light, unjustly condemned
-        to the void of Yagen.
+        to the void of Yaagen.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[7]'
-      value: A monolith of despair--the gate of Yagen--taunts your fragile resolve.
+      value: A monolith of despair--the gate of Yaagen--taunts your fragile resolve.
       objectReference: {fileID: 0}
     - target: {fileID: 6762446416814573964, guid: 7ff8e7851d4a7b9489b0362bf26bd705, type: 3}
       propertyPath: 'text.Array.data[8]'
