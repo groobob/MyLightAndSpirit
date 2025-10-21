@@ -154,6 +154,7 @@ MonoBehaviour:
   movableBlock: 0
   onlyInLight: 0
   isToggleMoveLinkedBlock: 0
+  hasDialogue: 0
   shineFrames: 0
   currentShineFrames: 0
   visibleBlock: 0
@@ -161,8 +162,8 @@ MonoBehaviour:
   fullDisabled: 1
   linkedBlock: {fileID: 0}
   switchMode: 2
-  onSprite: {fileID: -302668568707723564, guid: 313d86c9252dd5343909dc87768ba789, type: 3}
-  offSprite: {fileID: -4010469628859189768, guid: 552daf9ce8ea72c44ac43948e3531986, type: 3}
+  onSprite: {fileID: -4010469628859189768, guid: 552daf9ce8ea72c44ac43948e3531986, type: 3}
+  offSprite: {fileID: -302668568707723564, guid: 313d86c9252dd5343909dc87768ba789, type: 3}
   keyBlockRequired: 0
   keyBlocks:
   - {fileID: 0}
