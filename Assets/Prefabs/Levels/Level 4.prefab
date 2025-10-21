@@ -713,12 +713,16 @@ PrefabInstance:
       value: Tutorial Text (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.31
+      value: -9.21
       objectReference: {fileID: 0}
     - target: {fileID: 2521480720867989908, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.26
+      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 2545289991110939792, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -762,11 +766,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_text
-      value: Only some can be moved
+      value: Only some mirrors can be moved
       objectReference: {fileID: 0}
     - target: {fileID: 6007696522808760942, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: m_margin.z
-      value: 0.8074913
+      value: -0.0058841705
       objectReference: {fileID: 0}
     - target: {fileID: 7522363032741814965, guid: 0b3297a63e4423042933975a91e83e10, type: 3}
       propertyPath: fadeTime

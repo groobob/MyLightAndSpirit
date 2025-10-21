@@ -1,20 +1,29 @@
 using UnityEngine;
-using TMPro;
 
 public class Fade : MonoBehaviour
 {
     [SerializeField] float fadeTime;
-    [SerializeField] bool fade;
-    [SerializeField] TextMeshProUGUI text;
+    [SerializeField] float fadeDelay;
+    bool fading;
     float timeElapsed;
 
     private void Update()
     {
-        if (fade)
+        if(fading)
         {
             timeElapsed += Time.deltaTime;
             if(timeElapsed > fadeTime) Destroy(gameObject);
-            text.color = new Color(text.color.r, text.color.g, text.color.b, (fadeTime - timeElapsed) / fadeTime);
+            Color currentColor = gameObject.GetComponent<SpriteRenderer>().color;
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(currentColor.r, currentColor.g, currentColor.b, (fadeTime - timeElapsed) / fadeTime);
+        }
+        else
+        {
+            timeElapsed += Time.deltaTime;
+            if(timeElapsed > fadeDelay)
+            {
+                fading = true;
+                timeElapsed = 0;
+            }
         }
     }
 }
