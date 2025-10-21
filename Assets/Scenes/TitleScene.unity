@@ -442,6 +442,10 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 947640216560406211, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f26064fbd00c45da9233dce2d089d67, type: 3}
     - target: {fileID: 1163256725729147589, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: Loop
       value: 1
@@ -466,6 +470,10 @@ PrefabInstance:
       propertyPath: music.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
+      propertyPath: 'music.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f26064fbd00c45da9233dce2d089d67, type: 3}
     - target: {fileID: 8761029731121371869, guid: 394d6c132b74348f8a9d23ce5d0e1676, type: 3}
       propertyPath: 'music.Array.data[1]'
       value: 

@@ -754,7 +754,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 72b441687ce08456a99518f4d0976877, type: 3}
   - {fileID: 8300000, guid: 1107f3d1900fd408e8f3960e612b9876, type: 3}
   music:
-  - {fileID: 8300000, guid: d468923c5c2da49f3913f7747168e54f, type: 3}
+  - {fileID: 8300000, guid: 5f26064fbd00c45da9233dce2d089d67, type: 3}
   - {fileID: 8300000, guid: 35226897837084ed3aaf1efe76494750, type: 3}
   - {fileID: 8300000, guid: 573dd64c35e774ce28cca16f83295918, type: 3}
   walkSource: {fileID: 2140184736}
@@ -1210,7 +1210,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: d468923c5c2da49f3913f7747168e54f, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5f26064fbd00c45da9233dce2d089d67, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 0.68
@@ -3669,7 +3669,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 95ef92ff2faf64b3895ffa1973c16a62, type: 3}
+  m_Resource: {fileID: 8300000, guid: 35226897837084ed3aaf1efe76494750, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.815
   m_Pitch: 0.53
