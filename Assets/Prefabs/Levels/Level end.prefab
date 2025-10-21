@@ -8,6 +8,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7768196623770082392}
     m_Modifications:
+    - target: {fileID: 1911548437711519444, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3708255837148108997, guid: a7e1717369f35fd46b14e7abca03458a, type: 3}
+    - target: {fileID: 1911548437711519444, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911548437711519444, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7201257
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911548437711519444, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.81162304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446517352978959430, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446517352978959430, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446517352978959430, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446517352978959430, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.8125
+      objectReference: {fileID: 0}
     - target: {fileID: 7873802166785012033, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5
@@ -50,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8701967577347627257, guid: 9c16328f461fc064d9be4750fb4048b7, type: 3}
       propertyPath: m_Name
-      value: WinBlock
+      value: LeEpicWinBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -70,6 +102,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7768196623770082392}
     m_Modifications:
+    - target: {fileID: 1120185977472065604, guid: 0ee0a3cc3f9e62e4dbb467bd20f46d51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950893232996545793, guid: 0ee0a3cc3f9e62e4dbb467bd20f46d51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6945492498107709790, guid: 0ee0a3cc3f9e62e4dbb467bd20f46d51, type: 3}
       propertyPath: m_Name
       value: Player
@@ -113,6 +153,10 @@ PrefabInstance:
     - target: {fileID: 7433440905421798176, guid: 0ee0a3cc3f9e62e4dbb467bd20f46d51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555588305976787076, guid: 0ee0a3cc3f9e62e4dbb467bd20f46d51, type: 3}
+      propertyPath: cdDuration
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

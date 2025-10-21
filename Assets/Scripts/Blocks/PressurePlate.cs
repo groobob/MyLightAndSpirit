@@ -79,6 +79,7 @@ public class PressurePlate : Switch
     private void plateInteract()
     {
         SwitchState changeState = SwitchState.On;
+        spriteRenderer.sprite = onSprite;
         switch (switchMode)
         {
             case SwitchMode.ToggleAppear:
@@ -95,6 +96,7 @@ public class PressurePlate : Switch
     private void plateDeinteract()
     {
         SwitchState changeState = SwitchState.Off;
+        spriteRenderer.sprite = offSprite;
         switch (switchMode)
         {
             case SwitchMode.ToggleAppear:

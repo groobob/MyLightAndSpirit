@@ -36,7 +36,7 @@ public abstract class InteractableBlock : MonoBehaviour
     [SerializeField] private bool isShining = false; // so you dont reshine it when ur spamming raycasts at it
     [SerializeField] protected bool fullDisabled = false; // So it doesn't start shining again events (like a switch opening a door)
 
-    [SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); // IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
+    //[SerializeField] public static List<Vector3Int> movingBlockCordinates = new List<Vector3Int>(); // IN CASE WE DECIDE TO CHANGE HOW ENEMIES WORK
 
 
 
@@ -285,8 +285,8 @@ public abstract class InteractableBlock : MonoBehaviour
         cellPosition += direction;
         ParticleManager.Instance.CreateParticleEffect(ParticleManager.Particle.Pushcloud, transform.position, 5f);
         targetPosition = _grid.GetCellCenterWorld(cellPosition);
-        movingBlockCordinates.Add(cellPosition);
-        Invoke("clearMovingBlockCoords", PlayerMove.cdDuration); // clear the used coords once done
+        //movingBlockCordinates.Add(cellPosition);
+        //Invoke("clearMovingBlockCoords", PlayerMove.cdDuration); // clear the used coords once done
         return cellPosition;
     }
 
@@ -533,7 +533,7 @@ public abstract class InteractableBlock : MonoBehaviour
     
     private void clearMovingBlockCoords()
     {
-        movingBlockCordinates.Clear();
+        //movingBlockCordinates.Clear();
     }
     
 }
