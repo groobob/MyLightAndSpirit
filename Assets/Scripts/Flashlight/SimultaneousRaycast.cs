@@ -163,11 +163,11 @@ public class SimultaneousRaycast : MonoBehaviour{
         }
         if (lightVisualObject != null)
         {
-            Mesh mesh = new Mesh();
+            Mesh mesh = lightVisualObject.GetComponent<MeshFilter>().mesh;
+            mesh.Clear();
             mesh.SetVertices(meshVertices);
             mesh.SetTriangles(meshIndices, 0);
             mesh.SetUVs(0, meshVertices);
-            lightVisualObject.GetComponent<MeshFilter>().mesh = mesh;
         }
     }
 
