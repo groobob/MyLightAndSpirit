@@ -20,7 +20,7 @@
 
 ---
 
-## 🧠 Credits
+## Credits
 
 ### [**Dorsa Rohani**](https://dorsarohani.com/)
 - Light Mechanics  
